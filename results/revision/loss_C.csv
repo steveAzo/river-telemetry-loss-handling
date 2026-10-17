@@ -1,0 +1,139 @@
+trace,radio,strategy,energy_j_per_day,delivered,delivered_of_expected,within_1h,max_buffer,storage_j_per_day,storage,drain_limit,buffer_cap,lost,backlogs,clear_h_median,clear_h_max,live_delay_h_median,live_delay_h_p95,max_buffer_kb
+InWaterSense,NB-IoT,arq_buffer,63.8131,1,1,0.528395,1883,0,"unlimited, no energy",none,0,0,0,0,0,0,0,22.0664
+InWaterSense,NB-IoT,arq_buffer,63.7235,1,1,0.521357,2485,0,"unlimited, no energy",1 frame/slot,0,0,56,0.339444,510.355,141.209,279.227,29.1211
+InWaterSense,NB-IoT,arq_buffer,63.2366,0.759699,0.759699,0.528395,171,0,RAM 2 KB,none,170,0.240301,0,0,0,0,0,2.00391
+InWaterSense,NB-IoT,arq_buffer,63.5653,0.899106,0.899106,0.528395,683,0,RAM 8 KB,none,682,0.100894,0,0,0,0,0,8.00391
+InWaterSense,NB-IoT,arq_buffer,63.8131,1,1,0.528395,1883,0,RAM 64 KB,none,5461,0,0,0,0,0,0,22.0664
+InWaterSense,NB-IoT,arq_buffer,63.8147,1,1,0.528395,1883,0.00159828,flash (typical),none,0,0,0,0,0,0,0,22.0664
+InWaterSense,NB-IoT,arq_buffer,63.8281,1,1,0.528395,1883,0.0149744,flash (worst),none,0,0,0,0,0,0,0,22.0664
+InWaterSense,NB-IoT,batch1h,23.5985,1,1,0.520562,1889,0,"unlimited, no energy",none,0,0,0,0,0,0,0,22.1367
+InWaterSense,NB-IoT,batch1h,23.9608,1,1,0.504584,1895,0,"unlimited, no energy",1 frame/slot,0,0,56,0.594028,507.13,74.3383,230.389,22.207
+InWaterSense,NB-IoT,batch1h,23.0422,0.766965,0.766965,0.520562,171,0,RAM 2 KB,none,170,0.233035,0,0,0,0,0,2.00391
+InWaterSense,NB-IoT,batch1h,23.3686,0.906201,0.906201,0.520562,683,0,RAM 8 KB,none,682,0.0937988,0,0,0,0,0,8.00391
+InWaterSense,NB-IoT,batch1h,23.5985,1,1,0.520562,1889,0,RAM 64 KB,none,5461,0,0,0,0,0,0,22.1367
+InWaterSense,NB-IoT,batch1h,23.6015,1,1,0.520562,1889,0.00302039,flash (typical),none,0,0,0,0,0,0,0,22.1367
+InWaterSense,NB-IoT,batch1h,23.6268,1,1,0.520562,1889,0.0282983,flash (worst),none,0,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF7,arq_buffer,52.6667,1,1,0.527572,1883,0,"unlimited, no energy",none,0,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF7,arq_buffer,52.7003,1,1,0.527118,1883,0,"unlimited, no energy",duty cycle (15 frames/slot),0,0,12,0.76375,64.4944,26.3655,60.3924,22.0664
+InWaterSense,LoRaWAN SF7,arq_buffer,53.6259,1,1,0.513523,3170,0,"unlimited, no energy",1 frame/slot,0,0,72,0.678889,533.607,55.4992,457.13,37.1484
+InWaterSense,LoRaWAN SF7,arq_buffer,51.8047,0.759699,0.759699,0.528395,171,0,RAM 2 KB,none,170,0.240301,0,0,0,0,0,2.00391
+InWaterSense,LoRaWAN SF7,arq_buffer,52.3019,0.899106,0.899106,0.527884,683,0,RAM 8 KB,none,682,0.100894,0,0,0,0,0,8.00391
+InWaterSense,LoRaWAN SF7,arq_buffer,52.6667,1,1,0.527572,1883,0,RAM 64 KB,none,5461,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF7,arq_buffer,52.6683,1,1,0.527572,1883,0.00159828,flash (typical),none,0,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF7,arq_buffer,52.6817,1,1,0.527572,1883,0.0149744,flash (worst),none,0,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF7,batch1h,18.9039,1,1,0.519711,1889,0,"unlimited, no energy",none,0,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF7,batch1h,19.0561,1,1,0.519852,1889,0,"unlimited, no energy",duty cycle (15 frames/slot),0,0,13,0.509167,2.71556,0.678889,2.37611,22.1367
+InWaterSense,LoRaWAN SF7,batch1h,22.0244,1,1,0.48449,2635,0,"unlimited, no energy",1 frame/slot,0,0,85,0.509167,526.987,54.5657,399.195,30.8789
+InWaterSense,LoRaWAN SF7,batch1h,18.0691,0.766965,0.766965,0.520562,171,0,RAM 2 KB,none,170,0.233035,0,0,0,0,0,2.00391
+InWaterSense,LoRaWAN SF7,batch1h,18.5648,0.906201,0.906201,0.520023,683,0,RAM 8 KB,none,682,0.0937988,0,0,0,0,0,8.00391
+InWaterSense,LoRaWAN SF7,batch1h,18.9039,1,1,0.519711,1889,0,RAM 64 KB,none,5461,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF7,batch1h,18.907,1,1,0.519711,1889,0.00302039,flash (typical),none,0,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF7,batch1h,18.9322,1,1,0.519711,1889,0.0282983,flash (worst),none,0,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF12,arq_buffer,158.684,1,1,0.515737,1883,0,"unlimited, no energy",none,0,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF12,arq_buffer,161.414,1,1,0.486391,4119,0,"unlimited, no energy",duty cycle (1 frames/slot),0,0,75,1.18806,1518.17,63.6458,601.139,48.2695
+InWaterSense,LoRaWAN SF12,arq_buffer,161.414,1,1,0.486391,4119,0,"unlimited, no energy",1 frame/slot,0,0,75,1.18806,1518.17,63.6458,601.139,48.2695
+InWaterSense,LoRaWAN SF12,arq_buffer,142.892,0.759699,0.759699,0.515737,171,0,RAM 2 KB,none,170,0.240301,0,0,0,0,0,2.00391
+InWaterSense,LoRaWAN SF12,arq_buffer,152.06,0.899106,0.899106,0.515737,683,0,RAM 8 KB,none,682,0.100894,0,0,0,0,0,8.00391
+InWaterSense,LoRaWAN SF12,arq_buffer,158.684,1,1,0.515737,1883,0,RAM 64 KB,none,5461,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF12,arq_buffer,158.685,1,1,0.515737,1883,0.00159828,flash (typical),none,0,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF12,arq_buffer,158.699,1,1,0.515737,1883,0.0149744,flash (worst),none,0,0,0,0,0,0,0,22.0664
+InWaterSense,LoRaWAN SF12,batch1h,89.4505,1,1,0.506286,1889,0,"unlimited, no energy",none,0,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF12,batch1h,113.007,1,1,0.288009,4159,0,"unlimited, no energy",duty cycle (1 frames/slot),0,0,1650,0.169722,1662.43,89.4436,536.492,48.7383
+InWaterSense,LoRaWAN SF12,batch1h,113.007,1,1,0.288009,4159,0,"unlimited, no energy",1 frame/slot,0,0,1650,0.169722,1662.43,89.4436,536.492,48.7383
+InWaterSense,LoRaWAN SF12,batch1h,74.1437,0.766965,0.766965,0.506286,171,0,RAM 2 KB,none,170,0.233035,0,0,0,0,0,2.00391
+InWaterSense,LoRaWAN SF12,batch1h,83.2915,0.906201,0.906201,0.506286,683,0,RAM 8 KB,none,682,0.0937988,0,0,0,0,0,8.00391
+InWaterSense,LoRaWAN SF12,batch1h,89.4505,1,1,0.506286,1889,0,RAM 64 KB,none,5461,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF12,batch1h,89.4535,1,1,0.506286,1889,0.00302039,flash (typical),none,0,0,0,0,0,0,0,22.1367
+InWaterSense,LoRaWAN SF12,batch1h,89.4788,1,1,0.506286,1889,0.0282983,flash (worst),none,0,0,0,0,0,0,0,22.1367
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.241,1,1,0.838587,334,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.241,1,1,0.838071,334,0,"unlimited, no energy",1 frame/slot,0,0,3,3.79361,3.79361,0,0,3.91406
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.204,0.943497,0.943497,0.838587,171,0,RAM 2 KB,none,170,0.056503,0,0,0,0,0,2.00391
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.241,1,1,0.838587,334,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.241,1,1,0.838587,334,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.2412,1,1,0.838587,334,0.000161806,flash (typical),none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),NB-IoT,arq_buffer,24.2425,1,1,0.838587,334,0.00151597,flash (worst),none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),NB-IoT,batch1h,13.7167,1,1,0.838415,336,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),NB-IoT,batch1h,13.7084,1,1,0.836003,336,0,"unlimited, no energy",1 frame/slot,0,0,3,3.25167,3.25167,1.08389,2.70972,3.9375
+Weija (v0.1 EC record),NB-IoT,batch1h,13.6796,0.942808,0.942808,0.838415,171,0,RAM 2 KB,none,170,0.0571921,0,0,0,0,0,2.00391
+Weija (v0.1 EC record),NB-IoT,batch1h,13.7167,1,1,0.838415,336,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),NB-IoT,batch1h,13.7167,1,1,0.838415,336,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),NB-IoT,batch1h,13.7176,1,1,0.838415,336,0.000945905,flash (typical),none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),NB-IoT,batch1h,13.7255,1,1,0.838415,336,0.00886225,flash (worst),none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7805,1,1,0.838587,334,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7805,1,1,0.838587,334,0,"unlimited, no energy",duty cycle (51 frames/slot),0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7805,1,1,0.837382,334,0,"unlimited, no energy",1 frame/slot,0,0,7,1.08389,9.755,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7175,0.943497,0.943497,0.838587,171,0,RAM 2 KB,none,170,0.056503,0,0,0,0,0,2.00391
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7805,1,1,0.838587,334,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7805,1,1,0.838587,334,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.7807,1,1,0.838587,334,0.000161806,flash (typical),none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.782,1,1,0.838587,334,0.00151597,flash (worst),none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.4052,1,1,0.838415,336,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.4052,1,1,0.838415,336,0,"unlimited, no energy",duty cycle (51 frames/slot),0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.37322,1,1,0.83273,336,0,"unlimited, no energy",1 frame/slot,0,0,6,1.35486,7.04528,2.16778,6.01558,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.34199,0.942808,0.942808,0.838415,171,0,RAM 2 KB,none,170,0.0571921,0,0,0,0,0,2.00391
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.4052,1,1,0.838415,336,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.4052,1,1,0.838415,336,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.40615,1,1,0.838415,336,0.000945905,flash (typical),none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF7,batch1h,9.41406,1,1,0.838415,336,0.00886225,flash (worst),none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.4961,1,1,0.837382,334,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.4961,1,1,0.837382,334,0,"unlimited, no energy",duty cycle (6 frames/slot),0,0,7,1.08389,9.755,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.5285,1,1,0.836003,334,0,"unlimited, no energy",1 frame/slot,0,0,11,4.33556,126.273,0,68.1224,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,51.3286,0.943497,0.943497,0.837382,171,0,RAM 2 KB,none,170,0.056503,0,0,0,0,0,2.00391
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.4961,1,1,0.837382,334,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.4961,1,1,0.837382,334,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.4963,1,1,0.837382,334,0.000161806,flash (typical),none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,52.4977,1,1,0.837382,334,0.00151597,flash (worst),none,0,0,0,0,0,0,0,3.91406
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.7743,1,1,0.836865,336,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.7416,1,1,0.83273,336,0,"unlimited, no energy",duty cycle (6 frames/slot),0,0,6,1.35486,7.04528,2.16778,6.28271,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.4436,1,1,0.793798,336,0,"unlimited, no energy",1 frame/slot,0,0,14,1.62583,116.518,26.8263,82.9175,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,30.6024,0.942808,0.942808,0.836865,171,0,RAM 2 KB,none,170,0.0571921,0,0,0,0,0,2.00391
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.7743,1,1,0.836865,336,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.7743,1,1,0.836865,336,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.7753,1,1,0.836865,336,0.000945905,flash (typical),none,0,0,0,0,0,0,0,3.9375
+Weija (v0.1 EC record),LoRaWAN SF12,batch1h,31.7832,1,1,0.836865,336,0.00886225,flash (worst),none,0,0,0,0,0,0,0,3.9375
+Weija (node record),NB-IoT,arq_buffer,23.4266,1,1,0.850818,334,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.91406
+Weija (node record),NB-IoT,arq_buffer,23.4266,1,1,0.850301,334,0,"unlimited, no energy",1 frame/slot,0,0,3,3.79361,3.79361,0,0,3.91406
+Weija (node record),NB-IoT,arq_buffer,23.3897,0.943497,0.943497,0.850818,171,0,RAM 2 KB,none,170,0.056503,0,0,0,0,0,2.00391
+Weija (node record),NB-IoT,arq_buffer,23.4266,1,1,0.850818,334,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.91406
+Weija (node record),NB-IoT,arq_buffer,23.4266,1,1,0.850818,334,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.91406
+Weija (node record),NB-IoT,arq_buffer,23.4268,1,1,0.850818,334,0.000144045,flash (typical),none,0,0,0,0,0,0,0,3.91406
+Weija (node record),NB-IoT,arq_buffer,23.428,1,1,0.850818,334,0.00134957,flash (worst),none,0,0,0,0,0,0,0,3.91406
+Weija (node record),NB-IoT,batch1h,13.1633,1,1,0.853919,336,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.9375
+Weija (node record),NB-IoT,batch1h,13.155,1,1,0.851507,336,0,"unlimited, no energy",1 frame/slot,0,0,3,3.25167,3.25167,1.08389,2.70972,3.9375
+Weija (node record),NB-IoT,batch1h,13.1262,0.942808,0.942808,0.853919,171,0,RAM 2 KB,none,170,0.0571921,0,0,0,0,0,2.00391
+Weija (node record),NB-IoT,batch1h,13.1633,1,1,0.853919,336,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.9375
+Weija (node record),NB-IoT,batch1h,13.1633,1,1,0.853919,336,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.9375
+Weija (node record),NB-IoT,batch1h,13.1642,1,1,0.853919,336,0.000945905,flash (typical),none,0,0,0,0,0,0,0,3.9375
+Weija (node record),NB-IoT,batch1h,13.1722,1,1,0.853919,336,0.00886225,flash (worst),none,0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF7,arq_buffer,15.0248,1,1,0.850818,334,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF7,arq_buffer,15.0248,1,1,0.850818,334,0,"unlimited, no energy",duty cycle (51 frames/slot),0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF7,arq_buffer,15.0248,1,1,0.849957,334,0,"unlimited, no energy",1 frame/slot,0,0,5,2.70972,9.755,0,0,3.91406
+Weija (node record),LoRaWAN SF7,arq_buffer,14.9618,0.943497,0.943497,0.850818,171,0,RAM 2 KB,none,170,0.056503,0,0,0,0,0,2.00391
+Weija (node record),LoRaWAN SF7,arq_buffer,15.0248,1,1,0.850818,334,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF7,arq_buffer,15.0248,1,1,0.850818,334,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF7,arq_buffer,15.025,1,1,0.850818,334,0.000144045,flash (typical),none,0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF7,arq_buffer,15.0262,1,1,0.850818,334,0.00134957,flash (worst),none,0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF7,batch1h,8.5831,1,1,0.853919,336,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF7,batch1h,8.5831,1,1,0.853919,336,0,"unlimited, no energy",duty cycle (51 frames/slot),0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF7,batch1h,8.55112,1,1,0.848579,336,0,"unlimited, no energy",1 frame/slot,0,0,4,4.60653,7.04528,2.70972,6.12397,3.9375
+Weija (node record),LoRaWAN SF7,batch1h,8.51989,0.942808,0.942808,0.853919,171,0,RAM 2 KB,none,170,0.0571921,0,0,0,0,0,2.00391
+Weija (node record),LoRaWAN SF7,batch1h,8.5831,1,1,0.853919,336,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF7,batch1h,8.5831,1,1,0.853919,336,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF7,batch1h,8.58404,1,1,0.853919,336,0.000945905,flash (typical),none,0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF7,batch1h,8.59196,1,1,0.853919,336,0.00886225,flash (worst),none,0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6211,1,1,0.849957,334,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6211,1,1,0.849957,334,0,"unlimited, no energy",duty cycle (6 frames/slot),0,0,5,2.70972,9.755,0,0,3.91406
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6272,1,1,0.849096,334,0,"unlimited, no energy",1 frame/slot,0,0,9,2.16778,126.273,0,68.8269,3.91406
+Weija (node record),LoRaWAN SF12,arq_buffer,48.4535,0.943497,0.943497,0.849957,171,0,RAM 2 KB,none,170,0.056503,0,0,0,0,0,2.00391
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6211,1,1,0.849957,334,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6211,1,1,0.849957,334,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6213,1,1,0.849957,334,0.000144045,flash (typical),none,0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF12,arq_buffer,49.6225,1,1,0.849957,334,0.00134957,flash (worst),none,0,0,0,0,0,0,0,3.91406
+Weija (node record),LoRaWAN SF12,batch1h,30.1734,1,1,0.852713,336,0,"unlimited, no energy",none,0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF12,batch1h,30.1407,1,1,0.848579,336,0,"unlimited, no energy",duty cycle (6 frames/slot),0,0,4,4.60653,7.04528,2.70972,6.3774,3.9375
+Weija (node record),LoRaWAN SF12,batch1h,29.8742,1,1,0.81292,336,0,"unlimited, no energy",1 frame/slot,0,0,12,0.812917,116.518,29.265,83.2969,3.9375
+Weija (node record),LoRaWAN SF12,batch1h,29.0016,0.942808,0.942808,0.852713,171,0,RAM 2 KB,none,170,0.0571921,0,0,0,0,0,2.00391
+Weija (node record),LoRaWAN SF12,batch1h,30.1734,1,1,0.852713,336,0,RAM 8 KB,none,682,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF12,batch1h,30.1734,1,1,0.852713,336,0,RAM 64 KB,none,5461,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF12,batch1h,30.1744,1,1,0.852713,336,0.000945905,flash (typical),none,0,0,0,0,0,0,0,3.9375
+Weija (node record),LoRaWAN SF12,batch1h,30.1823,1,1,0.852713,336,0.00886225,flash (worst),none,0,0,0,0,0,0,0,3.9375

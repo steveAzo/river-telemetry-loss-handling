@@ -1,0 +1,127 @@
+InWaterSense NB-IoT done
+InWaterSense LoRaWAN SF7 done
+InWaterSense LoRaWAN SF12 done
+Weija (node record) NB-IoT done
+Weija (node record) LoRaWAN SF7 done
+Weija (node record) LoRaWAN SF12 done
+              trace        radio   strategy  K_h  batch_h  batch_slots  energy_j_per_day  delivered  within_1h  recovery_h_median  recovery_h_p90
+       InWaterSense       NB-IoT arq_buffer    0      NaN          NaN           235.852        1.0      0.646              0.000           0.000
+       InWaterSense       NB-IoT arq_buffer    1      NaN          NaN            91.834        1.0      0.578              0.170           5.940
+       InWaterSense       NB-IoT arq_buffer    2      NaN          NaN            75.784        1.0      0.556              0.170          12.559
+       InWaterSense       NB-IoT arq_buffer    3      NaN          NaN            69.837        1.0      0.544              0.339          15.088
+       InWaterSense       NB-IoT arq_buffer    6      NaN          NaN            63.813        1.0      0.528              0.509          19.501
+       InWaterSense       NB-IoT arq_buffer   12      NaN          NaN            59.621        1.0      0.513              0.849          30.041
+       InWaterSense       NB-IoT arq_buffer   24      NaN          NaN            55.476        1.0      0.490              1.528          60.404
+       InWaterSense       NB-IoT      batch    0     1.00          6.0           171.699        1.0      0.624              0.000           0.679
+       InWaterSense       NB-IoT      batch    1     1.00          6.0            46.755        1.0      0.576              0.339           3.564
+       InWaterSense       NB-IoT      batch    2     1.00          6.0            34.148        1.0      0.565              0.509           5.431
+       InWaterSense       NB-IoT      batch    3     1.00          6.0            29.302        1.0      0.548              0.509           9.657
+       InWaterSense       NB-IoT      batch    6     1.00          6.0            23.598        1.0      0.521              0.679          19.858
+       InWaterSense       NB-IoT      batch   12     1.00          6.0            19.795        1.0      0.490              1.782          44.298
+       InWaterSense       NB-IoT      batch   24     1.00          6.0            18.034        1.0      0.474              3.055         120.435
+       InWaterSense       NB-IoT      batch    6     0.25          1.0            63.842        1.0      0.528              0.509          19.501
+       InWaterSense       NB-IoT      batch    6     0.50          3.0            33.292        1.0      0.529              0.339          17.974
+       InWaterSense       NB-IoT      batch    6     2.00         12.0            18.086        1.0      0.280              1.358          16.972
+       InWaterSense       NB-IoT      batch    6     3.00         18.0            15.815        1.0      0.195              1.867          18.652
+       InWaterSense       NB-IoT      batch    6     6.00         35.0            13.272        1.0      0.113              3.394          16.972
+       InWaterSense       NB-IoT      batch    6    12.00         71.0            10.352        1.0      0.061              6.449          21.538
+       InWaterSense  LoRaWAN SF7 arq_buffer    0      NaN          NaN           116.744        1.0      0.645              0.000           0.000
+       InWaterSense  LoRaWAN SF7 arq_buffer    1      NaN          NaN            65.659        1.0      0.578              0.170           5.940
+       InWaterSense  LoRaWAN SF7 arq_buffer    2      NaN          NaN            58.535        1.0      0.556              0.170          12.670
+       InWaterSense  LoRaWAN SF7 arq_buffer    3      NaN          NaN            55.554        1.0      0.544              0.339          15.092
+       InWaterSense  LoRaWAN SF7 arq_buffer    6      NaN          NaN            52.667        1.0      0.528              0.509          19.651
+       InWaterSense  LoRaWAN SF7 arq_buffer   12      NaN          NaN            49.555        1.0      0.512              0.849          30.204
+       InWaterSense  LoRaWAN SF7 arq_buffer   24      NaN          NaN            46.344        1.0      0.489              1.702          60.738
+       InWaterSense  LoRaWAN SF7      batch    0     1.00          6.0            65.485        1.0      0.623              0.010           0.679
+       InWaterSense  LoRaWAN SF7      batch    1     1.00          6.0            28.515        1.0      0.576              0.339           3.574
+       InWaterSense  LoRaWAN SF7      batch    2     1.00          6.0            24.401        1.0      0.564              0.509           5.499
+       InWaterSense  LoRaWAN SF7      batch    3     1.00          6.0            22.455        1.0      0.547              0.509           9.693
+       InWaterSense  LoRaWAN SF7      batch    6     1.00          6.0            18.904        1.0      0.520              0.679          19.868
+       InWaterSense  LoRaWAN SF7      batch   12     1.00          6.0            16.428        1.0      0.489              1.871          44.407
+       InWaterSense  LoRaWAN SF7      batch   24     1.00          6.0            15.771        1.0      0.473              3.206         120.940
+       InWaterSense  LoRaWAN SF7      batch    6     0.25          1.0            52.401        1.0      0.528              0.509          19.651
+       InWaterSense  LoRaWAN SF7      batch    6     0.50          3.0            27.180        1.0      0.528              0.339          17.984
+       InWaterSense  LoRaWAN SF7      batch    6     2.00         12.0            14.621        1.0      0.279              1.358          17.009
+       InWaterSense  LoRaWAN SF7      batch    6     3.00         18.0            13.368        1.0      0.195              1.867          18.703
+       InWaterSense  LoRaWAN SF7      batch    6     6.00         35.0            11.314        1.0      0.112              3.394          17.125
+       InWaterSense  LoRaWAN SF7      batch    6    12.00         71.0             8.648        1.0      0.060              6.460          21.562
+       InWaterSense LoRaWAN SF12 arq_buffer    0      NaN          NaN           272.835        1.0      0.635              0.000           0.205
+       InWaterSense LoRaWAN SF12 arq_buffer    1      NaN          NaN           182.188        1.0      0.564              0.170           8.102
+       InWaterSense LoRaWAN SF12 arq_buffer    2      NaN          NaN           169.091        1.0      0.541              0.548          18.772
+       InWaterSense LoRaWAN SF12 arq_buffer    3      NaN          NaN           164.108        1.0      0.530              0.613          19.936
+       InWaterSense LoRaWAN SF12 arq_buffer    6      NaN          NaN           158.684        1.0      0.516              0.849          24.172
+       InWaterSense LoRaWAN SF12 arq_buffer   12      NaN          NaN           153.137        1.0      0.501              1.383          36.381
+       InWaterSense LoRaWAN SF12 arq_buffer   24      NaN          NaN           147.307        1.0      0.479              2.869          71.898
+       InWaterSense LoRaWAN SF12      batch    0     1.00          6.0           173.882        1.0      0.610              0.238           0.849
+       InWaterSense LoRaWAN SF12      batch    1     1.00          6.0           106.958        1.0      0.560              0.509           5.536
+       InWaterSense LoRaWAN SF12      batch    2     1.00          6.0            99.195        1.0      0.548              0.509           7.610
+       InWaterSense LoRaWAN SF12      batch    3     1.00          6.0            95.919        1.0      0.532              0.512          12.533
+       InWaterSense LoRaWAN SF12      batch    6     1.00          6.0            89.451        1.0      0.506              0.849          24.141
+       InWaterSense LoRaWAN SF12      batch   12     1.00          6.0            85.053        1.0      0.478              3.981          48.531
+       InWaterSense LoRaWAN SF12      batch   24     1.00          6.0            83.950        1.0      0.464              6.122         146.967
+       InWaterSense LoRaWAN SF12      batch    6     0.25          1.0           155.000        1.0      0.514              0.849          24.172
+       InWaterSense LoRaWAN SF12      batch    6     0.50          3.0            99.019        1.0      0.514              0.578          21.957
+       InWaterSense LoRaWAN SF12      batch    6     2.00         12.0            83.713        1.0      0.265              1.528          20.809
+       InWaterSense LoRaWAN SF12      batch    6     3.00         18.0            81.559        1.0      0.153              2.275          24.574
+       InWaterSense LoRaWAN SF12      batch    6     6.00         35.0            79.040        1.0      0.040              4.109          20.576
+       InWaterSense LoRaWAN SF12      batch    6    12.00         71.0            74.253        1.0      0.003              7.712          25.649
+Weija (node record)       NB-IoT arq_buffer    0      NaN          NaN            39.144        1.0      0.866              0.000           0.000
+Weija (node record)       NB-IoT arq_buffer    1      NaN          NaN            30.507        1.0      0.862              0.000           4.878
+Weija (node record)       NB-IoT arq_buffer    2      NaN          NaN            26.208        1.0      0.858              1.084          20.052
+Weija (node record)       NB-IoT arq_buffer    3      NaN          NaN            24.833        1.0      0.857              1.626          15.174
+Weija (node record)       NB-IoT arq_buffer    6      NaN          NaN            23.427        1.0      0.851              4.878          33.601
+Weija (node record)       NB-IoT arq_buffer   12      NaN          NaN            22.666        1.0      0.848              3.794          36.310
+Weija (node record)       NB-IoT arq_buffer   24      NaN          NaN            22.227        1.0      0.843              3.794          41.730
+Weija (node record)       NB-IoT      batch    0     1.00          2.0            28.477        1.0      0.864              0.000           0.000
+Weija (node record)       NB-IoT      batch    1     1.00          2.0            20.068        1.0      0.861              0.000           4.878
+Weija (node record)       NB-IoT      batch    2     1.00          2.0            15.857        1.0      0.859              0.542          20.052
+Weija (node record)       NB-IoT      batch    3     1.00          2.0            14.509        1.0      0.857              0.542          15.174
+Weija (node record)       NB-IoT      batch    6     1.00          2.0            13.163        1.0      0.854              0.542          33.601
+Weija (node record)       NB-IoT      batch   12     1.00          2.0            12.449        1.0      0.852              1.084          36.310
+Weija (node record)       NB-IoT      batch   24     1.00          2.0            12.072        1.0      0.847              1.084          41.730
+Weija (node record)       NB-IoT      batch    6     0.25          1.0            23.427        1.0      0.851              4.878          33.601
+Weija (node record)       NB-IoT      batch    6     0.50          1.0            23.427        1.0      0.851              4.878          33.601
+Weija (node record)       NB-IoT      batch    6     2.00          4.0             7.901        1.0      0.432              0.542          18.426
+Weija (node record)       NB-IoT      batch    6     3.00          6.0             6.060        1.0      0.290              1.084          14.632
+Weija (node record)       NB-IoT      batch    6     6.00         11.0             4.149        1.0      0.158              2.710          20.052
+Weija (node record)       NB-IoT      batch    6    12.00         22.0             2.955        1.0      0.080              2.710          30.349
+Weija (node record)  LoRaWAN SF7 arq_buffer    0      NaN          NaN            19.772        1.0      0.866              0.000           0.000
+Weija (node record)  LoRaWAN SF7 arq_buffer    1      NaN          NaN            17.209        1.0      0.862              0.184           4.878
+Weija (node record)  LoRaWAN SF7 arq_buffer    2      NaN          NaN            15.887        1.0      0.858              1.268          20.062
+Weija (node record)  LoRaWAN SF7 arq_buffer    3      NaN          NaN            15.524        1.0      0.857              1.626          15.185
+Weija (node record)  LoRaWAN SF7 arq_buffer    6      NaN          NaN            15.025        1.0      0.851              5.062          33.611
+Weija (node record)  LoRaWAN SF7 arq_buffer   12      NaN          NaN            14.801        1.0      0.848              3.794          36.321
+Weija (node record)  LoRaWAN SF7 arq_buffer   24      NaN          NaN            14.646        1.0      0.843              3.794          41.740
+Weija (node record)  LoRaWAN SF7      batch    0     1.00          2.0            13.026        1.0      0.864              0.000           0.000
+Weija (node record)  LoRaWAN SF7      batch    1     1.00          2.0            10.621        1.0      0.861              0.000           4.878
+Weija (node record)  LoRaWAN SF7      batch    2     1.00          2.0             9.387        1.0      0.859              0.542          20.062
+Weija (node record)  LoRaWAN SF7      batch    3     1.00          2.0             9.038        1.0      0.857              0.552          15.185
+Weija (node record)  LoRaWAN SF7      batch    6     1.00          2.0             8.583        1.0      0.854              0.726          33.611
+Weija (node record)  LoRaWAN SF7      batch   12     1.00          2.0             8.389        1.0      0.852              1.084          36.321
+Weija (node record)  LoRaWAN SF7      batch   24     1.00          2.0             8.277        1.0      0.847              1.084          41.740
+Weija (node record)  LoRaWAN SF7      batch    6     0.25          1.0            14.953        1.0      0.851              5.062          33.611
+Weija (node record)  LoRaWAN SF7      batch    6     0.50          1.0            14.953        1.0      0.851              5.062          33.611
+Weija (node record)  LoRaWAN SF7      batch    6     2.00          4.0             5.119        1.0      0.432              0.542          18.436
+Weija (node record)  LoRaWAN SF7      batch    6     3.00          6.0             3.944        1.0      0.290              1.084          14.653
+Weija (node record)  LoRaWAN SF7      batch    6     6.00         11.0             2.496        1.0      0.158              2.894          20.062
+Weija (node record)  LoRaWAN SF7      batch    6    12.00         22.0             2.353        1.0      0.080              2.904          30.359
+Weija (node record) LoRaWAN SF12 arq_buffer    0      NaN          NaN            58.153        1.0      0.866              0.068           0.342
+Weija (node record) LoRaWAN SF12 arq_buffer    1      NaN          NaN            53.557        1.0      0.862              0.548           7.397
+Weija (node record) LoRaWAN SF12 arq_buffer    2      NaN          NaN            51.197        1.0      0.857              1.694          20.668
+Weija (node record) LoRaWAN SF12 arq_buffer    3      NaN          NaN            50.547        1.0      0.856              1.968          15.585
+Weija (node record) LoRaWAN SF12 arq_buffer    6      NaN          NaN            49.621        1.0      0.850              5.967          34.217
+Weija (node record) LoRaWAN SF12 arq_buffer   12      NaN          NaN            49.209        1.0      0.848              6.030          36.927
+Weija (node record) LoRaWAN SF12 arq_buffer   24      NaN          NaN            48.903        1.0      0.842              6.030          42.346
+Weija (node record) LoRaWAN SF12      batch    0     1.00          2.0            38.163        1.0      0.864              0.068           0.342
+Weija (node record) LoRaWAN SF12      batch    1     1.00          2.0            33.826        1.0      0.860              0.342           7.603
+Weija (node record) LoRaWAN SF12      batch    2     1.00          2.0            31.615        1.0      0.858              0.816          20.737
+Weija (node record) LoRaWAN SF12      batch    3     1.00          2.0            30.971        1.0      0.856              1.096          15.654
+Weija (node record) LoRaWAN SF12      batch    6     1.00          2.0            30.173        1.0      0.853              1.152          34.285
+Weija (node record) LoRaWAN SF12      batch   12     1.00          2.0            29.841        1.0      0.851              1.152          36.995
+Weija (node record) LoRaWAN SF12      batch   24     1.00          2.0            29.663        1.0      0.846              1.152          42.415
+Weija (node record) LoRaWAN SF12      batch    6     0.25          1.0            47.525        1.0      0.849              5.967          34.217
+Weija (node record) LoRaWAN SF12      batch    6     0.50          1.0            47.525        1.0      0.849              5.967          34.217
+Weija (node record) LoRaWAN SF12      batch    6     2.00          4.0            29.362        1.0      0.431              0.610          19.180
+Weija (node record) LoRaWAN SF12      batch    6     3.00          6.0            23.105        1.0      0.289              1.626          15.454
+Weija (node record) LoRaWAN SF12      batch    6     6.00         11.0            23.397        1.0      0.157              3.320          20.805
+Weija (node record) LoRaWAN SF12      batch    6    12.00         22.0            22.968        1.0      0.078              4.068          31.102

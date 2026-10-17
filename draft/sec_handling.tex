@@ -1,0 +1,77 @@
+\section{Retransmit or Backfill?}
+\label{sec:handling}
+
+The InWaterSense and Weija conductivity records are replayed as the link state through the energy model of Sec.~\ref{sec:data-energy}, for NB-IoT (search times $T_\mathrm{search}$ of \nbSearchTimes~s), LoRaWAN SF7 and SF12, without and with independent radio losses ($p_\mathrm{radio}=0$ and $0.096$): \nConfigs{} configurations in all, first under the full-slot model, then under the other timing models and the other assumptions of Table~\ref{tab:assumptions}. Table~\ref{tab:strategies} shows the InWaterSense record; ranges in the text are over all applicable configurations. (Mapped onto the simulator's regular slot grid, the InWaterSense record loses \inwRecordLossSim{} of the readings, against \inwsLoss{} counted directly.)
+
+\begin{table*}[t]
+\centering
+\caption{Loss-handling strategies on the InWaterSense record (full-slot model, no added radio loss): transmission energy per day, $E_\mathrm{tx}$ in (\ref{eq:energy}), for each radio (NB-IoT: N211 with RAI, $T_\mathrm{search}=10$~s), and the share of readings delivered and delivered within 1~h (LoRaWAN SF7; NB-IoT for the NB-IoT-only strategy). ARQ: LoRaWAN 1.0.2 behaviour (data rate stepped down every two transmissions). Back-off as in (\ref{eq:backoff}), capped at 6~h. --: not applicable.}
+\label{tab:strategies}
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{3}{c}{Energy (J/day)} & \multicolumn{2}{c}{Readings} \\
+\cmidrule(lr){2-4}\cmidrule(l){5-6}
+Strategy & NB-IoT & SF7 & SF12 & delivered & within 1 h \\
+\midrule
+\tabin{tables/tab_strategies.tex}
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{ARQ pays for losses it can hardly recover}
+\label{sec:hand-arq}
+Under the full-slot model, ARQ delivers exactly what unconfirmed reporting delivers: every reading lost to a gap is lost after all of its retries. On LoRaWAN it costs \arqEightMin--\arqEightMax{} the energy of unconfirmed reporting with 8 transmissions, and \arqThreeMin--\arqThreeMax{} with 3. On InWaterSense at SF7 this is \inwSevenArqE~J/day instead of \inwSevenUnconfE~J/day, a modelled lifetime of \inwSevenArqLife{} instead of \inwSevenUnconfLife{} years. With independent radio losses added, ARQ recovers them, raising the delivered share by \arqGainMin{} to \arqGainMax{} percentage points.
+
+The full-slot model makes ``ARQ recovers nothing'' partly true by construction, so it is only the pessimistic end of a bracket. If the link may return at any moment of a gap's last slot (restoration model), retries recover \arqGainUniformMin{} to \arqGainUniformMax{} percentage points of InWaterSense's readings on LoRaWAN, more at SF12, whose retries span minutes. If, in addition, every gap of up to an hour is a radio-loss burst through which retries usually pass (burst model, optimistic for ARQ), they recover \arqGainBurstMin{} to \arqGainBurstMax{} points. Against the \arqLostPp{} points that unconfirmed reporting loses on this record, ARQ thus recovers under a fifth in every model, at \arqRatioMin--\arqRatioMax{} the energy of unconfirmed reporting; on Weija it recovers at most \arqGainWeijaMax{} points. NB-IoT ARQ recovers nothing in any model, because the modem reports that there is no network and the node stops retrying. The specification version changes the price little: with eight transmissions at a fixed data rate (LoRaWAN 1.0.4, NbTrans~=~8) ARQ costs \arqVOneZeroFour{} the energy of unconfirmed reporting on InWaterSense at SF7, against \arqVOneZeroTwo{} with the data-rate stepping of LoRaWAN 1.0.2; at SF12 there is no lower rate to step to. Retransmission is the right tool for the radio regime and the wrong one for the long gaps, which hold most of the missing data.
+
+\subsection{On NB-IoT, back-off is where the energy is won}
+\label{sec:hand-backoff}
+An NB-IoT node that tries to send in every slot of a gap searches for a cell each time. Searching in every slot costs \backoffMin--\backoffMax{} the energy of backing off (unconfirmed reporting without back-off against unconfirmed reporting with it), the ratio growing with the share of time in gaps and with $T_\mathrm{search}$. Because no published measurement of $T_\mathrm{search}$ was found, this is a sweep, not an estimate; with back-off, however, a node in a long gap searches at most once every 6~h instead of once per slot. The fair NB-IoT baseline is therefore unconfirmed reporting \emph{with} back-off, not without it.
+
+\subsection{Buffering buys completeness at a modest energy cost}
+\label{sec:hand-buffer}
+Confirmed reporting with a buffer and back-off delivers every generated reading in every configuration. Relative to the fair baseline that recovers nothing, its energy changes by \bufNbMin\% to \bufNbMax\% on NB-IoT and by \bufLoMin\% to \bufLoMax\% on LoRaWAN. The sign depends on the radio. At SF7 buffering ranges from \bufSevenMin\% to \bufSevenMax\%, because a confirmed success, with its acknowledgement in the first receive window, costs less than an unconfirmed report (Sec.~\ref{sec:data-energy}), and because the node stops transmitting into gaps. At SF12 it is always dearer, by \bufTwelveMin\% to \bufTwelveMax\%, because the acknowledgement arrives in the second window. On InWaterSense at SF7 it uses \inwSevenBufE~J/day (\inwSevenBufLife~years) and delivers all readings, against \inwSevenUnconfE~J/day and \inwSevenUnconfLife~years for unconfirmed reporting, which loses \inwRecordLossSim{} of them (Table~\ref{tab:strategies}). The other timing models do not change this: buffering's energy stays within \arqBufRatioMin--\arqBufRatioMax{} of unconfirmed reporting on LoRaWAN in all three.
+
+This completeness rests on three assumptions, each tested here.
+
+\emph{The reading must exist.} Buffering cannot deliver a reading that a switched-off node never took. When up to half of the slots in long gaps are reassigned to a node that was off (Sec.~\ref{sec:data-cause}), buffering still delivers every reading generated, but only \offExpectedInws{} of the expected readings on InWaterSense and \offExpectedWeija{} on Weija; its energy relative to the fair baseline moves from \offBufFairZero{} to \offBufFairHalf{} (SF7, InWaterSense). Weija has few long gaps, so its realised node-off shares are coarse (\offRealisedWeija{} for a nominal 0.1).
+
+\emph{The buffer must hold the backlog.} The longest backlog on these records is \maxBufferKB~KB of readings. A buffer in 2~KB of RAM loses \ramLossTwo{} of InWaterSense's readings, 8~KB loses \ramLossEight, and 64~KB loses none. Writing every reading to a serial flash memory~\cite{winbond2018w25q128jv}, with the host awake, costs at most \flashJDayMax~J/day in the worst case of the datasheet, against at least \radioJDayMin~J/day of radio energy: storage energy is negligible.
+
+\emph{The backlog must be drained without starving live traffic.} If the backlog may use only what the 1\% duty cycle leaves after one live frame per slot, every reading is still delivered. At SF7 the longest backlog clears in \drainSevenMaxH~h. At SF12, where one bulk frame fits per slot, the median backlog clears in \drainTwelveMedH~h, but in InWaterSense's worst period, when new gaps keep interrupting the drain, a backlog persists for \drainTwelveMaxD~days, and readings generated while it drains reach the server up to \drainTwelveLiveP~days late (95th percentile). Backfill at SF12 after long gaps should therefore interleave live readings ahead of the backlog, as SensorScope's operators learned~\cite{ingelrest2010sensorscope}.
+
+\subsection{Batching is cheaper, and costs little timeliness}
+\label{sec:hand-batch}
+Bulk frames carry many readings for little more than the cost of one (Sec.~\ref{sec:data-energy}). Hourly batching with buffer and back-off delivers every reading and uses \batchSaveMin--\batchSaveMax{} less energy than the fair per-reading baseline, \inwSevenBatchE~J/day (\inwSevenBatchLife~years) on InWaterSense at SF7. Its share of readings that reach the server within 1~h differs from unconfirmed reporting's by only \batchWithinMin{} to \batchWithinMax{} percentage points, because under long gaps the gaps, not the batching interval, decide how many readings arrive within the hour. Six-hourly batching is cheaper still, but delivers only a small share of readings within the hour (Table~\ref{tab:strategies}).
+
+The back-off cap $K$ trades energy against how long the server waits once the network is back. On InWaterSense at SF7, probing in every slot costs \kEverySlotSeven{} the energy of $K=6$~h (\kEverySlotNb{} on NB-IoT, where every probe into a dead network searches for a cell). Raising $K$ from 6~h to 24~h saves only a further \kSixToDaySave, while the 90th percentile of the delay between the link's return and the arrival of the gap's last reading grows from \kPninetySix~h to \kPninetyDay~h. The chosen $K=6$~h sits at this knee.
+
+The price of batching is the timeliness of individual readings: a reading can wait up to an hour, and an hour can matter. It matters for alarms, when something happens in the river, and for the server's real-time picture of fast-changing parameters. Sec.~\ref{sec:design} addresses both.
+
+\subsection{Many nodes recovering at once}
+\label{sec:hand-network}
+The analysis so far is per node. A system outage, however, ends for every node behind the gateway at once, and their backlogs then compete for the same channels and for the gateway's acknowledgements. A discrete-event model of one EU868 gateway and $N$ nodes that buffered through a common outage captures this (Table~\ref{tab:netsim}). Uplinks on the same channel and spreading factor collide unless one is 6~dB stronger; the gateway demodulates at most eight at once and cannot receive while it transmits; it acknowledges in the first receive window if its 1\% sub-band allows, else in the second (869.525~MHz, SF12, 10\% sub-band), else not at all; nodes back off as in (\ref{eq:backoff}), drain with up to eight transmissions per frame, and respect their own duty cycle. The collision rule reproduces the pure-ALOHA success probability $e^{-2G}$ in a test.
+
+Without randomisation, the deterministic back-off of (\ref{eq:backoff}) keeps nodes that entered an outage together synchronised: from \netZeroJitterN{} nodes at SF7, almost none recovers within 72~h, because they collide at every probe. Delaying each probe by a random time of up to an hour removes this. At SF7 every node then recovers, up to 500 per gateway: the median node clears its backlog within \netSevenMedMin--\netSevenMedMax~h of the end of the outage and the last within \netSevenAllMax~h, at up to \netSevenEnergyMax{} the energy of a node recovering alone. At SF12 the gateway's acknowledgements, not the uplinks, run out: its first-window sub-band reaches \netTwelveRxOne{} airtime, its 1\% limit, up to \netTwelveNoAck{} of the frames it receives go unacknowledged and are sent again, and after a one-day outage only \netTwelveCleared{} of 100 nodes recover within 72~h. The per-node results above hold for cells of tens of nodes; larger cells of SF12 nodes need randomised recovery, and fewer acknowledgements per reading, for example one confirmed frame per backlog chunk.
+
+\begin{table}[t]
+\centering
+\caption{$N$ nodes recovering from a common one-day outage behind one gateway (probe jitter up to 1~h; mean of 3 runs; 72~h horizon). Cleared: nodes whose backlog was delivered; median and last clearance (h after the outage); PDR: uplinks received and acknowledged; collided; received but unacknowledged; node energy over the horizon relative to a node recovering alone.}
+\label{tab:netsim}
+\scriptsize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+ & $N$ & Cleared & Med.\ (h) & Last (h) & PDR & Coll. & No ACK & Energy \\
+\midrule
+\tabin{tables/tab_netsim.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{How robust are the energy ratios?}
+\label{sec:hand-robust}
+The energy model cannot be checked against hardware here, and absolute per-message energy differs severalfold between platforms (Sec.~\ref{sec:data-energy}). The ratios were therefore recomputed \mcDraws{} times with every measured component multiplied by an independent factor between 1/2 and 2 (log-uniform): unconfirmed and confirmed LoRaWAN reports, the acknowledgement time-out, the NB-IoT reports, bulk-size slope and search power, and the host's awake power, with the NB-IoT search time drawn between 2.2 and 60~s. On LoRaWAN, ARQ costs more than unconfirmed reporting in \mcArqDearer{} of the draws, at least \mcArqLow{} in 97.5\% of them; on NB-IoT, where ARQ stops retrying when there is no network, it costs about the same (median \mcNbArqMed). Hourly batching is cheaper than the fair baseline in at least \mcBatchCheapOther{} of the draws at SF7 and on NB-IoT, but only in \mcBatchCheapTwelveMin--\mcBatchCheapTwelveMax{} at SF12, where it can cost up to \mcBatchTwelveHi{} as much: with few readings per frame and the acknowledgement in the second window, its advantage depends on the energy of a confirmed SF12 frame. Buffering's energy relative to the fair baseline has a median of \mcBufMedMin--\mcBufMedMax{} over the draws, but ranges from \mcBufLo{} to \mcBufHi{}: its sign is set by the ratio of confirmed to unconfirmed energy, the mechanism of Sec.~\ref{sec:hand-buffer}, and only measurement on the target hardware can settle it. The orderings that the design rests on, ARQ above unconfirmed reporting on LoRaWAN and batching below per-reading reporting at SF7 and on NB-IoT, survive this uncertainty; the size of buffering's premium does not.
+
+In answer to RQ2, ARQ is the wrong remedy for long gaps: under any of the timing models it recovers only the short radio losses, and on LoRaWAN it multiplies energy. Buffering with back-off recovers every reading the node generated, given tens of kilobytes of storage, at an energy close to that of recovering nothing in the model (\bufLoMin\% to \bufLoMax\% on LoRaWAN, \bufNbMin\% to \bufNbMax\% on NB-IoT), and between \mcBufLo{} and \mcBufHi{} of it under a factor-of-two uncertainty in every energy component. Hourly batching is the energy-efficient way to do it at SF7 and on NB-IoT, at a timeliness cost that only alarms and fast parameters notice. Many nodes recovering at once need randomised probes, and large SF12 cells are limited by the gateway's acknowledgements.

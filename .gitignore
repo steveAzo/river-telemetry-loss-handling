@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Deep-learning environment for the imputation baselines (recreate from release/requirements-deep-lock.txt)
+.venv_deep/
+.venv/
+venv/
+
+# ---------------------------------------------------------------- Data
+# Public datasets are re-downloaded by the scripts in src/data/ and checked against release/CHECKSUMS.sha256
+# (LoED_full.zip alone is 380 MB). The Weija raw records are private and must never be published; their derived
+# delivery trace (timestamps only) is in release/weija_delivery_trace.csv.
+data/**
+!data/**/
+!data/**/README.md
+
+# ---------------------------------------------------------------- Literature (third-party copyright)
+papers/pdf/
+papers/txt/
+papers/standards/*.pdf
+papers/standards/*.txt
+papers/datasheets/
+
+# ---------------------------------------------------------------- Confidential
+# Pre-submission review report (not for a public repository)
+Q1_Journal_Review_Report.docx
+
+# ---------------------------------------------------------------- LaTeX build intermediates (draft/build.sh)
+*.aux
+draft/*.log
+*.out
+*.blg
+*.bbl
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+draft/main.pdf
+draft/main_review.pdf
+draft/main_review.tex
+draft/word_main.tex
+draft/word_main.tex.json
+draft/word_raw.docx
+
+# ---------------------------------------------------------------- OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+~$*

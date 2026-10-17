@@ -1,0 +1,53 @@
+01388000 done in 279 s (17280 event rows)
+01427510 done in 357 s (17280 event rows)
+01438500 done in 190 s (17280 event rows)
+01458500 done in 349 s (17280 event rows)
+01463500 done in 65 s (17280 event rows)
+01465798 done in 413 s (15552 event rows)
+014670261 done in 403 s (17280 event rows)
+01467087 done in 307 s (12096 event rows)
+01467200 done in 1776 s (17280 event rows)
+01473500 done in 701 s (15552 event rows)
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\confirm\run_confirm.py", line 171, in <module>
+    main(*sys.argv[1:5], sites=sys.argv[5:])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\confirm\run_confirm.py", line 163, in main
+    ev, en, pic = evaluate_site(sid, site_seed(sid, salt), recs, clean_dir)
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\confirm\run_confirm.py", line 52, in evaluate_site
+    X, ev = inject(ds, shape, amp, DUR_MIN, seed=0, scale=sc, res=st.res)
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\design\inject.py", line 95, in inject
+    X = ds.X.copy(); rows = []
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 770. KiB for an array with shape (24631, 4) and data type float64
+skip 01388000
+skip 01427510
+skip 01438500
+skip 01458500
+skip 01463500
+skip 01465798
+skip 014670261
+skip 01467087
+skip 01467200
+skip 01473500
+01475530 done in 318 s (14400 event rows)
+01477050 done in 280 s (17280 event rows)
+03072655 done in 236 s (11808 event rows)
+05420400 done in 243 s (17280 event rows)
+05537980 done in 252 s (17280 event rows)
+05543010 done in 249 s (17280 event rows)
+05553700 done in 240 s (11520 event rows)
+05559900 done in 204 s (14400 event rows)
+05586300 done in 258 s (16416 event rows)
+11509370 done in 117 s (17280 event rows)
+11509500 done in 248 s (17280 event rows)
+11510700 done in 264 s (17280 event rows)
+14163900 done in 234 s (17280 event rows)
+14203500 done in 240 s (16704 event rows)
+14206241 done in 116 s (17280 event rows)
+14206694 done in 58 s (12384 event rows)
+14207200 done in 104 s (15264 event rows)
+14209710 done in 109 s (17280 event rows)
+14211010 done in 232 s (17280 event rows)
+420853121505500 done in 104 s (17280 event rows)

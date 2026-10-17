@@ -1,0 +1,121 @@
+trace,radio,strategy,K_h,batch_h,batch_slots,energy_j_per_day,delivered,within_1h,recovery_h_median,recovery_h_p90
+InWaterSense,NB-IoT,arq_buffer,0,,,235.852,1,0.64592,0,0
+InWaterSense,NB-IoT,arq_buffer,1,,,91.8341,1,0.578317,0.169722,5.94028
+InWaterSense,NB-IoT,arq_buffer,2,,,75.7842,1,0.556407,0.169722,12.5594
+InWaterSense,NB-IoT,arq_buffer,3,,,69.8366,1,0.544373,0.339444,15.0883
+InWaterSense,NB-IoT,arq_buffer,6,,,63.8131,1,0.528395,0.509167,19.5011
+InWaterSense,NB-IoT,arq_buffer,12,,,59.6208,1,0.512984,0.848611,30.0408
+InWaterSense,NB-IoT,arq_buffer,24,,,55.476,1,0.490053,1.5275,60.4041
+InWaterSense,NB-IoT,batch,0,1,6,171.699,1,0.623613,0,0.678889
+InWaterSense,NB-IoT,batch,1,1,6,46.755,1,0.576302,0.339444,3.56417
+InWaterSense,NB-IoT,batch,2,1,6,34.1479,1,0.564978,0.509167,5.43111
+InWaterSense,NB-IoT,batch,3,1,6,29.3016,1,0.547893,0.509167,9.65719
+InWaterSense,NB-IoT,batch,6,1,6,23.5985,1,0.520562,0.678889,19.8575
+InWaterSense,NB-IoT,batch,12,1,6,19.7948,1,0.489712,1.78208,44.2975
+InWaterSense,NB-IoT,batch,24,1,6,18.0342,1,0.474301,3.055,120.435
+InWaterSense,NB-IoT,batch,6,0.25,1,63.842,1,0.528395,0.509167,19.5011
+InWaterSense,NB-IoT,batch,6,0.5,3,33.2921,1,0.529076,0.339444,17.9736
+InWaterSense,NB-IoT,batch,6,2,12,18.0863,1,0.279807,1.35778,16.9722
+InWaterSense,NB-IoT,batch,6,3,18,15.8151,1,0.195487,1.86694,18.6525
+InWaterSense,NB-IoT,batch,6,6,35,13.272,1,0.113211,3.39444,16.9722
+InWaterSense,NB-IoT,batch,6,12,71,10.352,1,0.0605932,6.44944,21.5378
+InWaterSense,LoRaWAN SF7,arq_buffer,0,,,116.744,1,0.645353,0,0
+InWaterSense,LoRaWAN SF7,arq_buffer,1,,,65.6592,1,0.577693,0.169722,5.94028
+InWaterSense,LoRaWAN SF7,arq_buffer,2,,,58.5355,1,0.555669,0.169722,12.6701
+InWaterSense,LoRaWAN SF7,arq_buffer,3,,,55.5537,1,0.543664,0.339444,15.0924
+InWaterSense,LoRaWAN SF7,arq_buffer,6,,,52.6667,1,0.527572,0.509167,19.6507
+InWaterSense,LoRaWAN SF7,arq_buffer,12,,,49.5548,1,0.512161,0.848611,30.2038
+InWaterSense,LoRaWAN SF7,arq_buffer,24,,,46.3435,1,0.489059,1.70235,60.7381
+InWaterSense,LoRaWAN SF7,batch,0,1,6,65.4846,1,0.622989,0.0102471,0.678889
+InWaterSense,LoRaWAN SF7,batch,1,1,6,28.5152,1,0.575621,0.339444,3.57441
+InWaterSense,LoRaWAN SF7,batch,2,1,6,24.4006,1,0.564297,0.509167,5.49874
+InWaterSense,LoRaWAN SF7,batch,3,1,6,22.4555,1,0.547155,0.509167,9.69306
+InWaterSense,LoRaWAN SF7,batch,6,1,6,18.9039,1,0.519711,0.678889,19.8677
+InWaterSense,LoRaWAN SF7,batch,12,1,6,16.428,1,0.488747,1.87142,44.4071
+InWaterSense,LoRaWAN SF7,batch,24,1,6,15.771,1,0.473194,3.20647,120.94
+InWaterSense,LoRaWAN SF7,batch,6,0.25,1,52.4006,1,0.527544,0.509167,19.6507
+InWaterSense,LoRaWAN SF7,batch,6,0.5,3,27.1799,1,0.528225,0.339444,17.9838
+InWaterSense,LoRaWAN SF7,batch,6,2,12,14.6215,1,0.278956,1.35778,17.0091
+InWaterSense,LoRaWAN SF7,batch,6,3,18,13.3681,1,0.194693,1.86694,18.7027
+InWaterSense,LoRaWAN SF7,batch,6,6,35,11.3137,1,0.11236,3.39444,17.125
+InWaterSense,LoRaWAN SF7,batch,6,12,71,8.64837,1,0.0597417,6.45969,21.5623
+InWaterSense,LoRaWAN SF12,arq_buffer,0,,,272.835,1,0.634596,0,0.205483
+InWaterSense,LoRaWAN SF12,arq_buffer,1,,,182.188,1,0.563758,0.169722,8.10175
+InWaterSense,LoRaWAN SF12,arq_buffer,2,,,169.091,1,0.540769,0.547954,18.7721
+InWaterSense,LoRaWAN SF12,arq_buffer,3,,,164.108,1,0.529757,0.613421,19.9359
+InWaterSense,LoRaWAN SF12,arq_buffer,6,,,158.684,1,0.515737,0.848611,24.172
+InWaterSense,LoRaWAN SF12,arq_buffer,12,,,153.137,1,0.500752,1.38322,36.3807
+InWaterSense,LoRaWAN SF12,arq_buffer,24,,,147.307,1,0.479239,2.86919,71.8976
+InWaterSense,LoRaWAN SF12,batch,0,1,6,173.882,1,0.610104,0.238216,0.848611
+InWaterSense,LoRaWAN SF12,batch,1,1,6,106.958,1,0.560494,0.509167,5.53633
+InWaterSense,LoRaWAN SF12,batch,2,1,6,99.1945,1,0.547722,0.509167,7.60966
+InWaterSense,LoRaWAN SF12,batch,3,1,6,95.919,1,0.531716,0.512193,12.5328
+InWaterSense,LoRaWAN SF12,batch,6,1,6,89.4505,1,0.506286,0.848611,24.1405
+InWaterSense,LoRaWAN SF12,batch,12,1,6,85.0533,1,0.477593,3.98119,48.5312
+InWaterSense,LoRaWAN SF12,batch,24,1,6,83.9504,1,0.464112,6.12239,146.967
+InWaterSense,LoRaWAN SF12,batch,6,0.25,1,155,1,0.513921,0.848611,24.172
+InWaterSense,LoRaWAN SF12,batch,6,0.5,3,99.0188,1,0.514261,0.577661,21.9567
+InWaterSense,LoRaWAN SF12,batch,6,2,12,83.7134,1,0.264737,1.5275,20.8085
+InWaterSense,LoRaWAN SF12,batch,6,3,18,81.5586,1,0.153086,2.27488,24.5743
+InWaterSense,LoRaWAN SF12,batch,6,6,35,79.0396,1,0.0403008,4.10909,20.5764
+InWaterSense,LoRaWAN SF12,batch,6,12,71,74.2526,1,0.00337732,7.71205,25.6492
+Weija (node record),NB-IoT,arq_buffer,0,,,39.1441,1,0.865978,0,0
+Weija (node record),NB-IoT,arq_buffer,1,,,30.5071,1,0.862188,0,4.8775
+Weija (node record),NB-IoT,arq_buffer,2,,,26.2081,1,0.857709,1.08389,20.0519
+Weija (node record),NB-IoT,arq_buffer,3,,,24.8333,1,0.856675,1.62583,15.1744
+Weija (node record),NB-IoT,arq_buffer,6,,,23.4266,1,0.850818,4.8775,33.6006
+Weija (node record),NB-IoT,arq_buffer,12,,,22.6664,1,0.848407,3.79361,36.3103
+Weija (node record),NB-IoT,arq_buffer,24,,,22.2267,1,0.843239,3.79361,41.7297
+Weija (node record),NB-IoT,batch,0,1,2,28.4773,1,0.864255,0,0
+Weija (node record),NB-IoT,batch,1,1,2,20.0676,1,0.861499,0,4.8775
+Weija (node record),NB-IoT,batch,2,1,2,15.8573,1,0.858742,0.541944,20.0519
+Weija (node record),NB-IoT,batch,3,1,2,14.5089,1,0.857364,0.541944,15.1744
+Weija (node record),NB-IoT,batch,6,1,2,13.1633,1,0.853919,0.541944,33.6006
+Weija (node record),NB-IoT,batch,12,1,2,12.4489,1,0.852369,1.08389,36.3103
+Weija (node record),NB-IoT,batch,24,1,2,12.0718,1,0.847201,1.08389,41.7297
+Weija (node record),NB-IoT,batch,6,0.25,1,23.4273,1,0.850818,4.8775,33.6006
+Weija (node record),NB-IoT,batch,6,0.5,1,23.4273,1,0.850818,4.8775,33.6006
+Weija (node record),NB-IoT,batch,6,2,4,7.90097,1,0.432041,0.541944,18.4261
+Weija (node record),NB-IoT,batch,6,3,6,6.05994,1,0.290095,1.08389,14.6325
+Weija (node record),NB-IoT,batch,6,6,11,4.14896,1,0.158312,2.70972,20.0519
+Weija (node record),NB-IoT,batch,6,12,22,2.95472,1,0.0797588,2.70972,30.3489
+Weija (node record),LoRaWAN SF7,arq_buffer,0,,,19.7719,1,0.865978,0,0
+Weija (node record),LoRaWAN SF7,arq_buffer,1,,,17.209,1,0.862188,0.184448,4.8775
+Weija (node record),LoRaWAN SF7,arq_buffer,2,,,15.8873,1,0.857709,1.26834,20.0622
+Weija (node record),LoRaWAN SF7,arq_buffer,3,,,15.524,1,0.856675,1.62583,15.1847
+Weija (node record),LoRaWAN SF7,arq_buffer,6,,,15.0248,1,0.850818,5.06195,33.6108
+Weija (node record),LoRaWAN SF7,arq_buffer,12,,,14.8012,1,0.848407,3.79361,36.3205
+Weija (node record),LoRaWAN SF7,arq_buffer,24,,,14.6462,1,0.843239,3.79361,41.74
+Weija (node record),LoRaWAN SF7,batch,0,1,2,13.0265,1,0.864255,0,0
+Weija (node record),LoRaWAN SF7,batch,1,1,2,10.6213,1,0.861499,0,4.8775
+Weija (node record),LoRaWAN SF7,batch,2,1,2,9.38719,1,0.858742,0.541944,20.0622
+Weija (node record),LoRaWAN SF7,batch,3,1,2,9.03775,1,0.857364,0.552192,15.1847
+Weija (node record),LoRaWAN SF7,batch,6,1,2,8.5831,1,0.853919,0.726392,33.6108
+Weija (node record),LoRaWAN SF7,batch,12,1,2,8.38888,1,0.852369,1.08389,36.3205
+Weija (node record),LoRaWAN SF7,batch,24,1,2,8.27661,1,0.847201,1.08389,41.74
+Weija (node record),LoRaWAN SF7,batch,6,0.25,1,14.953,1,0.850818,5.06195,33.6108
+Weija (node record),LoRaWAN SF7,batch,6,0.5,1,14.953,1,0.850818,5.06195,33.6108
+Weija (node record),LoRaWAN SF7,batch,6,2,4,5.11941,1,0.432041,0.541944,18.4364
+Weija (node record),LoRaWAN SF7,batch,6,3,6,3.94356,1,0.290095,1.08389,14.653
+Weija (node record),LoRaWAN SF7,batch,6,6,11,2.49584,1,0.158312,2.89417,20.0622
+Weija (node record),LoRaWAN SF7,batch,6,12,22,2.35335,1,0.0797588,2.90442,30.3591
+Weija (node record),LoRaWAN SF12,arq_buffer,0,,,58.1529,1,0.865633,0.0684942,0.342471
+Weija (node record),LoRaWAN SF12,arq_buffer,1,,,53.5571,1,0.861671,0.547954,7.39738
+Weija (node record),LoRaWAN SF12,arq_buffer,2,,,51.1966,1,0.857192,1.69433,20.6684
+Weija (node record),LoRaWAN SF12,arq_buffer,3,,,50.5474,1,0.855986,1.9683,15.5854
+Weija (node record),LoRaWAN SF12,arq_buffer,6,,,49.6211,1,0.849957,5.9674,34.217
+Weija (node record),LoRaWAN SF12,arq_buffer,12,,,49.2092,1,0.847545,6.02988,36.9267
+Weija (node record),LoRaWAN SF12,arq_buffer,24,,,48.9034,1,0.842377,6.02988,42.3462
+Weija (node record),LoRaWAN SF12,batch,0,1,2,38.1628,1,0.863566,0.0684942,0.342471
+Weija (node record),LoRaWAN SF12,batch,1,1,2,33.8258,1,0.860465,0.342471,7.60286
+Weija (node record),LoRaWAN SF12,batch,2,1,2,31.6152,1,0.857709,0.815921,20.7369
+Weija (node record),LoRaWAN SF12,batch,3,1,2,30.9709,1,0.856158,1.09591,15.6539
+Weija (node record),LoRaWAN SF12,batch,6,1,2,30.1734,1,0.852713,1.15238,34.2855
+Weija (node record),LoRaWAN SF12,batch,12,1,2,29.8414,1,0.851163,1.15238,36.9952
+Weija (node record),LoRaWAN SF12,batch,24,1,2,29.6634,1,0.845995,1.15238,42.4147
+Weija (node record),LoRaWAN SF12,batch,6,0.25,1,47.5247,1,0.84944,5.9674,34.217
+Weija (node record),LoRaWAN SF12,batch,6,0.5,1,47.5247,1,0.84944,5.9674,34.217
+Weija (node record),LoRaWAN SF12,batch,6,2,4,29.362,1,0.430835,0.610439,19.1795
+Weija (node record),LoRaWAN SF12,batch,6,3,6,23.1046,1,0.289061,1.62583,15.4544
+Weija (node record),LoRaWAN SF12,batch,6,6,11,23.3972,1,0.156934,3.32016,20.8054
+Weija (node record),LoRaWAN SF12,batch,6,12,22,22.9679,1,0.0783807,4.06759,31.1023

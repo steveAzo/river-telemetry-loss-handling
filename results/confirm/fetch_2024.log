@@ -1,0 +1,542 @@
+01388000 2024-01: 14573 values so far
+01388000 2024-02: 27763 values so far
+01388000 2024-03: 42590 values so far
+01388000 2024-04: 56990 values so far
+01388000 2024-05: 71860 values so far
+01388000 2024-06: 86258 values so far
+01388000 2024-07: 101093 values so far
+01388000 2024-08: 115971 values so far
+01388000 2024-09: 130341 values so far
+01388000 2024-10: 145221 values so far
+01388000 2024-11: 158868 values so far
+01388000 2024-12: 173372 values so far
+saved data\raw\usgs\01388000_2024-01-01_2024-12-31.csv (173372 rows) — Ramapo River at Pompton Lakes NJ
+01400500 2024-01: 14177 values so far
+01400500 2024-02: 28057 values so far
+01400500 2024-03: 42485 values so far
+01400500 2024-04: 56790 values so far
+01400500 2024-05: 71628 values so far
+01400500 2024-06: 85983 values so far
+01400500 2024-07: 100848 values so far
+01400500 2024-08: 115693 values so far
+01400500 2024-09: 130083 values so far
+01400500 2024-10: 144708 values so far
+01400500 2024-11: 159098 values so far
+01400500 2024-12: 173783 values so far
+saved data\raw\usgs\01400500_2024-01-01_2024-12-31.csv (173783 rows) — Raritan River at Manville NJ
+01402000 2024-01: 0 values so far
+01402000 2024-02: 0 values so far
+01402000 2024-03: 0 values so far
+01402000 2024-04: 2650 values so far
+01402000 2024-05: 17530 values so far
+01402000 2024-06: 31900 values so far
+01402000 2024-07: 46755 values so far
+01402000 2024-08: 61026 values so far
+01402000 2024-09: 73825 values so far
+01402000 2024-10: 88670 values so far
+01402000 2024-11: 103090 values so far
+01402000 2024-12: 103780 values so far
+saved data\raw\usgs\01402000_2024-01-01_2024-12-31.csv (103780 rows) — Millstone River at Blackwells Mills NJ
+01427510 2024-01: 11804 values so far
+01427510 2024-02: 22932 values so far
+01427510 2024-03: 34831 values so far
+01427510 2024-04: 46330 values so far
+01427510 2024-05: 58229 values so far
+01427510 2024-06: 69730 values so far
+01427510 2024-07: 81591 values so far
+01427510 2024-08: 93489 values so far
+01427510 2024-09: 104998 values so far
+01427510 2024-10: 116885 values so far
+01427510 2024-11: 128393 values so far
+01427510 2024-12: 140286 values so far
+saved data\raw\usgs\01427510_2024-01-01_2024-12-31.csv (140286 rows) — DELAWARE RIVER AT CALLICOON NY
+01438500 2024-01: 7359 values so far
+01438500 2024-02: 14284 values so far
+01438500 2024-03: 21697 values so far
+01438500 2024-04: 28897 values so far
+01438500 2024-05: 36327 values so far
+01438500 2024-06: 43527 values so far
+01438500 2024-07: 50952 values so far
+01438500 2024-08: 58392 values so far
+01438500 2024-09: 65587 values so far
+01438500 2024-10: 73027 values so far
+01438500 2024-11: 80231 values so far
+01438500 2024-12: 87671 values so far
+saved data\raw\usgs\01438500_2024-01-01_2024-12-31.csv (87671 rows) — Delaware River at Montague NJ
+01458500 2024-01: 12981 values so far
+01458500 2024-02: 26876 values so far
+01458500 2024-03: 41658 values so far
+01458500 2024-04: 56044 values so far
+01458500 2024-05: 70899 values so far
+01458500 2024-06: 84793 values so far
+01458500 2024-07: 98523 values so far
+01458500 2024-08: 112768 values so far
+01458500 2024-09: 127088 values so far
+01458500 2024-10: 141896 values so far
+01458500 2024-11: 156316 values so far
+01458500 2024-12: 171176 values so far
+saved data\raw\usgs\01458500_2024-01-01_2024-12-31.csv (171176 rows) — Delaware River at Frenchtown NJ
+01463500 2024-01: 3715 values so far
+01463500 2024-02: 7180 values so far
+01463500 2024-03: 10880 values so far
+01463500 2024-04: 14465 values so far
+01463500 2024-05: 18137 values so far
+01463500 2024-06: 21732 values so far
+01463500 2024-07: 25452 values so far
+01463500 2024-08: 29166 values so far
+01463500 2024-09: 32761 values so far
+01463500 2024-10: 36455 values so far
+01463500 2024-11: 40054 values so far
+01463500 2024-12: 43754 values so far
+saved data\raw\usgs\01463500_2024-01-01_2024-12-31.csv (43754 rows) — Delaware River at Trenton NJ
+01465798 2024-01: 2976 values so far
+01465798 2024-02: 3404 values so far
+  retry 1 for 2024-03-01: The read operation timed out
+  retry 2 for 2024-03-01: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+  retry 3 for 2024-03-01: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 62, in <module>
+    main(*sys.argv[1:4])
+    ~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 45, in main
+    d = fetch_month(site, m0.date(), m1.date())
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 35, in fetch_month
+    raise RuntimeError(f"failed {site} {start}-{end}")
+RuntimeError: failed 01465798 2024-03-01-2024-03-31
+FAILED 01465798
+  retry 1 for 2024-01-01: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+014670261 2024-01: 14846 values so far
+014670261 2024-02: 28715 values so far
+014670261 2024-03: 43530 values so far
+014670261 2024-04: 57835 values so far
+014670261 2024-05: 72633 values so far
+014670261 2024-06: 86972 values so far
+014670261 2024-07: 101817 values so far
+014670261 2024-08: 116098 values so far
+014670261 2024-09: 130389 values so far
+014670261 2024-10: 145031 values so far
+014670261 2024-11: 159099 values so far
+014670261 2024-12: 171285 values so far
+saved data\raw\usgs\014670261_2024-01-01_2024-12-31.csv (171285 rows) — Delaware River at Pennypack Woods PA
+01467087 2024-01: 14676 values so far
+01467087 2024-02: 28248 values so far
+01467087 2024-03: 42702 values so far
+01467087 2024-04: 56032 values so far
+01467087 2024-05: 70664 values so far
+01467087 2024-06: 84014 values so far
+01467087 2024-07: 98234 values so far
+01467087 2024-08: 112273 values so far
+01467087 2024-09: 126472 values so far
+01467087 2024-10: 141315 values so far
+01467087 2024-11: 154674 values so far
+01467087 2024-12: 165160 values so far
+saved data\raw\usgs\01467087_2024-01-01_2024-12-31.csv (165160 rows) — Frankford Creek at Castor Ave, Philadelphia, PA
+01467200 2024-01: 35367 values so far
+01467200 2024-02: 68586 values so far
+01467200 2024-03: 99128 values so far
+01467200 2024-04: 124539 values so far
+01467200 2024-05: 154674 values so far
+01467200 2024-06: 188857 values so far
+01467200 2024-07: 224311 values so far
+01467200 2024-08: 259826 values so far
+01467200 2024-09: 294120 values so far
+01467200 2024-10: 329572 values so far
+  retry 1 for 2024-11-01: The read operation timed out
+01467200 2024-11: 363948 values so far
+01467200 2024-12: 399046 values so far
+saved data\raw\usgs\01467200_2024-01-01_2024-12-31.csv (399046 rows) — Delaware River at Penn's Landing, Philadelphia, PA
+01473500 2024-01: 0 values so far
+01473500 2024-02: 1154 values so far
+01473500 2024-03: 16014 values so far
+01473500 2024-04: 30382 values so far
+01473500 2024-05: 45260 values so far
+01473500 2024-06: 59659 values so far
+01473500 2024-07: 74529 values so far
+01473500 2024-08: 89313 values so far
+01473500 2024-09: 103713 values so far
+01473500 2024-10: 118578 values so far
+01473500 2024-11: 132998 values so far
+01473500 2024-12: 135553 values so far
+saved data\raw\usgs\01473500_2024-01-01_2024-12-31.csv (135553 rows) — Schuylkill River at Norristown, PA
+01473900 2024-01: 0 values so far
+01473900 2024-02: 0 values so far
+01473900 2024-03: 5048 values so far
+01473900 2024-04: 13890 values so far
+01473900 2024-05: 25622 values so far
+01473900 2024-06: 37102 values so far
+01473900 2024-07: 48618 values so far
+01473900 2024-08: 58862 values so far
+01473900 2024-09: 70354 values so far
+01473900 2024-10: 81989 values so far
+01473900 2024-11: 93457 values so far
+01473900 2024-12: 95586 values so far
+saved data\raw\usgs\01473900_2024-01-01_2024-12-31.csv (95586 rows) — Wissahickon Creek at Fort Washington, PA
+01474500 2024-01: 4314 values so far
+  retry 1 for 2024-02-01: The read operation timed out
+01474500 2024-02: 8478 values so far
+01474500 2024-03: 12780 values so far
+  retry 1 for 2024-04-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+01474500 2024-04: 17087 values so far
+01474500 2024-05: 21528 values so far
+01474500 2024-06: 25827 values so far
+01474500 2024-07: 30283 values so far
+01474500 2024-08: 34725 values so far
+01474500 2024-09: 39044 values so far
+01474500 2024-10: 43496 values so far
+01474500 2024-11: 47822 values so far
+01474500 2024-12: 52001 values so far
+saved data\raw\usgs\01474500_2024-01-01_2024-12-31.csv (52001 rows) — Schuylkill River at Philadelphia, PA
+01475530 2024-01: 0 values so far
+01475530 2024-02: 0 values so far
+01475530 2024-03: 11180 values so far
+01475530 2024-04: 25543 values so far
+01475530 2024-05: 40285 values so far
+01475530 2024-06: 54654 values so far
+01475530 2024-07: 69499 values so far
+01475530 2024-08: 84283 values so far
+01475530 2024-09: 98656 values so far
+01475530 2024-10: 113530 values so far
+01475530 2024-11: 120533 values so far
+01475530 2024-12: 120533 values so far
+saved data\raw\usgs\01475530_2024-01-01_2024-12-31.csv (120533 rows) — Cobbs Cr at U.S. Hghwy No. 1 at Philadelphia, PA
+01477050 2024-01: 22931 values so far
+01477050 2024-02: 30289 values so far
+01477050 2024-03: 36233 values so far
+01477050 2024-04: 50207 values so far
+01477050 2024-05: 65087 values so far
+01477050 2024-06: 79486 values so far
+01477050 2024-07: 94358 values so far
+01477050 2024-08: 109238 values so far
+01477050 2024-09: 123630 values so far
+01477050 2024-10: 138505 values so far
+01477050 2024-11: 152897 values so far
+01477050 2024-12: 167775 values so far
+saved data\raw\usgs\01477050_2024-01-01_2024-12-31.csv (167775 rows) — DELAWARE RIVER AT CHESTER PA
+03072655 2024-01: 8928 values so far
+03072655 2024-02: 17257 values so far
+03072655 2024-03: 26151 values so far
+03072655 2024-04: 34786 values so far
+03072655 2024-05: 46682 values so far
+03072655 2024-06: 58130 values so far
+03072655 2024-07: 70017 values so far
+03072655 2024-08: 81917 values so far
+03072655 2024-09: 93409 values so far
+03072655 2024-10: 105309 values so far
+03072655 2024-11: 116825 values so far
+03072655 2024-12: 125750 values so far
+saved data\raw\usgs\03072655_2024-01-01_2024-12-31.csv (125750 rows) — Monongahela River near Masontown, PA
+03075070 2024-01: 8926 values so far
+03075070 2024-02: 17221 values so far
+03075070 2024-03: 26113 values so far
+03075070 2024-04: 34753 values so far
+03075070 2024-05: 46496 values so far
+03075070 2024-06: 57979 values so far
+03075070 2024-07: 69393 values so far
+03075070 2024-08: 81035 values so far
+03075070 2024-09: 92542 values so far
+03075070 2024-10: 104445 values so far
+03075070 2024-11: 113085 values so far
+03075070 2024-12: 122012 values so far
+saved data\raw\usgs\03075070_2024-01-01_2024-12-31.csv (122012 rows) — Monongahela River at Elizabeth, PA
+03081000 2024-01: 8828 values so far
+03081000 2024-02: 15788 values so far
+03081000 2024-03: 24625 values so far
+03081000 2024-04: 32318 values so far
+03081000 2024-05: 44195 values so far
+03081000 2024-06: 55619 values so far
+03081000 2024-07: 67476 values so far
+03081000 2024-08: 79025 values so far
+03081000 2024-09: 90153 values so far
+03081000 2024-10: 101415 values so far
+03081000 2024-11: 108852 values so far
+03081000 2024-12: 117780 values so far
+saved data\raw\usgs\03081000_2024-01-01_2024-12-31.csv (117780 rows) — Youghiogheny River below Confluence, PA
+03083500 2024-01: 8927 values so far
+03083500 2024-02: 17240 values so far
+03083500 2024-03: 26156 values so far
+03083500 2024-04: 33817 values so far
+03083500 2024-05: 45706 values so far
+03083500 2024-06: 56719 values so far
+03083500 2024-07: 68559 values so far
+03083500 2024-08: 80463 values so far
+03083500 2024-09: 91968 values so far
+03083500 2024-10: 103872 values so far
+03083500 2024-11: 111664 values so far
+03083500 2024-12: 120059 values so far
+saved data\raw\usgs\03083500_2024-01-01_2024-12-31.csv (120059 rows) — Youghiogheny River at Sutersville, PA
+05420400 2024-01: 11735 values so far
+05420400 2024-02: 22822 values so far
+05420400 2024-03: 34710 values so far
+05420400 2024-04: 45368 values so far
+05420400 2024-05: 60247 values so far
+05420400 2024-06: 74614 values so far
+05420400 2024-07: 89371 values so far
+05420400 2024-08: 104243 values so far
+05420400 2024-09: 118609 values so far
+05420400 2024-10: 133470 values so far
+05420400 2024-11: 147847 values so far
+05420400 2024-12: 158624 values so far
+saved data\raw\usgs\05420400_2024-01-01_2024-12-31.csv (158624 rows) — MISSISSIPPI RIVER AT DAM 13 NEAR FULTON, IL
+05537980 2024-01: 11805 values so far
+05537980 2024-02: 22926 values so far
+05537980 2024-03: 34830 values so far
+05537980 2024-04: 46339 values so far
+05537980 2024-05: 56805 values so far
+05537980 2024-06: 67783 values so far
+05537980 2024-07: 79627 values so far
+05537980 2024-08: 91515 values so far
+05537980 2024-09: 102047 values so far
+  retry 1 for 2024-10-01: <urlopen error [Errno 11001] getaddrinfo failed>
+  retry 2 for 2024-10-01: <urlopen error [Errno 11001] getaddrinfo failed>
+05537980 2024-10: 113891 values so far
+05537980 2024-11: 125382 values so far
+05537980 2024-12: 137078 values so far
+saved data\raw\usgs\05537980_2024-01-01_2024-12-31.csv (137078 rows) — DES PLAINES RIVER AT ROUTE 53 AT JOLIET, IL
+05543010 2024-01: 11587 values so far
+05543010 2024-02: 22653 values so far
+05543010 2024-03: 34422 values so far
+  retry 1 for 2024-04-01: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+  retry 2 for 2024-04-01: <urlopen error [Errno 11001] getaddrinfo failed>
+  retry 3 for 2024-04-01: <urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 62, in <module>
+    main(*sys.argv[1:4])
+    ~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 45, in main
+    d = fetch_month(site, m0.date(), m1.date())
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 35, in fetch_month
+    raise RuntimeError(f"failed {site} {start}-{end}")
+RuntimeError: failed 05543010 2024-04-01-2024-04-30
+FAILED 05543010
+05553700 2024-01: 11901 values so far
+05553700 2024-02: 23007 values so far
+05553700 2024-03: 34911 values so far
+05553700 2024-04: 46420 values so far
+05553700 2024-05: 58304 values so far
+05553700 2024-06: 69824 values so far
+05553700 2024-07: 81709 values so far
+05553700 2024-08: 93589 values so far
+  retry 1 for 2024-09-01: Remote end closed connection without response
+  retry 2 for 2024-09-01: <urlopen error [Errno 11001] getaddrinfo failed>
+05553700 2024-09: 105067 values so far
+05553700 2024-10: 116971 values so far
+05553700 2024-11: 128467 values so far
+05553700 2024-12: 140370 values so far
+saved data\raw\usgs\05553700_2024-01-01_2024-12-31.csv (140370 rows) — ILLINOIS RIVER AT STARVED ROCK, IL
+05559900 2024-01: 11696 values so far
+05559900 2024-02: 22543 values so far
+05559900 2024-03: 34151 values so far
+05559900 2024-04: 45379 values so far
+05559900 2024-05: 56427 values so far
+05559900 2024-06: 64956 values so far
+05559900 2024-07: 76706 values so far
+05559900 2024-08: 88030 values so far
+05559900 2024-09: 97183 values so far
+05559900 2024-10: 108587 values so far
+  retry 1 for 2024-11-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+05559900 2024-11: 119173 values so far
+05559900 2024-12: 129477 values so far
+saved data\raw\usgs\05559900_2024-01-01_2024-12-31.csv (129477 rows) — ILLINOIS RIVER ABOVE RTE 150 AT PEORIA, IL
+05586300 2024-01: 11904 values so far
+05586300 2024-02: 23024 values so far
+05586300 2024-03: 34903 values so far
+05586300 2024-04: 44963 values so far
+05586300 2024-05: 56845 values so far
+05586300 2024-06: 66991 values so far
+05586300 2024-07: 77171 values so far
+05586300 2024-08: 86140 values so far
+05586300 2024-09: 97478 values so far
+05586300 2024-10: 109275 values so far
+05586300 2024-11: 120795 values so far
+05586300 2024-12: 132671 values so far
+saved data\raw\usgs\05586300_2024-01-01_2024-12-31.csv (132671 rows) — ILLINOIS RIVER AT FLORENCE, IL
+11509370 2024-01: 5952 values so far
+11509370 2024-02: 11156 values so far
+11509370 2024-03: 16787 values so far
+11509370 2024-04: 22542 values so far
+11509370 2024-05: 28484 values so far
+11509370 2024-06: 34240 values so far
+11509370 2024-07: 40192 values so far
+11509370 2024-08: 46140 values so far
+11509370 2024-09: 51885 values so far
+11509370 2024-10: 57810 values so far
+  retry 1 for 2024-11-01: Remote end closed connection without response
+  retry 2 for 2024-11-01: <urlopen error [Errno 11001] getaddrinfo failed>
+  retry 3 for 2024-11-01: <urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 62, in <module>
+    main(*sys.argv[1:4])
+    ~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 45, in main
+    d = fetch_month(site, m0.date(), m1.date())
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\data\fetch_usgs.py", line 35, in fetch_month
+    raise RuntimeError(f"failed {site} {start}-{end}")
+RuntimeError: failed 11509370 2024-11-01-2024-11-30
+FAILED 11509370
+  retry 1 for 2024-01-01: <urlopen error [Errno 11001] getaddrinfo failed>
+  retry 2 for 2024-01-01: <urlopen error [Errno 11001] getaddrinfo failed>
+11509500 2024-01: 14821 values so far
+11509500 2024-02: 28724 values so far
+11509500 2024-03: 43580 values so far
+11509500 2024-04: 57980 values so far
+11509500 2024-05: 72858 values so far
+11509500 2024-06: 87246 values so far
+11509500 2024-07: 102120 values so far
+11509500 2024-08: 117000 values so far
+11509500 2024-09: 131400 values so far
+11509500 2024-10: 146279 values so far
+11509500 2024-11: 160697 values so far
+11509500 2024-12: 175531 values so far
+saved data\raw\usgs\11509500_2024-01-01_2024-12-31.csv (175531 rows) — KLAMATH RIVER AT KENO, OR
+11510700 2024-01: 14879 values so far
+11510700 2024-02: 28791 values so far
+11510700 2024-03: 43613 values so far
+11510700 2024-04: 57999 values so far
+11510700 2024-05: 72878 values so far
+11510700 2024-06: 87271 values so far
+11510700 2024-07: 102146 values so far
+11510700 2024-08: 117026 values so far
+11510700 2024-09: 131426 values so far
+  retry 1 for 2024-10-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+11510700 2024-10: 146306 values so far
+11510700 2024-11: 160686 values so far
+11510700 2024-12: 175546 values so far
+saved data\raw\usgs\11510700_2024-01-01_2024-12-31.csv (175546 rows) — KLAMATH RIVER BLW JOHN C.BOYLE PWRPLNT, NR KENO,OR
+14162500 2024-01: 6608 values so far
+14162500 2024-02: 13202 values so far
+14162500 2024-03: 20626 values so far
+14162500 2024-04: 27821 values so far
+14162500 2024-05: 35261 values so far
+14162500 2024-06: 42463 values so far
+14162500 2024-07: 49885 values so far
+14162500 2024-08: 57325 values so far
+14162500 2024-09: 64525 values so far
+14162500 2024-10: 71954 values so far
+14162500 2024-11: 79163 values so far
+14162500 2024-12: 86593 values so far
+saved data\raw\usgs\14162500_2024-01-01_2024-12-31.csv (86593 rows) — MCKENZIE RIVER NEAR VIDA, OR
+14163900 2024-01: 11895 values so far
+14163900 2024-02: 23001 values so far
+14163900 2024-03: 34883 values so far
+14163900 2024-04: 46400 values so far
+14163900 2024-05: 58285 values so far
+14163900 2024-06: 69797 values so far
+14163900 2024-07: 81693 values so far
+14163900 2024-08: 93574 values so far
+14163900 2024-09: 105094 values so far
+14163900 2024-10: 116983 values so far
+14163900 2024-11: 128520 values so far
+14163900 2024-12: 140246 values so far
+saved data\raw\usgs\14163900_2024-01-01_2024-12-31.csv (140246 rows) — MCKENZIE RIVER NEAR WALTERVILLE, OR
+14203500 2024-01: 11466 values so far
+14203500 2024-02: 22356 values so far
+14203500 2024-03: 34188 values so far
+14203500 2024-04: 45588 values so far
+14203500 2024-05: 57316 values so far
+14203500 2024-06: 68813 values so far
+  retry 1 for 2024-07-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+14203500 2024-07: 80676 values so far
+14203500 2024-08: 92545 values so far
+14203500 2024-09: 103965 values so far
+14203500 2024-10: 115703 values so far
+14203500 2024-11: 127103 values so far
+14203500 2024-12: 138833 values so far
+saved data\raw\usgs\14203500_2024-01-01_2024-12-31.csv (138833 rows) — TUALATIN RIVER NEAR DILLEY, OR
+  retry 1 for 2024-01-01: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+  retry 2 for 2024-01-01: <urlopen error [Errno 11001] getaddrinfo failed>
+14206241 2024-01: 5952 values so far
+14206241 2024-02: 11478 values so far
+14206241 2024-03: 17418 values so far
+14206241 2024-04: 23172 values so far
+14206241 2024-05: 29120 values so far
+14206241 2024-06: 34858 values so far
+14206241 2024-07: 40786 values so far
+14206241 2024-08: 46730 values so far
+14206241 2024-09: 52486 values so far
+  retry 1 for 2024-10-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+14206241 2024-10: 58438 values so far
+14206241 2024-11: 64205 values so far
+14206241 2024-12: 70157 values so far
+saved data\raw\usgs\14206241_2024-01-01_2024-12-31.csv (70157 rows) — TUALATIN RIVER AT HWY 219 NEAR HILLSBORO, OR
+14206694 2024-01: 0 values so far
+14206694 2024-02: 0 values so far
+14206694 2024-03: 0 values so far
+14206694 2024-04: 1412 values so far
+14206694 2024-05: 7364 values so far
+14206694 2024-06: 13106 values so far
+  retry 1 for 2024-07-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+14206694 2024-07: 19036 values so far
+14206694 2024-08: 24983 values so far
+14206694 2024-09: 30742 values so far
+  retry 1 for 2024-10-01: The read operation timed out
+14206694 2024-10: 36691 values so far
+14206694 2024-11: 40239 values so far
+14206694 2024-12: 40239 values so far
+saved data\raw\usgs\14206694_2024-01-01_2024-12-31.csv (40239 rows) — TUALATIN RIVER AT RIVER MILE 24.5, NR SCHOLLS, OR
+14207200 2024-01: 5911 values so far
+14207200 2024-02: 11448 values so far
+14207200 2024-03: 17384 values so far
+14207200 2024-04: 23127 values so far
+14207200 2024-05: 29074 values so far
+14207200 2024-06: 34250 values so far
+  retry 1 for 2024-07-01: [WinError 10054] An existing connection was forcibly closed by the remote host
+14207200 2024-07: 40202 values so far
+14207200 2024-08: 46143 values so far
+14207200 2024-09: 51903 values so far
+14207200 2024-10: 57798 values so far
+14207200 2024-11: 63566 values so far
+14207200 2024-12: 69438 values so far
+saved data\raw\usgs\14207200_2024-01-01_2024-12-31.csv (69438 rows) — TUALATIN RIVER AT OSWEGO DAM, NEAR WEST LINN, OR
+14209710 2024-01: 5922 values so far
+14209710 2024-02: 11490 values so far
+14209710 2024-03: 17434 values so far
+  retry 1 for 2024-04-01: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+14209710 2024-04: 23180 values so far
+14209710 2024-05: 29132 values so far
+14209710 2024-06: 34891 values so far
+14209710 2024-07: 40830 values so far
+14209710 2024-08: 46776 values so far
+14209710 2024-09: 52530 values so far
+14209710 2024-10: 58445 values so far
+14209710 2024-11: 64213 values so far
+14209710 2024-12: 70164 values so far
+saved data\raw\usgs\14209710_2024-01-01_2024-12-31.csv (70164 rows) — CLACKAMAS RIVER AT CARTER BRIDGE, NEAR ESTACADA,OR
+14210000 2024-01: 5948 values so far
+14210000 2024-02: 11404 values so far
+14210000 2024-03: 17344 values so far
+14210000 2024-04: 22979 values so far
+14210000 2024-05: 28931 values so far
+14210000 2024-06: 34671 values so far
+14210000 2024-07: 40619 values so far
+14210000 2024-08: 46545 values so far
+14210000 2024-09: 52305 values so far
+14210000 2024-10: 58230 values so far
+14210000 2024-11: 63998 values so far
+14210000 2024-12: 69950 values so far
+saved data\raw\usgs\14210000_2024-01-01_2024-12-31.csv (69950 rows) — CLACKAMAS RIVER AT ESTACADA, OR
+14211010 2024-01: 11876 values so far
+14211010 2024-02: 22996 values so far
+14211010 2024-03: 34803 values so far
+14211010 2024-04: 46323 values so far
+14211010 2024-05: 58189 values so far
+14211010 2024-06: 69687 values so far
+14211010 2024-07: 81579 values so far
+14211010 2024-08: 93483 values so far
+14211010 2024-09: 105003 values so far
+14211010 2024-10: 116862 values so far
+14211010 2024-11: 128392 values so far
+14211010 2024-12: 140294 values so far
+saved data\raw\usgs\14211010_2024-01-01_2024-12-31.csv (140294 rows) — CLACKAMAS RIVER NEAR OREGON CITY, OR
+420853121505500 2024-01: 5944 values so far
+420853121505500 2024-02: 11498 values so far
+420853121505500 2024-03: 17434 values so far
+420853121505500 2024-04: 23186 values so far
+420853121505500 2024-05: 29129 values so far
+420853121505500 2024-06: 34885 values so far
+420853121505500 2024-07: 40831 values so far
+420853121505500 2024-08: 46775 values so far
+420853121505500 2024-09: 52535 values so far
+420853121505500 2024-10: 58479 values so far
+420853121505500 2024-11: 64247 values so far
+420853121505500 2024-12: 70198 values so far
+saved data\raw\usgs\420853121505500_2024-01-01_2024-12-31.csv (70198 rows) — KLAMATH RIVER AT MILLER ISLAND BOAT RAMP, OR

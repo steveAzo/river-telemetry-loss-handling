@@ -1,0 +1,184 @@
+sites: 30; injected events per site x setting: 60
+
+node detector: share of injected events detected (median over sites)
+setting
+ramp5    0.145
+ramp8    0.651
+step5    0.632
+step8    0.903
+
+H1 (link up at onset; median over sites of per-site median latency, hours)
+       trace                         radio  lat_unconf_h  lat_arq_buffer_h  lat_batch1h_h  lat_design_h  design_minus_arq_slots_median  H1_pass  batch_minus_design_h  p_batch_vs_design
+InWaterSense                  LoRaWAN SF12           1.0              1.25          1.614         1.250                           0.00     True                   0.5                0.0
+InWaterSense                   LoRaWAN SF7           1.0              1.25          1.500         1.005                          -0.49     True                   0.5                0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)           1.0              1.25          1.500         1.000                          -0.50     True                   0.5                0.0
+         UVA                  LoRaWAN SF12           1.0              1.00          1.455         1.000                           0.00     True                   0.5                0.0
+         UVA                   LoRaWAN SF7           1.0              1.00          1.438         1.000                           0.00     True                   0.5                0.0
+         UVA NB-IoT N211 RAI (search 10 s)           1.0              1.00          1.438         1.000                           0.00     True                   0.5                0.0
+       Weija                  LoRaWAN SF12           1.0              1.00          1.500         1.000                           0.00     True                   0.5                0.0
+       Weija                   LoRaWAN SF7           1.0              1.00          1.312         1.000                           0.00     True                   0.5                0.0
+       Weija NB-IoT N211 RAI (search 10 s)           1.0              1.00          1.312         1.000                           0.00     True                   0.5                0.0
+        none                  LoRaWAN SF12           1.0              1.00          1.318         1.000                           0.00     True                   0.5                0.0
+        none                   LoRaWAN SF7           1.0              1.00          1.250         1.000                           0.00     True                   0.5                0.0
+        none NB-IoT N211 RAI (search 10 s)           1.0              1.00          1.250         1.000                           0.00     True                   0.5                0.0
+
+H2 (energy, J/day, medians over sites)
+       trace                         radio  E_unconf  E_arq_buffer  E_batch1h  E_design_clean  E_design_events  design_over_batch  arq_over_design  H2_pass
+InWaterSense                  LoRaWAN SF12    99.919       110.214     77.167          77.288           77.545              1.006            1.408     True
+InWaterSense                   LoRaWAN SF7    41.850        37.283     19.075          19.155           19.342              1.014            1.882     True
+InWaterSense NB-IoT N211 RAI (search 10 s)   152.954        45.920     23.339          23.591           23.839              1.020            1.839     True
+         UVA                  LoRaWAN SF12    99.919       115.479     62.503          62.505           62.519              1.000            1.846     True
+         UVA                   LoRaWAN SF7    41.850        36.048      9.639           9.675            9.726              1.008            3.693     True
+         UVA NB-IoT N211 RAI (search 10 s)    54.330        53.902     14.105          14.164           14.226              1.009            3.775     True
+       Weija                  LoRaWAN SF12    99.919       106.138     62.447          62.515           62.608              1.002            1.683     True
+       Weija                   LoRaWAN SF7    41.850        32.072     10.572          10.644           10.717              1.009            2.925     True
+       Weija NB-IoT N211 RAI (search 10 s)    86.502        48.610     15.414          15.574           15.706              1.013            3.054     True
+        none                  LoRaWAN SF12    99.919       112.303     60.195          60.197           60.200              1.000            1.865     True
+        none                   LoRaWAN SF7    41.850        34.180      8.965           9.000            9.036              1.008            3.768     True
+        none NB-IoT N211 RAI (search 10 s)    50.902        52.822     13.514          13.569           13.626              1.008            3.861     True
+
+H3 (detected events whose onset fell in an outage; pooled over sites)
+       trace                         radio   strategy  n_events  known_ever  known_24h  latency_median_h
+InWaterSense                  LoRaWAN SF12 arq_buffer      1784       0.993      0.423            33.856
+InWaterSense                  LoRaWAN SF12    batch1h      1784       0.993      0.445            30.685
+InWaterSense                  LoRaWAN SF12     design      1784       0.993      0.457            28.514
+InWaterSense                  LoRaWAN SF12     unconf      1784       0.031      0.031             1.500
+InWaterSense                   LoRaWAN SF7 arq_buffer      1784       0.993      0.470            27.614
+InWaterSense                   LoRaWAN SF7    batch1h      1784       0.993      0.490            24.520
+InWaterSense                   LoRaWAN SF7     design      1784       0.993      0.501            22.715
+InWaterSense                   LoRaWAN SF7     unconf      1784       0.031      0.031             1.500
+InWaterSense NB-IoT N211 RAI (search 10 s) arq_buffer      1784       0.993      0.473            27.500
+InWaterSense NB-IoT N211 RAI (search 10 s)    batch1h      1784       0.993      0.494            24.500
+InWaterSense NB-IoT N211 RAI (search 10 s)     design      1784       0.993      0.505            22.500
+InWaterSense NB-IoT N211 RAI (search 10 s)     unconf      1784       0.031      0.031             1.500
+         UVA                  LoRaWAN SF12 arq_buffer        57       1.000      0.561            19.894
+         UVA                  LoRaWAN SF12    batch1h        57       1.000      0.561            20.394
+         UVA                  LoRaWAN SF12     design        57       1.000      0.561            17.531
+         UVA                  LoRaWAN SF12     unconf        57       0.000      0.000               NaN
+         UVA                   LoRaWAN SF7 arq_buffer        57       1.000      0.614            13.414
+         UVA                   LoRaWAN SF7    batch1h        57       1.000      0.614            13.914
+         UVA                   LoRaWAN SF7     design        57       1.000      0.614            12.031
+         UVA                   LoRaWAN SF7     unconf        57       0.000      0.000               NaN
+         UVA NB-IoT N211 RAI (search 10 s) arq_buffer        57       1.000      0.614            13.250
+         UVA NB-IoT N211 RAI (search 10 s)    batch1h        57       1.000      0.614            13.750
+         UVA NB-IoT N211 RAI (search 10 s)     design        57       1.000      0.614            12.000
+         UVA NB-IoT N211 RAI (search 10 s)     unconf        57       0.000      0.000               NaN
+       Weija                  LoRaWAN SF12 arq_buffer       592       0.995      0.280            66.394
+       Weija                  LoRaWAN SF12    batch1h       592       0.995      0.289            66.712
+       Weija                  LoRaWAN SF12     design       592       0.995      0.289            66.712
+       Weija                  LoRaWAN SF12     unconf       592       0.052      0.052             1.500
+       Weija                   LoRaWAN SF7 arq_buffer       592       0.995      0.341            55.037
+       Weija                   LoRaWAN SF7    batch1h       592       0.995      0.353            55.287
+       Weija                   LoRaWAN SF7     design       592       0.995      0.353            55.287
+       Weija                   LoRaWAN SF7     unconf       592       0.052      0.052             1.500
+       Weija NB-IoT N211 RAI (search 10 s) arq_buffer       592       0.995      0.341            54.750
+       Weija NB-IoT N211 RAI (search 10 s)    batch1h       592       0.995      0.353            55.000
+       Weija NB-IoT N211 RAI (search 10 s)     design       592       0.995      0.353            55.000
+       Weija NB-IoT N211 RAI (search 10 s)     unconf       592       0.052      0.052             1.500
+
+All injected events: share the server knows within X h of onset (pooled)
+       trace                         radio   strategy  known_1h  known_3h  known_24h  known_ever
+InWaterSense                  LoRaWAN SF12 arq_buffer     0.150     0.284      0.412       0.572
+InWaterSense                  LoRaWAN SF12    batch1h     0.097     0.288      0.418       0.572
+InWaterSense                  LoRaWAN SF12     design     0.160     0.321      0.424       0.572
+InWaterSense                  LoRaWAN SF12     unconf     0.118     0.214      0.215       0.215
+InWaterSense                   LoRaWAN SF7 arq_buffer     0.159     0.304      0.427       0.572
+InWaterSense                   LoRaWAN SF7    batch1h     0.109     0.306      0.432       0.572
+InWaterSense                   LoRaWAN SF7     design     0.179     0.337      0.437       0.572
+InWaterSense                   LoRaWAN SF7     unconf     0.118     0.214      0.215       0.215
+InWaterSense NB-IoT N211 RAI (search 10 s) arq_buffer     0.161     0.308      0.428       0.572
+InWaterSense NB-IoT N211 RAI (search 10 s)    batch1h     0.111     0.308      0.433       0.572
+InWaterSense NB-IoT N211 RAI (search 10 s)     design     0.184     0.338      0.438       0.572
+InWaterSense NB-IoT N211 RAI (search 10 s)     unconf     0.118     0.214      0.215       0.215
+         UVA                  LoRaWAN SF12 arq_buffer     0.326     0.564      0.571       0.574
+         UVA                  LoRaWAN SF12    batch1h     0.194     0.548      0.571       0.574
+         UVA                  LoRaWAN SF12     design     0.319     0.564      0.571       0.574
+         UVA                  LoRaWAN SF12     unconf     0.307     0.548      0.549       0.549
+         UVA                   LoRaWAN SF7 arq_buffer     0.327     0.565      0.571       0.574
+         UVA                   LoRaWAN SF7    batch1h     0.203     0.548      0.571       0.574
+         UVA                   LoRaWAN SF7     design     0.327     0.565      0.571       0.574
+         UVA                   LoRaWAN SF7     unconf     0.307     0.548      0.549       0.549
+         UVA NB-IoT N211 RAI (search 10 s) arq_buffer     0.327     0.565      0.571       0.574
+         UVA NB-IoT N211 RAI (search 10 s)    batch1h     0.203     0.548      0.571       0.574
+         UVA NB-IoT N211 RAI (search 10 s)     design     0.328     0.565      0.571       0.574
+         UVA NB-IoT N211 RAI (search 10 s)     unconf     0.307     0.548      0.549       0.549
+       Weija                  LoRaWAN SF12 arq_buffer     0.273     0.481      0.510       0.574
+       Weija                  LoRaWAN SF12    batch1h     0.164     0.466      0.510       0.574
+       Weija                  LoRaWAN SF12     design     0.272     0.489      0.511       0.574
+       Weija                  LoRaWAN SF12     unconf     0.261     0.457      0.457       0.457
+       Weija                   LoRaWAN SF7 arq_buffer     0.279     0.490      0.516       0.574
+       Weija                   LoRaWAN SF7    batch1h     0.174     0.474      0.516       0.574
+       Weija                   LoRaWAN SF7     design     0.281     0.493      0.517       0.574
+       Weija                   LoRaWAN SF7     unconf     0.261     0.457      0.457       0.457
+       Weija NB-IoT N211 RAI (search 10 s) arq_buffer     0.279     0.492      0.516       0.574
+       Weija NB-IoT N211 RAI (search 10 s)    batch1h     0.174     0.475      0.516       0.574
+       Weija NB-IoT N211 RAI (search 10 s)     design     0.282     0.493      0.517       0.574
+       Weija NB-IoT N211 RAI (search 10 s)     unconf     0.261     0.457      0.457       0.457
+        none                  LoRaWAN SF12 arq_buffer     0.333     0.574      0.574       0.574
+        none                  LoRaWAN SF12    batch1h     0.199     0.558      0.574       0.574
+        none                  LoRaWAN SF12     design     0.324     0.574      0.574       0.574
+        none                  LoRaWAN SF12     unconf     0.333     0.574      0.574       0.574
+        none                   LoRaWAN SF7 arq_buffer     0.333     0.574      0.574       0.574
+        none                   LoRaWAN SF7    batch1h     0.207     0.558      0.574       0.574
+        none                   LoRaWAN SF7     design     0.333     0.574      0.574       0.574
+        none                   LoRaWAN SF7     unconf     0.333     0.574      0.574       0.574
+        none NB-IoT N211 RAI (search 10 s) arq_buffer     0.333     0.574      0.574       0.574
+        none NB-IoT N211 RAI (search 10 s)    batch1h     0.207     0.558      0.574       0.574
+        none NB-IoT N211 RAI (search 10 s)     design     0.333     0.574      0.574       0.574
+        none NB-IoT N211 RAI (search 10 s)     unconf     0.333     0.574      0.574       0.574
+
+H4 (share of time the server picture is within L2 tolerance; medians over sites)
+       trace                         radio param  within_unconf  within_arq_buffer  within_batch1h  within_design  design_minus_arq_pp  H4_pass
+InWaterSense                  LoRaWAN SF12    DO          0.770              0.728           0.681          0.682               -5.578    False
+InWaterSense                  LoRaWAN SF12    EC          0.804              0.728           0.710          0.712               -0.973     True
+InWaterSense                  LoRaWAN SF12     T          0.732              0.667           0.649          0.649               -1.802     True
+InWaterSense                  LoRaWAN SF12    pH          0.847              0.806           0.760          0.765               -4.171     True
+InWaterSense                   LoRaWAN SF7    DO          0.770              0.729           0.696          0.698               -4.052     True
+InWaterSense                   LoRaWAN SF7    EC          0.804              0.729           0.715          0.718               -0.549     True
+InWaterSense                   LoRaWAN SF7     T          0.732              0.668           0.654          0.654               -1.249     True
+InWaterSense                   LoRaWAN SF7    pH          0.847              0.807           0.773          0.776               -3.108     True
+InWaterSense NB-IoT N211 RAI (search 10 s)    DO          0.770              0.729           0.698          0.700               -3.848     True
+InWaterSense NB-IoT N211 RAI (search 10 s)    EC          0.804              0.729           0.716          0.719               -0.362     True
+InWaterSense NB-IoT N211 RAI (search 10 s)     T          0.732              0.668           0.657          0.657               -1.015     True
+InWaterSense NB-IoT N211 RAI (search 10 s)    pH          0.847              0.807           0.774          0.778               -2.993     True
+         UVA                  LoRaWAN SF12    DO          0.989              0.993           0.877          0.879              -10.725    False
+         UVA                  LoRaWAN SF12    EC          0.990              0.992           0.967          0.969               -1.979     True
+         UVA                  LoRaWAN SF12     T          0.987              0.985           0.954          0.954               -3.457     True
+         UVA                  LoRaWAN SF12    pH          0.991              0.994           0.906          0.906               -8.989    False
+         UVA                   LoRaWAN SF7    DO          0.989              0.993           0.895          0.896               -8.698    False
+         UVA                   LoRaWAN SF7    EC          0.990              0.992           0.970          0.972               -1.714     True
+         UVA                   LoRaWAN SF7     T          0.987              0.986           0.956          0.957               -3.088     True
+         UVA                   LoRaWAN SF7    pH          0.991              0.994           0.919          0.919               -7.781    False
+         UVA NB-IoT N211 RAI (search 10 s)    DO          0.989              0.993           0.895          0.896               -8.690    False
+         UVA NB-IoT N211 RAI (search 10 s)    EC          0.990              0.992           0.970          0.972               -1.698     True
+         UVA NB-IoT N211 RAI (search 10 s)     T          0.987              0.986           0.956          0.957               -3.065     True
+         UVA NB-IoT N211 RAI (search 10 s)    pH          0.991              0.994           0.919          0.919               -7.763    False
+       Weija                  LoRaWAN SF12    DO          0.913              0.911           0.804          0.805               -9.141    False
+       Weija                  LoRaWAN SF12    EC          0.903              0.898           0.868          0.869               -1.395     True
+       Weija                  LoRaWAN SF12     T          0.892              0.882           0.852          0.852               -2.942     True
+       Weija                  LoRaWAN SF12    pH          0.938              0.934           0.860          0.860               -7.673    False
+       Weija                   LoRaWAN SF7    DO          0.913              0.911           0.822          0.823               -7.357    False
+       Weija                   LoRaWAN SF7    EC          0.903              0.898           0.869          0.870               -1.354     True
+       Weija                   LoRaWAN SF7     T          0.892              0.882           0.856          0.856               -2.687     True
+       Weija                   LoRaWAN SF7    pH          0.938              0.934           0.867          0.868               -6.255    False
+       Weija NB-IoT N211 RAI (search 10 s)    DO          0.913              0.911           0.822          0.823               -7.306    False
+       Weija NB-IoT N211 RAI (search 10 s)    EC          0.903              0.898           0.870          0.870               -1.313     True
+       Weija NB-IoT N211 RAI (search 10 s)     T          0.892              0.882           0.857          0.857               -2.641     True
+       Weija NB-IoT N211 RAI (search 10 s)    pH          0.938              0.934           0.867          0.868               -6.223    False
+        none                  LoRaWAN SF12    DO          1.000              1.000           0.891          0.892              -10.825    False
+        none                  LoRaWAN SF12    EC          1.000              1.000           0.980          0.980               -1.970     True
+        none                  LoRaWAN SF12     T          1.000              1.000           0.965          0.967               -3.330     True
+        none                  LoRaWAN SF12    pH          1.000              1.000           0.909          0.910               -9.009    False
+        none                   LoRaWAN SF7    DO          1.000              1.000           0.911          0.912               -8.785    False
+        none                   LoRaWAN SF7    EC          1.000              1.000           0.983          0.983               -1.740     True
+        none                   LoRaWAN SF7     T          1.000              1.000           0.968          0.969               -3.078     True
+        none                   LoRaWAN SF7    pH          1.000              1.000           0.921          0.921               -7.917    False
+        none NB-IoT N211 RAI (search 10 s)    DO          1.000              1.000           0.911          0.912               -8.785    False
+        none NB-IoT N211 RAI (search 10 s)    EC          1.000              1.000           0.983          0.983               -1.740     True
+        none NB-IoT N211 RAI (search 10 s)     T          1.000              1.000           0.968          0.969               -3.078     True
+        none NB-IoT N211 RAI (search 10 s)    pH          1.000              1.000           0.921          0.921               -7.917    False
+
+VERDICTS
+  H1 pass in 12/12 trace x radio
+  H2 pass in 12/12 trace x radio
+  H4 pass in 29/48 trace x radio x param

@@ -1,0 +1,13 @@
+trace,radio,lat_design_h,lat_design_bounded_h,bounded_minus_design_slots,H7_pass
+InWaterSense,LoRaWAN SF12,1.06849,1.1883599999999999,0.0,True
+InWaterSense,LoRaWAN SF7,1.0,1.0,0.0,True
+InWaterSense,NB-IoT N211 RAI (search 10 s),1.0,1.0,0.0,True
+UVA,LoRaWAN SF12,1.0,1.0,0.0,True
+UVA,LoRaWAN SF7,1.0,1.0,0.0,True
+UVA,NB-IoT N211 RAI (search 10 s),1.0,1.0,0.0,True
+Weija,LoRaWAN SF12,1.0,1.0,0.0,True
+Weija,LoRaWAN SF7,1.0,1.0,0.0,True
+Weija,NB-IoT N211 RAI (search 10 s),1.0,1.0,0.0,True
+none,LoRaWAN SF12,1.0,1.0,0.0,True
+none,LoRaWAN SF7,1.0,1.0,0.0,True
+none,NB-IoT N211 RAI (search 10 s),1.0,1.0,0.0,True

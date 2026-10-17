@@ -1,0 +1,922 @@
+[
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2136982830",
+"title": "Energy adaptation techniques to optimize data delivery in store-and-forward sensor networks",
+"year": 2006,
+"venue": "International Conference on Embedded Networked Sensor Systems",
+"cites": 3,
+"doi": "https://doi.org/10.1145/1182807.1182878",
+"pdf": null
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2264152724",
+"title": "Intermittently connected delay-tolerant wireless sensor networks",
+"year": 2015,
+"venue": "University of New Hampshire Scholars Repository (University of New Hampshire at Manchester)",
+"cites": 0,
+"doi": null,
+"pdf": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=3198&context=dissertation"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2001199719",
+"title": "Sensor networks for medical care",
+"year": 2005,
+"venue": "International Conference on Embedded Networked Sensor Systems",
+"cites": 720,
+"doi": "https://doi.org/10.1145/1098918.1098979",
+"pdf": "https://dash.harvard.edu/bitstreams/7312037d-bdd3-6bd4-e053-0100007fdf3b/download"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W1516625314",
+"title": "Networking issues in wireless sensor networks",
+"year": 2004,
+"venue": "Journal of Parallel and Distributed Computing",
+"cites": 220,
+"doi": "https://doi.org/10.1016/j.jpdc.2004.03.016",
+"pdf": "https://escholarship.org/content/qt4c0876vh/qt4c0876vh.pdf?t=krnhsk"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W7211879551",
+"title": "A comprehensive survey on connectivity for IoT sensor networks",
+"year": 2026,
+"venue": "Peer-to-Peer Networking and Applications",
+"cites": 0,
+"doi": "https://doi.org/10.1007/s12083-026-02296-6",
+"pdf": "https://link.springer.com/content/pdf/10.1007/s12083-026-02296-6.pdf"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W3014813443",
+"title": "Applications of Intermittently Connected Delay Tolerant Wireless Sensor Networks (ICDT-WSNs) \u2013 A Survey",
+"year": 2019,
+"venue": "DergiPark (Istanbul University)",
+"cites": 0,
+"doi": null,
+"pdf": "https://dergipark.org.tr/tr/pub/ij3dptdi/issue/51591/661114"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2096941736",
+"title": "Time synchronization for wireless sensor networks",
+"year": 2005,
+"venue": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
+"cites": 591,
+"doi": "https://doi.org/10.1109/ipdps.2001.925191",
+"pdf": "https://escholarship.org/content/qt2tp2w3g0/qt2tp2w3g0.pdf"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2255872198",
+"title": "A predictive retransmission scheme for cooperative routing in intermittently connected sensor networks",
+"year": 2016,
+"venue": "International Conference on Distributed Computing and Networking (ICDCN)",
+"cites": 1,
+"doi": "https://doi.org/10.1145/2833312.2833456",
+"pdf": "http://dl.acm.org/ft_gateway.cfm?id=2833456&type=pdf"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W7219435677",
+"title": "Wireless Sensor Network-Based Environmental Monitoring for Remote Applications",
+"year": 2019,
+"venue": "International Journal on Advanced Electrical and Computer Engineering",
+"cites": 0,
+"doi": null,
+"pdf": "https://journals.mriindia.com/index.php/ijaece/article/download/4461/4228"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W7172469555",
+"title": "Experimental Validation of a Distributed 5G Core with Store-and-Forward for IoT Sensing over LEO Non-Terrestrial Networks",
+"year": 2026,
+"venue": "Sensors",
+"cites": 0,
+"doi": "https://doi.org/10.3390/s26154919",
+"pdf": "https://www.mdpi.com/1424-8220/26/15/4919/pdf?version=1785833250"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2988688630",
+"title": "A Survey on Wireless Sensor Networks Powered by Environmental Energy",
+"year": 2008,
+"venue": "Universitas Kristen Satya Wacana Institutional Repository (Universitas Kristen Satya Wacana)",
+"cites": 0,
+"doi": null,
+"pdf": "http://repository.uksw.edu/handle/123456789/3040"
+},
+{
+"q": "store and forward environmental sensor network intermittent connectivity",
+"id": "https://openalex.org/W2099904053",
+"title": "Application based Study on Wireless Sensor Network",
+"year": 2011,
+"venue": "International Journal of Computer Applications",
+"cites": 88,
+"doi": "https://doi.org/10.5120/2534-3459",
+"pdf": null
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2006972475",
+"title": "SoNET: A delay-tolerant geo-sensor network for environmental monitoring",
+"year": 2012,
+"venue": "IEEE International NEWCAS Conference (NEWCAS)",
+"cites": 3,
+"doi": "https://doi.org/10.1109/newcas.2012.6328995",
+"pdf": null
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2893355940",
+"title": "Deployment of Air Quality Monitoring Sensors over a Delay Tolerant Mobile Ad-Hoc Network in Public Transportation Systems",
+"year": 2018,
+"venue": "International Conference on Transparent Optical Networks",
+"cites": 4,
+"doi": "https://doi.org/10.1109/icton.2018.8473605",
+"pdf": null
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W1550684120",
+"title": "Rapid Deployment with Confidence: Calibration and Fault Detection in Environmental Sensor Networks",
+"year": 2006,
+"venue": "eScholarship (California Digital Library)",
+"cites": 115,
+"doi": null,
+"pdf": "https://escholarship.org/uc/item/8v26b5qh"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2979849652",
+"title": "Fault\u2010tolerant mechanism for wireless sensor network",
+"year": 2019,
+"venue": "IET Wireless Sensor Systems",
+"cites": 62,
+"doi": "https://doi.org/10.1049/iet-wss.2019.0106",
+"pdf": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/iet-wss.2019.0106"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W1863148556",
+"title": "Data Gathering in Delay Tolerant Wireless Sensor Networks Using a Ferry",
+"year": 2015,
+"venue": "Sensors",
+"cites": 39,
+"doi": "https://doi.org/10.3390/s151025809",
+"pdf": "https://www.mdpi.com/1424-8220/15/10/25809/pdf?version=1444726420"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W1984380191",
+"title": "Wireless Sensor Network System Design Using Raspberry Pi and Arduino for Environmental Monitoring Applications",
+"year": 2014,
+"venue": "Procedia Computer Science",
+"cites": 454,
+"doi": "https://doi.org/10.1016/j.procs.2014.07.059",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S1877050914009144/pdf"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2050349806",
+"title": "Image-Based Environmental Monitoring Sensor Application Using an Embedded Wireless Sensor Network",
+"year": 2014,
+"venue": "Sensors",
+"cites": 60,
+"doi": "https://doi.org/10.3390/s140915981",
+"pdf": "https://www.mdpi.com/1424-8220/14/9/15981/pdf?version=1409659906"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2099530916",
+"title": "Sensor Network with Delay Tolerance (SeNDT)",
+"year": 2007,
+"venue": "Proceedings/Proceedings - International Conference on Computer Communications and Networks",
+"cites": 40,
+"doi": "https://doi.org/10.1109/icccn.2007.4318006",
+"pdf": "https://www.tara.tcd.ie/bitstream/2262/49131/1/Leaky%20or%20Guessable%20Session%20Identifiers.pdf"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2264152724",
+"title": "Intermittently connected delay-tolerant wireless sensor networks",
+"year": 2015,
+"venue": "University of New Hampshire Scholars Repository (University of New Hampshire at Manchester)",
+"cites": 0,
+"doi": null,
+"pdf": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=3198&context=dissertation"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2787619533",
+"title": "UD-MAC: Delay tolerant multiple access control protocol for unmanned aerial vehicle networks",
+"year": 2017,
+"venue": "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",
+"cites": 21,
+"doi": "https://doi.org/10.1109/pimrc.2017.8292602",
+"pdf": null
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2119988986",
+"title": "An environmental energy harvesting framework for sensor networks",
+"year": 2003,
+"venue": "International Symposium on Low Power Electronics and Design (ISLPED)",
+"cites": 277,
+"doi": "https://doi.org/10.1145/871506.871624",
+"pdf": "https://escholarship.org/content/qt0s17w7fc/qt0s17w7fc.pdf?t=krni7n"
+},
+{
+"q": "delay tolerant networking environmental monitoring sensor deployment",
+"id": "https://openalex.org/W2913936920",
+"title": "Reliable Energy-Aware Routing Protocol in Delay-Tolerant Mobile Sensor Networks",
+"year": 2019,
+"venue": "Wireless Communications and Mobile Computing",
+"cites": 17,
+"doi": "https://doi.org/10.1155/2019/5746374",
+"pdf": "https://downloads.hindawi.com/journals/wcmc/2019/5746374.pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W3034152532",
+"title": "Smart Farming For Emerging Economies A LoRaWAN Based Approach",
+"year": 2019,
+"venue": "NORA - Norwegian Open Research Archives",
+"cites": 1,
+"doi": null,
+"pdf": "http://hdl.handle.net/10852/73210"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W7220666925",
+"title": "A Physics-Informed, Energy-Autonomous LoRaWAN Framework for the Early Warning of Landslides",
+"year": 2026,
+"venue": "Emerging Science Journal",
+"cites": 0,
+"doi": "https://doi.org/10.28991/esj-2026-010-05-011",
+"pdf": "https://ijournalse.org/index.php/ESJ/article/download/3836/1115"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W4205122626",
+"title": "Cooperated Traffic Shaping With Traffic Estimation and Path Reallocation to Mitigate Microbursts in IoT Backhaul Network",
+"year": 2021,
+"venue": "IEEE Access",
+"cites": 5,
+"doi": "https://doi.org/10.1109/access.2021.3132349",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09634013.pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W7172469555",
+"title": "Experimental Validation of a Distributed 5G Core with Store-and-Forward for IoT Sensing over LEO Non-Terrestrial Networks",
+"year": 2026,
+"venue": "Sensors",
+"cites": 0,
+"doi": "https://doi.org/10.3390/s26154919",
+"pdf": "https://www.mdpi.com/1424-8220/26/15/4919/pdf?version=1785833250"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W4410014298",
+"title": "From mountains to data: low-cost weather stations in Kyrgyzstan\u2019s challenging terrain",
+"year": 2025,
+"venue": "Frontiers in Communications and Networks",
+"cites": 3,
+"doi": "https://doi.org/10.3389/frcmn.2025.1505375",
+"pdf": "https://www.frontiersin.org/journals/communications-and-networks/articles/10.3389/frcmn.2025.1505375/pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W4289912970",
+"title": "An Energy-Efficient Internet of Things Relaying System for Delay-Constrained Applications",
+"year": 2022,
+"venue": "IEEE Access",
+"cites": 6,
+"doi": "https://doi.org/10.1109/access.2022.3196836",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09850993.pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W4413406584",
+"title": "Real-time Data Analytics for Smart Cities",
+"year": 2024,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.62311/nesx/rb978-81-978755-8-8",
+"pdf": "https://www.nationaleducationservices.org/file-download/1470901/Download Full-Text Research Book  PDF Pp 1-41.pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W7172211555",
+"title": "Smart cattle monitoring with UAV edge processing and resilient multi-channel alert delivery",
+"year": 2026,
+"venue": "Smart Agricultural Technology",
+"cites": 0,
+"doi": "https://doi.org/10.1016/j.atech.2026.102437",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S2772375526006623/pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W4238974364",
+"title": "ANTS 2020 Program",
+"year": 2020,
+"venue": "IEEE International Conference on Advanced Networks and Telecommunications Systems",
+"cites": 0,
+"doi": "https://doi.org/10.1109/ants50601.2020.9342833",
+"pdf": "https://ieeexplore.ieee.org/ielx7/9342621/9342746/09342833.pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W7161461260",
+"title": "Design and development of a LoRa-based Ground Sensor Terminal for L-band satellite IoT applications",
+"year": 2026,
+"venue": "UiTM Institutional Repositories (Universiti Teknologi MARA)",
+"cites": 0,
+"doi": null,
+"pdf": "https://ir.uitm.edu.my/id/eprint/135969/1/135969_fulltext.pdf"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W7215981779",
+"title": "Smart Birdhouse: A Case Study of IoT Technologies for Environmental Monitoring",
+"year": 2026,
+"venue": "IntechOpen eBooks",
+"cites": 0,
+"doi": "https://doi.org/10.5772/intechopen.1018050",
+"pdf": "https://www.intechopen.com/citation-pdf-url/1239801"
+},
+{
+"q": "LoRaWAN store and forward buffering data loss backhaul outage",
+"id": "https://openalex.org/W7202129002",
+"title": "Wireless Sensor Network-Based Border Security Using A Three-Tiered Hierarchical Surveillance Strategy: Architecture, Security And Deployment Considerations",
+"year": 2026,
+"venue": "Journal of Science Research and Reviews",
+"cites": 0,
+"doi": "https://doi.org/10.70882/josrar.2026.v3i4.272",
+"pdf": "https://josrar.esrgngr.org/index.php/josrar/article/download/272/160"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W2981769622",
+"title": "On the Latency-Energy Performance of NB-IoT Systems in Providing Wide-Area IoT Connectivity",
+"year": 2019,
+"venue": "IEEE Transactions on Green Communications and Networking",
+"cites": 57,
+"doi": "https://doi.org/10.1109/tgcn.2019.2948591",
+"pdf": "https://vbn.aau.dk/ws/files/338223299/nb_iot_ITGCN.pdf"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W2884935910",
+"title": "Latency-Energy Tradeoff Based on Channel Scheduling and Repetitions in NB-IoT Systems",
+"year": 2018,
+"venue": "Globecom",
+"cites": 31,
+"doi": "https://doi.org/10.1109/glocom.2018.8648024",
+"pdf": "https://arxiv.org/pdf/1807.05602"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W3115468940",
+"title": "Modeling and Analysis of Data Trading on Blockchain-Based Market in IoT Networks",
+"year": 2021,
+"venue": "IEEE Internet of Things Journal",
+"cites": 89,
+"doi": "https://doi.org/10.1109/jiot.2021.3051923",
+"pdf": null
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W7169794178",
+"title": "Lossless Compression for the Model Context Protocol: Energy Consumption, Latency, and Bandwidth Trade-Offs",
+"year": 2026,
+"venue": "Sensors",
+"cites": 0,
+"doi": "https://doi.org/10.3390/s26144582",
+"pdf": "https://www.mdpi.com/1424-8220/26/14/4582/pdf?version=1784528728"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W2969352134",
+"title": "Research on Data Sparse-Collection and Transmission System for WSN Based on NB-IoT and FPGA",
+"year": 2019,
+"venue": "IJARCCE",
+"cites": 0,
+"doi": "https://doi.org/10.17148/ijarcce.2019.8701",
+"pdf": "https://doi.org/10.17148/ijarcce.2019.8701"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W4408337428",
+"title": "Intelligent Resource Allocation for NB-IoT Networks Using TD3 Reinforcement Learning",
+"year": 2025,
+"venue": "International Journal for Research in Applied Science and Engineering Technology",
+"cites": 0,
+"doi": "https://doi.org/10.22214/ijraset.2025.67300",
+"pdf": "https://doi.org/10.22214/ijraset.2025.67300"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W4307540151",
+"title": "A Survey of Data Aggregation Protocols for Energy Conservation in WSN and IoT",
+"year": 2022,
+"venue": "Wireless Communications and Mobile Computing",
+"cites": 15,
+"doi": "https://doi.org/10.1155/2022/8765335",
+"pdf": "https://downloads.hindawi.com/journals/wcmc/2022/8765335.pdf"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W4200632016",
+"title": "A Marketplace for Trading AI Models based on Blockchain and Incentives for IoT Data",
+"year": 2021,
+"venue": "arXiv (Cornell University)",
+"cites": 16,
+"doi": "https://doi.org/10.48550/arxiv.2112.02870",
+"pdf": "https://arxiv.org/pdf/2112.02870"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W4404627945",
+"title": "Random Access Control in NB-IoT With Model-Based Reinforcement Learning",
+"year": 2024,
+"venue": "IEEE Internet of Things Journal",
+"cites": 3,
+"doi": "https://doi.org/10.1109/jiot.2024.3499854",
+"pdf": "https://repositorio.upct.es/bitstreams/d828433c-2f92-433c-8e02-67629efc0ca4/download"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W3129036131",
+"title": "Traffic Reduction Technologies and Data Aggregation Control to Minimize Latency in IoT Systems",
+"year": 2021,
+"venue": "IEICE Transactions on Communications",
+"cites": 3,
+"doi": "https://doi.org/10.1587/transcom.2020cqi0002",
+"pdf": "https://www.jstage.jst.go.jp/article/transcom/E104.B/7/E104.B_2020CQI0002/_pdf"
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W4409232975",
+"title": "Range-Free Positioning in NB-IoT Networks by Machine Learning: Beyond W$k$NN",
+"year": 2025,
+"venue": "IEEE Journal of Indoor and Seamless Positioning and Navigation",
+"cites": 4,
+"doi": "https://doi.org/10.1109/jispin.2025.3558465",
+"pdf": null
+},
+{
+"q": "NB-IoT data batching energy latency trade-off",
+"id": "https://openalex.org/W4413149073",
+"title": "Design and Research of NB-IoT Lightweight End-to-End Encryption Protocol Based on Lattice Cipher",
+"year": 2025,
+"venue": "Journal of Cyber Security and Mobility",
+"cites": 2,
+"doi": "https://doi.org/10.13052/jcsm2245-1439.1439",
+"pdf": "https://journals.riverpublishers.com/index.php/JCSANDM/article/download/29201/22255"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2423048736",
+"title": "Energy management in Wireless Sensor Networks: A survey",
+"year": 2014,
+"venue": "Computers & Electrical Engineering",
+"cites": 243,
+"doi": "https://doi.org/10.1016/j.compeleceng.2014.06.009",
+"pdf": "https://hal.science/hal-01283728/document"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2154348116",
+"title": "Design and Deployment of a Remote Robust Sensor Network: Experiences from an Outdoor Water Quality Monitoring Network",
+"year": 2007,
+"venue": "Conference on Local Computer Networks",
+"cites": 83,
+"doi": "https://doi.org/10.1109/lcn.2007.39",
+"pdf": "https://eprints.qut.edu.au/33774/1/33774.pdf"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W1971740159",
+"title": "Wireless sensor networks: design for real-life deployment and deployment experiences",
+"year": 2010,
+"venue": "Measurement Science and Technology",
+"cites": 0,
+"doi": "https://doi.org/10.1088/0957-0233/21/12/120101",
+"pdf": "https://iopscience.iop.org/article/10.1088/0957-0233/21/12/120101/pdf"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W30249487",
+"title": "Dynamic deployment of applications in wireless sensor networks",
+"year": 2013,
+"venue": "VEprints - Universita degli Studi di Cagliari",
+"cites": 0,
+"doi": null,
+"pdf": "http://hdl.handle.net/11584/266095"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2520606618",
+"title": "A Movement-Assisted Deployment of Collaborating Autonomous Sensors for Indoor and Outdoor Environment Monitoring",
+"year": 2016,
+"venue": "Sensors",
+"cites": 8,
+"doi": "https://doi.org/10.3390/s16091497",
+"pdf": "https://www.mdpi.com/1424-8220/16/9/1497/pdf?version=1473846606"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2592552854",
+"title": "Energy-efficiency in wireless sensor networks",
+"year": 2015,
+"venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+"cites": 18,
+"doi": null,
+"pdf": "https://theses.hal.science/tel-01470489/document"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W3128162302",
+"title": "Building Energy Performance Assessment Using an Easily Deployable Sensor Kit: Process, Risks, and Lessons Learned",
+"year": 2021,
+"venue": "Frontiers in Built Environment",
+"cites": 14,
+"doi": "https://doi.org/10.3389/fbuil.2020.609877",
+"pdf": "https://www.frontiersin.org/articles/10.3389/fbuil.2020.609877/pdf"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W4225669774",
+"title": "Value of Information in Wireless Sensor Network Applications and the IoT: A Review",
+"year": 2022,
+"venue": "IEEE Sensors Journal",
+"cites": 77,
+"doi": "https://doi.org/10.1109/jsen.2022.3165946",
+"pdf": "https://ieeexplore.ieee.org/ielx7/7361/9774386/09751706.pdf"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W3193184417",
+"title": "Experiences Building and Deploying Wireless Sensor Nodes for the Arctic Tundra",
+"year": 2021,
+"venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
+"cites": 15,
+"doi": "https://doi.org/10.1109/ccgrid51090.2021.00047",
+"pdf": "https://munin.uit.no/bitstream/10037/22742/2/article.pdf"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2951426541",
+"title": "Miniaturised modular wireless sensor networks",
+"year": 2002,
+"venue": "Arrow@dit (Dublin Institute of Technology)",
+"cites": 6,
+"doi": null,
+"pdf": "http://hdl.handle.net/10468/7984"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2626524647",
+"title": "Evaluation of communication in wireless underground sensor networks",
+"year": 2017,
+"venue": "IOP Conference Series Earth and Environmental Science",
+"cites": 10,
+"doi": "https://doi.org/10.1088/1755-1315/69/1/012083",
+"pdf": "https://iopscience.iop.org/article/10.1088/1755-1315/69/1/012083/pdf"
+},
+{
+"q": "lessons learned outdoor wireless sensor network deployment failures",
+"id": "https://openalex.org/W2185921854",
+"title": "Track Persistence in Wireless Sensor Networks",
+"year": 2010,
+"venue": "QSpace (Queen's University Library)",
+"cites": 0,
+"doi": null,
+"pdf": null
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W2083868427",
+"title": "SensorScope",
+"year": 2010,
+"venue": "ACM Transactions on Sensor Networks",
+"cites": 289,
+"doi": "https://doi.org/10.1145/1689239.1689247",
+"pdf": null
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W2054056928",
+"title": "Towards Long-Term Multi-Hop WSN Deployments for Environmental Monitoring: An Experimental Network Evaluation",
+"year": 2014,
+"venue": "Journal of Sensor and Actuator Networks",
+"cites": 28,
+"doi": "https://doi.org/10.3390/jsan3040297",
+"pdf": "https://www.mdpi.com/2224-2708/3/4/297/pdf?version=1417790747"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W2583813690",
+"title": "Real-Time Performance of a Self-Powered Environmental IoT Sensor Network System",
+"year": 2017,
+"venue": "Sensors",
+"cites": 137,
+"doi": "https://doi.org/10.3390/s17020282",
+"pdf": "https://www.mdpi.com/1424-8220/17/2/282/pdf?version=1486727381"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W4410228122",
+"title": "Experiences with Sub-Arctic Sensor Network Deployment",
+"year": 2025,
+"venue": "IEEE Wireless Communications and Networking Conference",
+"cites": 1,
+"doi": "https://doi.org/10.1109/wcnc61545.2025.10978303",
+"pdf": "https://arxiv.org/pdf/2405.02986"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W2440052379",
+"title": "Wireless Real-Time Monitoring System for the Implementation of Intelligent Control in Subways",
+"year": 2016,
+"venue": "InTech eBooks",
+"cites": 1,
+"doi": "https://doi.org/10.5772/62679",
+"pdf": "https://www.intechopen.com/citation-pdf-url/50267"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W30249487",
+"title": "Dynamic deployment of applications in wireless sensor networks",
+"year": 2013,
+"venue": "VEprints - Universita degli Studi di Cagliari",
+"cites": 0,
+"doi": null,
+"pdf": "http://hdl.handle.net/11584/266095"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W4286698137",
+"title": "SnowLab \u2013 Deployment of Ground-Based Scatterometers and Geophysical Measurements",
+"year": 2022,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.5270/esa-c1af670",
+"pdf": "https://earth.esa.int/eogateway/documents/20142/37627/SnowLab-campaign-final-report.pdf"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W3017366864",
+"title": "Low-Cost Sensors for Urban Noise Monitoring Networks\u2014A Literature Review",
+"year": 2020,
+"venue": "Sensors",
+"cites": 70,
+"doi": "https://doi.org/10.3390/s20082256",
+"pdf": "https://www.mdpi.com/1424-8220/20/8/2256/pdf?version=1587908807"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W2783786270",
+"title": "Smart container monitoring using custom-made WSN technology: from business case to prototype",
+"year": 2018,
+"venue": "EURASIP Journal on Wireless Communications and Networking",
+"cites": 10,
+"doi": "https://doi.org/10.1186/s13638-018-1024-6",
+"pdf": "https://jwcn-eurasipjournals.springeropen.com/track/pdf/10.1186/s13638-018-1024-6"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W4417049983",
+"title": "Machine Learning for Sensor Analytics: A Comprehensive Review and Benchmark of Boosting Algorithms in Healthcare, Environmental, and Energy Applications",
+"year": 2025,
+"venue": "Sensors",
+"cites": 19,
+"doi": "https://doi.org/10.3390/s25237294",
+"pdf": "https://www.mdpi.com/1424-8220/25/23/7294/pdf?version=1764915398"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W2241330857",
+"title": "A SENSOR NETWORK SYSTEM FOR MONITORING SHORT-TERM CONSTRUCTION WORK ZONES",
+"year": 2008,
+"venue": "EngagedScholarship @ Cleveland State University (Cleveland State University)",
+"cites": 1,
+"doi": null,
+"pdf": "https://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1730&context=etdarchive"
+},
+{
+"q": "SensorScope environmental monitoring deployment lessons",
+"id": "https://openalex.org/W1987875319",
+"title": "An Experimental Study of WSN Power Efficiency: MICAz Networks with XMesh",
+"year": 2012,
+"venue": "International Journal of Distributed Sensor Networks",
+"cites": 20,
+"doi": "https://doi.org/10.1155/2012/358238",
+"pdf": "https://journals.sagepub.com/doi/pdf/10.1155/2012/358238"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2147117072",
+"title": "Murphy Loves Potatoes: Experiences from a Pilot Sensor Network Deployment in Precision Agriculture",
+"year": 2006,
+"venue": null,
+"cites": 364,
+"doi": null,
+"pdf": null
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W3143762821",
+"title": "Murphy loves potatoes: experiences from a pilot sensor network deployment in precision agriculture",
+"year": 2006,
+"venue": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
+"cites": 261,
+"doi": "https://doi.org/10.1109/ipdps.2006.1639412",
+"pdf": null
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2042881747",
+"title": "A Deployment of Fine-Grained Sensor Network and Empirical Analysis of Urban Temperature",
+"year": 2010,
+"venue": "Sensors",
+"cites": 27,
+"doi": "https://doi.org/10.3390/s100302217",
+"pdf": "https://www.mdpi.com/1424-8220/10/3/2217/pdf?version=1403312256"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2154348116",
+"title": "Design and Deployment of a Remote Robust Sensor Network: Experiences from an Outdoor Water Quality Monitoring Network",
+"year": 2007,
+"venue": "Conference on Local Computer Networks",
+"cites": 83,
+"doi": "https://doi.org/10.1109/lcn.2007.39",
+"pdf": "https://eprints.qut.edu.au/33774/1/33774.pdf"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2889339054",
+"title": "SPHERE Deployment Manager: A Tool for Deploying IoT Sensor Networks at Large Scale",
+"year": 2018,
+"venue": "Lecture notes in computer science",
+"cites": 3,
+"doi": "https://doi.org/10.1007/978-3-030-00247-3_27",
+"pdf": null
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2296747697",
+"title": "Deployment of wireless sensor and actuator networks for precision agriculture",
+"year": 2013,
+"venue": "cIRcle (University of British Columbia)",
+"cites": 4,
+"doi": "https://doi.org/10.14288/1.0074265",
+"pdf": "http://hdl.handle.net/2429/45041"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2907807577",
+"title": "Real-World Deployments of Sensor Networks: Practical Lessons for Researchers",
+"year": 2018,
+"venue": "Lecture notes in computer science",
+"cites": 1,
+"doi": "https://doi.org/10.1007/978-3-030-02931-9_4",
+"pdf": "https://inria.hal.science/hal-02269742/document"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W1558417026",
+"title": "SNIF: Sensor network inspection framework",
+"year": 2011,
+"venue": "Repository for Publications and Research Data (ETH Zurich)",
+"cites": 30,
+"doi": "https://doi.org/10.3929/ethz-a-006782488",
+"pdf": "http://hdl.handle.net/20.500.11850/69210"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2002271762",
+"title": "Wireless Sensor Network Operating System Design Rules Based on Real-World Deployment Survey",
+"year": 2013,
+"venue": "Journal of Sensor and Actuator Networks",
+"cites": 47,
+"doi": "https://doi.org/10.3390/jsan2030509",
+"pdf": "https://www.mdpi.com/2224-2708/2/3/509/pdf"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2072908111",
+"title": "Failure detection in wireless sensor networks",
+"year": 2014,
+"venue": "ACM Transactions on Sensor Networks",
+"cites": 50,
+"doi": "https://doi.org/10.1145/2530526",
+"pdf": "http://hdl.handle.net/10197/7030"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W2346720329",
+"title": "Spatial anomaly detection in sensor networks using neighborhood information",
+"year": 2016,
+"venue": "Information Fusion",
+"cites": 140,
+"doi": "https://doi.org/10.1016/j.inffus.2016.04.007",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S1566253516300252/pdf"
+},
+{
+"q": "Murphy loves potatoes sensor network deployment",
+"id": "https://openalex.org/W1574057658",
+"title": "Dependable network protocols in wireless sensor networks",
+"year": 2013,
+"venue": "UPT. Syiah Kuala University Library (Syiah Kuala University)",
+"cites": 2,
+"doi": null,
+"pdf": "http://etheses.whiterose.ac.uk/4903/1/thesisfinal.pdf"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W7154663176",
+"title": "Real-Time IoT Framework for Data Continuity of Digital Shadows",
+"year": 2026,
+"venue": "AMS Degree Thesis (University of Bologna)",
+"cites": 0,
+"doi": null,
+"pdf": "https://amslaurea.unibo.it/id/eprint/38705/1/Tesi_Magistrale_Spadari_Stefano.pdf"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W4414267475",
+"title": "Bridging IoT and Healthcare: Secure, Real-Time Data Exchange with Aerospike and Salesforce Marketing Cloud",
+"year": 2025,
+"venue": "International Journal of Computational and Experimental Science and Engineering",
+"cites": 0,
+"doi": "https://doi.org/10.22399/ijcesen.3853",
+"pdf": "https://www.ijcesen.com/index.php/ijcesen/article/download/3853/1161"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W4410468338",
+"title": "Benchmarking cross\u2011platform AI: Web Assembly, ONNX Runtime and TVM for Real\u2011Time Web, Mobile, and IoT Deployment",
+"year": 2025,
+"venue": "World Journal of Advanced Research and Reviews",
+"cites": 2,
+"doi": "https://doi.org/10.30574/wjarr.2025.26.2.1832",
+"pdf": "https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-1832.pdf"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W7204002823",
+"title": "Engineering the Intelligent Enterprise: The Complete Guide to Data and AI Platform Engineering",
+"year": 2026,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.70593/978-81-69589-46-8",
+"pdf": "https://deepscienceresearch.com/dsr/catalog/download/797/3474/6044"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W4410139334",
+"title": "Operationalizing AI in game development: MLOps infrastructure patterns and frontline insights",
+"year": 2025,
+"venue": "International Journal of Science and Research Archive",
+"cites": 0,
+"doi": "https://doi.org/10.30574/ijsra.2025.15.2.1288",
+"pdf": "https://journalijsra.com/sites/default/files/fulltext_pdf/IJSRA-2025-1288.pdf"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W7214633492",
+"title": "Transforming Occupational Health and Safety under Saudi Vision 2030: A Strategic Framework for Predictive, Digital and Resilient Workplaces",
+"year": 2026,
+"venue": "Iconic Research and Engineering Journals",
+"cites": 0,
+"doi": "https://doi.org/10.64388/irev9i8-1723472",
+"pdf": "https://www.irejournals.com/formatedpaper/1723472.pdf"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W7116822529",
+"title": "A Scalable Data Pipeline to Assess the Physiological Effects of Audio-Based Interventions",
+"year": 2025,
+"venue": "Theseus (Ammattikorkeakoulujen)",
+"cites": 0,
+"doi": null,
+"pdf": "http://www.theseus.fi/bitstream/10024/908291/2/salami_muh-bashir.pdf"
+},
+{
+"q": "IoT telemetry completeness gaps backfill gateway outage",
+"id": "https://openalex.org/W2800248399",
+"title": "HEPiX Fall 2017 Workshop at KEK, Tsukuba, Japan - Trip Report",
+"year": 2017,
+"venue": "CERN Document Server (European Organization for Nuclear Research)",
+"cites": 0,
+"doi": "https://doi.org/10.17181/cern.kgnr.yh1w",
+"pdf": "https://repository.cern/records/e82a6-c3f72/files/hepixfall2017-tripreport.pdf"
+}
+]

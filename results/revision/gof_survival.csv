@@ -1,0 +1,2181 @@
+record,model,k,hours,S_fit
+InWaterSense,geom,1,0.169722,1
+InWaterSense,geom,2,0.339444,0.900246
+InWaterSense,geom,3,0.509167,0.810444
+InWaterSense,geom,4,0.678889,0.729599
+InWaterSense,geom,5,0.848611,0.656819
+InWaterSense,geom,6,1.01833,0.591299
+InWaterSense,geom,7,1.18806,0.532315
+InWaterSense,geom,8,1.35778,0.479214
+InWaterSense,geom,9,1.5275,0.431411
+InWaterSense,geom,10,1.69722,0.388376
+InWaterSense,geom,11,1.86694,0.349634
+InWaterSense,geom,12,2.03667,0.314757
+InWaterSense,geom,13,2.20639,0.283359
+InWaterSense,geom,14,2.37611,0.255093
+InWaterSense,geom,15,2.54583,0.229647
+InWaterSense,geom,16,2.71556,0.206738
+InWaterSense,geom,17,2.88528,0.186116
+InWaterSense,geom,18,3.055,0.16755
+InWaterSense,geom,19,3.22472,0.150836
+InWaterSense,geom,20,3.39444,0.13579
+InWaterSense,geom,21,3.56417,0.122244
+InWaterSense,geom,22,3.73389,0.11005
+InWaterSense,geom,23,3.90361,0.0990721
+InWaterSense,geom,24,4.07333,0.0891893
+InWaterSense,geom,25,4.24306,0.0802923
+InWaterSense,geom,26,4.41278,0.0722829
+InWaterSense,geom,27,4.5825,0.0650724
+InWaterSense,geom,28,4.75222,0.0585812
+InWaterSense,geom,29,4.92194,0.0527375
+InWaterSense,geom,30,5.09167,0.0474768
+InWaterSense,geom,31,5.26139,0.0427408
+InWaterSense,geom,32,5.43111,0.0384773
+InWaterSense,geom,33,5.60083,0.034639
+InWaterSense,geom,34,5.77056,0.0311836
+InWaterSense,geom,35,5.94028,0.028073
+InWaterSense,geom,36,6.11,0.0252726
+InWaterSense,geom,37,6.27972,0.0227516
+InWaterSense,geom,38,6.44944,0.020482
+InWaterSense,geom,39,6.61917,0.0184389
+InWaterSense,geom,40,6.78889,0.0165995
+InWaterSense,geom,41,6.95861,0.0149437
+InWaterSense,geom,42,7.12833,0.013453
+InWaterSense,geom,43,7.29806,0.012111
+InWaterSense,geom,44,7.46778,0.0109029
+InWaterSense,geom,45,7.6375,0.00981528
+InWaterSense,geom,46,7.80722,0.00883617
+InWaterSense,geom,47,7.97694,0.00795473
+InWaterSense,geom,48,8.14667,0.00716122
+InWaterSense,geom,49,8.31639,0.00644686
+InWaterSense,geom,50,8.48611,0.00580376
+InWaterSense,geom,53,8.99528,0.00423442
+InWaterSense,geom,56,9.50444,0.00308943
+InWaterSense,geom,60,10.1833,0.0020292
+InWaterSense,geom,63,10.6925,0.0014805
+InWaterSense,geom,67,11.3714,0.00097242
+InWaterSense,geom,72,12.22,0.000574991
+InWaterSense,geom,76,12.8989,0.000377665
+InWaterSense,geom,81,13.7475,0.000223313
+InWaterSense,geom,86,14.5961,0.000132045
+InWaterSense,geom,92,15.6144,7.02893e-05
+InWaterSense,geom,98,16.6328,3.7416e-05
+InWaterSense,geom,104,17.6511,1.99171e-05
+InWaterSense,geom,111,18.8392,9.54457e-06
+InWaterSense,geom,118,20.0272,4.5739e-06
+InWaterSense,geom,125,21.2153,2.19188e-06
+InWaterSense,geom,133,22.5731,9.456e-07
+InWaterSense,geom,142,24.1006,3.67249e-07
+InWaterSense,geom,151,25.6281,1.42631e-07
+InWaterSense,geom,160,27.1556,5.53944e-08
+InWaterSense,geom,170,28.8528,1.93678e-08
+InWaterSense,geom,181,30.7197,6.09615e-09
+InWaterSense,geom,193,32.7564,1.7274e-09
+InWaterSense,geom,205,34.7931,4.89474e-10
+InWaterSense,geom,218,36.9994,1.24861e-10
+InWaterSense,geom,232,39.3756,2.86735e-11
+InWaterSense,geom,247,41.9214,5.92748e-12
+InWaterSense,geom,262,44.4672,1.22524e-12
+InWaterSense,geom,279,47.3525,2.05058e-13
+InWaterSense,geom,297,50.4075,3.07532e-14
+InWaterSense,geom,316,53.6322,3.9968e-15
+InWaterSense,geom,336,57.0267,2.22045e-16
+InWaterSense,geom,357,60.5908,2.22045e-16
+InWaterSense,geom,380,64.4944,2.22045e-16
+InWaterSense,geom,404,68.5678,2.22045e-16
+InWaterSense,geom,429,72.8108,2.22045e-16
+InWaterSense,geom,457,77.5631,2.22045e-16
+InWaterSense,geom,486,82.485,2.22045e-16
+InWaterSense,geom,516,87.5767,2.22045e-16
+InWaterSense,geom,549,93.1775,2.22045e-16
+InWaterSense,geom,584,99.1178,2.22045e-16
+InWaterSense,geom,621,105.397,2.22045e-16
+InWaterSense,geom,660,112.017,2.22045e-16
+InWaterSense,geom,702,119.145,2.22045e-16
+InWaterSense,geom,747,126.782,2.22045e-16
+InWaterSense,geom,794,134.759,2.22045e-16
+InWaterSense,geom,845,143.415,2.22045e-16
+InWaterSense,geom,898,152.411,2.22045e-16
+InWaterSense,geom,955,162.085,2.22045e-16
+InWaterSense,geom,1016,172.438,2.22045e-16
+InWaterSense,geom,1080,183.3,2.22045e-16
+InWaterSense,geom,1149,195.011,2.22045e-16
+InWaterSense,geom,1221,207.231,2.22045e-16
+InWaterSense,geom,1299,220.469,2.22045e-16
+InWaterSense,geom,1381,234.386,2.22045e-16
+InWaterSense,geom,1469,249.322,2.22045e-16
+InWaterSense,geom,1562,265.106,2.22045e-16
+InWaterSense,geom,1661,281.909,2.22045e-16
+InWaterSense,geom,1766,299.729,2.22045e-16
+InWaterSense,geom,1879,318.908,2.22045e-16
+InWaterSense,geom2,1,0.169722,1
+InWaterSense,geom2,2,0.339444,0.5953
+InWaterSense,geom2,3,0.509167,0.372735
+InWaterSense,geom2,4,0.678889,0.250062
+InWaterSense,geom2,5,0.848611,0.18218
+InWaterSense,geom2,6,1.01833,0.144354
+InWaterSense,geom2,7,1.18806,0.123019
+InWaterSense,geom2,8,1.35778,0.110736
+InWaterSense,geom2,9,1.5275,0.103424
+InWaterSense,geom2,10,1.69722,0.0988469
+InWaterSense,geom2,11,1.86694,0.0957766
+InWaterSense,geom2,12,2.03667,0.0935402
+InWaterSense,geom2,13,2.20639,0.0917684
+InWaterSense,geom2,14,2.37611,0.0902588
+InWaterSense,geom2,15,2.54583,0.0889
+InWaterSense,geom2,16,2.71556,0.0876311
+InWaterSense,geom2,17,2.88528,0.0864183
+InWaterSense,geom2,18,3.055,0.0852433
+InWaterSense,geom2,19,3.22472,0.0840957
+InWaterSense,geom2,20,3.39444,0.0829698
+InWaterSense,geom2,21,3.56417,0.0818625
+InWaterSense,geom2,22,3.73389,0.0807719
+InWaterSense,geom2,23,3.90361,0.0796968
+InWaterSense,geom2,24,4.07333,0.0786366
+InWaterSense,geom2,25,4.24306,0.0775908
+InWaterSense,geom2,26,4.41278,0.0765591
+InWaterSense,geom2,27,4.5825,0.0755412
+InWaterSense,geom2,28,4.75222,0.0745369
+InWaterSense,geom2,29,4.92194,0.0735459
+InWaterSense,geom2,30,5.09167,0.0725682
+InWaterSense,geom2,31,5.26139,0.0716035
+InWaterSense,geom2,32,5.43111,0.0706516
+InWaterSense,geom2,33,5.60083,0.0697123
+InWaterSense,geom2,34,5.77056,0.0687856
+InWaterSense,geom2,35,5.94028,0.0678711
+InWaterSense,geom2,36,6.11,0.0669688
+InWaterSense,geom2,37,6.27972,0.0660786
+InWaterSense,geom2,38,6.44944,0.0652001
+InWaterSense,geom2,39,6.61917,0.0643333
+InWaterSense,geom2,40,6.78889,0.0634781
+InWaterSense,geom2,41,6.95861,0.0626342
+InWaterSense,geom2,42,7.12833,0.0618015
+InWaterSense,geom2,43,7.29806,0.0609799
+InWaterSense,geom2,44,7.46778,0.0601693
+InWaterSense,geom2,45,7.6375,0.0593694
+InWaterSense,geom2,46,7.80722,0.0585801
+InWaterSense,geom2,47,7.97694,0.0578014
+InWaterSense,geom2,48,8.14667,0.0570329
+InWaterSense,geom2,49,8.31639,0.0562748
+InWaterSense,geom2,50,8.48611,0.0555266
+InWaterSense,geom2,53,8.99528,0.0533414
+InWaterSense,geom2,56,9.50444,0.0512422
+InWaterSense,geom2,60,10.1833,0.0485712
+InWaterSense,geom2,63,10.6925,0.0466597
+InWaterSense,geom2,67,11.3714,0.0442276
+InWaterSense,geom2,72,12.22,0.0413649
+InWaterSense,geom2,76,12.8989,0.0392088
+InWaterSense,geom2,81,13.7475,0.0366709
+InWaterSense,geom2,86,14.5961,0.0342974
+InWaterSense,geom2,92,15.6144,0.031651
+InWaterSense,geom2,98,16.6328,0.0292088
+InWaterSense,geom2,104,17.6511,0.0269551
+InWaterSense,geom2,111,18.8392,0.0245445
+InWaterSense,geom2,118,20.0272,0.0223496
+InWaterSense,geom2,125,21.2153,0.0203509
+InWaterSense,geom2,133,22.5731,0.0182846
+InWaterSense,geom2,142,24.1006,0.0162097
+InWaterSense,geom2,151,25.6281,0.0143703
+InWaterSense,geom2,160,27.1556,0.0127396
+InWaterSense,geom2,170,28.8528,0.0111438
+InWaterSense,geom2,181,30.7197,0.00961828
+InWaterSense,geom2,193,32.7564,0.00819126
+InWaterSense,geom2,205,34.7931,0.00697596
+InWaterSense,geom2,218,36.9994,0.00586198
+InWaterSense,geom2,232,39.3756,0.00486041
+InWaterSense,geom2,247,41.9214,0.00397639
+InWaterSense,geom2,262,44.4672,0.00325316
+InWaterSense,geom2,279,47.3525,0.00259118
+InWaterSense,geom2,297,50.4075,0.00203647
+InWaterSense,geom2,316,53.6322,0.00157923
+InWaterSense,geom2,336,57.0267,0.00120837
+InWaterSense,geom2,357,60.5908,0.000912311
+InWaterSense,geom2,380,64.4944,0.000670596
+InWaterSense,geom2,404,68.5678,0.000486371
+InWaterSense,geom2,429,72.8108,0.000348066
+InWaterSense,geom2,457,77.5631,0.000239287
+InWaterSense,geom2,486,82.485,0.000162317
+InWaterSense,geom2,516,87.5767,0.000108642
+InWaterSense,geom2,549,93.1775,6.98541e-05
+InWaterSense,geom2,584,99.1178,4.37284e-05
+InWaterSense,geom2,621,105.397,2.66508e-05
+InWaterSense,geom2,660,112.017,1.58137e-05
+InWaterSense,geom2,702,119.145,9.01403e-06
+InWaterSense,geom2,747,126.782,4.93592e-06
+InWaterSense,geom2,794,134.759,2.63143e-06
+InWaterSense,geom2,845,143.415,1.32974e-06
+InWaterSense,geom2,898,152.411,6.54213e-07
+InWaterSense,geom2,955,162.085,3.05085e-07
+InWaterSense,geom2,1016,172.438,1.34857e-07
+InWaterSense,geom2,1080,183.3,5.72652e-08
+InWaterSense,geom2,1149,195.011,2.27429e-08
+InWaterSense,geom2,1221,207.231,8.6769e-09
+InWaterSense,geom2,1299,220.469,3.05499e-09
+InWaterSense,geom2,1381,234.386,1.01955e-09
+InWaterSense,geom2,1469,249.322,3.14001e-10
+InWaterSense,geom2,1562,265.106,9.04475e-11
+InWaterSense,geom2,1661,281.909,2.40435e-11
+InWaterSense,geom2,1766,299.729,5.89884e-12
+InWaterSense,geom2,1879,318.908,1.30107e-12
+InWaterSense,dlnorm,1,0.169722,1
+InWaterSense,dlnorm,2,0.339444,0.500348
+InWaterSense,dlnorm,3,0.509167,0.346831
+InWaterSense,dlnorm,4,0.678889,0.268178
+InWaterSense,dlnorm,5,0.848611,0.219481
+InWaterSense,dlnorm,6,1.01833,0.18607
+InWaterSense,dlnorm,7,1.18806,0.161604
+InWaterSense,dlnorm,8,1.35778,0.142857
+InWaterSense,dlnorm,9,1.5275,0.128004
+InWaterSense,dlnorm,10,1.69722,0.115929
+InWaterSense,dlnorm,11,1.86694,0.105911
+InWaterSense,dlnorm,12,2.03667,0.0974589
+InWaterSense,dlnorm,13,2.20639,0.0902292
+InWaterSense,dlnorm,14,2.37611,0.0839722
+InWaterSense,dlnorm,15,2.54583,0.0785026
+InWaterSense,dlnorm,16,2.71556,0.0736797
+InWaterSense,dlnorm,17,2.88528,0.0693947
+InWaterSense,dlnorm,18,3.055,0.0655619
+InWaterSense,dlnorm,19,3.22472,0.0621132
+InWaterSense,dlnorm,20,3.39444,0.0589936
+InWaterSense,dlnorm,21,3.56417,0.0561579
+InWaterSense,dlnorm,22,3.73389,0.0535692
+InWaterSense,dlnorm,23,3.90361,0.0511965
+InWaterSense,dlnorm,24,4.07333,0.049014
+InWaterSense,dlnorm,25,4.24306,0.0469997
+InWaterSense,dlnorm,26,4.41278,0.0451349
+InWaterSense,dlnorm,27,4.5825,0.0434038
+InWaterSense,dlnorm,28,4.75222,0.0417924
+InWaterSense,dlnorm,29,4.92194,0.0402888
+InWaterSense,dlnorm,30,5.09167,0.0388827
+InWaterSense,dlnorm,31,5.26139,0.0375649
+InWaterSense,dlnorm,32,5.43111,0.0363274
+InWaterSense,dlnorm,33,5.60083,0.0351631
+InWaterSense,dlnorm,34,5.77056,0.0340659
+InWaterSense,dlnorm,35,5.94028,0.0330301
+InWaterSense,dlnorm,36,6.11,0.0320507
+InWaterSense,dlnorm,37,6.27972,0.0311234
+InWaterSense,dlnorm,38,6.44944,0.030244
+InWaterSense,dlnorm,39,6.61917,0.0294091
+InWaterSense,dlnorm,40,6.78889,0.0286154
+InWaterSense,dlnorm,41,6.95861,0.0278599
+InWaterSense,dlnorm,42,7.12833,0.0271401
+InWaterSense,dlnorm,43,7.29806,0.0264533
+InWaterSense,dlnorm,44,7.46778,0.0257976
+InWaterSense,dlnorm,45,7.6375,0.0251707
+InWaterSense,dlnorm,46,7.80722,0.024571
+InWaterSense,dlnorm,47,7.97694,0.0239967
+InWaterSense,dlnorm,48,8.14667,0.0234462
+InWaterSense,dlnorm,49,8.31639,0.0229181
+InWaterSense,dlnorm,50,8.48611,0.0224111
+InWaterSense,dlnorm,53,8.99528,0.021005
+InWaterSense,dlnorm,56,9.50444,0.0197499
+InWaterSense,dlnorm,60,10.1833,0.0182729
+InWaterSense,dlnorm,63,10.6925,0.0172893
+InWaterSense,dlnorm,67,11.3714,0.0161165
+InWaterSense,dlnorm,72,12.22,0.0148366
+InWaterSense,dlnorm,76,12.8989,0.0139362
+InWaterSense,dlnorm,81,13.7475,0.0129386
+InWaterSense,dlnorm,86,14.5961,0.0120599
+InWaterSense,dlnorm,92,15.6144,0.0111352
+InWaterSense,dlnorm,98,16.6328,0.0103274
+InWaterSense,dlnorm,104,17.6511,0.0096161
+InWaterSense,dlnorm,111,18.8392,0.00888732
+InWaterSense,dlnorm,118,20.0272,0.00824871
+InWaterSense,dlnorm,125,21.2153,0.00768495
+InWaterSense,dlnorm,133,22.5731,0.00711693
+InWaterSense,dlnorm,142,24.1006,0.00655848
+InWaterSense,dlnorm,151,25.6281,0.00607038
+InWaterSense,dlnorm,160,27.1556,0.00564051
+InWaterSense,dlnorm,170,28.8528,0.00521967
+InWaterSense,dlnorm,181,30.7197,0.00481405
+InWaterSense,dlnorm,193,32.7564,0.00442802
+InWaterSense,dlnorm,205,34.7931,0.00409054
+InWaterSense,dlnorm,218,36.9994,0.00377013
+InWaterSense,dlnorm,232,39.3756,0.0034685
+InWaterSense,dlnorm,247,41.9214,0.00318649
+InWaterSense,dlnorm,262,44.4672,0.00293964
+InWaterSense,dlnorm,279,47.3525,0.00269491
+InWaterSense,dlnorm,297,50.4075,0.00246924
+InWaterSense,dlnorm,316,53.6322,0.00226169
+InWaterSense,dlnorm,336,57.0267,0.00207118
+InWaterSense,dlnorm,357,60.5908,0.00189657
+InWaterSense,dlnorm,380,64.4944,0.0017299
+InWaterSense,dlnorm,404,68.5678,0.00157852
+InWaterSense,dlnorm,429,72.8108,0.00144095
+InWaterSense,dlnorm,457,77.5631,0.0013069
+InWaterSense,dlnorm,486,82.485,0.00118637
+InWaterSense,dlnorm,516,87.5767,0.00107776
+InWaterSense,dlnorm,549,93.1775,0.000973803
+InWaterSense,dlnorm,584,99.1178,0.000878116
+InWaterSense,dlnorm,621,105.397,0.000790315
+InWaterSense,dlnorm,660,112.017,0.000709941
+InWaterSense,dlnorm,702,119.145,0.000634827
+InWaterSense,dlnorm,747,126.782,0.00056512
+InWaterSense,dlnorm,794,134.759,0.000502041
+InWaterSense,dlnorm,845,143.415,0.000442774
+InWaterSense,dlnorm,898,152.411,0.000389459
+InWaterSense,dlnorm,955,162.085,0.000339806
+InWaterSense,dlnorm,1016,172.438,0.000293872
+InWaterSense,dlnorm,1080,183.3,0.000252211
+InWaterSense,dlnorm,1149,195.011,0.000213402
+InWaterSense,dlnorm,1221,207.231,0.000178414
+InWaterSense,dlnorm,1299,220.469,0.000145683
+InWaterSense,dlnorm,1381,234.386,0.000115999
+InWaterSense,dlnorm,1469,249.322,8.85258e-05
+InWaterSense,dlnorm,1562,265.106,6.35034e-05
+InWaterSense,dlnorm,1661,281.909,4.05494e-05
+InWaterSense,dlnorm,1766,299.729,1.9578e-05
+InWaterSense,dlnorm,1879,318.908,1.59175e-07
+InWaterSense,zeta,1,0.169722,1
+InWaterSense,zeta,2,0.339444,0.477435
+InWaterSense,zeta,3,0.509167,0.325229
+InWaterSense,zeta,4,0.678889,0.251259
+InWaterSense,zeta,5,0.848611,0.206926
+InWaterSense,zeta,6,1.01833,0.177123
+InWaterSense,zeta,7,1.18806,0.155578
+InWaterSense,zeta,8,1.35778,0.139202
+InWaterSense,zeta,9,1.5275,0.126289
+InWaterSense,zeta,10,1.69722,0.115818
+InWaterSense,zeta,11,1.86694,0.107137
+InWaterSense,zeta,12,2.03667,0.0998111
+InWaterSense,zeta,13,2.20639,0.0935356
+InWaterSense,zeta,14,2.37611,0.0880934
+InWaterSense,zeta,15,2.54583,0.0833235
+InWaterSense,zeta,16,2.71556,0.0791048
+InWaterSense,zeta,17,2.88528,0.0753438
+InWaterSense,zeta,18,3.055,0.0719674
+InWaterSense,zeta,19,3.22472,0.0689176
+InWaterSense,zeta,20,3.39444,0.0661476
+InWaterSense,zeta,21,3.56417,0.0636192
+InWaterSense,zeta,22,3.73389,0.0613011
+InWaterSense,zeta,23,3.90361,0.0591672
+InWaterSense,zeta,24,4.07333,0.0571955
+InWaterSense,zeta,25,4.24306,0.0553677
+InWaterSense,zeta,26,4.41278,0.053668
+InWaterSense,zeta,27,4.5825,0.0520828
+InWaterSense,zeta,28,4.75222,0.0506006
+InWaterSense,zeta,29,4.92194,0.0492113
+InWaterSense,zeta,30,5.09167,0.0479061
+InWaterSense,zeta,31,5.26139,0.0466774
+InWaterSense,zeta,32,5.43111,0.0455182
+InWaterSense,zeta,33,5.60083,0.0444228
+InWaterSense,zeta,34,5.77056,0.0433857
+InWaterSense,zeta,35,5.94028,0.0424023
+InWaterSense,zeta,36,6.11,0.0414683
+InWaterSense,zeta,37,6.27972,0.04058
+InWaterSense,zeta,38,6.44944,0.039734
+InWaterSense,zeta,39,6.61917,0.0389271
+InWaterSense,zeta,40,6.78889,0.0381568
+InWaterSense,zeta,41,6.95861,0.0374203
+InWaterSense,zeta,42,7.12833,0.0367156
+InWaterSense,zeta,43,7.29806,0.0360404
+InWaterSense,zeta,44,7.46778,0.0353929
+InWaterSense,zeta,45,7.6375,0.0347713
+InWaterSense,zeta,46,7.80722,0.0341741
+InWaterSense,zeta,47,7.97694,0.0335999
+InWaterSense,zeta,48,8.14667,0.0330472
+InWaterSense,zeta,49,8.31639,0.0325148
+InWaterSense,zeta,50,8.48611,0.0320016
+InWaterSense,zeta,53,8.99528,0.0305669
+InWaterSense,zeta,56,9.50444,0.029271
+InWaterSense,zeta,60,10.1833,0.0277253
+InWaterSense,zeta,63,10.6925,0.0266823
+InWaterSense,zeta,67,11.3714,0.0254226
+InWaterSense,zeta,72,12.22,0.0240257
+InWaterSense,zeta,76,12.8989,0.0230275
+InWaterSense,zeta,81,13.7475,0.0219046
+InWaterSense,zeta,86,14.5961,0.0208994
+InWaterSense,zeta,92,15.6144,0.0198231
+InWaterSense,zeta,98,16.6328,0.0188655
+InWaterSense,zeta,104,17.6511,0.0180074
+InWaterSense,zeta,111,18.8392,0.0171117
+InWaterSense,zeta,118,20.0272,0.0163116
+InWaterSense,zeta,125,21.2153,0.0155921
+InWaterSense,zeta,133,22.5731,0.0148532
+InWaterSense,zeta,142,24.1006,0.0141114
+InWaterSense,zeta,151,25.6281,0.0134491
+InWaterSense,zeta,160,27.1556,0.0128537
+InWaterSense,zeta,170,28.8528,0.0122586
+InWaterSense,zeta,181,30.7197,0.0116722
+InWaterSense,zeta,193,32.7564,0.011101
+InWaterSense,zeta,205,34.7931,0.0105898
+InWaterSense,zeta,218,36.9994,0.010093
+InWaterSense,zeta,232,39.3756,0.0096139
+InWaterSense,zeta,247,41.9214,0.00915469
+InWaterSense,zeta,262,44.4672,0.00874266
+InWaterSense,zeta,279,47.3525,0.00832375
+InWaterSense,zeta,297,50.4075,0.00792711
+InWaterSense,zeta,316,53.6322,0.00755241
+InWaterSense,zeta,336,57.0267,0.00719906
+InWaterSense,zeta,357,60.5908,0.00686627
+InWaterSense,zeta,380,64.4944,0.00653963
+InWaterSense,zeta,404,68.5678,0.00623435
+InWaterSense,zeta,429,72.8108,0.00594892
+InWaterSense,zeta,457,77.5631,0.00566249
+InWaterSense,zeta,486,82.485,0.00539703
+InWaterSense,zeta,516,87.5767,0.00515056
+InWaterSense,zeta,549,93.1775,0.00490734
+InWaterSense,zeta,584,99.1178,0.00467631
+InWaterSense,zeta,621,105.397,0.00445746
+InWaterSense,zeta,660,112.017,0.0042506
+InWaterSense,zeta,702,119.145,0.00405086
+InWaterSense,zeta,747,126.782,0.00385919
+InWaterSense,zeta,794,134.759,0.0036798
+InWaterSense,zeta,845,143.415,0.00350537
+InWaterSense,zeta,898,152.411,0.00334292
+InWaterSense,zeta,955,162.085,0.00318624
+InWaterSense,zeta,1016,172.438,0.00303602
+InWaterSense,zeta,1080,183.3,0.00289476
+InWaterSense,zeta,1149,195.011,0.00275826
+InWaterSense,zeta,1221,207.231,0.00263056
+InWaterSense,zeta,1299,220.469,0.00250654
+InWaterSense,zeta,1381,234.386,0.00238969
+InWaterSense,zeta,1469,249.322,0.00227729
+InWaterSense,zeta,1562,265.106,0.00217085
+InWaterSense,zeta,1661,281.909,0.00206927
+InWaterSense,zeta,1766,299.729,0.00197268
+InWaterSense,zeta,1879,318.908,0.00187954
+InWaterSense,empirical,1,0.169722,1
+InWaterSense,empirical,2,0.339444,0.526868
+InWaterSense,empirical,3,0.509167,0.326745
+InWaterSense,empirical,4,0.678889,0.261272
+InWaterSense,empirical,5,0.848611,0.2063
+InWaterSense,empirical,6,1.01833,0.160593
+InWaterSense,empirical,7,1.18806,0.143916
+InWaterSense,empirical,8,1.35778,0.126621
+InWaterSense,empirical,9,1.5275,0.111797
+InWaterSense,empirical,10,1.69722,0.103768
+InWaterSense,empirical,11,1.86694,0.0988264
+InWaterSense,empirical,12,2.03667,0.0907968
+InWaterSense,empirical,13,2.20639,0.0846201
+InWaterSense,empirical,14,2.37611,0.0765905
+InWaterSense,empirical,15,2.54583,0.0728845
+InWaterSense,empirical,16,2.71556,0.0691785
+InWaterSense,empirical,17,2.88528,0.0667078
+InWaterSense,empirical,18,3.055,0.0630019
+InWaterSense,empirical,19,3.22472,0.0599135
+InWaterSense,empirical,20,3.39444,0.0568252
+InWaterSense,empirical,21,3.56417,0.0537369
+InWaterSense,empirical,22,3.73389,0.0506485
+InWaterSense,empirical,23,3.90361,0.0481779
+InWaterSense,empirical,24,4.07333,0.0463249
+InWaterSense,empirical,25,4.24306,0.0426189
+InWaterSense,empirical,26,4.41278,0.0413836
+InWaterSense,empirical,27,4.5825,0.0407659
+InWaterSense,empirical,28,4.75222,0.0401482
+InWaterSense,empirical,29,4.92194,0.0389129
+InWaterSense,empirical,30,5.09167,0.0389129
+InWaterSense,empirical,31,5.26139,0.0389129
+InWaterSense,empirical,32,5.43111,0.0364422
+InWaterSense,empirical,33,5.60083,0.0352069
+InWaterSense,empirical,34,5.77056,0.0345893
+InWaterSense,empirical,35,5.94028,0.0345893
+InWaterSense,empirical,36,6.11,0.0333539
+InWaterSense,empirical,37,6.27972,0.0333539
+InWaterSense,empirical,38,6.44944,0.0333539
+InWaterSense,empirical,39,6.61917,0.0327363
+InWaterSense,empirical,40,6.78889,0.0327363
+InWaterSense,empirical,41,6.95861,0.0321186
+InWaterSense,empirical,42,7.12833,0.0315009
+InWaterSense,empirical,43,7.29806,0.0296479
+InWaterSense,empirical,44,7.46778,0.0277949
+InWaterSense,empirical,45,7.6375,0.0271773
+InWaterSense,empirical,46,7.80722,0.0259419
+InWaterSense,empirical,47,7.97694,0.0259419
+InWaterSense,empirical,48,8.14667,0.0259419
+InWaterSense,empirical,49,8.31639,0.0240889
+InWaterSense,empirical,50,8.48611,0.0240889
+InWaterSense,empirical,53,8.99528,0.0222359
+InWaterSense,empirical,56,9.50444,0.0216183
+InWaterSense,empirical,60,10.1833,0.020383
+InWaterSense,empirical,63,10.6925,0.0197653
+InWaterSense,empirical,67,11.3714,0.01853
+InWaterSense,empirical,72,12.22,0.016677
+InWaterSense,empirical,76,12.8989,0.016677
+InWaterSense,empirical,81,13.7475,0.0160593
+InWaterSense,empirical,86,14.5961,0.0160593
+InWaterSense,empirical,92,15.6144,0.0154416
+InWaterSense,empirical,98,16.6328,0.0154416
+InWaterSense,empirical,104,17.6511,0.0154416
+InWaterSense,empirical,111,18.8392,0.012971
+InWaterSense,empirical,118,20.0272,0.0123533
+InWaterSense,empirical,125,21.2153,0.0117356
+InWaterSense,empirical,133,22.5731,0.0117356
+InWaterSense,empirical,142,24.1006,0.00864731
+InWaterSense,empirical,151,25.6281,0.00864731
+InWaterSense,empirical,160,27.1556,0.00864731
+InWaterSense,empirical,170,28.8528,0.00802965
+InWaterSense,empirical,181,30.7197,0.00802965
+InWaterSense,empirical,193,32.7564,0.00802965
+InWaterSense,empirical,205,34.7931,0.00802965
+InWaterSense,empirical,218,36.9994,0.00802965
+InWaterSense,empirical,232,39.3756,0.00802965
+InWaterSense,empirical,247,41.9214,0.00741198
+InWaterSense,empirical,262,44.4672,0.00741198
+InWaterSense,empirical,279,47.3525,0.00617665
+InWaterSense,empirical,297,50.4075,0.00617665
+InWaterSense,empirical,316,53.6322,0.00555899
+InWaterSense,empirical,336,57.0267,0.00555899
+InWaterSense,empirical,357,60.5908,0.00555899
+InWaterSense,empirical,380,64.4944,0.00494132
+InWaterSense,empirical,404,68.5678,0.00432366
+InWaterSense,empirical,429,72.8108,0.00432366
+InWaterSense,empirical,457,77.5631,0.00370599
+InWaterSense,empirical,486,82.485,0.00370599
+InWaterSense,empirical,516,87.5767,0.00308833
+InWaterSense,empirical,549,93.1775,0.00308833
+InWaterSense,empirical,584,99.1178,0.00308833
+InWaterSense,empirical,621,105.397,0.00308833
+InWaterSense,empirical,660,112.017,0.00247066
+InWaterSense,empirical,702,119.145,0.001853
+InWaterSense,empirical,747,126.782,0.001853
+InWaterSense,empirical,794,134.759,0.001853
+InWaterSense,empirical,845,143.415,0.00123533
+InWaterSense,empirical,898,152.411,0.00123533
+InWaterSense,empirical,955,162.085,0.00123533
+InWaterSense,empirical,1016,172.438,0.00123533
+InWaterSense,empirical,1080,183.3,0.00123533
+InWaterSense,empirical,1149,195.011,0.00123533
+InWaterSense,empirical,1221,207.231,0.00123533
+InWaterSense,empirical,1299,220.469,0.000617665
+InWaterSense,empirical,1381,234.386,0.000617665
+InWaterSense,empirical,1469,249.322,0.000617665
+InWaterSense,empirical,1562,265.106,0.000617665
+InWaterSense,empirical,1661,281.909,0.000617665
+InWaterSense,empirical,1766,299.729,0.000617665
+InWaterSense,empirical,1879,318.908,0.000617665
+Weija (v0.1 EC record),geom,1,0.541944,1
+Weija (v0.1 EC record),geom,2,1.08389,0.95302
+Weija (v0.1 EC record),geom,3,1.62583,0.908247
+Weija (v0.1 EC record),geom,4,2.16778,0.865578
+Weija (v0.1 EC record),geom,5,2.70972,0.824913
+Weija (v0.1 EC record),geom,6,3.25167,0.786159
+Weija (v0.1 EC record),geom,7,3.79361,0.749225
+Weija (v0.1 EC record),geom,8,4.33556,0.714027
+Weija (v0.1 EC record),geom,9,4.8775,0.680482
+Weija (v0.1 EC record),geom,10,5.41944,0.648513
+Weija (v0.1 EC record),geom,11,5.96139,0.618046
+Weija (v0.1 EC record),geom,12,6.50333,0.58901
+Weija (v0.1 EC record),geom,13,7.04528,0.561339
+Weija (v0.1 EC record),geom,14,7.58722,0.534967
+Weija (v0.1 EC record),geom,15,8.12917,0.509834
+Weija (v0.1 EC record),geom,16,8.67111,0.485882
+Weija (v0.1 EC record),geom,17,9.21306,0.463056
+Weija (v0.1 EC record),geom,18,9.755,0.441301
+Weija (v0.1 EC record),geom,19,10.2969,0.420569
+Weija (v0.1 EC record),geom,20,10.8389,0.400811
+Weija (v0.1 EC record),geom,21,11.3808,0.381981
+Weija (v0.1 EC record),geom,22,11.9228,0.364035
+Weija (v0.1 EC record),geom,23,12.4647,0.346933
+Weija (v0.1 EC record),geom,24,13.0067,0.330634
+Weija (v0.1 EC record),geom,25,13.5486,0.315101
+Weija (v0.1 EC record),geom,26,14.0906,0.300298
+Weija (v0.1 EC record),geom,27,14.6325,0.28619
+Weija (v0.1 EC record),geom,28,15.1744,0.272745
+Weija (v0.1 EC record),geom,29,15.7164,0.259931
+Weija (v0.1 EC record),geom,30,16.2583,0.24772
+Weija (v0.1 EC record),geom,31,16.8003,0.236082
+Weija (v0.1 EC record),geom,32,17.3422,0.224991
+Weija (v0.1 EC record),geom,33,17.8842,0.214421
+Weija (v0.1 EC record),geom,34,18.4261,0.204347
+Weija (v0.1 EC record),geom,35,18.9681,0.194747
+Weija (v0.1 EC record),geom,36,19.51,0.185598
+Weija (v0.1 EC record),geom,37,20.0519,0.176878
+Weija (v0.1 EC record),geom,38,20.5939,0.168569
+Weija (v0.1 EC record),geom,39,21.1358,0.160649
+Weija (v0.1 EC record),geom,40,21.6778,0.153102
+Weija (v0.1 EC record),geom,41,22.2197,0.145909
+Weija (v0.1 EC record),geom,42,22.7617,0.139055
+Weija (v0.1 EC record),geom,43,23.3036,0.132522
+Weija (v0.1 EC record),geom,44,23.8456,0.126296
+Weija (v0.1 EC record),geom,45,24.3875,0.120363
+Weija (v0.1 EC record),geom,46,24.9294,0.114708
+Weija (v0.1 EC record),geom,47,25.4714,0.109319
+Weija (v0.1 EC record),geom,48,26.0133,0.104183
+Weija (v0.1 EC record),geom,49,26.5553,0.0992887
+Weija (v0.1 EC record),geom,50,27.0972,0.0946241
+Weija (v0.1 EC record),geom,51,27.6392,0.0901787
+Weija (v0.1 EC record),geom,53,28.7231,0.0819045
+Weija (v0.1 EC record),geom,55,29.8069,0.0743896
+Weija (v0.1 EC record),geom,56,30.3489,0.0708948
+Weija (v0.1 EC record),geom,58,31.4328,0.06439
+Weija (v0.1 EC record),geom,60,32.5167,0.058482
+Weija (v0.1 EC record),geom,62,33.6006,0.0531162
+Weija (v0.1 EC record),geom,64,34.6844,0.0482426
+Weija (v0.1 EC record),geom,66,35.7683,0.0438162
+Weija (v0.1 EC record),geom,68,36.8522,0.039796
+Weija (v0.1 EC record),geom,71,38.4781,0.0344465
+Weija (v0.1 EC record),geom,73,39.5619,0.031286
+Weija (v0.1 EC record),geom,75,40.6458,0.0284154
+Weija (v0.1 EC record),geom,78,42.2717,0.0245957
+Weija (v0.1 EC record),geom,81,43.8975,0.0212895
+Weija (v0.1 EC record),geom,83,44.9814,0.0193362
+Weija (v0.1 EC record),geom,86,46.6072,0.016737
+Weija (v0.1 EC record),geom,89,48.2331,0.0144871
+Weija (v0.1 EC record),geom,92,49.8589,0.0125398
+Weija (v0.1 EC record),geom,95,51.4847,0.0108541
+Weija (v0.1 EC record),geom,98,53.1106,0.0093951
+Weija (v0.1 EC record),geom,101,54.7364,0.00813219
+Weija (v0.1 EC record),geom,104,56.3622,0.00703905
+Weija (v0.1 EC record),geom,108,58.53,0.0058066
+Weija (v0.1 EC record),geom,111,60.1558,0.00502607
+Weija (v0.1 EC record),geom,115,62.3236,0.00414607
+Weija (v0.1 EC record),geom,119,64.4914,0.00342015
+Weija (v0.1 EC record),geom,123,66.6592,0.00282133
+Weija (v0.1 EC record),geom,127,68.8269,0.00232735
+Weija (v0.1 EC record),geom,131,70.9947,0.00191986
+Weija (v0.1 EC record),geom,135,73.1625,0.00158372
+Weija (v0.1 EC record),geom,140,75.8722,0.00124506
+Weija (v0.1 EC record),geom,144,78.04,0.00102706
+Weija (v0.1 EC record),geom,149,80.7497,0.000807434
+Weija (v0.1 EC record),geom,154,83.4594,0.000634772
+Weija (v0.1 EC record),geom,159,86.1692,0.000499032
+Weija (v0.1 EC record),geom,164,88.8789,0.000392318
+Weija (v0.1 EC record),geom,169,91.5886,0.000308424
+Weija (v0.1 EC record),geom,175,94.8403,0.000231079
+Weija (v0.1 EC record),geom,181,98.0919,0.000173131
+Weija (v0.1 EC record),geom,187,101.344,0.000129714
+Weija (v0.1 EC record),geom,193,104.595,9.71849e-05
+Weija (v0.1 EC record),geom,199,107.847,7.28134e-05
+Weija (v0.1 EC record),geom,206,111.641,5.19907e-05
+Weija (v0.1 EC record),geom,212,114.892,3.89527e-05
+Weija (v0.1 EC record),geom,219,118.686,2.78133e-05
+Weija (v0.1 EC record),geom,226,122.479,1.98594e-05
+Weija (v0.1 EC record),geom,234,126.815,1.3514e-05
+Weija (v0.1 EC record),geom,242,131.151,9.19603e-06
+Weija (v0.1 EC record),geom,249,134.944,6.56621e-06
+Weija (v0.1 EC record),geom,258,139.822,4.25827e-06
+Weija (v0.1 EC record),geom,266,144.157,2.89768e-06
+Weija (v0.1 EC record),geom,275,149.035,1.87918e-06
+Weija (v0.1 EC record),geom,284,153.912,1.21867e-06
+Weija (v0.1 EC record),geom,293,158.79,7.90326e-07
+Weija (v0.1 EC record),geom,303,164.209,4.88458e-07
+Weija (v0.1 EC record),geom,313,169.629,3.01889e-07
+Weija (v0.1 EC record),geom,323,175.048,1.86581e-07
+Weija (v0.1 EC record),geom,334,181.009,1.09898e-07
+Weija (v0.1 EC record),geom2,1,0.541944,1
+Weija (v0.1 EC record),geom2,2,1.08389,0.716034
+Weija (v0.1 EC record),geom2,3,1.62583,0.523235
+Weija (v0.1 EC record),geom2,4,2.16778,0.392258
+Weija (v0.1 EC record),geom2,5,2.70972,0.303201
+Weija (v0.1 EC record),geom2,6,3.25167,0.242572
+Weija (v0.1 EC record),geom2,7,3.79361,0.201221
+Weija (v0.1 EC record),geom2,8,4.33556,0.172943
+Weija (v0.1 EC record),geom2,9,4.8775,0.153531
+Weija (v0.1 EC record),geom2,10,5.41944,0.140134
+Weija (v0.1 EC record),geom2,11,5.96139,0.130815
+Weija (v0.1 EC record),geom2,12,6.50333,0.124265
+Weija (v0.1 EC record),geom2,13,7.04528,0.119592
+Weija (v0.1 EC record),geom2,14,7.58722,0.116195
+Weija (v0.1 EC record),geom2,15,8.12917,0.113663
+Weija (v0.1 EC record),geom2,16,8.67111,0.111721
+Weija (v0.1 EC record),geom2,17,9.21306,0.110179
+Weija (v0.1 EC record),geom2,18,9.755,0.10891
+Weija (v0.1 EC record),geom2,19,10.2969,0.107828
+Weija (v0.1 EC record),geom2,20,10.8389,0.106873
+Weija (v0.1 EC record),geom2,21,11.3808,0.106008
+Weija (v0.1 EC record),geom2,22,11.9228,0.105203
+Weija (v0.1 EC record),geom2,23,12.4647,0.104441
+Weija (v0.1 EC record),geom2,24,13.0067,0.10371
+Weija (v0.1 EC record),geom2,25,13.5486,0.103001
+Weija (v0.1 EC record),geom2,26,14.0906,0.102308
+Weija (v0.1 EC record),geom2,27,14.6325,0.101628
+Weija (v0.1 EC record),geom2,28,15.1744,0.100958
+Weija (v0.1 EC record),geom2,29,15.7164,0.100295
+Weija (v0.1 EC record),geom2,30,16.2583,0.0996395
+Weija (v0.1 EC record),geom2,31,16.8003,0.0989898
+Weija (v0.1 EC record),geom2,32,17.3422,0.0983454
+Weija (v0.1 EC record),geom2,33,17.8842,0.097706
+Weija (v0.1 EC record),geom2,34,18.4261,0.0970713
+Weija (v0.1 EC record),geom2,35,18.9681,0.096441
+Weija (v0.1 EC record),geom2,36,19.51,0.0958151
+Weija (v0.1 EC record),geom2,37,20.0519,0.0951934
+Weija (v0.1 EC record),geom2,38,20.5939,0.0945758
+Weija (v0.1 EC record),geom2,39,21.1358,0.0939624
+Weija (v0.1 EC record),geom2,40,21.6778,0.0933529
+Weija (v0.1 EC record),geom2,41,22.2197,0.0927474
+Weija (v0.1 EC record),geom2,42,22.7617,0.0921459
+Weija (v0.1 EC record),geom2,43,23.3036,0.0915483
+Weija (v0.1 EC record),geom2,44,23.8456,0.0909546
+Weija (v0.1 EC record),geom2,45,24.3875,0.0903648
+Weija (v0.1 EC record),geom2,46,24.9294,0.0897787
+Weija (v0.1 EC record),geom2,47,25.4714,0.0891965
+Weija (v0.1 EC record),geom2,48,26.0133,0.0886181
+Weija (v0.1 EC record),geom2,49,26.5553,0.0880434
+Weija (v0.1 EC record),geom2,50,27.0972,0.0874724
+Weija (v0.1 EC record),geom2,51,27.6392,0.0869052
+Weija (v0.1 EC record),geom2,53,28.7231,0.0857817
+Weija (v0.1 EC record),geom2,55,29.8069,0.0846727
+Weija (v0.1 EC record),geom2,56,30.3489,0.0841236
+Weija (v0.1 EC record),geom2,58,31.4328,0.0830361
+Weija (v0.1 EC record),geom2,60,32.5167,0.0819626
+Weija (v0.1 EC record),geom2,62,33.6006,0.080903
+Weija (v0.1 EC record),geom2,64,34.6844,0.0798571
+Weija (v0.1 EC record),geom2,66,35.7683,0.0788247
+Weija (v0.1 EC record),geom2,68,36.8522,0.0778057
+Weija (v0.1 EC record),geom2,71,38.4781,0.0763018
+Weija (v0.1 EC record),geom2,73,39.5619,0.0753153
+Weija (v0.1 EC record),geom2,75,40.6458,0.0743417
+Weija (v0.1 EC record),geom2,78,42.2717,0.0729047
+Weija (v0.1 EC record),geom2,81,43.8975,0.0714956
+Weija (v0.1 EC record),geom2,83,44.9814,0.0705713
+Weija (v0.1 EC record),geom2,86,46.6072,0.0692072
+Weija (v0.1 EC record),geom2,89,48.2331,0.0678695
+Weija (v0.1 EC record),geom2,92,49.8589,0.0665576
+Weija (v0.1 EC record),geom2,95,51.4847,0.0652711
+Weija (v0.1 EC record),geom2,98,53.1106,0.0640095
+Weija (v0.1 EC record),geom2,101,54.7364,0.0627723
+Weija (v0.1 EC record),geom2,104,56.3622,0.061559
+Weija (v0.1 EC record),geom2,108,58.53,0.0599776
+Weija (v0.1 EC record),geom2,111,60.1558,0.0588183
+Weija (v0.1 EC record),geom2,115,62.3236,0.0573073
+Weija (v0.1 EC record),geom2,119,64.4914,0.0558352
+Weija (v0.1 EC record),geom2,123,66.6592,0.0544009
+Weija (v0.1 EC record),geom2,127,68.8269,0.0530034
+Weija (v0.1 EC record),geom2,131,70.9947,0.0516418
+Weija (v0.1 EC record),geom2,135,73.1625,0.0503152
+Weija (v0.1 EC record),geom2,140,75.8722,0.0487047
+Weija (v0.1 EC record),geom2,144,78.04,0.0474536
+Weija (v0.1 EC record),geom2,149,80.7497,0.0459347
+Weija (v0.1 EC record),geom2,154,83.4594,0.0444645
+Weija (v0.1 EC record),geom2,159,86.1692,0.0430413
+Weija (v0.1 EC record),geom2,164,88.8789,0.0416637
+Weija (v0.1 EC record),geom2,169,91.5886,0.0403302
+Weija (v0.1 EC record),geom2,175,94.8403,0.0387862
+Weija (v0.1 EC record),geom2,181,98.0919,0.0373013
+Weija (v0.1 EC record),geom2,187,101.344,0.0358732
+Weija (v0.1 EC record),geom2,193,104.595,0.0344998
+Weija (v0.1 EC record),geom2,199,107.847,0.033179
+Weija (v0.1 EC record),geom2,206,111.641,0.0317019
+Weija (v0.1 EC record),geom2,212,114.892,0.0304882
+Weija (v0.1 EC record),geom2,219,118.686,0.0291308
+Weija (v0.1 EC record),geom2,226,122.479,0.0278339
+Weija (v0.1 EC record),geom2,234,126.815,0.0264222
+Weija (v0.1 EC record),geom2,242,131.151,0.0250821
+Weija (v0.1 EC record),geom2,249,134.944,0.0239655
+Weija (v0.1 EC record),geom2,258,139.822,0.0226025
+Weija (v0.1 EC record),geom2,266,144.157,0.0214561
+Weija (v0.1 EC record),geom2,275,149.035,0.0202358
+Weija (v0.1 EC record),geom2,284,153.912,0.019085
+Weija (v0.1 EC record),geom2,293,158.79,0.0179995
+Weija (v0.1 EC record),geom2,303,164.209,0.0168658
+Weija (v0.1 EC record),geom2,313,169.629,0.0158034
+Weija (v0.1 EC record),geom2,323,175.048,0.0148079
+Weija (v0.1 EC record),geom2,334,181.009,0.0137852
+Weija (v0.1 EC record),dlnorm,1,0.541944,1
+Weija (v0.1 EC record),dlnorm,2,1.08389,0.531328
+Weija (v0.1 EC record),dlnorm,3,1.62583,0.390426
+Weija (v0.1 EC record),dlnorm,4,2.16778,0.316889
+Weija (v0.1 EC record),dlnorm,5,2.70972,0.270251
+Weija (v0.1 EC record),dlnorm,6,3.25167,0.237457
+Weija (v0.1 EC record),dlnorm,7,3.79361,0.212859
+Weija (v0.1 EC record),dlnorm,8,4.33556,0.193575
+Weija (v0.1 EC record),dlnorm,9,4.8775,0.17796
+Weija (v0.1 EC record),dlnorm,10,5.41944,0.165
+Weija (v0.1 EC record),dlnorm,11,5.96139,0.154031
+Weija (v0.1 EC record),dlnorm,12,6.50333,0.144602
+Weija (v0.1 EC record),dlnorm,13,7.04528,0.136389
+Weija (v0.1 EC record),dlnorm,14,7.58722,0.129157
+Weija (v0.1 EC record),dlnorm,15,8.12917,0.12273
+Weija (v0.1 EC record),dlnorm,16,8.67111,0.116971
+Weija (v0.1 EC record),dlnorm,17,9.21306,0.111775
+Weija (v0.1 EC record),dlnorm,18,9.755,0.107059
+Weija (v0.1 EC record),dlnorm,19,10.2969,0.102754
+Weija (v0.1 EC record),dlnorm,20,10.8389,0.0988047
+Weija (v0.1 EC record),dlnorm,21,11.3808,0.0951669
+Weija (v0.1 EC record),dlnorm,22,11.9228,0.0918024
+Weija (v0.1 EC record),dlnorm,23,12.4647,0.0886794
+Weija (v0.1 EC record),dlnorm,24,13.0067,0.0857712
+Weija (v0.1 EC record),dlnorm,25,13.5486,0.0830549
+Weija (v0.1 EC record),dlnorm,26,14.0906,0.0805108
+Weija (v0.1 EC record),dlnorm,27,14.6325,0.078122
+Weija (v0.1 EC record),dlnorm,28,15.1744,0.0758737
+Weija (v0.1 EC record),dlnorm,29,15.7164,0.0737532
+Weija (v0.1 EC record),dlnorm,30,16.2583,0.0717489
+Weija (v0.1 EC record),dlnorm,31,16.8003,0.0698511
+Weija (v0.1 EC record),dlnorm,32,17.3422,0.0680509
+Weija (v0.1 EC record),dlnorm,33,17.8842,0.0663405
+Weija (v0.1 EC record),dlnorm,34,18.4261,0.0647128
+Weija (v0.1 EC record),dlnorm,35,18.9681,0.0631616
+Weija (v0.1 EC record),dlnorm,36,19.51,0.0616813
+Weija (v0.1 EC record),dlnorm,37,20.0519,0.0602667
+Weija (v0.1 EC record),dlnorm,38,20.5939,0.0589134
+Weija (v0.1 EC record),dlnorm,39,21.1358,0.0576171
+Weija (v0.1 EC record),dlnorm,40,21.6778,0.0563741
+Weija (v0.1 EC record),dlnorm,41,22.2197,0.055181
+Weija (v0.1 EC record),dlnorm,42,22.7617,0.0540345
+Weija (v0.1 EC record),dlnorm,43,23.3036,0.0529319
+Weija (v0.1 EC record),dlnorm,44,23.8456,0.0518705
+Weija (v0.1 EC record),dlnorm,45,24.3875,0.0508478
+Weija (v0.1 EC record),dlnorm,46,24.9294,0.0498617
+Weija (v0.1 EC record),dlnorm,47,25.4714,0.0489101
+Weija (v0.1 EC record),dlnorm,48,26.0133,0.0479911
+Weija (v0.1 EC record),dlnorm,49,26.5553,0.0471029
+Weija (v0.1 EC record),dlnorm,50,27.0972,0.0462439
+Weija (v0.1 EC record),dlnorm,51,27.6392,0.0454127
+Weija (v0.1 EC record),dlnorm,53,28.7231,0.0438276
+Weija (v0.1 EC record),dlnorm,55,29.8069,0.0423377
+Weija (v0.1 EC record),dlnorm,56,30.3489,0.0416256
+Weija (v0.1 EC record),dlnorm,58,31.4328,0.0402621
+Weija (v0.1 EC record),dlnorm,60,32.5167,0.0389735
+Weija (v0.1 EC record),dlnorm,62,33.6006,0.0377536
+Weija (v0.1 EC record),dlnorm,64,34.6844,0.0365965
+Weija (v0.1 EC record),dlnorm,66,35.7683,0.0354974
+Weija (v0.1 EC record),dlnorm,68,36.8522,0.0344515
+Weija (v0.1 EC record),dlnorm,71,38.4781,0.0329741
+Weija (v0.1 EC record),dlnorm,73,39.5619,0.0320448
+Weija (v0.1 EC record),dlnorm,75,40.6458,0.0311565
+Weija (v0.1 EC record),dlnorm,78,42.2717,0.0298946
+Weija (v0.1 EC record),dlnorm,81,43.8975,0.02871
+Weija (v0.1 EC record),dlnorm,83,44.9814,0.0279596
+Weija (v0.1 EC record),dlnorm,86,46.6072,0.0268882
+Weija (v0.1 EC record),dlnorm,89,48.2331,0.0258765
+Weija (v0.1 EC record),dlnorm,92,49.8589,0.0249194
+Weija (v0.1 EC record),dlnorm,95,51.4847,0.0240124
+Weija (v0.1 EC record),dlnorm,98,53.1106,0.0231513
+Weija (v0.1 EC record),dlnorm,101,54.7364,0.0223326
+Weija (v0.1 EC record),dlnorm,104,56.3622,0.0215531
+Weija (v0.1 EC record),dlnorm,108,58.53,0.0205695
+Weija (v0.1 EC record),dlnorm,111,60.1558,0.0198704
+Weija (v0.1 EC record),dlnorm,115,62.3236,0.0189853
+Weija (v0.1 EC record),dlnorm,119,64.4914,0.0181496
+Weija (v0.1 EC record),dlnorm,123,66.6592,0.017359
+Weija (v0.1 EC record),dlnorm,127,68.8269,0.0166098
+Weija (v0.1 EC record),dlnorm,131,70.9947,0.0158985
+Weija (v0.1 EC record),dlnorm,135,73.1625,0.0152223
+Weija (v0.1 EC record),dlnorm,140,75.8722,0.0144222
+Weija (v0.1 EC record),dlnorm,144,78.04,0.0138154
+Weija (v0.1 EC record),dlnorm,149,80.7497,0.013095
+Weija (v0.1 EC record),dlnorm,154,83.4594,0.0124135
+Weija (v0.1 EC record),dlnorm,159,86.1692,0.0117677
+Weija (v0.1 EC record),dlnorm,164,88.8789,0.0111547
+Weija (v0.1 EC record),dlnorm,169,91.5886,0.0105719
+Weija (v0.1 EC record),dlnorm,175,94.8403,0.0099092
+Weija (v0.1 EC record),dlnorm,181,98.0919,0.00928312
+Weija (v0.1 EC record),dlnorm,187,101.344,0.00869055
+Weija (v0.1 EC record),dlnorm,193,104.595,0.00812872
+Weija (v0.1 EC record),dlnorm,199,107.847,0.00759517
+Weija (v0.1 EC record),dlnorm,206,111.641,0.00700549
+Weija (v0.1 EC record),dlnorm,212,114.892,0.00652594
+Weija (v0.1 EC record),dlnorm,219,118.686,0.00599422
+Weija (v0.1 EC record),dlnorm,226,122.479,0.00549003
+Weija (v0.1 EC record),dlnorm,234,126.815,0.00494471
+Weija (v0.1 EC record),dlnorm,242,131.151,0.00442957
+Weija (v0.1 EC record),dlnorm,249,134.944,0.00400154
+Weija (v0.1 EC record),dlnorm,258,139.822,0.00347981
+Weija (v0.1 EC record),dlnorm,266,144.157,0.00304087
+Weija (v0.1 EC record),dlnorm,275,149.035,0.00257265
+Weija (v0.1 EC record),dlnorm,284,153.912,0.00212932
+Weija (v0.1 EC record),dlnorm,293,158.79,0.00170882
+Weija (v0.1 EC record),dlnorm,303,164.209,0.0012662
+Weija (v0.1 EC record),dlnorm,313,169.629,0.000847314
+Weija (v0.1 EC record),dlnorm,323,175.048,0.000450214
+Weija (v0.1 EC record),dlnorm,334,181.009,3.6483e-05
+Weija (v0.1 EC record),zeta,1,0.541944,1
+Weija (v0.1 EC record),zeta,2,1.08389,0.547308
+Weija (v0.1 EC record),zeta,3,1.62583,0.401024
+Weija (v0.1 EC record),zeta,4,2.16778,0.325477
+Weija (v0.1 EC record),zeta,5,2.70972,0.278206
+Weija (v0.1 EC record),zeta,6,3.25167,0.245347
+Weija (v0.1 EC record),zeta,7,3.79361,0.220935
+Weija (v0.1 EC record),zeta,8,4.33556,0.201946
+Weija (v0.1 EC record),zeta,9,4.8775,0.18667
+Weija (v0.1 EC record),zeta,10,5.41944,0.174063
+Weija (v0.1 EC record),zeta,11,5.96139,0.163445
+Weija (v0.1 EC record),zeta,12,6.50333,0.154354
+Weija (v0.1 EC record),zeta,13,7.04528,0.146466
+Weija (v0.1 EC record),zeta,14,7.58722,0.139542
+Weija (v0.1 EC record),zeta,15,8.12917,0.133405
+Weija (v0.1 EC record),zeta,16,8.67111,0.127922
+Weija (v0.1 EC record),zeta,17,9.21306,0.122986
+Weija (v0.1 EC record),zeta,18,9.755,0.118514
+Weija (v0.1 EC record),zeta,19,10.2969,0.11444
+Weija (v0.1 EC record),zeta,20,10.8389,0.11071
+Weija (v0.1 EC record),zeta,21,11.3808,0.107278
+Weija (v0.1 EC record),zeta,22,11.9228,0.104109
+Weija (v0.1 EC record),zeta,23,12.4647,0.101172
+Weija (v0.1 EC record),zeta,24,13.0067,0.0984395
+Weija (v0.1 EC record),zeta,25,13.5486,0.0958903
+Weija (v0.1 EC record),zeta,26,14.0906,0.0935052
+Weija (v0.1 EC record),zeta,27,14.6325,0.0912678
+Weija (v0.1 EC record),zeta,28,15.1744,0.0891638
+Weija (v0.1 EC record),zeta,29,15.7164,0.0871809
+Weija (v0.1 EC record),zeta,30,16.2583,0.0853083
+Weija (v0.1 EC record),zeta,31,16.8003,0.0835363
+Weija (v0.1 EC record),zeta,32,17.3422,0.0818565
+Weija (v0.1 EC record),zeta,33,17.8842,0.0802614
+Weija (v0.1 EC record),zeta,34,18.4261,0.0787443
+Weija (v0.1 EC record),zeta,35,18.9681,0.0772993
+Weija (v0.1 EC record),zeta,36,19.51,0.075921
+Weija (v0.1 EC record),zeta,37,20.0519,0.0746045
+Weija (v0.1 EC record),zeta,38,20.5939,0.0733455
+Weija (v0.1 EC record),zeta,39,21.1358,0.0721401
+Weija (v0.1 EC record),zeta,40,21.6778,0.0709846
+Weija (v0.1 EC record),zeta,41,22.2197,0.0698758
+Weija (v0.1 EC record),zeta,42,22.7617,0.0688107
+Weija (v0.1 EC record),zeta,43,23.3036,0.0677867
+Weija (v0.1 EC record),zeta,44,23.8456,0.0668012
+Weija (v0.1 EC record),zeta,45,24.3875,0.065852
+Weija (v0.1 EC record),zeta,46,24.9294,0.0649368
+Weija (v0.1 EC record),zeta,47,25.4714,0.0640539
+Weija (v0.1 EC record),zeta,48,26.0133,0.0632014
+Weija (v0.1 EC record),zeta,49,26.5553,0.0623777
+Weija (v0.1 EC record),zeta,50,27.0972,0.0615811
+Weija (v0.1 EC record),zeta,51,27.6392,0.0608104
+Weija (v0.1 EC record),zeta,53,28.7231,0.0593411
+Weija (v0.1 EC record),zeta,55,29.8069,0.0579603
+Weija (v0.1 EC record),zeta,56,30.3489,0.0573005
+Weija (v0.1 EC record),zeta,58,31.4328,0.0560372
+Weija (v0.1 EC record),zeta,60,32.5167,0.0548435
+Weija (v0.1 EC record),zeta,62,33.6006,0.0537135
+Weija (v0.1 EC record),zeta,64,34.6844,0.0526419
+Weija (v0.1 EC record),zeta,66,35.7683,0.0516239
+Weija (v0.1 EC record),zeta,68,36.8522,0.0506553
+Weija (v0.1 EC record),zeta,71,38.4781,0.0492869
+Weija (v0.1 EC record),zeta,73,39.5619,0.0484263
+Weija (v0.1 EC record),zeta,75,40.6458,0.0476035
+Weija (v0.1 EC record),zeta,78,42.2717,0.0464346
+Weija (v0.1 EC record),zeta,81,43.8975,0.0453372
+Weija (v0.1 EC record),zeta,83,44.9814,0.0446419
+Weija (v0.1 EC record),zeta,86,46.6072,0.043649
+Weija (v0.1 EC record),zeta,89,48.2331,0.0427113
+Weija (v0.1 EC record),zeta,92,49.8589,0.041824
+Weija (v0.1 EC record),zeta,95,51.4847,0.0409829
+Weija (v0.1 EC record),zeta,98,53.1106,0.0401842
+Weija (v0.1 EC record),zeta,101,54.7364,0.0394245
+Weija (v0.1 EC record),zeta,104,56.3622,0.038701
+Weija (v0.1 EC record),zeta,108,58.53,0.0377878
+Weija (v0.1 EC record),zeta,111,60.1558,0.0371384
+Weija (v0.1 EC record),zeta,115,62.3236,0.036316
+Weija (v0.1 EC record),zeta,119,64.4914,0.0355392
+Weija (v0.1 EC record),zeta,123,66.6592,0.0348039
+Weija (v0.1 EC record),zeta,127,68.8269,0.0341067
+Weija (v0.1 EC record),zeta,131,70.9947,0.0334446
+Weija (v0.1 EC record),zeta,135,73.1625,0.0328147
+Weija (v0.1 EC record),zeta,140,75.8722,0.032069
+Weija (v0.1 EC record),zeta,144,78.04,0.0315032
+Weija (v0.1 EC record),zeta,149,80.7497,0.030831
+Weija (v0.1 EC record),zeta,154,83.4594,0.0301946
+Weija (v0.1 EC record),zeta,159,86.1692,0.0295912
+Weija (v0.1 EC record),zeta,164,88.8789,0.0290181
+Weija (v0.1 EC record),zeta,169,91.5886,0.0284728
+Weija (v0.1 EC record),zeta,175,94.8403,0.0278523
+Weija (v0.1 EC record),zeta,181,98.0919,0.0272656
+Weija (v0.1 EC record),zeta,187,101.344,0.0267099
+Weija (v0.1 EC record),zeta,193,104.595,0.0261825
+Weija (v0.1 EC record),zeta,199,107.847,0.0256813
+Weija (v0.1 EC record),zeta,206,111.641,0.0251269
+Weija (v0.1 EC record),zeta,212,114.892,0.0246756
+Weija (v0.1 EC record),zeta,219,118.686,0.0241748
+Weija (v0.1 EC record),zeta,226,122.479,0.0236994
+Weija (v0.1 EC record),zeta,234,126.815,0.0231848
+Weija (v0.1 EC record),zeta,242,131.151,0.0226981
+Weija (v0.1 EC record),zeta,249,134.944,0.0222933
+Weija (v0.1 EC record),zeta,258,139.822,0.0217994
+Weija (v0.1 EC record),zeta,266,144.157,0.0213834
+Weija (v0.1 EC record),zeta,275,149.035,0.0209392
+Weija (v0.1 EC record),zeta,284,153.912,0.0205181
+Weija (v0.1 EC record),zeta,293,158.79,0.0201182
+Weija (v0.1 EC record),zeta,303,164.209,0.0196968
+Weija (v0.1 EC record),zeta,313,169.629,0.0192975
+Weija (v0.1 EC record),zeta,323,175.048,0.0189184
+Weija (v0.1 EC record),zeta,334,181.009,0.0185231
+Weija (v0.1 EC record),empirical,1,0.541944,1
+Weija (v0.1 EC record),empirical,2,1.08389,0.52381
+Weija (v0.1 EC record),empirical,3,1.62583,0.357143
+Weija (v0.1 EC record),empirical,4,2.16778,0.357143
+Weija (v0.1 EC record),empirical,5,2.70972,0.333333
+Weija (v0.1 EC record),empirical,6,3.25167,0.309524
+Weija (v0.1 EC record),empirical,7,3.79361,0.238095
+Weija (v0.1 EC record),empirical,8,4.33556,0.214286
+Weija (v0.1 EC record),empirical,9,4.8775,0.214286
+Weija (v0.1 EC record),empirical,10,5.41944,0.190476
+Weija (v0.1 EC record),empirical,11,5.96139,0.190476
+Weija (v0.1 EC record),empirical,12,6.50333,0.142857
+Weija (v0.1 EC record),empirical,13,7.04528,0.119048
+Weija (v0.1 EC record),empirical,14,7.58722,0.119048
+Weija (v0.1 EC record),empirical,15,8.12917,0.119048
+Weija (v0.1 EC record),empirical,16,8.67111,0.119048
+Weija (v0.1 EC record),empirical,17,9.21306,0.0952381
+Weija (v0.1 EC record),empirical,18,9.755,0.0952381
+Weija (v0.1 EC record),empirical,19,10.2969,0.0952381
+Weija (v0.1 EC record),empirical,20,10.8389,0.0952381
+Weija (v0.1 EC record),empirical,21,11.3808,0.0952381
+Weija (v0.1 EC record),empirical,22,11.9228,0.0952381
+Weija (v0.1 EC record),empirical,23,12.4647,0.0952381
+Weija (v0.1 EC record),empirical,24,13.0067,0.0952381
+Weija (v0.1 EC record),empirical,25,13.5486,0.0952381
+Weija (v0.1 EC record),empirical,26,14.0906,0.0952381
+Weija (v0.1 EC record),empirical,27,14.6325,0.0714286
+Weija (v0.1 EC record),empirical,28,15.1744,0.0714286
+Weija (v0.1 EC record),empirical,29,15.7164,0.0714286
+Weija (v0.1 EC record),empirical,30,16.2583,0.0714286
+Weija (v0.1 EC record),empirical,31,16.8003,0.0714286
+Weija (v0.1 EC record),empirical,32,17.3422,0.0714286
+Weija (v0.1 EC record),empirical,33,17.8842,0.0714286
+Weija (v0.1 EC record),empirical,34,18.4261,0.0714286
+Weija (v0.1 EC record),empirical,35,18.9681,0.0714286
+Weija (v0.1 EC record),empirical,36,19.51,0.0714286
+Weija (v0.1 EC record),empirical,37,20.0519,0.0714286
+Weija (v0.1 EC record),empirical,38,20.5939,0.0714286
+Weija (v0.1 EC record),empirical,39,21.1358,0.0714286
+Weija (v0.1 EC record),empirical,40,21.6778,0.0714286
+Weija (v0.1 EC record),empirical,41,22.2197,0.0714286
+Weija (v0.1 EC record),empirical,42,22.7617,0.0714286
+Weija (v0.1 EC record),empirical,43,23.3036,0.0714286
+Weija (v0.1 EC record),empirical,44,23.8456,0.0714286
+Weija (v0.1 EC record),empirical,45,24.3875,0.0714286
+Weija (v0.1 EC record),empirical,46,24.9294,0.0714286
+Weija (v0.1 EC record),empirical,47,25.4714,0.0714286
+Weija (v0.1 EC record),empirical,48,26.0133,0.0714286
+Weija (v0.1 EC record),empirical,49,26.5553,0.0714286
+Weija (v0.1 EC record),empirical,50,27.0972,0.0714286
+Weija (v0.1 EC record),empirical,51,27.6392,0.0714286
+Weija (v0.1 EC record),empirical,53,28.7231,0.0714286
+Weija (v0.1 EC record),empirical,55,29.8069,0.0714286
+Weija (v0.1 EC record),empirical,56,30.3489,0.0714286
+Weija (v0.1 EC record),empirical,58,31.4328,0.0714286
+Weija (v0.1 EC record),empirical,60,32.5167,0.0714286
+Weija (v0.1 EC record),empirical,62,33.6006,0.0714286
+Weija (v0.1 EC record),empirical,64,34.6844,0.0714286
+Weija (v0.1 EC record),empirical,66,35.7683,0.0714286
+Weija (v0.1 EC record),empirical,68,36.8522,0.0714286
+Weija (v0.1 EC record),empirical,71,38.4781,0.0714286
+Weija (v0.1 EC record),empirical,73,39.5619,0.0714286
+Weija (v0.1 EC record),empirical,75,40.6458,0.0714286
+Weija (v0.1 EC record),empirical,78,42.2717,0.0714286
+Weija (v0.1 EC record),empirical,81,43.8975,0.0714286
+Weija (v0.1 EC record),empirical,83,44.9814,0.047619
+Weija (v0.1 EC record),empirical,86,46.6072,0.047619
+Weija (v0.1 EC record),empirical,89,48.2331,0.047619
+Weija (v0.1 EC record),empirical,92,49.8589,0.047619
+Weija (v0.1 EC record),empirical,95,51.4847,0.047619
+Weija (v0.1 EC record),empirical,98,53.1106,0.047619
+Weija (v0.1 EC record),empirical,101,54.7364,0.047619
+Weija (v0.1 EC record),empirical,104,56.3622,0.047619
+Weija (v0.1 EC record),empirical,108,58.53,0.047619
+Weija (v0.1 EC record),empirical,111,60.1558,0.047619
+Weija (v0.1 EC record),empirical,115,62.3236,0.047619
+Weija (v0.1 EC record),empirical,119,64.4914,0.047619
+Weija (v0.1 EC record),empirical,123,66.6592,0.047619
+Weija (v0.1 EC record),empirical,127,68.8269,0.047619
+Weija (v0.1 EC record),empirical,131,70.9947,0.047619
+Weija (v0.1 EC record),empirical,135,73.1625,0.047619
+Weija (v0.1 EC record),empirical,140,75.8722,0.047619
+Weija (v0.1 EC record),empirical,144,78.04,0.047619
+Weija (v0.1 EC record),empirical,149,80.7497,0.047619
+Weija (v0.1 EC record),empirical,154,83.4594,0.047619
+Weija (v0.1 EC record),empirical,159,86.1692,0.047619
+Weija (v0.1 EC record),empirical,164,88.8789,0.047619
+Weija (v0.1 EC record),empirical,169,91.5886,0.047619
+Weija (v0.1 EC record),empirical,175,94.8403,0.047619
+Weija (v0.1 EC record),empirical,181,98.0919,0.047619
+Weija (v0.1 EC record),empirical,187,101.344,0.047619
+Weija (v0.1 EC record),empirical,193,104.595,0.047619
+Weija (v0.1 EC record),empirical,199,107.847,0.047619
+Weija (v0.1 EC record),empirical,206,111.641,0.047619
+Weija (v0.1 EC record),empirical,212,114.892,0.047619
+Weija (v0.1 EC record),empirical,219,118.686,0.047619
+Weija (v0.1 EC record),empirical,226,122.479,0.047619
+Weija (v0.1 EC record),empirical,234,126.815,0.047619
+Weija (v0.1 EC record),empirical,242,131.151,0.047619
+Weija (v0.1 EC record),empirical,249,134.944,0.047619
+Weija (v0.1 EC record),empirical,258,139.822,0.047619
+Weija (v0.1 EC record),empirical,266,144.157,0.047619
+Weija (v0.1 EC record),empirical,275,149.035,0.047619
+Weija (v0.1 EC record),empirical,284,153.912,0.047619
+Weija (v0.1 EC record),empirical,293,158.79,0.047619
+Weija (v0.1 EC record),empirical,303,164.209,0.047619
+Weija (v0.1 EC record),empirical,313,169.629,0.047619
+Weija (v0.1 EC record),empirical,323,175.048,0.047619
+Weija (v0.1 EC record),empirical,334,181.009,0.0238095
+Weija (node record),geom,1,0.541944,1
+Weija (node record),geom,2,1.08389,0.961681
+Weija (node record),geom,3,1.62583,0.924831
+Weija (node record),geom,4,2.16778,0.889392
+Weija (node record),geom,5,2.70972,0.855311
+Weija (node record),geom,6,3.25167,0.822537
+Weija (node record),geom,7,3.79361,0.791018
+Weija (node record),geom,8,4.33556,0.760707
+Weija (node record),geom,9,4.8775,0.731558
+Weija (node record),geom,10,5.41944,0.703525
+Weija (node record),geom,11,5.96139,0.676567
+Weija (node record),geom,12,6.50333,0.650642
+Weija (node record),geom,13,7.04528,0.62571
+Weija (node record),geom,14,7.58722,0.601733
+Weija (node record),geom,15,8.12917,0.578675
+Weija (node record),geom,16,8.67111,0.556501
+Weija (node record),geom,17,9.21306,0.535177
+Weija (node record),geom,18,9.755,0.514669
+Weija (node record),geom,19,10.2969,0.494948
+Weija (node record),geom,20,10.8389,0.475982
+Weija (node record),geom,21,11.3808,0.457743
+Weija (node record),geom,22,11.9228,0.440203
+Weija (node record),geom,23,12.4647,0.423334
+Weija (node record),geom,24,13.0067,0.407113
+Weija (node record),geom,25,13.5486,0.391513
+Weija (node record),geom,26,14.0906,0.37651
+Weija (node record),geom,27,14.6325,0.362083
+Weija (node record),geom,28,15.1744,0.348208
+Weija (node record),geom,29,15.7164,0.334865
+Weija (node record),geom,30,16.2583,0.322034
+Weija (node record),geom,31,16.8003,0.309694
+Weija (node record),geom,32,17.3422,0.297826
+Weija (node record),geom,33,17.8842,0.286414
+Weija (node record),geom,34,18.4261,0.275439
+Weija (node record),geom,35,18.9681,0.264885
+Weija (node record),geom,36,19.51,0.254734
+Weija (node record),geom,37,20.0519,0.244973
+Weija (node record),geom,38,20.5939,0.235586
+Weija (node record),geom,39,21.1358,0.226559
+Weija (node record),geom,40,21.6778,0.217877
+Weija (node record),geom,41,22.2197,0.209528
+Weija (node record),geom,42,22.7617,0.2015
+Weija (node record),geom,43,23.3036,0.193778
+Weija (node record),geom,44,23.8456,0.186353
+Weija (node record),geom,45,24.3875,0.179212
+Weija (node record),geom,46,24.9294,0.172345
+Weija (node record),geom,47,25.4714,0.165741
+Weija (node record),geom,48,26.0133,0.15939
+Weija (node record),geom,49,26.5553,0.153282
+Weija (node record),geom,50,27.0972,0.147409
+Weija (node record),geom,51,27.6392,0.14176
+Weija (node record),geom,53,28.7231,0.131104
+Weija (node record),geom,55,29.8069,0.121249
+Weija (node record),geom,56,30.3489,0.116603
+Weija (node record),geom,58,31.4328,0.107838
+Weija (node record),geom,60,32.5167,0.0997318
+Weija (node record),geom,62,33.6006,0.092235
+Weija (node record),geom,64,34.6844,0.0853017
+Weija (node record),geom,66,35.7683,0.0788896
+Weija (node record),geom,68,36.8522,0.0729595
+Weija (node record),geom,71,38.4781,0.0648896
+Weija (node record),geom,73,39.5619,0.0600119
+Weija (node record),geom,75,40.6458,0.0555008
+Weija (node record),geom,78,42.2717,0.049362
+Weija (node record),geom,80,43.3556,0.0456515
+Weija (node record),geom,83,44.9814,0.0406021
+Weija (node record),geom,86,46.6072,0.0361112
+Weija (node record),geom,89,48.2331,0.032117
+Weija (node record),geom,92,49.8589,0.0285646
+Weija (node record),geom,95,51.4847,0.0254051
+Weija (node record),geom,98,53.1106,0.0225951
+Weija (node record),geom,101,54.7364,0.0200959
+Weija (node record),geom,104,56.3622,0.0178731
+Weija (node record),geom,108,58.53,0.0152871
+Weija (node record),geom,111,60.1558,0.0135962
+Weija (node record),geom,115,62.3236,0.011629
+Weija (node record),geom,119,64.4914,0.00994642
+Weija (node record),geom,122,66.1172,0.00884627
+Weija (node record),geom,126,68.285,0.00756632
+Weija (node record),geom,131,70.9947,0.00622357
+Weija (node record),geom,135,73.1625,0.00532309
+Weija (node record),geom,139,75.3303,0.0045529
+Weija (node record),geom,144,78.04,0.00374493
+Weija (node record),geom,149,80.7497,0.00308034
+Weija (node record),geom,153,82.9175,0.00263465
+Weija (node record),geom,159,86.1692,0.00208406
+Weija (node record),geom,164,88.8789,0.00171421
+Weija (node record),geom,169,91.5886,0.00141001
+Weija (node record),geom,175,94.8403,0.00111534
+Weija (node record),geom,180,97.55,0.000917408
+Weija (node record),geom,186,100.802,0.000725686
+Weija (node record),geom,192,104.053,0.000574031
+Weija (node record),geom,199,107.847,0.00043667
+Weija (node record),geom,205,111.099,0.000345414
+Weija (node record),geom,212,114.892,0.000262759
+Weija (node record),geom,219,118.686,0.000199882
+Weija (node record),geom,226,122.479,0.000152052
+Weija (node record),geom,233,126.273,0.000115667
+Weija (node record),geom,241,130.609,8.46171e-05
+Weija (node record),geom,249,134.944,6.19023e-05
+Weija (node record),geom,257,139.28,4.52851e-05
+Weija (node record),geom,265,143.615,3.31287e-05
+Weija (node record),geom,274,148.493,2.33068e-05
+Weija (node record),geom,283,153.37,1.6397e-05
+Weija (node record),geom,292,158.248,1.15357e-05
+Weija (node record),geom,302,163.667,7.80465e-06
+Weija (node record),geom,312,169.087,5.28037e-06
+Weija (node record),geom,322,174.506,3.57252e-06
+Weija (node record),geom,333,180.468,2.32443e-06
+Weija (node record),geom2,1,0.541944,1
+Weija (node record),geom2,2,1.08389,0.819933
+Weija (node record),geom2,3,1.62583,0.674627
+Weija (node record),geom2,4,2.16778,0.557365
+Weija (node record),geom2,5,2.70972,0.462726
+Weija (node record),geom2,6,3.25167,0.386336
+Weija (node record),geom2,7,3.79361,0.32467
+Weija (node record),geom2,8,4.33556,0.27488
+Weija (node record),geom2,9,4.8775,0.234672
+Weija (node record),geom2,10,5.41944,0.202193
+Weija (node record),geom2,11,5.96139,0.175951
+Weija (node record),geom2,12,6.50333,0.154738
+Weija (node record),geom2,13,7.04528,0.137584
+Weija (node record),geom2,14,7.58722,0.123704
+Weija (node record),geom2,15,8.12917,0.112466
+Weija (node record),geom2,16,8.67111,0.103358
+Weija (node record),geom2,17,9.21306,0.0959692
+Weija (node record),geom2,18,9.755,0.0899675
+Weija (node record),geom2,19,10.2969,0.0850849
+Weija (node record),geom2,20,10.8389,0.0811052
+Weija (node record),geom2,21,11.3808,0.0778539
+Weija (node record),geom2,22,11.9228,0.0751905
+Weija (node record),geom2,23,12.4647,0.0730014
+Weija (node record),geom2,24,13.0067,0.071195
+Weija (node record),geom2,25,13.5486,0.0696976
+Weija (node record),geom2,26,14.0906,0.0684495
+Weija (node record),geom2,27,14.6325,0.0674027
+Weija (node record),geom2,28,15.1744,0.0665184
+Weija (node record),geom2,29,15.7164,0.0657653
+Weija (node record),geom2,30,16.2583,0.0651182
+Weija (node record),geom2,31,16.8003,0.0645567
+Weija (node record),geom2,32,17.3422,0.0640645
+Weija (node record),geom2,33,17.8842,0.0636282
+Weija (node record),geom2,34,18.4261,0.0632371
+Weija (node record),geom2,35,18.9681,0.0628828
+Weija (node record),geom2,36,19.51,0.0625581
+Weija (node record),geom2,37,20.0519,0.0622575
+Weija (node record),geom2,38,20.5939,0.0619764
+Weija (node record),geom2,39,21.1358,0.0617112
+Weija (node record),geom2,40,21.6778,0.061459
+Weija (node record),geom2,41,22.2197,0.0612174
+Weija (node record),geom2,42,22.7617,0.0609844
+Weija (node record),geom2,43,23.3036,0.0607585
+Weija (node record),geom2,44,23.8456,0.0605385
+Weija (node record),geom2,45,24.3875,0.0603233
+Weija (node record),geom2,46,24.9294,0.0601122
+Weija (node record),geom2,47,25.4714,0.0599044
+Weija (node record),geom2,48,26.0133,0.0596995
+Weija (node record),geom2,49,26.5553,0.059497
+Weija (node record),geom2,50,27.0972,0.0592966
+Weija (node record),geom2,51,27.6392,0.059098
+Weija (node record),geom2,53,28.7231,0.0587053
+Weija (node record),geom2,55,29.8069,0.0583175
+Weija (node record),geom2,56,30.3489,0.0581252
+Weija (node record),geom2,58,31.4328,0.0577434
+Weija (node record),geom2,60,32.5167,0.0573648
+Weija (node record),geom2,62,33.6006,0.0569893
+Weija (node record),geom2,64,34.6844,0.0566166
+Weija (node record),geom2,66,35.7683,0.0562466
+Weija (node record),geom2,68,36.8522,0.0558791
+Weija (node record),geom2,71,38.4781,0.0553325
+Weija (node record),geom2,73,39.5619,0.0549712
+Weija (node record),geom2,75,40.6458,0.0546122
+Weija (node record),geom2,78,42.2717,0.0540782
+Weija (node record),geom2,80,43.3556,0.0537251
+Weija (node record),geom2,83,44.9814,0.0531998
+Weija (node record),geom2,86,46.6072,0.0526797
+Weija (node record),geom2,89,48.2331,0.0521647
+Weija (node record),geom2,92,49.8589,0.0516546
+Weija (node record),geom2,95,51.4847,0.0511496
+Weija (node record),geom2,98,53.1106,0.0506495
+Weija (node record),geom2,101,54.7364,0.0501543
+Weija (node record),geom2,104,56.3622,0.049664
+Weija (node record),geom2,108,58.53,0.0490176
+Weija (node record),geom2,111,60.1558,0.0485384
+Weija (node record),geom2,115,62.3236,0.0479067
+Weija (node record),geom2,119,64.4914,0.0472832
+Weija (node record),geom2,122,66.1172,0.0468209
+Weija (node record),geom2,126,68.285,0.0462115
+Weija (node record),geom2,131,70.9947,0.045461
+Weija (node record),geom2,135,73.1625,0.0448693
+Weija (node record),geom2,139,75.3303,0.0442854
+Weija (node record),geom2,144,78.04,0.0435661
+Weija (node record),geom2,149,80.7497,0.0428585
+Weija (node record),geom2,153,82.9175,0.0423007
+Weija (node record),geom2,159,86.1692,0.0414776
+Weija (node record),geom2,164,88.8789,0.0408039
+Weija (node record),geom2,169,91.5886,0.0401412
+Weija (node record),geom2,175,94.8403,0.0393601
+Weija (node record),geom2,180,97.55,0.0387209
+Weija (node record),geom2,186,100.802,0.0379674
+Weija (node record),geom2,192,104.053,0.0372286
+Weija (node record),geom2,199,107.847,0.0363849
+Weija (node record),geom2,205,111.099,0.0356769
+Weija (node record),geom2,212,114.892,0.0348683
+Weija (node record),geom2,219,118.686,0.034078
+Weija (node record),geom2,226,122.479,0.0333057
+Weija (node record),geom2,233,126.273,0.0325508
+Weija (node record),geom2,241,130.609,0.0317091
+Weija (node record),geom2,249,134.944,0.0308891
+Weija (node record),geom2,257,139.28,0.0300903
+Weija (node record),geom2,265,143.615,0.0293121
+Weija (node record),geom2,274,148.493,0.0284608
+Weija (node record),geom2,283,153.37,0.0276341
+Weija (node record),geom2,292,158.248,0.0268315
+Weija (node record),geom2,302,163.667,0.025967
+Weija (node record),geom2,312,169.087,0.0251303
+Weija (node record),geom2,322,174.506,0.0243206
+Weija (node record),geom2,333,180.468,0.0234601
+Weija (node record),dlnorm,1,0.541944,1
+Weija (node record),dlnorm,2,1.08389,0.762429
+Weija (node record),dlnorm,3,1.62583,0.628396
+Weija (node record),dlnorm,4,2.16778,0.538288
+Weija (node record),dlnorm,5,2.70972,0.47224
+Weija (node record),dlnorm,6,3.25167,0.421201
+Weija (node record),dlnorm,7,3.79361,0.380309
+Weija (node record),dlnorm,8,4.33556,0.346669
+Weija (node record),dlnorm,9,4.8775,0.318427
+Weija (node record),dlnorm,10,5.41944,0.294331
+Weija (node record),dlnorm,11,5.96139,0.2735
+Weija (node record),dlnorm,12,6.50333,0.255293
+Weija (node record),dlnorm,13,7.04528,0.23923
+Weija (node record),dlnorm,14,7.58722,0.224946
+Weija (node record),dlnorm,15,8.12917,0.212154
+Weija (node record),dlnorm,16,8.67111,0.200629
+Weija (node record),dlnorm,17,9.21306,0.190188
+Weija (node record),dlnorm,18,9.755,0.180684
+Weija (node record),dlnorm,19,10.2969,0.171995
+Weija (node record),dlnorm,20,10.8389,0.16402
+Weija (node record),dlnorm,21,11.3808,0.156675
+Weija (node record),dlnorm,22,11.9228,0.149886
+Weija (node record),dlnorm,23,12.4647,0.143594
+Weija (node record),dlnorm,24,13.0067,0.137746
+Weija (node record),dlnorm,25,13.5486,0.132296
+Weija (node record),dlnorm,26,14.0906,0.127207
+Weija (node record),dlnorm,27,14.6325,0.122442
+Weija (node record),dlnorm,28,15.1744,0.117973
+Weija (node record),dlnorm,29,15.7164,0.113773
+Weija (node record),dlnorm,30,16.2583,0.109819
+Weija (node record),dlnorm,31,16.8003,0.106089
+Weija (node record),dlnorm,32,17.3422,0.102567
+Weija (node record),dlnorm,33,17.8842,0.0992348
+Weija (node record),dlnorm,34,18.4261,0.0960782
+Weija (node record),dlnorm,35,18.9681,0.0930839
+Weija (node record),dlnorm,36,19.51,0.09024
+Weija (node record),dlnorm,37,20.0519,0.0875356
+Weija (node record),dlnorm,38,20.5939,0.0849609
+Weija (node record),dlnorm,39,21.1358,0.0825071
+Weija (node record),dlnorm,40,21.6778,0.080166
+Weija (node record),dlnorm,41,22.2197,0.0779303
+Weija (node record),dlnorm,42,22.7617,0.0757932
+Weija (node record),dlnorm,43,23.3036,0.0737485
+Weija (node record),dlnorm,44,23.8456,0.0717904
+Weija (node record),dlnorm,45,24.3875,0.0699138
+Weija (node record),dlnorm,46,24.9294,0.0681139
+Weija (node record),dlnorm,47,25.4714,0.0663861
+Weija (node record),dlnorm,48,26.0133,0.0647265
+Weija (node record),dlnorm,49,26.5553,0.063131
+Weija (node record),dlnorm,50,27.0972,0.0615963
+Weija (node record),dlnorm,51,27.6392,0.060119
+Weija (node record),dlnorm,53,28.7231,0.0573248
+Weija (node record),dlnorm,55,29.8069,0.0547263
+Weija (node record),dlnorm,56,30.3489,0.0534944
+Weija (node record),dlnorm,58,31.4328,0.0511545
+Weija (node record),dlnorm,60,32.5167,0.0489669
+Weija (node record),dlnorm,62,33.6006,0.0469177
+Weija (node record),dlnorm,64,34.6844,0.0449947
+Weija (node record),dlnorm,66,35.7683,0.0431872
+Weija (node record),dlnorm,68,36.8522,0.0414854
+Weija (node record),dlnorm,71,38.4781,0.0391125
+Weija (node record),dlnorm,73,39.5619,0.0376394
+Weija (node record),dlnorm,75,40.6458,0.0362455
+Weija (node record),dlnorm,78,42.2717,0.0342907
+Weija (node record),dlnorm,80,43.3556,0.0330704
+Weija (node record),dlnorm,83,44.9814,0.0313527
+Weija (node record),dlnorm,86,46.6072,0.0297582
+Weija (node record),dlnorm,89,48.2331,0.0282747
+Weija (node record),dlnorm,92,49.8589,0.0268916
+Weija (node record),dlnorm,95,51.4847,0.0255996
+Weija (node record),dlnorm,98,53.1106,0.0243905
+Weija (node record),dlnorm,101,54.7364,0.0232569
+Weija (node record),dlnorm,104,56.3622,0.0221924
+Weija (node record),dlnorm,108,58.53,0.0208706
+Weija (node record),dlnorm,111,60.1558,0.0199458
+Weija (node record),dlnorm,115,62.3236,0.0187932
+Weija (node record),dlnorm,119,64.4914,0.0177238
+Weija (node record),dlnorm,122,66.1172,0.0169715
+Weija (node record),dlnorm,126,68.285,0.0160288
+Weija (node record),dlnorm,131,70.9947,0.0149386
+Weija (node record),dlnorm,135,73.1625,0.0141299
+Weija (node record),dlnorm,139,75.3303,0.0133724
+Weija (node record),dlnorm,144,78.04,0.0124908
+Weija (node record),dlnorm,149,80.7497,0.0116747
+Weija (node record),dlnorm,153,82.9175,0.0110645
+Weija (node record),dlnorm,159,86.1692,0.0102135
+Weija (node record),dlnorm,164,88.8789,0.00955774
+Weija (node record),dlnorm,169,91.5886,0.00894567
+Weija (node record),dlnorm,175,94.8403,0.0082634
+Weija (node record),dlnorm,180,97.55,0.00773431
+Weija (node record),dlnorm,186,100.802,0.00714222
+Weija (node record),dlnorm,192,104.053,0.00659249
+Weija (node record),dlnorm,199,107.847,0.0059993
+Weija (node record),dlnorm,205,111.099,0.00552806
+Weija (node record),dlnorm,212,114.892,0.00501737
+Weija (node record),dlnorm,219,118.686,0.00454466
+Weija (node record),dlnorm,226,122.479,0.00410618
+Weija (node record),dlnorm,233,126.273,0.00369861
+Weija (node record),dlnorm,241,130.609,0.00326695
+Weija (node record),dlnorm,249,134.944,0.00286808
+Weija (node record),dlnorm,257,139.28,0.0024987
+Weija (node record),dlnorm,265,143.615,0.0021559
+Weija (node record),dlnorm,274,148.493,0.00179888
+Weija (node record),dlnorm,283,153.37,0.00146913
+Weija (node record),dlnorm,292,158.248,0.00116389
+Weija (node record),dlnorm,302,163.667,0.000850559
+Weija (node record),dlnorm,312,169.087,0.000561633
+Weija (node record),dlnorm,322,174.506,0.000294602
+Weija (node record),dlnorm,333,180.468,2.35492e-05
+Weija (node record),zeta,1,0.541944,1
+Weija (node record),zeta,2,1.08389,0.630325
+Weija (node record),zeta,3,1.62583,0.497571
+Weija (node record),zeta,4,2.16778,0.424647
+Weija (node record),zeta,5,2.70972,0.376974
+Weija (node record),zeta,6,3.25167,0.34269
+Weija (node record),zeta,7,3.79361,0.316502
+Weija (node record),zeta,8,4.33556,0.295648
+Weija (node record),zeta,9,4.8775,0.278528
+Weija (node record),zeta,10,5.41944,0.264143
+Weija (node record),zeta,11,5.96139,0.251831
+Weija (node record),zeta,12,6.50333,0.241136
+Weija (node record),zeta,13,7.04528,0.231732
+Weija (node record),zeta,14,7.58722,0.223377
+Weija (node record),zeta,15,8.12917,0.215888
+Weija (node record),zeta,16,8.67111,0.209125
+Weija (node record),zeta,17,9.21306,0.202977
+Weija (node record),zeta,18,9.755,0.197356
+Weija (node record),zeta,19,10.2969,0.19219
+Weija (node record),zeta,20,10.8389,0.18742
+Weija (node record),zeta,21,11.3808,0.182999
+Weija (node record),zeta,22,11.9228,0.178885
+Weija (node record),zeta,23,12.4647,0.175045
+Weija (node record),zeta,24,13.0067,0.171449
+Weija (node record),zeta,25,13.5486,0.168071
+Weija (node record),zeta,26,14.0906,0.164892
+Weija (node record),zeta,27,14.6325,0.161891
+Weija (node record),zeta,28,15.1744,0.159054
+Weija (node record),zeta,29,15.7164,0.156364
+Weija (node record),zeta,30,16.2583,0.153811
+Weija (node record),zeta,31,16.8003,0.151382
+Weija (node record),zeta,32,17.3422,0.149068
+Weija (node record),zeta,33,17.8842,0.146861
+Weija (node record),zeta,34,18.4261,0.144751
+Weija (node record),zeta,35,18.9681,0.142732
+Weija (node record),zeta,36,19.51,0.140798
+Weija (node record),zeta,37,20.0519,0.138943
+Weija (node record),zeta,38,20.5939,0.137162
+Weija (node record),zeta,39,21.1358,0.135449
+Weija (node record),zeta,40,21.6778,0.133801
+Weija (node record),zeta,41,22.2197,0.132213
+Weija (node record),zeta,42,22.7617,0.130682
+Weija (node record),zeta,43,23.3036,0.129205
+Weija (node record),zeta,44,23.8456,0.127778
+Weija (node record),zeta,45,24.3875,0.126399
+Weija (node record),zeta,46,24.9294,0.125065
+Weija (node record),zeta,47,25.4714,0.123773
+Weija (node record),zeta,48,26.0133,0.122522
+Weija (node record),zeta,49,26.5553,0.121309
+Weija (node record),zeta,50,27.0972,0.120133
+Weija (node record),zeta,51,27.6392,0.118991
+Weija (node record),zeta,53,28.7231,0.116805
+Weija (node record),zeta,55,29.8069,0.114738
+Weija (node record),zeta,56,30.3489,0.113746
+Weija (node record),zeta,58,31.4328,0.11184
+Weija (node record),zeta,60,32.5167,0.110029
+Weija (node record),zeta,62,33.6006,0.108305
+Weija (node record),zeta,64,34.6844,0.106663
+Weija (node record),zeta,66,35.7683,0.105095
+Weija (node record),zeta,68,36.8522,0.103597
+Weija (node record),zeta,71,38.4781,0.101468
+Weija (node record),zeta,73,39.5619,0.100121
+Weija (node record),zeta,75,40.6458,0.0988289
+Weija (node record),zeta,78,42.2717,0.0969833
+Weija (node record),zeta,80,43.3556,0.0958105
+Weija (node record),zeta,83,44.9814,0.0941308
+Weija (node record),zeta,86,46.6072,0.092539
+Weija (node record),zeta,89,48.2331,0.0910277
+Weija (node record),zeta,92,49.8589,0.0895902
+Weija (node record),zeta,95,51.4847,0.0882207
+Weija (node record),zeta,98,53.1106,0.0869139
+Weija (node record),zeta,101,54.7364,0.0856653
+Weija (node record),zeta,104,56.3622,0.0844705
+Weija (node record),zeta,108,58.53,0.0829548
+Weija (node record),zeta,111,60.1558,0.0818717
+Weija (node record),zeta,115,62.3236,0.0804933
+Weija (node record),zeta,119,64.4914,0.0791843
+Weija (node record),zeta,122,66.1172,0.0782446
+Weija (node record),zeta,126,68.285,0.0770437
+Weija (node record),zeta,131,70.9947,0.0756198
+Weija (node record),zeta,135,73.1625,0.0745375
+Weija (node record),zeta,139,75.3303,0.0735017
+Weija (node record),zeta,144,78.04,0.0722674
+Weija (node record),zeta,149,80.7497,0.0710952
+Weija (node record),zeta,153,82.9175,0.0701985
+Weija (node record),zeta,159,86.1692,0.0689169
+Weija (node record),zeta,164,88.8789,0.0679023
+Weija (node record),zeta,169,91.5886,0.0669327
+Weija (node record),zeta,175,94.8403,0.0658237
+Weija (node record),zeta,180,97.55,0.0649417
+Weija (node record),zeta,186,100.802,0.0639301
+Weija (node record),zeta,192,104.053,0.0629657
+Weija (node record),zeta,199,107.847,0.0618955
+Weija (node record),zeta,205,111.099,0.0610216
+Weija (node record),zeta,212,114.892,0.0600487
+Weija (node record),zeta,219,118.686,0.0591223
+Weija (node record),zeta,226,122.479,0.0582387
+Weija (node record),zeta,233,126.273,0.0573948
+Weija (node record),zeta,241,130.609,0.0564751
+Weija (node record),zeta,249,134.944,0.0555995
+Weija (node record),zeta,257,139.28,0.0547646
+Weija (node record),zeta,265,143.615,0.0539673
+Weija (node record),zeta,274,148.493,0.0531119
+Weija (node record),zeta,283,153.37,0.0522971
+Weija (node record),zeta,292,158.248,0.0515198
+Weija (node record),zeta,302,163.667,0.0506967
+Weija (node record),zeta,312,169.087,0.0499129
+Weija (node record),zeta,322,174.506,0.0491655
+Weija (node record),zeta,333,180.468,0.048382
+Weija (node record),empirical,1,0.541944,1
+Weija (node record),empirical,2,1.08389,0.83871
+Weija (node record),empirical,3,1.62583,0.645161
+Weija (node record),empirical,4,2.16778,0.548387
+Weija (node record),empirical,5,2.70972,0.483871
+Weija (node record),empirical,6,3.25167,0.419355
+Weija (node record),empirical,7,3.79361,0.387097
+Weija (node record),empirical,8,4.33556,0.387097
+Weija (node record),empirical,9,4.8775,0.225806
+Weija (node record),empirical,10,5.41944,0.129032
+Weija (node record),empirical,11,5.96139,0.129032
+Weija (node record),empirical,12,6.50333,0.129032
+Weija (node record),empirical,13,7.04528,0.129032
+Weija (node record),empirical,14,7.58722,0.129032
+Weija (node record),empirical,15,8.12917,0.129032
+Weija (node record),empirical,16,8.67111,0.129032
+Weija (node record),empirical,17,9.21306,0.0967742
+Weija (node record),empirical,18,9.755,0.0967742
+Weija (node record),empirical,19,10.2969,0.0645161
+Weija (node record),empirical,20,10.8389,0.0645161
+Weija (node record),empirical,21,11.3808,0.0645161
+Weija (node record),empirical,22,11.9228,0.0645161
+Weija (node record),empirical,23,12.4647,0.0645161
+Weija (node record),empirical,24,13.0067,0.0645161
+Weija (node record),empirical,25,13.5486,0.0645161
+Weija (node record),empirical,26,14.0906,0.0645161
+Weija (node record),empirical,27,14.6325,0.0645161
+Weija (node record),empirical,28,15.1744,0.0645161
+Weija (node record),empirical,29,15.7164,0.0645161
+Weija (node record),empirical,30,16.2583,0.0645161
+Weija (node record),empirical,31,16.8003,0.0645161
+Weija (node record),empirical,32,17.3422,0.0645161
+Weija (node record),empirical,33,17.8842,0.0645161
+Weija (node record),empirical,34,18.4261,0.0645161
+Weija (node record),empirical,35,18.9681,0.0645161
+Weija (node record),empirical,36,19.51,0.0645161
+Weija (node record),empirical,37,20.0519,0.0645161
+Weija (node record),empirical,38,20.5939,0.0645161
+Weija (node record),empirical,39,21.1358,0.0645161
+Weija (node record),empirical,40,21.6778,0.0645161
+Weija (node record),empirical,41,22.2197,0.0645161
+Weija (node record),empirical,42,22.7617,0.0645161
+Weija (node record),empirical,43,23.3036,0.0645161
+Weija (node record),empirical,44,23.8456,0.0645161
+Weija (node record),empirical,45,24.3875,0.0645161
+Weija (node record),empirical,46,24.9294,0.0645161
+Weija (node record),empirical,47,25.4714,0.0645161
+Weija (node record),empirical,48,26.0133,0.0645161
+Weija (node record),empirical,49,26.5553,0.0645161
+Weija (node record),empirical,50,27.0972,0.0645161
+Weija (node record),empirical,51,27.6392,0.0645161
+Weija (node record),empirical,53,28.7231,0.0645161
+Weija (node record),empirical,55,29.8069,0.0645161
+Weija (node record),empirical,56,30.3489,0.0645161
+Weija (node record),empirical,58,31.4328,0.0645161
+Weija (node record),empirical,60,32.5167,0.0645161
+Weija (node record),empirical,62,33.6006,0.0645161
+Weija (node record),empirical,64,34.6844,0.0645161
+Weija (node record),empirical,66,35.7683,0.0645161
+Weija (node record),empirical,68,36.8522,0.0645161
+Weija (node record),empirical,71,38.4781,0.0645161
+Weija (node record),empirical,73,39.5619,0.0645161
+Weija (node record),empirical,75,40.6458,0.0645161
+Weija (node record),empirical,78,42.2717,0.0645161
+Weija (node record),empirical,80,43.3556,0.0645161
+Weija (node record),empirical,83,44.9814,0.0645161
+Weija (node record),empirical,86,46.6072,0.0645161
+Weija (node record),empirical,89,48.2331,0.0645161
+Weija (node record),empirical,92,49.8589,0.0645161
+Weija (node record),empirical,95,51.4847,0.0645161
+Weija (node record),empirical,98,53.1106,0.0645161
+Weija (node record),empirical,101,54.7364,0.0645161
+Weija (node record),empirical,104,56.3622,0.0645161
+Weija (node record),empirical,108,58.53,0.0645161
+Weija (node record),empirical,111,60.1558,0.0645161
+Weija (node record),empirical,115,62.3236,0.0645161
+Weija (node record),empirical,119,64.4914,0.0645161
+Weija (node record),empirical,122,66.1172,0.0645161
+Weija (node record),empirical,126,68.285,0.0645161
+Weija (node record),empirical,131,70.9947,0.0645161
+Weija (node record),empirical,135,73.1625,0.0645161
+Weija (node record),empirical,139,75.3303,0.0645161
+Weija (node record),empirical,144,78.04,0.0645161
+Weija (node record),empirical,149,80.7497,0.0645161
+Weija (node record),empirical,153,82.9175,0.0645161
+Weija (node record),empirical,159,86.1692,0.0645161
+Weija (node record),empirical,164,88.8789,0.0645161
+Weija (node record),empirical,169,91.5886,0.0645161
+Weija (node record),empirical,175,94.8403,0.0645161
+Weija (node record),empirical,180,97.55,0.0645161
+Weija (node record),empirical,186,100.802,0.0645161
+Weija (node record),empirical,192,104.053,0.0645161
+Weija (node record),empirical,199,107.847,0.0645161
+Weija (node record),empirical,205,111.099,0.0645161
+Weija (node record),empirical,212,114.892,0.0645161
+Weija (node record),empirical,219,118.686,0.0645161
+Weija (node record),empirical,226,122.479,0.0645161
+Weija (node record),empirical,233,126.273,0.0645161
+Weija (node record),empirical,241,130.609,0.0645161
+Weija (node record),empirical,249,134.944,0.0645161
+Weija (node record),empirical,257,139.28,0.0645161
+Weija (node record),empirical,265,143.615,0.0645161
+Weija (node record),empirical,274,148.493,0.0645161
+Weija (node record),empirical,283,153.37,0.0645161
+Weija (node record),empirical,292,158.248,0.0645161
+Weija (node record),empirical,302,163.667,0.0645161
+Weija (node record),empirical,312,169.087,0.0645161
+Weija (node record),empirical,322,174.506,0.0645161
+Weija (node record),empirical,333,180.468,0.0322581
+UVA,geom,1,0.0833333,1
+UVA,geom,2,0.166667,0.372644
+UVA,geom,3,0.25,0.138864
+UVA,geom,4,0.333333,0.0517468
+UVA,geom,5,0.416667,0.0192832
+UVA,geom,6,0.5,0.00718576
+UVA,geom,7,0.583333,0.00267773
+UVA,geom,8,0.666667,0.000997842
+UVA,geom,9,0.75,0.00037184
+UVA,geom,10,0.833333,0.000138564
+UVA,geom,11,0.916667,5.16351e-05
+UVA,geom,12,1,1.92415e-05
+UVA,geom,13,1.08333,7.17025e-06
+UVA,geom,14,1.16667,2.67195e-06
+UVA,geom,15,1.25,9.95689e-07
+UVA,geom,16,1.33333,3.71038e-07
+UVA,geom,17,1.41667,1.38265e-07
+UVA,geom,18,1.5,5.15237e-08
+UVA,geom,19,1.58333,1.92e-08
+UVA,geom,20,1.66667,7.15478e-09
+UVA,geom,21,1.75,2.66619e-09
+UVA,geom,22,1.83333,9.9354e-10
+UVA,geom,23,1.91667,3.70237e-10
+UVA,geom,24,2,1.37967e-10
+UVA,geom,25,2.08333,5.14125e-11
+UVA,geom,26,2.16667,1.91586e-11
+UVA,geom,27,2.25,7.13929e-12
+UVA,geom,28,2.33333,2.66043e-12
+UVA,geom,29,2.41667,9.91429e-13
+UVA,geom,30,2.5,3.69482e-13
+UVA,geom,31,2.58333,1.37668e-13
+UVA,geom,32,2.66667,5.12923e-14
+UVA,geom,33,2.75,1.90958e-14
+UVA,geom,34,2.83333,7.10543e-15
+UVA,geom,35,2.91667,2.66454e-15
+UVA,geom,36,3,9.99201e-16
+UVA,geom,37,3.08333,3.33067e-16
+UVA,geom,38,3.16667,1.11022e-16
+UVA,geom,39,3.25,0
+UVA,geom,40,3.33333,0
+UVA,geom,41,3.41667,0
+UVA,geom,42,3.5,0
+UVA,geom,43,3.58333,0
+UVA,geom,44,3.66667,0
+UVA,geom,45,3.75,0
+UVA,geom,46,3.83333,0
+UVA,geom,47,3.91667,0
+UVA,geom,48,4,0
+UVA,geom,49,4.08333,0
+UVA,geom,50,4.16667,0
+UVA,geom,52,4.33333,0
+UVA,geom,55,4.58333,0
+UVA,geom,58,4.83333,0
+UVA,geom,61,5.08333,0
+UVA,geom,65,5.41667,0
+UVA,geom,68,5.66667,0
+UVA,geom,72,6,0
+UVA,geom,76,6.33333,0
+UVA,geom,80,6.66667,0
+UVA,geom,85,7.08333,0
+UVA,geom,89,7.41667,0
+UVA,geom,94,7.83333,0
+UVA,geom,99,8.25,0
+UVA,geom,105,8.75,0
+UVA,geom,110,9.16667,0
+UVA,geom,117,9.75,0
+UVA,geom,123,10.25,0
+UVA,geom,130,10.8333,0
+UVA,geom,137,11.4167,0
+UVA,geom,144,12,0
+UVA,geom,152,12.6667,0
+UVA,geom,161,13.4167,0
+UVA,geom,169,14.0833,0
+UVA,geom,179,14.9167,0
+UVA,geom,188,15.6667,0
+UVA,geom,199,16.5833,0
+UVA,geom,210,17.5,0
+UVA,geom,221,18.4167,0
+UVA,geom,233,19.4167,0
+UVA,geom,246,20.5,0
+UVA,geom,259,21.5833,0
+UVA,geom,273,22.75,0
+UVA,geom,288,24,0
+UVA,geom,304,25.3333,0
+UVA,geom,321,26.75,0
+UVA,geom,338,28.1667,0
+UVA,geom,357,29.75,0
+UVA,geom,376,31.3333,0
+UVA,geom,397,33.0833,0
+UVA,geom,419,34.9167,0
+UVA,geom,442,36.8333,0
+UVA,geom,466,38.8333,0
+UVA,geom,491,40.9167,0
+UVA,geom,518,43.1667,0
+UVA,geom,546,45.5,0
+UVA,geom,576,48,0
+UVA,geom,608,50.6667,0
+UVA,geom,641,53.4167,0
+UVA,geom,676,56.3333,0
+UVA,geom,713,59.4167,0
+UVA,geom,752,62.6667,0
+UVA,geom,793,66.0833,0
+UVA,geom,836,69.6667,0
+UVA,geom,882,73.5,0
+UVA,geom,930,77.5,0
+UVA,geom,981,81.75,0
+UVA,geom,1034,86.1667,0
+UVA,geom,1091,90.9167,0
+UVA,geom,1151,95.9167,0
+UVA,geom2,1,0.0833333,1
+UVA,geom2,2,0.166667,0.122642
+UVA,geom2,3,0.25,0.0171828
+UVA,geom2,4,0.333333,0.00449332
+UVA,geom2,5,0.416667,0.00295341
+UVA,geom2,6,0.5,0.00275359
+UVA,geom2,7,0.583333,0.00271493
+UVA,geom2,8,0.666667,0.00269572
+UVA,geom2,9,0.75,0.00267893
+UVA,geom2,10,0.833333,0.00266253
+UVA,geom2,11,0.916667,0.00264626
+UVA,geom2,12,1,0.0026301
+UVA,geom2,13,1.08333,0.00261403
+UVA,geom2,14,1.16667,0.00259807
+UVA,geom2,15,1.25,0.0025822
+UVA,geom2,16,1.33333,0.00256642
+UVA,geom2,17,1.41667,0.00255075
+UVA,geom2,18,1.5,0.00253516
+UVA,geom2,19,1.58333,0.00251968
+UVA,geom2,20,1.66667,0.00250429
+UVA,geom2,21,1.75,0.00248899
+UVA,geom2,22,1.83333,0.00247379
+UVA,geom2,23,1.91667,0.00245868
+UVA,geom2,24,2,0.00244366
+UVA,geom2,25,2.08333,0.00242873
+UVA,geom2,26,2.16667,0.00241389
+UVA,geom2,27,2.25,0.00239915
+UVA,geom2,28,2.33333,0.00238449
+UVA,geom2,29,2.41667,0.00236993
+UVA,geom2,30,2.5,0.00235545
+UVA,geom2,31,2.58333,0.00234106
+UVA,geom2,32,2.66667,0.00232676
+UVA,geom2,33,2.75,0.00231255
+UVA,geom2,34,2.83333,0.00229842
+UVA,geom2,35,2.91667,0.00228438
+UVA,geom2,36,3,0.00227043
+UVA,geom2,37,3.08333,0.00225656
+UVA,geom2,38,3.16667,0.00224278
+UVA,geom2,39,3.25,0.00222908
+UVA,geom2,40,3.33333,0.00221546
+UVA,geom2,41,3.41667,0.00220193
+UVA,geom2,42,3.5,0.00218848
+UVA,geom2,43,3.58333,0.00217511
+UVA,geom2,44,3.66667,0.00216182
+UVA,geom2,45,3.75,0.00214862
+UVA,geom2,46,3.83333,0.00213549
+UVA,geom2,47,3.91667,0.00212245
+UVA,geom2,48,4,0.00210948
+UVA,geom2,49,4.08333,0.0020966
+UVA,geom2,50,4.16667,0.00208379
+UVA,geom2,52,4.33333,0.00205841
+UVA,geom2,55,4.58333,0.00202092
+UVA,geom2,58,4.83333,0.00198411
+UVA,geom2,61,5.08333,0.00194797
+UVA,geom2,65,5.41667,0.00190081
+UVA,geom2,68,5.66667,0.00186619
+UVA,geom2,72,6,0.00182101
+UVA,geom2,76,6.33333,0.00177692
+UVA,geom2,80,6.66667,0.0017339
+UVA,geom2,85,7.08333,0.00168159
+UVA,geom2,89,7.41667,0.00164087
+UVA,geom2,94,7.83333,0.00159137
+UVA,geom2,99,8.25,0.00154335
+UVA,geom2,105,8.75,0.00148765
+UVA,geom2,110,9.16667,0.00144276
+UVA,geom2,117,9.75,0.00138219
+UVA,geom2,123,10.25,0.0013323
+UVA,geom2,130,10.8333,0.00127636
+UVA,geom2,137,11.4167,0.00122278
+UVA,geom2,144,12,0.00117144
+UVA,geom2,152,12.6667,0.0011154
+UVA,geom2,161,13.4167,0.00105556
+UVA,geom2,169,14.0833,0.00100507
+UVA,geom2,179,14.9167,0.000945335
+UVA,geom2,188,15.6667,0.000894616
+UVA,geom2,199,16.5833,0.000836307
+UVA,geom2,210,17.5,0.000781798
+UVA,geom2,221,18.4167,0.000730843
+UVA,geom2,233,19.4167,0.000679035
+UVA,geom2,246,20.5,0.000627045
+UVA,geom2,259,21.5833,0.000579036
+UVA,geom2,273,22.75,0.000531437
+UVA,geom2,288,24,0.000484771
+UVA,geom2,304,25.3333,0.000439502
+UVA,geom2,321,26.75,0.000396026
+UVA,geom2,338,28.1667,0.000356851
+UVA,geom2,357,29.75,0.000317635
+UVA,geom2,376,31.3333,0.000282728
+UVA,geom2,397,33.0833,0.000248593
+UVA,geom2,419,34.9167,0.000217243
+UVA,geom2,442,36.8333,0.000188688
+UVA,geom2,466,38.8333,0.000162884
+UVA,geom2,491,40.9167,0.000139751
+UVA,geom2,518,43.1667,0.000118443
+UVA,geom2,546,45.5,9.977e-05
+UVA,geom2,576,48,8.30176e-05
+UVA,geom2,608,50.6667,6.82367e-05
+UVA,geom2,641,53.4167,5.57449e-05
+UVA,geom2,676,56.3333,4.49853e-05
+UVA,geom2,713,59.4167,3.58603e-05
+UVA,geom2,752,62.6667,2.8238e-05
+UVA,geom2,793,66.0833,2.19651e-05
+UVA,geom2,836,69.6667,1.68776e-05
+UVA,geom2,882,73.5,1.27322e-05
+UVA,geom2,930,77.5,9.48806e-06
+UVA,geom2,981,81.75,6.94171e-06
+UVA,geom2,1034,86.1667,5.01688e-06
+UVA,geom2,1091,90.9167,3.53799e-06
+UVA,geom2,1151,95.9167,2.44961e-06
+UVA,dlnorm,1,0.0833333,1
+UVA,dlnorm,2,0.166667,0.102763
+UVA,dlnorm,3,0.25,0.0356748
+UVA,dlnorm,4,0.333333,0.017771
+UVA,dlnorm,5,0.416667,0.0105599
+UVA,dlnorm,6,0.5,0.00696879
+UVA,dlnorm,7,0.583333,0.00493052
+UVA,dlnorm,8,0.666667,0.00366584
+UVA,dlnorm,9,0.75,0.0028287
+UVA,dlnorm,10,0.833333,0.00224666
+UVA,dlnorm,11,0.916667,0.00182604
+UVA,dlnorm,12,1,0.00151243
+UVA,dlnorm,13,1.08333,0.00127254
+UVA,dlnorm,14,1.16667,0.00108502
+UVA,dlnorm,15,1.25,0.00093574
+UVA,dlnorm,16,1.33333,0.000815004
+UVA,dlnorm,17,1.41667,0.000716004
+UVA,dlnorm,18,1.5,0.000633842
+UVA,dlnorm,19,1.58333,0.00056492
+UVA,dlnorm,20,1.66667,0.000506554
+UVA,dlnorm,21,1.75,0.0004567
+UVA,dlnorm,22,1.83333,0.00041379
+UVA,dlnorm,23,1.91667,0.000376596
+UVA,dlnorm,24,2,0.000344151
+UVA,dlnorm,25,2.08333,0.000315684
+UVA,dlnorm,26,2.16667,0.000290573
+UVA,dlnorm,27,2.25,0.000268313
+UVA,dlnorm,28,2.33333,0.000248491
+UVA,dlnorm,29,2.41667,0.000230764
+UVA,dlnorm,30,2.5,0.000214848
+UVA,dlnorm,31,2.58333,0.000200508
+UVA,dlnorm,32,2.66667,0.000187541
+UVA,dlnorm,33,2.75,0.000175779
+UVA,dlnorm,34,2.83333,0.000165079
+UVA,dlnorm,35,2.91667,0.000155316
+UVA,dlnorm,36,3,0.000146385
+UVA,dlnorm,37,3.08333,0.000138194
+UVA,dlnorm,38,3.16667,0.000130664
+UVA,dlnorm,39,3.25,0.000123727
+UVA,dlnorm,40,3.33333,0.000117322
+UVA,dlnorm,41,3.41667,0.000111396
+UVA,dlnorm,42,3.5,0.000105903
+UVA,dlnorm,43,3.58333,0.000100802
+UVA,dlnorm,44,3.66667,9.6056e-05
+UVA,dlnorm,45,3.75,9.16341e-05
+UVA,dlnorm,46,3.83333,8.75071e-05
+UVA,dlnorm,47,3.91667,8.36495e-05
+UVA,dlnorm,48,4,8.00385e-05
+UVA,dlnorm,49,4.08333,7.66537e-05
+UVA,dlnorm,50,4.16667,7.34765e-05
+UVA,dlnorm,52,4.33333,6.76808e-05
+UVA,dlnorm,55,4.58333,6.01798e-05
+UVA,dlnorm,58,4.83333,5.38468e-05
+UVA,dlnorm,61,5.08333,4.84524e-05
+UVA,dlnorm,65,5.41667,4.24219e-05
+UVA,dlnorm,68,5.66667,3.85999e-05
+UVA,dlnorm,72,6,3.4249e-05
+UVA,dlnorm,76,6.33333,3.05858e-05
+UVA,dlnorm,80,6.66667,2.74732e-05
+UVA,dlnorm,85,7.08333,2.41999e-05
+UVA,dlnorm,89,7.41667,2.19793e-05
+UVA,dlnorm,94,7.83333,1.96029e-05
+UVA,dlnorm,99,8.25,1.75868e-05
+UVA,dlnorm,105,8.75,1.55471e-05
+UVA,dlnorm,110,9.16667,1.41026e-05
+UVA,dlnorm,117,9.75,1.23909e-05
+UVA,dlnorm,123,10.25,1.11561e-05
+UVA,dlnorm,130,10.8333,9.93138e-06
+UVA,dlnorm,137,11.4167,8.89424e-06
+UVA,dlnorm,144,12,8.00838e-06
+UVA,dlnorm,152,12.6667,7.1457e-06
+UVA,dlnorm,161,13.4167,6.32844e-06
+UVA,dlnorm,169,14.0833,5.71152e-06
+UVA,dlnorm,179,14.9167,5.05642e-06
+UVA,dlnorm,188,15.6667,4.55611e-06
+UVA,dlnorm,199,16.5833,4.03657e-06
+UVA,dlnorm,210,17.5,3.59844e-06
+UVA,dlnorm,221,18.4167,3.22563e-06
+UVA,dlnorm,233,19.4167,2.87903e-06
+UVA,dlnorm,246,20.5,2.56063e-06
+UVA,dlnorm,259,21.5833,2.29007e-06
+UVA,dlnorm,273,22.75,2.04184e-06
+UVA,dlnorm,288,24,1.81593e-06
+UVA,dlnorm,304,25.3333,1.61171e-06
+UVA,dlnorm,321,26.75,1.42807e-06
+UVA,dlnorm,338,28.1667,1.27206e-06
+UVA,dlnorm,357,29.75,1.12399e-06
+UVA,dlnorm,376,31.3333,9.98304e-07
+UVA,dlnorm,397,33.0833,8.8031e-07
+UVA,dlnorm,419,34.9167,7.75656e-07
+UVA,dlnorm,442,36.8333,6.82895e-07
+UVA,dlnorm,466,38.8333,6.00696e-07
+UVA,dlnorm,491,40.9167,5.27851e-07
+UVA,dlnorm,518,43.1667,4.60985e-07
+UVA,dlnorm,546,45.5,4.02084e-07
+UVA,dlnorm,576,48,3.48475e-07
+UVA,dlnorm,608,50.6667,3.00003e-07
+UVA,dlnorm,641,53.4167,2.57593e-07
+UVA,dlnorm,676,56.3333,2.19374e-07
+UVA,dlnorm,713,59.4167,1.85069e-07
+UVA,dlnorm,752,62.6667,1.5437e-07
+UVA,dlnorm,793,66.0833,1.26962e-07
+UVA,dlnorm,836,69.6667,1.02534e-07
+UVA,dlnorm,882,73.5,8.03417e-08
+UVA,dlnorm,930,77.5,6.06817e-08
+UVA,dlnorm,981,81.75,4.29427e-08
+UVA,dlnorm,1034,86.1667,2.72788e-08
+UVA,dlnorm,1091,90.9167,1.29704e-08
+UVA,dlnorm,1151,95.9167,1.95761e-10
+UVA,zeta,1,0.0833333,1
+UVA,zeta,2,0.166667,0.108068
+UVA,zeta,3,0.25,0.031947
+UVA,zeta,4,0.333333,0.0139052
+UVA,zeta,5,0.416667,0.00740876
+UVA,zeta,6,0.5,0.00446711
+UVA,zeta,7,0.583333,0.00292735
+UVA,zeta,8,0.666667,0.0020366
+UVA,zeta,9,0.75,0.00148217
+UVA,zeta,10,0.833333,0.00111722
+UVA,zeta,11,0.916667,0.00086617
+UVA,zeta,12,1,0.000687193
+UVA,zeta,13,1.08333,0.000555784
+UVA,zeta,14,1.16667,0.000456883
+UVA,zeta,15,1.25,0.000380864
+UVA,zeta,16,1.33333,0.00032136
+UVA,zeta,17,1.41667,0.000274043
+UVA,zeta,18,1.5,0.000235889
+UVA,zeta,19,1.58333,0.000204743
+UVA,zeta,20,1.66667,0.000179037
+UVA,zeta,21,1.75,0.000157612
+UVA,zeta,22,1.83333,0.000139594
+UVA,zeta,23,1.91667,0.000124319
+UVA,zeta,24,2,0.000111275
+UVA,zeta,25,2.08333,0.00010006
+UVA,zeta,26,2.16667,9.0358e-05
+UVA,zeta,27,2.25,8.19174e-05
+UVA,zeta,28,2.33333,7.45354e-05
+UVA,zeta,29,2.41667,6.80476e-05
+UVA,zeta,30,2.5,6.23198e-05
+UVA,zeta,31,2.58333,5.72415e-05
+UVA,zeta,32,2.66667,5.27214e-05
+UVA,zeta,33,2.75,4.86831e-05
+UVA,zeta,34,2.83333,4.50628e-05
+UVA,zeta,35,2.91667,4.18066e-05
+UVA,zeta,36,3,3.88689e-05
+UVA,zeta,37,3.08333,3.62108e-05
+UVA,zeta,38,3.16667,3.37991e-05
+UVA,zeta,39,3.25,3.16052e-05
+UVA,zeta,40,3.33333,2.96047e-05
+UVA,zeta,41,3.41667,2.77761e-05
+UVA,zeta,42,3.5,2.61011e-05
+UVA,zeta,43,3.58333,2.45633e-05
+UVA,zeta,44,3.66667,2.31489e-05
+UVA,zeta,45,3.75,2.18453e-05
+UVA,zeta,46,3.83333,2.06417e-05
+UVA,zeta,47,3.91667,1.95284e-05
+UVA,zeta,48,4,1.8497e-05
+UVA,zeta,49,4.08333,1.75399e-05
+UVA,zeta,50,4.16667,1.66503e-05
+UVA,zeta,52,4.33333,1.50506e-05
+UVA,zeta,55,4.58333,1.30269e-05
+UVA,zeta,58,4.83333,1.1363e-05
+UVA,zeta,61,5.08333,9.98072e-06
+UVA,zeta,65,5.41667,8.47716e-06
+UVA,zeta,68,5.66667,7.5491e-06
+UVA,zeta,72,6,6.51822e-06
+UVA,zeta,76,6.33333,5.67329e-06
+UVA,zeta,80,6.66667,4.9734e-06
+UVA,zeta,85,7.08333,4.2569e-06
+UVA,zeta,89,7.41667,3.78323e-06
+UVA,zeta,94,7.83333,3.28842e-06
+UVA,zeta,99,8.25,2.87928e-06
+UVA,zeta,105,8.75,2.4762e-06
+UVA,zeta,110,9.16667,2.19795e-06
+UVA,zeta,117,9.75,1.87663e-06
+UVA,zeta,123,10.25,1.65101e-06
+UVA,zeta,130,10.8333,1.43284e-06
+UVA,zeta,137,11.4167,1.25281e-06
+UVA,zeta,144,12,1.10278e-06
+UVA,zeta,152,12.6667,9.60278e-07
+UVA,zeta,161,13.4167,8.28847e-07
+UVA,zeta,169,14.0833,7.32141e-07
+UVA,zeta,179,14.9167,6.32024e-07
+UVA,zeta,188,15.6667,5.57501e-07
+UVA,zeta,199,16.5833,4.82055e-07
+UVA,zeta,210,17.5,4.20101e-07
+UVA,zeta,221,18.4167,3.68696e-07
+UVA,zeta,233,19.4167,3.22084e-07
+UVA,zeta,246,20.5,2.80352e-07
+UVA,zeta,259,21.5833,2.45781e-07
+UVA,zeta,273,22.75,2.14845e-07
+UVA,zeta,288,24,1.874e-07
+UVA,zeta,304,25.3333,1.63222e-07
+UVA,zeta,321,26.75,1.42039e-07
+UVA,zeta,338,28.1667,1.24497e-07
+UVA,zeta,357,29.75,1.08266e-07
+UVA,zeta,376,31.3333,9.48366e-08
+UVA,zeta,397,33.0833,8.25464e-08
+UVA,zeta,419,34.9167,7.19253e-08
+UVA,zeta,442,36.8333,6.27507e-08
+UVA,zeta,466,38.8333,5.48256e-08
+UVA,zeta,491,40.9167,4.79774e-08
+UVA,zeta,518,43.1667,4.18487e-08
+UVA,zeta,546,45.5,3.65859e-08
+UVA,zeta,576,48,3.19162e-08
+UVA,zeta,608,50.6667,2.78016e-08
+UVA,zeta,641,53.4167,2.42928e-08
+UVA,zeta,676,56.3333,2.12101e-08
+UVA,zeta,713,59.4167,1.85128e-08
+UVA,zeta,752,62.6667,1.616e-08
+UVA,zeta,793,66.0833,1.41124e-08
+UVA,zeta,836,69.6667,1.23331e-08
+UVA,zeta,882,73.5,1.07573e-08
+UVA,zeta,930,77.5,9.39665e-09
+UVA,zeta,981,81.75,8.19982e-09
+UVA,zeta,1034,86.1667,7.16953e-09
+UVA,zeta,1091,90.9167,6.25207e-09
+UVA,zeta,1151,95.9167,5.45375e-09
+UVA,empirical,1,0.0833333,1
+UVA,empirical,2,0.166667,0.111312
+UVA,empirical,3,0.25,0.0237684
+UVA,empirical,4,0.333333,0.00794107
+UVA,empirical,5,0.416667,0.003861
+UVA,empirical,6,0.5,0.00298475
+UVA,empirical,7,0.583333,0.00246447
+UVA,empirical,8,0.666667,0.00213587
+UVA,empirical,9,0.75,0.00208111
+UVA,empirical,10,0.833333,0.00208111
+UVA,empirical,11,0.916667,0.00205373
+UVA,empirical,12,1,0.00205373
+UVA,empirical,13,1.08333,0.00202634
+UVA,empirical,14,1.16667,0.00202634
+UVA,empirical,15,1.25,0.00194419
+UVA,empirical,16,1.33333,0.00186204
+UVA,empirical,17,1.41667,0.0017799
+UVA,empirical,18,1.5,0.0017799
+UVA,empirical,19,1.58333,0.0017799
+UVA,empirical,20,1.66667,0.00175251
+UVA,empirical,21,1.75,0.00172513
+UVA,empirical,22,1.83333,0.00169775
+UVA,empirical,23,1.91667,0.00156083
+UVA,empirical,24,2,0.001287
+UVA,empirical,25,2.08333,0.001287
+UVA,empirical,26,2.16667,0.00125962
+UVA,empirical,27,2.25,0.00125962
+UVA,empirical,28,2.33333,0.00123224
+UVA,empirical,29,2.41667,0.00123224
+UVA,empirical,30,2.5,0.00123224
+UVA,empirical,31,2.58333,0.00109532
+UVA,empirical,32,2.66667,0.00104055
+UVA,empirical,33,2.75,0.00101317
+UVA,empirical,34,2.83333,0.00101317
+UVA,empirical,35,2.91667,0.00101317
+UVA,empirical,36,3,0.000985788
+UVA,empirical,37,3.08333,0.000985788
+UVA,empirical,38,3.16667,0.000985788
+UVA,empirical,39,3.25,0.000985788
+UVA,empirical,40,3.33333,0.000985788
+UVA,empirical,41,3.41667,0.000985788
+UVA,empirical,42,3.5,0.000985788
+UVA,empirical,43,3.58333,0.000985788
+UVA,empirical,44,3.66667,0.000985788
+UVA,empirical,45,3.75,0.000985788
+UVA,empirical,46,3.83333,0.000985788
+UVA,empirical,47,3.91667,0.000985788
+UVA,empirical,48,4,0.000985788
+UVA,empirical,49,4.08333,0.000985788
+UVA,empirical,50,4.16667,0.000985788
+UVA,empirical,52,4.33333,0.000985788
+UVA,empirical,55,4.58333,0.000985788
+UVA,empirical,58,4.83333,0.000985788
+UVA,empirical,61,5.08333,0.000985788
+UVA,empirical,65,5.41667,0.000985788
+UVA,empirical,68,5.66667,0.000985788
+UVA,empirical,72,6,0.000985788
+UVA,empirical,76,6.33333,0.000985788
+UVA,empirical,80,6.66667,0.000985788
+UVA,empirical,85,7.08333,0.000766724
+UVA,empirical,89,7.41667,0.000766724
+UVA,empirical,94,7.83333,0.000766724
+UVA,empirical,99,8.25,0.000739341
+UVA,empirical,105,8.75,0.000739341
+UVA,empirical,110,9.16667,0.000739341
+UVA,empirical,117,9.75,0.000739341
+UVA,empirical,123,10.25,0.000739341
+UVA,empirical,130,10.8333,0.000739341
+UVA,empirical,137,11.4167,0.000739341
+UVA,empirical,144,12,0.000520277
+UVA,empirical,152,12.6667,0.000520277
+UVA,empirical,161,13.4167,0.000520277
+UVA,empirical,169,14.0833,0.000492894
+UVA,empirical,179,14.9167,0.000492894
+UVA,empirical,188,15.6667,0.000492894
+UVA,empirical,199,16.5833,0.000492894
+UVA,empirical,210,17.5,0.000492894
+UVA,empirical,221,18.4167,0.000492894
+UVA,empirical,233,19.4167,0.000492894
+UVA,empirical,246,20.5,0.000492894
+UVA,empirical,259,21.5833,0.000492894
+UVA,empirical,273,22.75,0.000492894
+UVA,empirical,288,24,0.000492894
+UVA,empirical,304,25.3333,0.000492894
+UVA,empirical,321,26.75,0.000492894
+UVA,empirical,338,28.1667,0.000492894
+UVA,empirical,357,29.75,0.000492894
+UVA,empirical,376,31.3333,0.000492894
+UVA,empirical,397,33.0833,0.000492894
+UVA,empirical,419,34.9167,0.000492894
+UVA,empirical,442,36.8333,0.000492894
+UVA,empirical,466,38.8333,0.000492894
+UVA,empirical,491,40.9167,0.000492894
+UVA,empirical,518,43.1667,0.00027383
+UVA,empirical,546,45.5,0.00027383
+UVA,empirical,576,48,0.00027383
+UVA,empirical,608,50.6667,0.000246447
+UVA,empirical,641,53.4167,0.000246447
+UVA,empirical,676,56.3333,0.000246447
+UVA,empirical,713,59.4167,0.000246447
+UVA,empirical,752,62.6667,0.000246447
+UVA,empirical,793,66.0833,0.000246447
+UVA,empirical,836,69.6667,0.000246447
+UVA,empirical,882,73.5,0.000246447
+UVA,empirical,930,77.5,0.000246447
+UVA,empirical,981,81.75,0.000246447
+UVA,empirical,1034,86.1667,2.7383e-05
+UVA,empirical,1091,90.9167,2.7383e-05
+UVA,empirical,1151,95.9167,2.7383e-05

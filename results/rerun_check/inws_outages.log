@@ -1,0 +1,8 @@
+delivered cycles 19090; missing slots 16230; loss rate 0.4595; outages 1619; median 2; mean 10.02; max 1879
+                    bin  events  event_share  lost_slots  lost_share
+                    ALL    1619     1.000000       16230    1.000000
+        1 slot (10 min)     766     0.473132         766    0.047197
+              2-5 slots     593     0.366275        1692    0.104251
+     6-35 slots (1-6 h)     206     0.127239        2660    0.163894
+  36-141 slots (6-24 h)      40     0.024707        2888    0.177942
+>= 142 slots (>= 1 day)      14     0.008647        8224    0.506716

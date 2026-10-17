@@ -1,0 +1,26 @@
+
+== Weija (conductivity grid, 32.5-min slots)
+                                      record  slot_min  slots   loss  gaps   S_6h   S_1d  longest_d
+   EC stream, v0.1 record (non-imputed rows)   32.5167   5805 0.1578    62 0.8690 0.8090     7.5421
+                EC stream, genuine rows only   32.5167   5805 0.2463    78 0.8965 0.7294     7.5421
+node: any stream, genuine rows (node-silent)   32.5167   5805 0.1394    31 0.8554 0.8133     7.5195
+  EC missing (v0.1 record): 916 (1.000)
+    of which node-silent: 773 (0.844)
+    of which another stream delivered (link up): 143 (0.156)
+  v0.1 gaps >= 6 h: 6; lost slots in them 796; share of those slots with another stream delivering 0.062
+  per-stream genuine coverage of the grid: calcium 0.477, conductivity 0.754, dissolved_oxygen 0.062, fluoride 0.500, orp 0.086, ph 0.713, temperature 0.641
+
+== InWaterSense (node-1 grid, 611-s slots), node 2's window 2015-05-01 17:10:38 .. 2015-08-31 11:06:03 (121.8 d)
+  node 1 loss in window 0.533; node 2 present near a slot: when node 1 delivered 0.614, when node 1 missed 0.213
+  node-1 missing slots in window: 9180 (1.000)
+    node 2 delivering (node-1-specific): 1957 (0.213)
+    node 2 silent too (shared path, shared power, or coincidence): 7223 (0.787)
+  node-1 gaps 0-1 h:  307, lost slots    644, share of their slots with node 2 delivering 0.458
+  node-1 gaps 1-6 h:   32, lost slots    410, share of their slots with node 2 delivering 0.176
+  node-1 gaps 6-24 h:   18, lost slots   1726, share of their slots with node 2 delivering 0.163
+  node-1 gaps 24-inf h:    9, lost slots   6400, share of their slots with node 2 delivering 0.205
+  attribution, all gaps: node 2 silent 0.794 during node-1 gaps vs 0.309 locally -> shared-cause share pi = 0.70, node-1-specific 0.30
+  attribution, gaps < 6 h: node 2 silent 0.652 during node-1 gaps vs 0.451 locally -> shared-cause share pi = 0.37, node-1-specific 0.63
+  attribution, gaps >= 6 h: node 2 silent 0.813 during node-1 gaps vs 0.290 locally -> shared-cause share pi = 0.74, node-1-specific 0.26
+  attribution, gaps >= 1 d: node 2 silent 0.788 during node-1 gaps vs 0.313 locally -> shared-cause share pi = 0.69, node-1-specific 0.31
+  share of ALL node-1 lost slots inside node 2's window: 0.566 (the rest, Sep 2015 - Jan 2016, has no second node to compare with)

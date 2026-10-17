@@ -1,0 +1,105 @@
+param  H_h               stat  value  ci_lo  ci_hi  pairs  chains
+   DO    1         nb_wins_rt  0.189  0.059  0.375     53       7
+   DO    1         nb_gain_rt -0.204 -0.403 -0.041     53       7
+   DO    1         nb_wins_bf  0.132  0.023  0.238     53       7
+   DO    1         nb_gain_bf -0.264 -0.475 -0.151     53       7
+   DO    1 diel_beats_persist  0.415  0.130  0.800     53       7
+   DO    1      naive_nb_wins  0.491  0.203  0.841     53       7
+   DO    1        ok_best_all  0.973  0.910  1.000     53       7
+   DO    1     ok_best_own_rt  0.907  0.790  0.997     53       7
+   DO    1        med_persist  0.669  0.254  0.993     53       7
+   DO    1           med_diel  0.490  0.282  0.958     53       7
+   DO    1         best_nb_rt  0.582  0.270  0.899     53       7
+   DO   24         nb_wins_rt  0.302  0.143  0.486     53       7
+   DO   24         nb_gain_rt -0.088 -0.194 -0.017     53       7
+   DO   24         nb_wins_bf  0.698  0.481  0.917     53       7
+   DO   24         nb_gain_bf  0.103 -0.019  0.387     53       7
+   DO   24 diel_beats_persist  0.774  0.478  1.000     53       7
+   DO   24      naive_nb_wins  0.774  0.568  0.966     53       7
+   DO   24        ok_best_all  0.223  0.100  0.587     53       7
+   DO   24     ok_best_own_rt  0.223  0.087  0.583     53       7
+   DO   24        med_persist  9.070  3.159 10.916     53       7
+   DO   24           med_diel  4.334  1.680  9.342     53       7
+   DO   24         best_nb_rt  5.129  2.357  8.866     53       7
+   EC    1         nb_wins_rt  0.158  0.039  0.308     57       9
+   EC    1         nb_gain_rt -0.008 -0.144  0.025     45       9
+   EC    1         nb_wins_bf  0.158  0.000  0.297     57       9
+   EC    1         nb_gain_bf -0.059 -0.323  0.000     51       9
+   EC    1 diel_beats_persist  0.000  0.000  0.000     57       9
+   EC    1      naive_nb_wins  0.158  0.038  0.302     57       9
+   EC    1        ok_best_all  0.997  0.990  1.000     57       9
+   EC    1     ok_best_own_rt  0.983  0.965  0.993     57       9
+   EC    1        med_persist  0.500  0.000  1.000     57       9
+   EC    1           med_diel  0.500  0.000  1.750     57       9
+   EC    1         best_nb_rt  0.659  0.000  1.111     57       9
+   EC   24         nb_wins_rt  0.228  0.088  0.344     57       9
+   EC   24         nb_gain_rt -0.019 -0.046  0.000     57       9
+   EC   24         nb_wins_bf  0.246  0.100  0.375     57       9
+   EC   24         nb_gain_bf -0.022 -0.049 -0.010     57       9
+   EC   24 diel_beats_persist  0.053  0.000  0.178     57       9
+   EC   24      naive_nb_wins  0.281  0.103  0.425     57       9
+   EC   24        ok_best_all  0.560  0.380  0.813     57       9
+   EC   24     ok_best_own_rt  0.290  0.187  0.733     57       9
+   EC   24        med_persist  7.500  1.000 13.625     57       9
+   EC   24           med_diel  8.250  1.750 17.500     57       9
+   EC   24         best_nb_rt  7.500  1.503 15.000     57       9
+    T    1         nb_wins_rt  0.228  0.054  0.386     57       9
+    T    1         nb_gain_rt -0.009 -0.301  0.000     57       9
+    T    1         nb_wins_bf  0.193  0.026  0.405     57       9
+    T    1         nb_gain_bf -0.186 -0.421  0.000     57       9
+    T    1 diel_beats_persist  0.456  0.262  0.681     57       9
+    T    1      naive_nb_wins  0.614  0.386  0.833     57       9
+    T    1        ok_best_all  0.997  0.980  1.000     57       9
+    T    1     ok_best_own_rt  0.950  0.910  0.985     57       9
+    T    1        med_persist  0.075  0.050  0.100     57       9
+    T    1           med_diel  0.050  0.050  0.050     57       9
+    T    1         best_nb_rt  0.054  0.050  0.068     57       9
+    T   24         nb_wins_rt  0.719  0.456  0.882     57       9
+    T   24         nb_gain_rt  0.065 -0.011  0.138     57       9
+    T   24         nb_wins_bf  0.930  0.754  1.000     57       9
+    T   24         nb_gain_bf  0.234  0.165  0.363     57       9
+    T   24 diel_beats_persist  0.842  0.690  0.965     57       9
+    T   24      naive_nb_wins  1.000  1.000  1.000     57       9
+    T   24        ok_best_all  0.093  0.077  0.167     57       9
+    T   24     ok_best_own_rt  0.057  0.033  0.107     57       9
+    T   24        med_persist  0.975  0.800  1.125     57       9
+    T   24           med_diel  0.700  0.538  0.800     57       9
+    T   24         best_nb_rt  0.649  0.527  0.715     57       9
+   pH    1         nb_wins_rt  0.073  0.000  0.184     55       8
+   pH    1         nb_gain_rt  0.000 -0.598  0.029     16       8
+   pH    1         nb_wins_bf  0.091  0.015  0.220     55       8
+   pH    1         nb_gain_bf -0.106 -0.798  0.000     50       8
+   pH    1 diel_beats_persist  0.127  0.000  0.313     55       8
+   pH    1      naive_nb_wins  0.164  0.018  0.382     55       8
+   pH    1        ok_best_all  0.997  0.993  1.000     55       8
+   pH    1     ok_best_own_rt  0.993  0.950  0.997     55       8
+   pH    1        med_persist  0.000  0.000  0.038     55       8
+   pH    1           med_diel  0.025  0.000  0.025     55       8
+   pH    1         best_nb_rt  0.018  0.000  0.041     55       8
+   pH   24         nb_wins_rt  0.091  0.000  0.250     55       8
+   pH   24         nb_gain_rt -0.066 -0.205 -0.002     52       8
+   pH   24         nb_wins_bf  0.382  0.156  0.643     55       8
+   pH   24         nb_gain_bf -0.002 -0.040  0.161     55       8
+   pH   24 diel_beats_persist  0.418  0.096  0.846     55       8
+   pH   24      naive_nb_wins  0.364  0.118  0.735     55       8
+   pH   24        ok_best_all  0.493  0.267  0.747     55       8
+   pH   24     ok_best_own_rt  0.493  0.277  0.760     55       8
+   pH   24        med_persist  0.175  0.100  0.400     55       8
+   pH   24           med_diel  0.125  0.100  0.250     55       8
+   pH   24         best_nb_rt  0.149  0.100  0.283     55       8
+  all   24        ok_best_all  0.307  0.177  0.487    222       9
+  all    1     ok_best_own_rt  0.965  0.947  0.990    222       9
+
+M13: per parameter, by neighbour position (median over pairs)
+                    pairs  dist_km  lag_h  lag_pos   r6h
+param neighbour_is                                      
+DO    downstream       25    40.53    4.0     0.64  0.54
+      upstream         28    41.10    3.5     0.68  0.53
+EC    downstream       27    41.68   17.0     0.85  0.11
+      upstream         30    45.16   21.0     1.00  0.16
+T     downstream       27    41.68    0.0     0.41  0.58
+      upstream         30    45.16    0.0     0.43  0.62
+pH    downstream       26    45.16   10.5     0.69  0.43
+      upstream         29    48.65   24.0     0.86  0.34
+
+distance range 2.8-300.4 km, median 41.7

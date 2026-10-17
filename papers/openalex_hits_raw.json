@@ -1,0 +1,2884 @@
+[
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2808145259",
+"title": "A resilient data aggregation method based on spatio-temporal correlation for wireless sensor networks",
+"year": 2018,
+"venue": "EURASIP Journal on Wireless Communications and Networking",
+"cites": 25,
+"doi": "https://doi.org/10.1186/s13638-018-1173-7",
+"pdf": "https://jwcn-eurasipjournals.springeropen.com/counter/pdf/10.1186/s13638-018-1173-7"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2100766019",
+"title": "Compression in wireless sensor networks",
+"year": 2013,
+"venue": "ACM Transactions on Sensor Networks",
+"cites": 192,
+"doi": "https://doi.org/10.1145/2528948",
+"pdf": "http://hdl.handle.net/10197/7031"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W4407562821",
+"title": "Energy-Efficient Data Reduction and Reconstruction Schemes to Enhance Network Lifetime in Wireless Sensor Networks",
+"year": 2025,
+"venue": "International Journal of Sensor Networks",
+"cites": 0,
+"doi": "https://doi.org/10.1504/ijsnet.2025.10069447",
+"pdf": null
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2398265463",
+"title": "Spatio-Temporal Adaptive Sampling Techniques for Energy Conservation in Wireless Sensor Networks",
+"year": 2016,
+"venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+"cites": 5,
+"doi": null,
+"pdf": "https://theses.hal.science/tel-01481346v1/document"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2147392828",
+"title": "Correlated Spatio-Temporal Data Collection in Wireless Sensor Networks Based on Low Rank Matrix Approximation and Optimized Node Sampling",
+"year": 2014,
+"venue": "Sensors",
+"cites": 51,
+"doi": "https://doi.org/10.3390/s141223137",
+"pdf": "https://www.mdpi.com/1424-8220/14/12/23137/pdf?version=1417772622"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2423048736",
+"title": "Energy management in Wireless Sensor Networks: A survey",
+"year": 2014,
+"venue": "Computers & Electrical Engineering",
+"cites": 245,
+"doi": "https://doi.org/10.1016/j.compeleceng.2014.06.009",
+"pdf": "https://hal.science/hal-01283728/document"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W4411002309",
+"title": "Estimating Missing Data in Wireless Sensor Network Through Spatial-Temporal Correlation",
+"year": 2025,
+"venue": "International Journal of Advanced Computer Science and Applications",
+"cites": 0,
+"doi": "https://doi.org/10.14569/ijacsa.2025.0160539",
+"pdf": "http://thesai.org/Downloads/Volume16No5/Paper_39-Estimating_Missing_Data_in_Wireless_Sensor_Network.pdf"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W1997083889",
+"title": "Energy-Efficient Methods for Highly Correlated Spatio-Temporal Environments in Wireless Sensor Network Communications",
+"year": 2014,
+"venue": "Wireless Sensor Network",
+"cites": 5,
+"doi": "https://doi.org/10.4236/wsn.2014.65009",
+"pdf": "https://content.scirp.org/pdf/wsn_2014052916253672.pdf"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W4243740687",
+"title": "Exploiting temporal and spatial correlation in wireless sensor networks",
+"year": 2013,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.17760/d20003075",
+"pdf": "https://repository.library.northeastern.edu/files/neu:1231/fulltext.pdf"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2592310960",
+"title": "Transmission Rate Compression Based on Kalman Filter Using Spatio-temporal Correlation for Wireless Sensor Networks",
+"year": 2017,
+"venue": null,
+"cites": 2,
+"doi": null,
+"pdf": null
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2524594657",
+"title": "Dependable Structural Health Monitoring Using Wireless Sensor Networks",
+"year": 2015,
+"venue": "IEEE Transactions on Dependable and Secure Computing",
+"cites": 210,
+"doi": "https://doi.org/10.1109/tdsc.2015.2469655",
+"pdf": "http://ira.lib.polyu.edu.hk/bitstream/10397/105667/1/Cao_Dependable_Structural_Health.pdf"
+},
+{
+"q": "data loss reconstruction wireless sensor networks spatio-temporal",
+"id": "https://openalex.org/W2898763054",
+"title": "Missing observation approximation for spatio-temporal profile reconstruction in participatory sensor networks",
+"year": 2018,
+"venue": "International Journal of Crowd Science",
+"cites": 1,
+"doi": "https://doi.org/10.1108/ijcs-05-2018-0009",
+"pdf": "https://www.emerald.com/insight/content/doi/10.1108/IJCS-05-2018-0009/full/pdf?title=missing-observation-approximation-for-spatio-temporal-profile-reconstruction-in-participatory-sensor-networks"
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2077318038",
+"title": "STCDG: An Efficient Data Gathering Algorithm Based on Matrix Completion for Wireless Sensor Networks",
+"year": 2012,
+"venue": "IEEE Transactions on Wireless Communications",
+"cites": 137,
+"doi": "https://doi.org/10.1109/twc.2012.121412.120148",
+"pdf": null
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W1970732695",
+"title": "Partial Matrix Completion Algorithm for Efficient Data Gathering in Wireless Sensor Networks",
+"year": 2014,
+"venue": "IEEE Communications Letters",
+"cites": 16,
+"doi": "https://doi.org/10.1109/lcomm.2014.2371998",
+"pdf": null
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2584952920",
+"title": "Matrix Completion with Convex Constraints for Data Gathering in Wireless Sensor Networks",
+"year": 2016,
+"venue": "Globecom",
+"cites": 0,
+"doi": "https://doi.org/10.1109/glocom.2016.7841977",
+"pdf": null
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2962819838",
+"title": "Efficient Data Gathering in Wireless Sensor Networks Based on Matrix Completion and Compressive Sensing",
+"year": 2013,
+"venue": "International Journal of Online and Biomedical Engineering (iJOE)",
+"cites": 11,
+"doi": "https://doi.org/10.3991/ijoe.v9is7.3188",
+"pdf": "https://online-journals.org/index.php/i-joe/article/download/3188/2854"
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W3006609439",
+"title": "The Energy-Aware Matrix Completion-Based Data Gathering Scheme for Wireless Sensor Networks",
+"year": 2020,
+"venue": "IEEE Access",
+"cites": 11,
+"doi": "https://doi.org/10.1109/access.2020.2972970",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08990139.pdf"
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2147106170",
+"title": "Efficient Data Gathering in Wireless Sensor Networks Based on Matrix Completion and Compressive Sensing",
+"year": 2013,
+"venue": "arXiv (Cornell University)",
+"cites": 2,
+"doi": "https://doi.org/10.48550/arxiv.1302.2244",
+"pdf": "https://arxiv.org/pdf/1302.2244"
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2521327407",
+"title": "Efficient Data Gathering Methods in Wireless Sensor Networks Using GBTR Matrix Completion",
+"year": 2016,
+"venue": "Sensors",
+"cites": 5,
+"doi": "https://doi.org/10.3390/s16091532",
+"pdf": "https://www.mdpi.com/1424-8220/16/9/1532/pdf?version=1474454041"
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2504667394",
+"title": "A primal-dual algorithm for data gathering based on matrix completion for Wireless Sensor Networks",
+"year": 2016,
+"venue": "International Conference on Communications",
+"cites": 1,
+"doi": "https://doi.org/10.1109/icc.2016.7511420",
+"pdf": null
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2990098771",
+"title": "Energy Efficient Data Gathering Schema for Wireless Sensor Network: A Matrix Completion Based Approach",
+"year": 2019,
+"venue": "International Conference on Software, Telecommunications and Computer Networks (SoftCOM)",
+"cites": 9,
+"doi": "https://doi.org/10.23919/softcom.2019.8903635",
+"pdf": null
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W1482241534",
+"title": "A DCT Regularized Matrix Completion Algorithm for Energy Efficient Data Gathering in Wireless Sensor Networks",
+"year": 2015,
+"venue": "International Journal of Distributed Sensor Networks",
+"cites": 14,
+"doi": "https://doi.org/10.1155/2015/272761",
+"pdf": null
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2908277569",
+"title": "An Adaptive Collection Scheme-Based Matrix Completion for Data Gathering in Energy-Harvesting Wireless Sensor Networks",
+"year": 2019,
+"venue": "IEEE Access",
+"cites": 71,
+"doi": "https://doi.org/10.1109/access.2019.2890862",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08601191.pdf"
+},
+{
+"q": "matrix completion data gathering wireless sensor networks",
+"id": "https://openalex.org/W2419407436",
+"title": "Compressive Data Recovery in Wireless Sensor Networks\u2014A Matrix Completion Approach",
+"year": 2015,
+"venue": "Advances in intelligent systems and computing",
+"cites": 0,
+"doi": "https://doi.org/10.1007/978-3-319-26690-9_32",
+"pdf": null
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W4394627281",
+"title": "A practical approach for missing wireless sensor networks data recovery",
+"year": 2024,
+"venue": "China Communications",
+"cites": 8,
+"doi": "https://doi.org/10.23919/jcc.ea.2021-0283.202401",
+"pdf": null
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W2972479102",
+"title": "A Modified Compressed Sensing-Based Recovery Algorithm for Wireless Sensor Networks",
+"year": 2019,
+"venue": "Radioengineering",
+"cites": 7,
+"doi": "https://doi.org/10.13164/re.2019.0610",
+"pdf": "https://doi.org/10.13164/re.2019.0610"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W4411334411",
+"title": "Enhanced dual-stage iterative recovery framework for incomplete data using compressed sensing and convolutional neural networks",
+"year": 2025,
+"venue": "Measurement",
+"cites": 2,
+"doi": "https://doi.org/10.1016/j.measurement.2025.118178",
+"pdf": null
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W2781595402",
+"title": "Network Traffic Prediction Based on Deep Belief Network and Spatiotemporal Compressive Sensing in Wireless Mesh Backbone Networks",
+"year": 2018,
+"venue": "Wireless Communications and Mobile Computing",
+"cites": 44,
+"doi": "https://doi.org/10.1155/2018/1260860",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/2018/1260860"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W2893633901",
+"title": "A Practical Data-Gathering Algorithm for Lossy Wireless Sensor Networks Employing Distributed Data Storage and Compressive Sensing",
+"year": 2018,
+"venue": "Sensors",
+"cites": 13,
+"doi": "https://doi.org/10.3390/s18103221",
+"pdf": "https://www.mdpi.com/1424-8220/18/10/3221/pdf?version=1537875902"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W3132930374",
+"title": "Compressed Sensing of 3D Marine Environment Monitoring Data Based on Spatiotemporal Correlation",
+"year": 2021,
+"venue": "IEEE Access",
+"cites": 3,
+"doi": "https://doi.org/10.1109/access.2021.3060472",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09358138.pdf"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W4387579682",
+"title": "Deep Compressed Sensing based Data Imputation for Urban Environmental Monitoring",
+"year": 2023,
+"venue": "ACM Transactions on Sensor Networks",
+"cites": 12,
+"doi": "https://doi.org/10.1145/3599236",
+"pdf": "https://dl.acm.org/doi/pdf/10.1145/3599236"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W2274606550",
+"title": "Efficient Saptio-Temporal Sampling in Wireless Sensor Networks Based on Compressive Sampling",
+"year": 2015,
+"venue": "Technischen Universit\u00e4t Darmstadt",
+"cites": 2,
+"doi": "https://doi.org/10.26083/tuprints-00004944",
+"pdf": "http://tuprints.ulb.tu-darmstadt.de/4944/1/diss_reza.pdf"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W2895912163",
+"title": "Compressive Sensing-Based IoT Applications: A Review",
+"year": 2018,
+"venue": "Journal of Sensor and Actuator Networks",
+"cites": 86,
+"doi": "https://doi.org/10.3390/jsan7040045",
+"pdf": "https://www.mdpi.com/2224-2708/7/4/45/pdf?version=1545106006"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W3013886221",
+"title": "Sensor data quality: a systematic review",
+"year": 2020,
+"venue": "Journal Of Big Data",
+"cites": 370,
+"doi": "https://doi.org/10.1186/s40537-020-0285-1",
+"pdf": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-020-0285-1"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W4320712996",
+"title": "Compressed Sensing Approach for Physiological Signals: A Review",
+"year": 2023,
+"venue": "IEEE Sensors Journal",
+"cites": 72,
+"doi": "https://doi.org/10.1109/jsen.2023.3243390",
+"pdf": "https://ieeexplore.ieee.org/ielx7/7361/10068826/10043806.pdf"
+},
+{
+"q": "compressive sensing spatiotemporal missing data sensor network",
+"id": "https://openalex.org/W3007743770",
+"title": "From Compressed-Sensing to Artificial Intelligence-Based Cardiac MRI Reconstruction",
+"year": 2020,
+"venue": "Frontiers in Cardiovascular Medicine",
+"cites": 167,
+"doi": "https://doi.org/10.3389/fcvm.2020.00017",
+"pdf": "https://www.frontiersin.org/articles/10.3389/fcvm.2020.00017/pdf"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W3122263456",
+"title": "Missing Data Imputation on IoT Sensor Networks: Implications for on-Site Sensor Calibration",
+"year": 2021,
+"venue": "IEEE Sensors Journal",
+"cites": 96,
+"doi": "https://doi.org/10.1109/jsen.2021.3105442",
+"pdf": null
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W4229000832",
+"title": "Missing Data Imputation in the Internet of Things Sensor Networks",
+"year": 2022,
+"venue": "Future Internet",
+"cites": 50,
+"doi": "https://doi.org/10.3390/fi14050143",
+"pdf": "https://www.mdpi.com/1999-5903/14/5/143/pdf?version=1652079212"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W4406931748",
+"title": "Enhanced data imputation model for missing data recovery in wireless sensor network",
+"year": 2025,
+"venue": "CRC Press eBooks",
+"cites": 0,
+"doi": "https://doi.org/10.1201/9781003559139-26",
+"pdf": "https://api.taylorfrancis.com/content/chapters/oa-edit/download?identifierName=doi&identifierValue=10.1201/9781003559139-26&type=chapterpdf"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W4414361963",
+"title": "Leveraging Spatiotemporal Redundancy for Sensor Data Imputation in Water Distribution Networks",
+"year": 2025,
+"venue": "Water Resources Research",
+"cites": 2,
+"doi": "https://doi.org/10.1029/2025wr040528",
+"pdf": null
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W2926585089",
+"title": "SSIM\u2014A Deep Learning Approach for Recovering Missing Time Series Sensor Data",
+"year": 2019,
+"venue": "IEEE Internet of Things Journal",
+"cites": 164,
+"doi": "https://doi.org/10.1109/jiot.2019.2909038",
+"pdf": null
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W3157129049",
+"title": "Water-Quality Data Imputation with a High Percentage of Missing Values: A Machine Learning Approach",
+"year": 2021,
+"venue": "Sustainability",
+"cites": 79,
+"doi": "https://doi.org/10.3390/su13116318",
+"pdf": "https://www.mdpi.com/2071-1050/13/11/6318/pdf?version=1622701264"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W4391654132",
+"title": "Missing Data Imputation Method Combining Random Forest and Generative Adversarial Imputation Network",
+"year": 2024,
+"venue": "Sensors",
+"cites": 33,
+"doi": "https://doi.org/10.3390/s24041112",
+"pdf": "https://www.mdpi.com/1424-8220/24/4/1112/pdf?version=1707386305"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W3030576976",
+"title": "Data Imputation in Wireless Sensor Networks Using a Machine Learning-Based Virtual Sensor",
+"year": 2020,
+"venue": "Journal of Sensor and Actuator Networks",
+"cites": 28,
+"doi": "https://doi.org/10.3390/jsan9020025",
+"pdf": "https://www.mdpi.com/2224-2708/9/2/25/pdf"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W4403325842",
+"title": "Nonnegative Latent Factorization of Tensors with Swish Regularization for Water Quality Data Imputation",
+"year": 2024,
+"venue": "International Conference on Communications and Broadband Networking (ICCBN)",
+"cites": 0,
+"doi": "https://doi.org/10.1145/3688636.3688645",
+"pdf": null
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W4413354677",
+"title": "Adaptive biases-incorporated latent factorization of tensors for predicting missing data in water quality monitoring networks",
+"year": 2025,
+"venue": "Frontiers in Physics",
+"cites": 0,
+"doi": "https://doi.org/10.3389/fphy.2025.1587012",
+"pdf": null
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W3013886221",
+"title": "Sensor data quality: a systematic review",
+"year": 2020,
+"venue": "Journal Of Big Data",
+"cites": 370,
+"doi": "https://doi.org/10.1186/s40537-020-0285-1",
+"pdf": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-020-0285-1"
+},
+{
+"q": "missing data imputation water quality sensor network",
+"id": "https://openalex.org/W3094159929",
+"title": "Real-time data-driven missing data imputation for short-term sensor data of marine systems. A comparative study",
+"year": 2020,
+"venue": "Ocean Engineering",
+"cites": 82,
+"doi": "https://doi.org/10.1016/j.oceaneng.2020.108261",
+"pdf": "https://strathprints.strath.ac.uk/74456/1/Velasco_Gallego_Lazakis_OE_2020_Real_time_data_driven_missing_data_imputation_for_short_term.pdf"
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4401567681",
+"title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
+"year": 2024,
+"venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+"cites": 505,
+"doi": "https://doi.org/10.1109/tpami.2024.3443141",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4287062502",
+"title": "Filling the G_ap_s: Multivariate Time Series Imputation by Graph Neural Networks",
+"year": 2021,
+"venue": "arXiv (Cornell University)",
+"cites": 39,
+"doi": "https://doi.org/10.48550/arxiv.2108.00298",
+"pdf": "https://arxiv.org/pdf/2108.00298"
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W3190787760",
+"title": "Multivariate Time Series Imputation by Graph Neural Networks",
+"year": 2021,
+"venue": "arXiv (Cornell University)",
+"cites": 8,
+"doi": null,
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4409365091",
+"title": "Motif-aware Graph Neural Networks for Networked Time Series Imputation",
+"year": 2025,
+"venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+"cites": 5,
+"doi": "https://doi.org/10.1609/aaai.v39i11.33241",
+"pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/33241/35396"
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4383987257",
+"title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
+"year": 2023,
+"venue": "arXiv (Cornell University)",
+"cites": 29,
+"doi": "https://doi.org/10.48550/arxiv.2307.03759",
+"pdf": "https://arxiv.org/pdf/2307.03759"
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4390189144",
+"title": "Time-Series Imputation Using Graph Neural Networks and Denoising Autoencoders",
+"year": 2023,
+"venue": "Conference record of the IEEE Photovoltaic Specialists Conference",
+"cites": 2,
+"doi": "https://doi.org/10.1109/pvsc48320.2023.10359805",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4392971690",
+"title": "Causality-Aware Spatiotemporal Graph Neural Networks for Spatiotemporal Time Series Imputation",
+"year": 2024,
+"venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+"cites": 14,
+"doi": "https://doi.org/10.1145/3627673.3679642",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4405755863",
+"title": "Graph Neural Networks for Missing Data Imputation in Time Series from Meteorological Sensors",
+"year": 2024,
+"venue": "IEEE International Conference on Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering (MetroXRAINE)",
+"cites": 7,
+"doi": "https://doi.org/10.1109/metroxraine62247.2024.10796616",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W7165727428",
+"title": "Multi-Scale Hybrid Graph Neural Network for Multi-Variable Time Series Imputation",
+"year": 2026,
+"venue": "Chinese Control and Decision Conference (CCDC)",
+"cites": 0,
+"doi": "https://doi.org/10.1109/ccdc69976.2026.11560540",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4391140139",
+"title": "G-Tigre: A New Generative Framework for Multivariate Time Series Imputation by Graph Neural Networks",
+"year": 2024,
+"venue": "SSRN Electronic Journal",
+"cites": 0,
+"doi": "https://doi.org/10.2139/ssrn.4703695",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W7147633093",
+"title": "Graph Neural Network-Based Adaptive Data Imputation and Outlier Detection for Streaming IoT Time Series",
+"year": 2026,
+"venue": "International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)",
+"cites": 4,
+"doi": "https://doi.org/10.1109/idciot67589.2026.11455698",
+"pdf": null
+},
+{
+"q": "graph neural network time series imputation",
+"id": "https://openalex.org/W4413394612",
+"title": "Stacked Spatio-Temporal Graph Neural Network Model Based on Mask-Driven for Time Series Imputation",
+"year": 2025,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.1109/isbdas64762.2025.11116829",
+"pdf": null
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W4413757434",
+"title": "Rapid Prediction Approach for Water Quality in Plain River Networks: A Data-Driven Water Quality Prediction Model Based on Graph Neural Networks",
+"year": 2025,
+"venue": "Water",
+"cites": 9,
+"doi": "https://doi.org/10.3390/w17172543",
+"pdf": "https://www.mdpi.com/2073-4441/17/17/2543/pdf?version=1756300113"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W4414602029",
+"title": "Spatiotemporal graph neural networks for analyzing the influence mechanisms of river hydrodynamics on microplastic transport processes",
+"year": 2025,
+"venue": "Scientific Reports",
+"cites": 4,
+"doi": "https://doi.org/10.1038/s41598-025-18731-2",
+"pdf": "https://www.nature.com/articles/s41598-025-18731-2.pdf"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W7165474914",
+"title": "Incorporating Flow Direction as a Physical Prior in Graph Networks: A Directed Temporal Graph Convolutional Network for Enhanced Water Quality Forecasting in Lake Basins",
+"year": 2026,
+"venue": "Transactions in GIS",
+"cites": 1,
+"doi": "https://doi.org/10.1111/tgis.70309",
+"pdf": null
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W4393278975",
+"title": "Graph neural network-based anomaly detection for river network systems",
+"year": 2024,
+"venue": "F1000Research",
+"cites": 5,
+"doi": "https://doi.org/10.12688/f1000research.136097.2",
+"pdf": null
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W4416334957",
+"title": "Water-State-Aware Spatiotemporal Graph Transformer Network for Water-Level Prediction",
+"year": 2025,
+"venue": "Journal of Marine Science and Engineering",
+"cites": 3,
+"doi": "https://doi.org/10.3390/jmse13112187",
+"pdf": "https://www.mdpi.com/2077-1312/13/11/2187/pdf?version=1763466798"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W4386255514",
+"title": "Graph neural network method for the intelligent selection of river system",
+"year": 2023,
+"venue": "Geocarto International",
+"cites": 10,
+"doi": "https://doi.org/10.1080/10106049.2023.2252762",
+"pdf": "https://www.tandfonline.com/doi/pdf/10.1080/10106049.2023.2252762?download=true"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W7124447647",
+"title": "Spatiotemporal prediction of water quality and ecological risk assessment in a river basin using T-GCN based on river network topology constraints",
+"year": 2026,
+"venue": "Scientific Reports",
+"cites": 3,
+"doi": "https://doi.org/10.1038/s41598-025-34722-9",
+"pdf": "https://www.nature.com/articles/s41598-025-34722-9_reference.pdf"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W3198741357",
+"title": "Daily River Water Temperature Prediction: A Comparison between Neural Network and Stochastic Techniques",
+"year": 2021,
+"venue": "Atmosphere",
+"cites": 35,
+"doi": "https://doi.org/10.3390/atmos12091154",
+"pdf": "https://www.mdpi.com/2073-4433/12/9/1154/pdf?version=1631085684"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W7133360789",
+"title": "Hybrid AI for estimating water levels at ungauged river locations via graph neural networks and terrain-aware edges",
+"year": 2026,
+"venue": "Advances in Water Resources",
+"cites": 0,
+"doi": "https://doi.org/10.1016/j.advwatres.2026.105261",
+"pdf": null
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W7220667075",
+"title": "Spatiotemporal Graph Neural Networks and Digital Twins for Urban Drainage Networks: Predictive Inundation, Critical-Node Detection, And Infrastructure Prioritization",
+"year": 2025,
+"venue": "American Journal of Scholarly Research and Innovation",
+"cites": 0,
+"doi": "https://doi.org/10.63125/awvjew66",
+"pdf": "https://researchinnovationjournal.com/index.php/AJSRI/article/download/147/135"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W3194680813",
+"title": "Physics-Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks",
+"year": 2021,
+"venue": "Society for Industrial and Applied Mathematics eBooks",
+"cites": 101,
+"doi": "https://doi.org/10.1137/1.9781611976700.69",
+"pdf": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976700.69"
+},
+{
+"q": "river water quality spatiotemporal graph neural network upstream downstream",
+"id": "https://openalex.org/W7142650894",
+"title": "Attributed graph neural network-based flood vulnerability assessment of river basin systems",
+"year": 2026,
+"venue": "Smart Construction and Sustainable Cities",
+"cites": 3,
+"doi": "https://doi.org/10.1007/s44268-026-00093-x",
+"pdf": "https://link.springer.com/content/pdf/10.1007/s44268-026-00093-x.pdf"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W3132647900",
+"title": "The Analysis and Modelling of the Quality of Information Acquired from Weather Station Sensors",
+"year": 2021,
+"venue": "Remote Sensing",
+"cites": 39,
+"doi": "https://doi.org/10.3390/rs13040693",
+"pdf": "https://www.mdpi.com/2072-4292/13/4/693/pdf?version=1614157569"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W3013886221",
+"title": "Sensor data quality: a systematic review",
+"year": 2020,
+"venue": "Journal Of Big Data",
+"cites": 370,
+"doi": "https://doi.org/10.1186/s40537-020-0285-1",
+"pdf": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-020-0285-1"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W3202355320",
+"title": "Automated negotiation for opportunistic direct cooperation between neighbouring wireless sensor networks",
+"year": 2020,
+"venue": "ePrints Soton (University of Southampton)",
+"cites": 0,
+"doi": null,
+"pdf": "https://eprints.soton.ac.uk/447678/1/Final_thesis.pdf"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W7137072836",
+"title": "A do-it-yourself water quality sensor network to elucidate contaminant signatures and improve land management advice",
+"year": 2026,
+"venue": "Scientific Reports",
+"cites": 1,
+"doi": "https://doi.org/10.1038/s41598-026-43915-9",
+"pdf": "https://www.nature.com/articles/s41598-026-43915-9_reference.pdf"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W4306160262",
+"title": "Daily Estimation of Global Solar Irradiation and Temperatures Using Artificial Neural Networks through the Virtual Weather Station Concept in Castilla and Le\u00f3n, Spain",
+"year": 2022,
+"venue": "Sensors",
+"cites": 5,
+"doi": "https://doi.org/10.3390/s22207772",
+"pdf": "https://www.mdpi.com/1424-8220/22/20/7772/pdf?version=1665657103"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W7208772459",
+"title": "A multicriteria decision analysis framework for generating baseline virtual weather stations in Zimbabwe",
+"year": 2026,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.31223/x57v3b",
+"pdf": "https://eartharxiv.org/repository/object/13763/download/25752/"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W4400249003",
+"title": "Monitoring Water Diversity and Water Quality with Remote Sensing and Traits",
+"year": 2024,
+"venue": "Remote Sensing",
+"cites": 22,
+"doi": "https://doi.org/10.3390/rs16132425",
+"pdf": "https://www.mdpi.com/2072-4292/16/13/2425/pdf?version=1719991202"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W4399418008",
+"title": "An Architecture for Early Wildfire Detection and Spread Estimation Using Unmanned Aerial Vehicles, Base Stations, and Space Assets",
+"year": 2024,
+"venue": "Drones and autonomous vehicles/Drones and Autonomous Vehicles",
+"cites": 17,
+"doi": "https://doi.org/10.35534/dav.2024.10006",
+"pdf": "https://www.sciepublish.com/index/article/view_full_text/id/206"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W2222998785",
+"title": "The estimation of precipitable water vapour from GPS measurements in South Africa",
+"year": 2005,
+"venue": "Open University of Cape Town (University of Cape Town)",
+"cites": 1,
+"doi": null,
+"pdf": "http://hdl.handle.net/11427/14626"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W821590771",
+"title": "QUALITY OF SERVICE AWARE OPTIMIZATION OF SENSOR NETWORK QUERIES",
+"year": 2010,
+"venue": "Research Explorer (The University of Manchester)",
+"cites": 1,
+"doi": null,
+"pdf": "https://pure.manchester.ac.uk/ws/files/38476549/FULL_TEXT.pdf"
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W1844727180",
+"title": "QUALITY OF WATER USING MULTIVARIATE ANALYSIS",
+"year": 2005,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.5902/2179460x9671",
+"pdf": null
+},
+{
+"q": "virtual sensor water quality estimation neighbouring stations",
+"id": "https://openalex.org/W2679482613",
+"title": "Tropical Montane Cloud Forests: Hydrometeorological variability in three neighbouring catchments with different forest cover",
+"year": 2017,
+"venue": "Journal of Hydrology",
+"cites": 37,
+"doi": "https://doi.org/10.1016/j.jhydrol.2017.06.023",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S0022169417304262/pdf"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W7160993527",
+"title": "WiFinger: Fingerprinting Noisy IoT Event Traffic Using Packet-level Sequence Matching",
+"year": 2026,
+"venue": "Network and Distributed System Security Symposium",
+"cites": 3,
+"doi": "https://doi.org/10.14722/ndss.2026.241083",
+"pdf": "https://doi.org/10.14722/ndss.2026.241083"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W4312454136",
+"title": "Fuzzy Congestion Control and Avoidance for CoAP in IoT Networks",
+"year": 2022,
+"venue": "IEEE Access",
+"cites": 6,
+"doi": "https://doi.org/10.1109/access.2022.3211296",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09906978.pdf"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W4285289634",
+"title": "URLLC and eMBB in 5G Industrial IoT: A Survey",
+"year": 2022,
+"venue": "IEEE Open Journal of the Communications Society",
+"cites": 217,
+"doi": "https://doi.org/10.1109/ojcoms.2022.3189013",
+"pdf": "https://ieeexplore.ieee.org/ielx7/8782661/8901158/09826826.pdf"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W7213665058",
+"title": "Comparison of Network Performance Metrics for Dependable IoT Systems",
+"year": 2026,
+"venue": "Journal of Mobile Multimedia",
+"cites": 0,
+"doi": "https://doi.org/10.13052/jmm1550-4646.2242",
+"pdf": "https://journals.riverpublishers.com/index.php/JMM/article/download/27995/24210"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W4403917847",
+"title": "Approximate Wireless Communication for Lossy Gradient Updates in IoT Federated Learning",
+"year": 2024,
+"venue": "IEEE Internet of Things Journal",
+"cites": 1,
+"doi": "https://doi.org/10.1109/jiot.2024.3488377",
+"pdf": "https://arxiv.org/pdf/2404.11035"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W4410082668",
+"title": "A Network Traffic Characteristics Reconstruction Method for Mitigating the Impact of Packet Loss in Edge Computing Scenarios",
+"year": 2025,
+"venue": "Future Internet",
+"cites": 3,
+"doi": "https://doi.org/10.3390/fi17050208",
+"pdf": "https://www.mdpi.com/1999-5903/17/5/208/pdf?version=1746439805"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W4416967348",
+"title": "HERMES: Heterogeneous Application-Enabled Routing Middleware for Edge-IoT Systems",
+"year": 2025,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2512.01824",
+"pdf": "https://arxiv.org/pdf/2512.01824"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W4387366514",
+"title": "A QoS-aware Mechanism for Reducing TCP Retransmission Timeouts using Network Tomography",
+"year": 2023,
+"venue": "International Journal of Advanced Computer Science and Applications",
+"cites": 1,
+"doi": "https://doi.org/10.14569/ijacsa.2023.0140999",
+"pdf": "https://thesai.org/Downloads/Volume14No9/Paper_99-A_QoS_aware_Mechanism_for_Reducing_TCP_Retransmission_Timeouts.pdf"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W3017553648",
+"title": "Artificial Intelligence Techniques for Cognitive Sensing in Future IoT: State-of-the-Art, Potentials, and Challenges",
+"year": 2020,
+"venue": "Journal of Sensor and Actuator Networks",
+"cites": 54,
+"doi": "https://doi.org/10.3390/jsan9020021",
+"pdf": "https://www.mdpi.com/2224-2708/9/2/21/pdf?version=1587810445"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W7130651697",
+"title": "A Review of Resilient IoT Systems: Trends, Challenges, and Future Directions",
+"year": 2026,
+"venue": "Applied Sciences",
+"cites": 7,
+"doi": "https://doi.org/10.3390/app16042079",
+"pdf": "https://www.mdpi.com/2076-3417/16/4/2079/pdf?version=1772005901"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W7201850772",
+"title": "A Reliability-Aware Edge\u2013Cloud Framework for Early Intrusion Detection in IoT Networks",
+"year": 2026,
+"venue": "Electronics",
+"cites": 0,
+"doi": "https://doi.org/10.3390/electronics15163506",
+"pdf": "https://www.mdpi.com/2079-9292/15/16/3506/pdf?version=1786106687"
+},
+{
+"q": "packet loss recovery inference instead of retransmission IoT",
+"id": "https://openalex.org/W3191304801",
+"title": "Network Performance Analysis of IoT, Cloud and Mobile Systems.",
+"year": 2021,
+"venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+"cites": 0,
+"doi": null,
+"pdf": "https://www.lib.ncsu.edu/resolver/1840.20/39037"
+}
+][
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W2897661145",
+"title": "Modelling and Estimation for Uncertain Systems with Transmission Delays, Packet Dropouts, and Out\u2010of\u2010Order Packets",
+"year": 2018,
+"venue": "Complexity",
+"cites": 7,
+"doi": "https://doi.org/10.1155/2018/7531547",
+"pdf": "https://downloads.hindawi.com/journals/complexity/2018/7531547.pdf"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W3107333338",
+"title": "Event-Triggered State Estimation for Wireless Sensor Network Systems With Packet Losses and Correlated Noises",
+"year": 2020,
+"venue": "IEEE Access",
+"cites": 6,
+"doi": "https://doi.org/10.1109/access.2020.3041596",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09274308.pdf"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W4212894442",
+"title": "Estimation-Based and Dropout-Dependent Control Design for Aeroengine Distributed Control System with Packet Dropout",
+"year": 2022,
+"venue": "International Journal of Aerospace Engineering",
+"cites": 6,
+"doi": "https://doi.org/10.1155/2022/8658704",
+"pdf": "https://downloads.hindawi.com/journals/ijae/2022/8658704.pdf"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W3164586898",
+"title": "Dynamic Event-triggered Control and Estimation: A Survey",
+"year": 2021,
+"venue": "Machine Intelligence Research",
+"cites": 296,
+"doi": "https://doi.org/10.1007/s11633-021-1306-z",
+"pdf": "https://link.springer.com/content/pdf/10.1007/s11633-021-1306-z.pdf"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W2552947112",
+"title": "Event-Triggered Second-Moment Stabilization of Linear Systems Under Packet Drops",
+"year": 2017,
+"venue": "IEEE Transactions on Automatic Control",
+"cites": 24,
+"doi": "https://doi.org/10.1109/tac.2017.2764067",
+"pdf": "https://arxiv.org/pdf/1609.02963"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W2605241300",
+"title": "A Passivity-Based Design for Stability and Robustness in Event-Triggered Networked Control Systems with Communication Delays, Signal Quantizations and Packet Dropouts",
+"year": 2017,
+"venue": "arXiv (Cornell University)",
+"cites": 2,
+"doi": "https://doi.org/10.48550/arxiv.1704.00592",
+"pdf": "https://arxiv.org/pdf/1704.00592"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W3103720535",
+"title": "Stealthy hacking and secrecy of controlled state estimation systems with random dropouts",
+"year": 2020,
+"venue": "Maynooth University ePrints and eTheses Archive (Maynooth University)",
+"cites": 1,
+"doi": "https://doi.org/10.48550/arxiv.2011.03745",
+"pdf": "https://arxiv.org/pdf/2011.03745"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W3182330662",
+"title": "Distributed Event Triggering Algorithm for Multi-Agent System over a Packet Dropping Network",
+"year": 2021,
+"venue": "Sensors",
+"cites": 5,
+"doi": "https://doi.org/10.3390/s21144835",
+"pdf": "https://www.mdpi.com/1424-8220/21/14/4835/pdf?version=1626419866"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W3023738111",
+"title": "Analysis of optimal performance of MIMO networked control systems with encoding and packet dropout constraints",
+"year": 2020,
+"venue": "IET Control Theory and Applications",
+"cites": 42,
+"doi": "https://doi.org/10.1049/iet-cta.2019.0578",
+"pdf": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/iet-cta.2019.0578"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W4410964875",
+"title": "An overview of recent advances in event-triggered control",
+"year": 2025,
+"venue": "Science China Information Sciences",
+"cites": 67,
+"doi": "https://doi.org/10.1007/s11432-024-4437-9",
+"pdf": "https://link.springer.com/content/pdf/10.1007/s11432-024-4437-9.pdf"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W4283795156",
+"title": "Formation Control of Multiple Autonomous Underwater Vehicles under Communication Delay, Packet Discreteness and Dropout",
+"year": 2022,
+"venue": "Journal of Marine Science and Engineering",
+"cites": 35,
+"doi": "https://doi.org/10.3390/jmse10070920",
+"pdf": "https://www.mdpi.com/2077-1312/10/7/920/pdf?version=1657161187"
+},
+{
+"q": "event-triggered state estimation packet dropout negative information",
+"id": "https://openalex.org/W4385065977",
+"title": "Event-Triggered Robust State Estimation for Nonlinear Networked Systems with Measurement Delays against DoS Attacks",
+"year": 2023,
+"venue": "Sensors",
+"cites": 2,
+"doi": "https://doi.org/10.3390/s23146553",
+"pdf": "https://www.mdpi.com/1424-8220/23/14/6553/pdf?version=1689853621"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W4388103309",
+"title": "A Lightweight Sensor Scheduler Based on AoI Function for Remote State Estimation Over Lossy Wireless Channels",
+"year": 2023,
+"venue": "IEEE Transactions on Automatic Control",
+"cites": 15,
+"doi": "https://doi.org/10.1109/tac.2023.3328244",
+"pdf": null
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W4385849243",
+"title": "A Lightweight Sensor Scheduler Based on AoI Function for Remote State Estimation over Lossy Wireless Channels",
+"year": 2023,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2308.07127",
+"pdf": "https://arxiv.org/pdf/2308.07127"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W3000486967",
+"title": "Optimal Scheduling of Multiple Sensors Over Lossy and Bandwidth Limited Channels",
+"year": 2020,
+"venue": "IEEE Transactions on Control of Network Systems",
+"cites": 50,
+"doi": "https://doi.org/10.1109/tcns.2020.2966671",
+"pdf": "https://arxiv.org/pdf/1804.05618"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W4415334665",
+"title": "Minimizing Age of Detection for a Markov Source over a Lossy Channel",
+"year": 2025,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": null,
+"pdf": "https://arxiv.org/pdf/2503.02285"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W4406975463",
+"title": "Remote State Estimation Over a Wearing Channel: Information Freshness Versus Channel Aging",
+"year": 2026,
+"venue": "IEEE Transactions on Automatic Control",
+"cites": 1,
+"doi": "https://doi.org/10.1109/tac.2026.3694625",
+"pdf": "https://arxiv.org/pdf/2501.17473"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W4415234803",
+"title": "On the Role of Age and Semantics of Information in Remote Estimation of Markov Sources",
+"year": 2026,
+"venue": "IEEE Transactions on Communications",
+"cites": 2,
+"doi": "https://doi.org/10.1109/tcomm.2026.3681576",
+"pdf": "https://arxiv.org/pdf/2507.18514"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W3111045204",
+"title": "Optimal Unbiased Linear Sensor Fusion over Multiple Lossy Channels with Collective Observability",
+"year": 2020,
+"venue": "arXiv (Cornell University)",
+"cites": 1,
+"doi": "https://doi.org/10.48550/arxiv.2012.04896",
+"pdf": "https://arxiv.org/pdf/2012.04896"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W3043659689",
+"title": "Age of Information: An Introduction and Survey",
+"year": 2021,
+"venue": "IEEE Journal on Selected Areas in Communications",
+"cites": 1176,
+"doi": "https://doi.org/10.1109/jsac.2021.3065072",
+"pdf": "https://arxiv.org/pdf/2007.08564"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W7126281205",
+"title": "Learning-Based Sensor Scheduling for Delay-Aware and Stable Remote State Estimation",
+"year": 2026,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": null,
+"pdf": "https://arxiv.org/pdf/2601.21482"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W7212073141",
+"title": "Resource-Constrained Semantic-Aware Remote Estimation with Overlapping Sensor Coverage",
+"year": 2026,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2609.07563",
+"pdf": "https://arxiv.org/pdf/2609.07563"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W7169864943",
+"title": "Optimal Scheduling for Remote State Estimation over Hybrid Channels",
+"year": 2026,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2607.16950",
+"pdf": "https://arxiv.org/pdf/2607.16950"
+},
+{
+"q": "remote estimation lossy channel age of information sensor",
+"id": "https://openalex.org/W4410536662",
+"title": "Semantic-Aware Remote Estimation of Multiple Markov Sources Under Constraints",
+"year": 2025,
+"venue": "IEEE Transactions on Communications",
+"cites": 16,
+"doi": "https://doi.org/10.1109/tcomm.2025.3571950",
+"pdf": "https://arxiv.org/pdf/2403.16855"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W2091104685",
+"title": "A Moving Average Approach for Spatial Statistical Models of Stream Networks",
+"year": 2010,
+"venue": "Journal of the American Statistical Association",
+"cites": 264,
+"doi": "https://doi.org/10.1198/jasa.2009.ap08248",
+"pdf": null
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W2109676874",
+"title": "SSN: AnRPackage for Spatial Statistical Modeling on Stream Networks",
+"year": 2014,
+"venue": "Journal of Statistical Software",
+"cites": 125,
+"doi": "https://doi.org/10.18637/jss.v056.i03",
+"pdf": null
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W2137991683",
+"title": "A mixed\u2010model moving\u2010average approach to geostatistical modeling in stream networks",
+"year": 2010,
+"venue": "Ecology",
+"cites": 170,
+"doi": "https://doi.org/10.1890/08-1668.1",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1890/08-1668.1"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W1783268796",
+"title": "Validation and comparison of geostatistical and spline models for spatial stream networks",
+"year": 2015,
+"venue": "Environmetrics",
+"cites": 22,
+"doi": "https://doi.org/10.1002/env.2340",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/env.2340"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W4401014119",
+"title": "SSN2: The next generation of spatial stream network modeling in R",
+"year": 2024,
+"venue": "The Journal of Open Source Software",
+"cites": 23,
+"doi": "https://doi.org/10.21105/joss.06389",
+"pdf": null
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W4417448476",
+"title": "Scalable Spatial Stream Network (S3N) Models",
+"year": 2025,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2512.12398",
+"pdf": "https://arxiv.org/pdf/2512.12398"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W4404455202",
+"title": "Spatial Occupancy Models for Data Collected on Stream Networks",
+"year": 2024,
+"venue": "Aquatic Conservation Marine and Freshwater Ecosystems",
+"cites": 5,
+"doi": "https://doi.org/10.1002/aqc.70013",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aqc.70013"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W4403702480",
+"title": "Spatial occupancy models for data collected on stream networks",
+"year": 2024,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2409.10017",
+"pdf": "https://arxiv.org/pdf/2409.10017"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W1556127561",
+"title": "Spatial sampling on streams: principles for inference on aquatic networks",
+"year": 2014,
+"venue": "Environmetrics",
+"cites": 41,
+"doi": "https://doi.org/10.1002/env.2284",
+"pdf": "https://eprints.qut.edu.au/103737/1/Sometal2014StreamSampling.pdf"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W2560743993",
+"title": "Scalable population estimates using spatial-stream-network (SSN) models, fish density surveys, and national geospatial database frameworks for streams",
+"year": 2016,
+"venue": "Canadian Journal of Fisheries and Aquatic Sciences",
+"cites": 48,
+"doi": "https://doi.org/10.1139/cjfas-2016-0247",
+"pdf": "https://utoronto.scholaris.ca/bitstreams/4c9fcf23-a0e3-4b59-8f8b-6741a662ecd2/download"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W2748698138",
+"title": "A Comparison of Five Statistical Methods for Predicting Stream Temperature Across Stream Networks",
+"year": 2021,
+"venue": "Digital Commons - USU (Utah State University)",
+"cites": 7,
+"doi": "https://doi.org/10.26076/c46d-33e0",
+"pdf": "https://digitalcommons.usu.edu/etd/6535"
+},
+{
+"q": "spatial statistical models stream networks tail-up",
+"id": "https://openalex.org/W2796102241",
+"title": "A spatial model for a stream networks of Citarik River with the environmental variables: potential of hydrogen (PH) and temperature",
+"year": 2018,
+"venue": "IOP Conference Series Materials Science and Engineering",
+"cites": 1,
+"doi": "https://doi.org/10.1088/1757-899x/332/1/012002",
+"pdf": "https://iopscience.iop.org/article/10.1088/1757-899X/332/1/012002/pdf"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W4387700607",
+"title": "ALR-LoRaWAN: An Application-Level Retransmission Management Algorithm for LoRaWAN Networks",
+"year": 2023,
+"venue": null,
+"cites": 2,
+"doi": "https://doi.org/10.1145/3615366.3615418",
+"pdf": "https://dl.acm.org/doi/pdf/10.1145/3615366.3615418"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W4403064779",
+"title": "The Impacts of Chase Combining-based Retransmissions on LoRaWAN Performance",
+"year": 2024,
+"venue": null,
+"cites": 1,
+"doi": "https://doi.org/10.5753/sbrc.2024.1392",
+"pdf": "https://sol.sbc.org.br/index.php/sbrc/article/download/29805/29608"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W2791233940",
+"title": "Improving Reliability and Scalability of LoRaWANs Through Lightweight Scheduling",
+"year": 2018,
+"venue": "IEEE Internet of Things Journal",
+"cites": 245,
+"doi": "https://doi.org/10.1109/jiot.2018.2815150",
+"pdf": "https://lirias.kuleuven.be/retrieve/a0e52657-6d5c-4750-a017-9f2fdbbaa869"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W3032613065",
+"title": "Performance of LoRaWAN for Handling Telemetry and Alarm Messages in Industrial Applications",
+"year": 2020,
+"venue": "Sensors",
+"cites": 30,
+"doi": "https://doi.org/10.3390/s20113061",
+"pdf": "https://www.mdpi.com/1424-8220/20/11/3061/pdf?version=1591619909"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W2901111720",
+"title": "A Survey of LoRaWAN for IoT: From Technology to Application",
+"year": 2018,
+"venue": "Sensors",
+"cites": 626,
+"doi": "https://doi.org/10.3390/s18113995",
+"pdf": "https://www.mdpi.com/1424-8220/18/11/3995/pdf?version=1542362844"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W4206597992",
+"title": "A Novel Network Architecture and MAC Protocol for Confirmed Traffic in LoRaWAN",
+"year": 2021,
+"venue": "IEEE Access",
+"cites": 7,
+"doi": "https://doi.org/10.1109/access.2021.3132032",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09632573.pdf"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W4413620486",
+"title": "Energy Harvesting in LoRaWAN for Space Communication",
+"year": 2025,
+"venue": "Lecture notes in electrical engineering",
+"cites": 0,
+"doi": "https://doi.org/10.1007/978-981-96-6034-6_15",
+"pdf": null
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W3021520599",
+"title": "Resource Allocation to Massive Internet of Things in LoRaWANs",
+"year": 2020,
+"venue": "Sensors",
+"cites": 56,
+"doi": "https://doi.org/10.3390/s20092645",
+"pdf": "https://www.mdpi.com/1424-8220/20/9/2645/pdf?version=1589981730"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W4211073422",
+"title": "Energy Consumption Improvement of a Healthcare Monitoring System: Application to LoRaWAN",
+"year": 2022,
+"venue": "IEEE Sensors Journal",
+"cites": 41,
+"doi": "https://doi.org/10.1109/jsen.2022.3150716",
+"pdf": "https://hal.science/hal-03576449/document"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W2804261840",
+"title": "On the Use of LoRaWAN for Indoor Industrial IoT Applications",
+"year": 2018,
+"venue": "Wireless Communications and Mobile Computing",
+"cites": 107,
+"doi": "https://doi.org/10.1155/2018/3982646",
+"pdf": "http://downloads.hindawi.com/journals/wcmc/2018/3982646.pdf"
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W4391033992",
+"title": "Contributions to the evaluation and improvement of LoRaWAN",
+"year": 2023,
+"venue": null,
+"cites": 1,
+"doi": "https://doi.org/10.5821/dissertation-2117-399818",
+"pdf": null
+},
+{
+"q": "LoRaWAN confirmed messages retransmission energy reliability",
+"id": "https://openalex.org/W2889452608",
+"title": "How Agile is the Adaptive Data Rate Mechanism of LoRaWAN?",
+"year": 2018,
+"venue": "Globecom",
+"cites": 121,
+"doi": "https://doi.org/10.1109/glocom.2018.8647469",
+"pdf": "https://research-information.bris.ac.uk/files/197740152/Full_text_PDF_accepted_author_manuscript_.pdf"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W3200032234",
+"title": "Survey of IoT for Developing Countries: Performance Analysis of LoRaWAN and Cellular NB-IoT Networks",
+"year": 2021,
+"venue": "Electronics",
+"cites": 107,
+"doi": "https://doi.org/10.3390/electronics10182224",
+"pdf": "https://www.mdpi.com/2079-9292/10/18/2224/pdf?version=1631284602"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W2963801560",
+"title": "Optimisation of NB-IoT deployment for smart energy distribution networks",
+"year": 2019,
+"venue": "EURASIP Journal on Wireless Communications and Networking",
+"cites": 17,
+"doi": "https://doi.org/10.1186/s13638-019-1485-2",
+"pdf": "https://jwcn-eurasipjournals.springeropen.com/track/pdf/10.1186/s13638-019-1485-2"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W7111807063",
+"title": "EDT+: Energy Consumption Optimization of NB-IoT",
+"year": 2023,
+"venue": "Apollo (University of Cambridge)",
+"cites": 0,
+"doi": null,
+"pdf": "https://www.repository.cam.ac.uk/bitstreams/ba9958a3-505a-42fb-9a71-8e4992ff9562/download"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W3036609099",
+"title": "An Energy-Efficient and Adaptive Channel Coding Approach for Narrowband Internet of Things (NB-IoT) Systems",
+"year": 2020,
+"venue": "Sensors",
+"cites": 24,
+"doi": "https://doi.org/10.3390/s20123465",
+"pdf": "https://www.mdpi.com/1424-8220/20/12/3465/pdf?version=1592643160"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W2957538098",
+"title": "Extending the lifetime of NB-IoT devices through Energy-Harvesting techniques",
+"year": 2018,
+"venue": "Research Repository (Delft University of Technology)",
+"cites": 0,
+"doi": null,
+"pdf": "https://repository.tudelft.nl/file/File_475483d8-446a-4cac-a67c-bc3863f13147"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W2994431848",
+"title": "Experimental Performance Evaluation of NB-IoT",
+"year": 2019,
+"venue": "International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)",
+"cites": 25,
+"doi": "https://doi.org/10.1109/wimob.2019.8923221",
+"pdf": "https://biblio.ugent.be/publication/8637787/file/8637790.pdf"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W4409265644",
+"title": "Evaluating the energy consumption savings at 450 MHz band for NB-IoT devices",
+"year": 2024,
+"venue": "International Conference on the Internet of Things (IoT)",
+"cites": 0,
+"doi": "https://doi.org/10.1145/3703790.3703825",
+"pdf": "https://dl.acm.org/doi/pdf/10.1145/3703790.3703825"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W3105479286",
+"title": "Evolution and Testing of NB-IoT Solutions",
+"year": 2020,
+"venue": "Applied Sciences",
+"cites": 29,
+"doi": "https://doi.org/10.3390/app10217903",
+"pdf": "https://www.mdpi.com/2076-3417/10/21/7903/pdf?version=1604891105"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W3108330863",
+"title": "RACH in Self-Powered NB-IoT Networks: Energy Availability and Performance Evaluation",
+"year": 2020,
+"venue": "IEEE Transactions on Communications",
+"cites": 8,
+"doi": "https://doi.org/10.1109/tcomm.2020.3041751",
+"pdf": "https://ieeexplore.ieee.org/ielx7/26/9379972/09274347.pdf"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W3172060428",
+"title": "Radio Coverage and Device Capacity Dimensioning Methodologies for IoT LoRaWAN and NB-IoT Deployments in Urban Environments",
+"year": 2021,
+"venue": "Future Internet",
+"cites": 6,
+"doi": "https://doi.org/10.3390/fi13060144",
+"pdf": "https://www.mdpi.com/1999-5903/13/6/144/pdf?version=1622363939"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W3202267215",
+"title": "Impact of Compression and Small Cell Deployment on NB-IoT Devices Coverage and Energy Consumption with a Realistic Simulation Model",
+"year": 2021,
+"venue": "Sensors",
+"cites": 6,
+"doi": "https://doi.org/10.3390/s21196534",
+"pdf": "https://www.mdpi.com/1424-8220/21/19/6534/pdf?version=1632994128"
+},
+{
+"q": "NB-IoT coverage enhancement repetitions energy reliability measurement",
+"id": "https://openalex.org/W4287203793",
+"title": "Multi-RAT for IoT: The Potential in Combining LoRaWAN and NB-IoT",
+"year": 2021,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2104.10536",
+"pdf": "https://arxiv.org/pdf/2104.10536"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W3107013237",
+"title": "6G networks: Beyond Shannon towards semantic and goal-oriented communications",
+"year": 2021,
+"venue": "Computer Networks",
+"cites": 527,
+"doi": "https://doi.org/10.1016/j.comnet.2021.107930",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S1389128621000773"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4366966441",
+"title": "Making Sense of Meaning: A Survey on Metrics for Semantic and Goal-Oriented Communication",
+"year": 2023,
+"venue": "IEEE Access",
+"cites": 56,
+"doi": "https://doi.org/10.1109/access.2023.3269848",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10107602.pdf"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4393185338",
+"title": "A Survey on Goal-Oriented Semantic Communication: Techniques, Challenges, and Future Directions",
+"year": 2024,
+"venue": "IEEE Access",
+"cites": 54,
+"doi": "https://doi.org/10.1109/access.2024.3381967",
+"pdf": null
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4416964858",
+"title": "Value of Communication in Goal-Oriented Semantic Communications: A Pareto Analysis",
+"year": 2026,
+"venue": "IEEE Transactions on Information Theory",
+"cites": 0,
+"doi": "https://doi.org/10.1109/tit.2026.3720415",
+"pdf": "https://arxiv.org/pdf/2512.01454"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4353007094",
+"title": "Making Sense of Meaning: A Survey on Metrics for Semantic and Goal-Oriented Communication",
+"year": 2023,
+"venue": "arXiv (Cornell University)",
+"cites": 3,
+"doi": "https://doi.org/10.48550/arxiv.2303.10867",
+"pdf": "https://arxiv.org/pdf/2303.10867"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4319303157",
+"title": "Engineering Semantic Communication: A Survey",
+"year": 2023,
+"venue": "IEEE Access",
+"cites": 90,
+"doi": "https://doi.org/10.1109/access.2023.3243065",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10038657.pdf"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4408324726",
+"title": "Goal-oriented Semantic Communication for Robotic Arm Reconstruction in Digital Twin",
+"year": 2024,
+"venue": "Globecom",
+"cites": 2,
+"doi": "https://doi.org/10.1109/globecom52923.2024.10901815",
+"pdf": "https://kclpure.kcl.ac.uk/portal/files/326036135/JSAC_Digital_Twin_Revised.pdf"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4403677296",
+"title": "Goal-Oriented Communication, Estimation, and Control Over Bidirectional Wireless Links",
+"year": 2024,
+"venue": "IEEE Transactions on Communications",
+"cites": 9,
+"doi": "https://doi.org/10.1109/tcomm.2024.3485572",
+"pdf": "https://arxiv.org/pdf/2312.16061"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W7139144711",
+"title": "Safety-Aware Goal-Oriented Semantic Sensing, Communication, and Control for Robotics",
+"year": 2026,
+"venue": "IEEE Wireless Communications",
+"cites": 0,
+"doi": "https://doi.org/10.1109/mwc.2026.3724982",
+"pdf": "https://arxiv.org/pdf/2603.13502"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4385643869",
+"title": "Tutorial-Cum-Survey on Semantic and Goal- Oriented Communication: Research Landscape, Challenges, and Future Directions",
+"year": 2023,
+"venue": "arXiv (Cornell University)",
+"cites": 3,
+"doi": "https://doi.org/10.48550/arxiv.2308.01913",
+"pdf": "https://arxiv.org/pdf/2308.01913"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4390307157",
+"title": "Goal-Oriented Communication, Estimation, and Control over Bidirectional Wireless Links",
+"year": 2023,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2312.16061",
+"pdf": "https://arxiv.org/pdf/2312.16061"
+},
+{
+"q": "goal-oriented semantic communication remote monitoring estimation error",
+"id": "https://openalex.org/W4390189760",
+"title": "Timely Multi-Goal Transmissions With an Intermittently Failing Sensor",
+"year": 2023,
+"venue": "IEEE Military Communications Conference (MILCOM)",
+"cites": 4,
+"doi": "https://doi.org/10.1109/milcom58377.2023.10356255",
+"pdf": null
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2462564608",
+"title": "A Survey About Prediction-Based Data Reduction in Wireless Sensor Networks",
+"year": 2016,
+"venue": "ACM Computing Surveys",
+"cites": 110,
+"doi": "https://doi.org/10.1145/2996356",
+"pdf": "https://repositori.upf.edu/bitstreams/b14043b2-dd63-485a-a69a-3db14047711f/download"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2160807209",
+"title": "A Comprehensive Study of Data Collection Schemes Using Mobile Sinks in Wireless Sensor Networks",
+"year": 2014,
+"venue": "Sensors",
+"cites": 147,
+"doi": "https://doi.org/10.3390/s140202510",
+"pdf": "https://www.mdpi.com/1424-8220/14/2/2510/pdf?version=1403345051"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2413566101",
+"title": "A Survey of Multi-Objective Optimization in Wireless Sensor Networks: Metrics, Algorithms, and Open Problems",
+"year": 2016,
+"venue": "IEEE Communications Surveys & Tutorials",
+"cites": 434,
+"doi": "https://doi.org/10.1109/comst.2016.2610578",
+"pdf": "https://arxiv.org/pdf/1609.04069"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W3119698883",
+"title": "Applications of Prediction Approaches in Wireless Sensor Networks",
+"year": 2021,
+"venue": "IntechOpen eBooks",
+"cites": 14,
+"doi": "https://doi.org/10.5772/intechopen.94500",
+"pdf": "https://www.intechopen.com/citation-pdf-url/74058"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2742840809",
+"title": "Energy-Efficient Wireless Sensor Networks for Precision Agriculture: A Review",
+"year": 2017,
+"venue": "Sensors",
+"cites": 711,
+"doi": "https://doi.org/10.3390/s17081781",
+"pdf": null
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2584481700",
+"title": "Dynamic clustering and management of mobile wireless sensor networks",
+"year": 2017,
+"venue": "Computer Networks",
+"cites": 103,
+"doi": "https://doi.org/10.1016/j.comnet.2017.02.001",
+"pdf": "https://e-space.mmu.ac.uk/618157/7/COMNET-D-16-729R2.pdf"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W4383069472",
+"title": "Survey on Packet Dropping Detection Techniques in Wireless Sensor Network",
+"year": 2023,
+"venue": "International Journal of Engineering Trends and Technology",
+"cites": 1,
+"doi": "https://doi.org/10.14445/22315381/ijett-v71i6p227",
+"pdf": "https://ijettjournal.org/Volume-71/Issue-6/IJETT-V71I6P227.pdf"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2885284092",
+"title": "Prolonging the Lifetime of Wireless Sensor Networks: A Review of Current Techniques",
+"year": 2018,
+"venue": "Wireless Communications and Mobile Computing",
+"cites": 182,
+"doi": "https://doi.org/10.1155/2018/8035065",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/2018/8035065"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W4387877072",
+"title": "WITHDRAWN: An efficient dual layer data aggregation scheme in clustered wireless sensor networks",
+"year": 2023,
+"venue": "Research Square",
+"cites": 0,
+"doi": "https://doi.org/10.21203/rs.3.rs-3467098/v1",
+"pdf": "https://www.researchsquare.com/article/rs-3467098/latest.pdf"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W4254346742",
+"title": "Prospects and problems of wireless communication for underwater sensor networks",
+"year": 2008,
+"venue": "Wireless Communications and Mobile Computing",
+"cites": 452,
+"doi": "https://doi.org/10.1002/wcm.654",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcm.654"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2160331134",
+"title": "Wireless Sensor Network Optimization: Multi-Objective Paradigm",
+"year": 2015,
+"venue": "Sensors",
+"cites": 145,
+"doi": "https://doi.org/10.3390/s150717572",
+"pdf": "https://www.mdpi.com/1424-8220/15/7/17572/pdf?version=1437385990"
+},
+{
+"q": "dual prediction scheme packet loss wireless sensor network",
+"id": "https://openalex.org/W2030234080",
+"title": "Wireless body sensor networks for health-monitoring applications",
+"year": 2008,
+"venue": "Physiological Measurement",
+"cites": 405,
+"doi": "https://doi.org/10.1088/0967-3334/29/11/r01",
+"pdf": "https://iopscience.iop.org/article/10.1088/0967-3334/29/11/R01/pdf"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2150166641",
+"title": "Efficient Data Suppression for Wireless Sensor Networks",
+"year": 2008,
+"venue": "IEEE International Conference on Parallel and Distributed Systems (ICPADS)",
+"cites": 5,
+"doi": "https://doi.org/10.1109/icpads.2008.114",
+"pdf": null
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2011038438",
+"title": "Failure-Aware Cascaded Suppression in Wireless Sensor Networks",
+"year": 2012,
+"venue": "IEEE Transactions on Knowledge and Data Engineering",
+"cites": 7,
+"doi": "https://doi.org/10.1109/tkde.2012.26",
+"pdf": null
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2096941736",
+"title": "Time synchronization for wireless sensor networks",
+"year": 2005,
+"venue": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
+"cites": 594,
+"doi": "https://doi.org/10.1109/ipdps.2001.925191",
+"pdf": "https://escholarship.org/content/qt2tp2w3g0/qt2tp2w3g0.pdf"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2062959189",
+"title": "Data Correlation-Based Clustering Algorithm in Wireless Sensor Networks",
+"year": 2009,
+"venue": "KSII Transactions on Internet and Information Systems",
+"cites": 21,
+"doi": "https://doi.org/10.3837/tiis.2009.03.007",
+"pdf": "http://itiis.org/digital-library/manuscript/file/19822/TIIS_Vol3No3P7Jun2009.pdf"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W1972001002",
+"title": "Game Theory for Wireless Sensor Networks: A Survey",
+"year": 2012,
+"venue": "Sensors",
+"cites": 234,
+"doi": "https://doi.org/10.3390/s120709055",
+"pdf": "https://www.mdpi.com/1424-8220/12/7/9055/pdf?version=1403317798"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W988476746",
+"title": "Exploiting spatial correlations for efficient communication and deployment optimisation in wireless sensor networks",
+"year": 2011,
+"venue": "RWTH Publications (RWTH Aachen)",
+"cites": 1,
+"doi": null,
+"pdf": "http://publications.rwth-aachen.de/record/64494"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2175587815",
+"title": "Spatial Correlation Based Low Energy Aware Clustering (LEACH) in a Wireless Sensor Networks",
+"year": 2015,
+"venue": "Advances in Electrical and Electronic Engineering",
+"cites": 6,
+"doi": "https://doi.org/10.15598/aeee.v13i4.1496",
+"pdf": "http://advances.utc.sk/index.php/AEEE/article/view/1496/1091"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W1896770059",
+"title": "Sift: A MAC Protocol for Event-Driven Wireless Sensor Networks",
+"year": 2006,
+"venue": "Lecture notes in computer science",
+"cites": 341,
+"doi": "https://doi.org/10.1007/11669463_20",
+"pdf": "https://dspace.mit.edu/bitstream/1721.1/149985/1/MIT-LCS-TR-894.pdf"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2967842289",
+"title": "Data prediction model in wireless sensor networks based on bidirectional LSTM",
+"year": 2019,
+"venue": "EURASIP Journal on Wireless Communications and Networking",
+"cites": 84,
+"doi": "https://doi.org/10.1186/s13638-019-1511-4",
+"pdf": "https://jwcn-eurasipjournals.springeropen.com/track/pdf/10.1186/s13638-019-1511-4"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2462564608",
+"title": "A Survey About Prediction-Based Data Reduction in Wireless Sensor Networks",
+"year": 2016,
+"venue": "ACM Computing Surveys",
+"cites": 110,
+"doi": "https://doi.org/10.1145/2996356",
+"pdf": "https://repositori.upf.edu/bitstreams/b14043b2-dd63-485a-a69a-3db14047711f/download"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2086828005",
+"title": "Distributed Database Management Techniques for Wireless Sensor Networks",
+"year": 2013,
+"venue": "IEEE Transactions on Parallel and Distributed Systems",
+"cites": 106,
+"doi": "https://doi.org/10.1109/tpds.2013.207",
+"pdf": "https://riunet.upv.es/bitstreams/9ca5b5a2-c790-4e8e-97b5-edee6aadef8a/download"
+},
+{
+"q": "spatial correlation data suppression wireless sensor networks",
+"id": "https://openalex.org/W2936022330",
+"title": "A Spatial-Temporal Correlation Approach for Data Reduction in Cluster-Based Sensor Networks",
+"year": 2019,
+"venue": "IEEE Access",
+"cites": 42,
+"doi": "https://doi.org/10.1109/access.2019.2910886",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08689010.pdf"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W7167482511",
+"title": "Persistent Packet Loss in LoRaWAN: Empirical Evidence Against Independence in Operational LoRaWAN Deployments",
+"year": 2026,
+"venue": "SSRN Electronic Journal",
+"cites": 0,
+"doi": "https://doi.org/10.2139/ssrn.7066625",
+"pdf": null
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W4385804851",
+"title": "Aggregation of Contiguous Packets in an Actual LoRaWAN Passive Packet Sniffer",
+"year": 2023,
+"venue": "IEEE Vehicular Technology Conference",
+"cites": 4,
+"doi": "https://doi.org/10.1109/vtc2023-spring57618.2023.10201023",
+"pdf": "https://hal.science/hal-04016140v1/document"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W4312116644",
+"title": "LoRaWAN Path Loss Measurements in an Urban Scenario including Environmental Effects",
+"year": 2022,
+"venue": "Data",
+"cites": 33,
+"doi": "https://doi.org/10.3390/data8010004",
+"pdf": "https://www.mdpi.com/2306-5729/8/1/4/pdf?version=1671711944"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W4220973987",
+"title": "Insights into the Issue of Deploying a Private LoRaWAN",
+"year": 2022,
+"venue": "Sensors",
+"cites": 20,
+"doi": "https://doi.org/10.3390/s22052042",
+"pdf": "https://www.mdpi.com/1424-8220/22/5/2042/pdf?version=1646744583"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W3152696257",
+"title": "Modelling of the packet delivery rate in an actual LoRaWAN network",
+"year": 2021,
+"venue": "Electronics Letters",
+"cites": 10,
+"doi": "https://doi.org/10.1049/ell2.12165",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ell2.12165"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W4416132504",
+"title": "Dataset: Long-term LoRaWAN Communication Metadata from an Urban Deployment",
+"year": 2025,
+"venue": "ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys)",
+"cites": 0,
+"doi": "https://doi.org/10.1145/3736425.3771960",
+"pdf": "https://dl.acm.org/doi/pdf/10.1145/3736425.3771960"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W4220724815",
+"title": "LoRaWAN Behaviour Analysis through Dataset Traffic Investigation",
+"year": 2022,
+"venue": "Sensors",
+"cites": 24,
+"doi": "https://doi.org/10.3390/s22072470",
+"pdf": "https://www.mdpi.com/1424-8220/22/7/2470/pdf?version=1648033868"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W7203957804",
+"title": "Integrating Path-Loss Modeling and Machine Learning for Localisation within LoRaWANs",
+"year": 2026,
+"venue": "BCU Open Access Repository (Birmingham City University)",
+"cites": 0,
+"doi": null,
+"pdf": "https://www.open-access.bcu.ac.uk/17172/1/AlaaAllah%20Ahmed%20ElSabaa%20PhD%20Thesis_Final%20Version_Final%20Award%20July%202026.pdf"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W2901111720",
+"title": "A Survey of LoRaWAN for IoT: From Technology to Application",
+"year": 2018,
+"venue": "Sensors",
+"cites": 626,
+"doi": "https://doi.org/10.3390/s18113995",
+"pdf": "https://www.mdpi.com/1424-8220/18/11/3995/pdf?version=1542362844"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W2940851493",
+"title": "Impersonating LoRaWAN gateways using Semtech Packet Forwarder",
+"year": 2019,
+"venue": "arXiv (Cornell University)",
+"cites": 3,
+"doi": "https://doi.org/10.48550/arxiv.1904.10728",
+"pdf": "https://arxiv.org/pdf/1904.10728"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W3013843088",
+"title": "Leveraging LoRaWAN Technology for Precision Agriculture in Greenhouses",
+"year": 2020,
+"venue": "Sensors",
+"cites": 117,
+"doi": "https://doi.org/10.3390/s20071827",
+"pdf": "https://www.mdpi.com/1424-8220/20/7/1827/pdf?version=1609224120"
+},
+{
+"q": "LoRaWAN packet loss measurement dataset real deployment",
+"id": "https://openalex.org/W4212916010",
+"title": "SCHC over LoRaWAN Efficiency: Evaluation and Experimental Performance of Packet Fragmentation",
+"year": 2022,
+"venue": "Sensors",
+"cites": 13,
+"doi": "https://doi.org/10.3390/s22041531",
+"pdf": "https://www.mdpi.com/1424-8220/22/4/1531/pdf?version=1645005351"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W2752448656",
+"title": "A Survey on Data Quality for Dependable Monitoring in Wireless Sensor Networks",
+"year": 2017,
+"venue": "Sensors",
+"cites": 54,
+"doi": "https://doi.org/10.3390/s17092010",
+"pdf": "https://www.mdpi.com/1424-8220/17/9/2010/pdf?version=1504340534"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W2791088620",
+"title": "How to Improve Fault Tolerance in Disaster Predictions: A Case Study about Flash Floods Using IoT, ML and Real Data",
+"year": 2018,
+"venue": "Sensors",
+"cites": 64,
+"doi": "https://doi.org/10.3390/s18030907",
+"pdf": "https://www.mdpi.com/1424-8220/18/3/907/pdf?version=1521698391"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W2536954514",
+"title": "Wireless Sensor Network: A Bibliographical Survey",
+"year": 2016,
+"venue": "Indian Journal of Science and Technology",
+"cites": 16,
+"doi": "https://doi.org/10.17485/ijst/2016/v9i38/91416",
+"pdf": null
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W2030491410",
+"title": "Recent Developments on Wireless Sensor Networks Technology for Bridge Health Monitoring",
+"year": 2013,
+"venue": "Mathematical Problems in Engineering",
+"cites": 119,
+"doi": "https://doi.org/10.1155/2013/947867",
+"pdf": "https://downloads.hindawi.com/journals/mpe/2013/947867.pdf"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W7196970544",
+"title": "Enhancing low-cost air quality monitoring using LSTM networks for in-field sensor calibration",
+"year": 2026,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.21175/rad.abstr.book.2026.12.3",
+"pdf": "https://doi.org/10.21175/rad.abstr.book.2026.12.3"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W2460354379",
+"title": "Security Mechanisms in Unattended Wireless Sensor Networks",
+"year": 2013,
+"venue": "NORA - Norwegian Open Research Archives",
+"cites": 0,
+"doi": null,
+"pdf": "http://hdl.handle.net/11250/139705"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W4243740687",
+"title": "Exploiting temporal and spatial correlation in wireless sensor networks",
+"year": 2013,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.17760/d20003075",
+"pdf": "https://repository.library.northeastern.edu/files/neu:1231/fulltext.pdf"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W1914835564",
+"title": "Map as a Service: A Framework for Visualising and Maximising Information Return from Multi-ModalWireless Sensor Networks",
+"year": 2015,
+"venue": "Sensors",
+"cites": 52,
+"doi": "https://doi.org/10.3390/s150922970",
+"pdf": "https://www.mdpi.com/1424-8220/15/9/22970/pdf?version=1441960594"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W2987651872",
+"title": "Swarm Intelligence-Based Performance Optimization for Mobile Wireless Sensor Networks: Survey, Challenges, and Future Directions",
+"year": 2019,
+"venue": "IEEE Access",
+"cites": 75,
+"doi": "https://doi.org/10.1109/access.2019.2951370",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08890812.pdf"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W4297509796",
+"title": "Cluster Head Selection and Multipath Routing Based Energy Efficient Wireless Sensor Network",
+"year": 2022,
+"venue": "Intelligent Automation & Soft Computing",
+"cites": 10,
+"doi": "https://doi.org/10.32604/iasc.2023.032074",
+"pdf": "https://file.techscience.com/ueditor/files/iasc/TSP_IASC-36-1/TSP_IASC_32074/TSP_IASC_32074.pdf"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W7127977020",
+"title": "Smart Water Management: Role of IoT, AI, and Machine Learning in Water Quality Monitoring",
+"year": 2026,
+"venue": "Water Environment Research",
+"cites": 8,
+"doi": "https://doi.org/10.1002/wer.70249",
+"pdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wer.70249"
+},
+{
+"q": "water quality sensor network fault tolerance redundancy reconstruction river",
+"id": "https://openalex.org/W4389350338",
+"title": "Comprehensive Review of Routing Protocol in a Wireless Sensor Network for an IOT Applications",
+"year": 2023,
+"venue": "International Journal of Advanced Scientific Research and Management",
+"cites": 2,
+"doi": "https://doi.org/10.36282/ijasrm/8.9.2023.1902",
+"pdf": "https://doi.org/10.36282/ijasrm/8.9.2023.1902"
+}
+][
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W2916556700",
+"title": "To Retransmit or Not: Real-Time Remote Estimation in Wireless Networked Control",
+"year": 2019,
+"venue": "arXiv (Cornell University)",
+"cites": 22,
+"doi": "https://doi.org/10.48550/arxiv.1902.07820",
+"pdf": "https://arxiv.org/pdf/1902.07820"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W2929522655",
+"title": "Real-Time Remote Estimation with Hybrid ARQ in Wireless Networked Control",
+"year": 2019,
+"venue": "arXiv (Cornell University)",
+"cites": 5,
+"doi": "https://doi.org/10.48550/arxiv.1903.12472",
+"pdf": "https://arxiv.org/pdf/1903.12472"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W4226207440",
+"title": "HARQ Optimization for Real-Time Remote Estimation in Wireless Networked Control",
+"year": 2022,
+"venue": "arXiv (Cornell University)",
+"cites": 4,
+"doi": "https://doi.org/10.48550/arxiv.2201.05838",
+"pdf": "https://arxiv.org/pdf/2201.05838"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W2963702887",
+"title": "To Retransmit or Not: Real-Time Remote Estimation in Wireless Networked Control",
+"year": 2019,
+"venue": "International Conference on Communications",
+"cites": 28,
+"doi": "https://doi.org/10.1109/icc.2019.8761710",
+"pdf": null
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W2593235538",
+"title": "Hybrid ARQ Scheme with Autonomous Retransmission for Multicasting in Wireless Sensor Networks",
+"year": 2017,
+"venue": "Sensors",
+"cites": 10,
+"doi": "https://doi.org/10.3390/s17030463",
+"pdf": "https://www.mdpi.com/1424-8220/17/3/463/pdf?version=1488010682"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W3131515681",
+"title": "Hybrid ARQ with parallel and serial concatenated convolutional codes for next generation wireless communications",
+"year": 2001,
+"venue": null,
+"cites": 1,
+"doi": "https://doi.org/10.33915/etd.1154",
+"pdf": "https://researchrepository.wvu.edu/cgi/viewcontent.cgi?article=2157&context=etd"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W4402129357",
+"title": "Transmit or Retransmit: A Tradeoff in Networked Control of Dynamical Processes Over Lossy Channels With Ideal Feedback",
+"year": 2024,
+"venue": "IEEE Transactions on Information Theory",
+"cites": 6,
+"doi": "https://doi.org/10.1109/tit.2024.3452976",
+"pdf": "https://openaccess.city.ac.uk/id/eprint/35719/1/TBG_TIT24.pdf"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W4298184687",
+"title": "ARQ-based Average Consensus over Directed Network Topologies with Unreliable Communication Links",
+"year": 2022,
+"venue": "arXiv (Cornell University)",
+"cites": 2,
+"doi": "https://doi.org/10.48550/arxiv.2209.14699",
+"pdf": "https://arxiv.org/pdf/2209.14699"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W4396913615",
+"title": "Networked Control with Hybrid Automatic Repeat Request Protocols",
+"year": 2024,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2405.07381",
+"pdf": "https://arxiv.org/pdf/2405.07381"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W2582020695",
+"title": "Real-Time Cooperative Communication for Automation Over Wireless",
+"year": 2017,
+"venue": "IEEE Transactions on Wireless Communications",
+"cites": 57,
+"doi": "https://doi.org/10.1109/twc.2017.2741485",
+"pdf": "https://arxiv.org/pdf/1609.02968"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W2012723460",
+"title": "Proposal of Go-Back-i-symbol ARQ Scheme and its Performance Evaluation in Meteor Burst Communications",
+"year": 2012,
+"venue": "IEEE Transactions on Communications",
+"cites": 5,
+"doi": "https://doi.org/10.1109/tcomm.2012.071912.110330",
+"pdf": "https://shizuoka.repo.nii.ac.jp/record/7836/files/140919001.pdf"
+},
+{
+"q": "real-time remote estimation hybrid ARQ retransmit or not",
+"id": "https://openalex.org/W7214718761",
+"title": "Predictive Semantic-Aware Hybrid Automatic Repeat Request for Reliable and Efficient 6G Communications",
+"year": 2026,
+"venue": "Electronics",
+"cites": 0,
+"doi": "https://doi.org/10.3390/electronics15194482",
+"pdf": null
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W2100766019",
+"title": "Compression in wireless sensor networks",
+"year": 2013,
+"venue": "ACM Transactions on Sensor Networks",
+"cites": 192,
+"doi": "https://doi.org/10.1145/2528948",
+"pdf": "http://hdl.handle.net/10197/7031"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W3201873277",
+"title": "Data Compression Algorithms for Wireless Sensor Networks: A Review and Comparison",
+"year": 2021,
+"venue": "IEEE Access",
+"cites": 72,
+"doi": "https://doi.org/10.1109/access.2021.3116311",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09551970.pdf"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W1998468704",
+"title": "A Survey of Image Compression Algorithms for Visual Sensor Networks",
+"year": 2012,
+"venue": "ISRN Sensor Networks",
+"cites": 47,
+"doi": "https://doi.org/10.5402/2012/760320",
+"pdf": "https://downloads.hindawi.com/archive/2012/760320.pdf"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W612645824",
+"title": "Distributed source coding in sensor networks: A practical implementation",
+"year": 2007,
+"venue": "NORA - Norwegian Open Research Archives",
+"cites": 0,
+"doi": null,
+"pdf": "http://hdl.handle.net/11250/2369053"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W1608455724",
+"title": "Collaborative compression and transmission of distributed sensor imagery",
+"year": 2006,
+"venue": "UA Campus Repository (The University of Arizona)",
+"cites": 0,
+"doi": null,
+"pdf": "https://repository.arizona.edu/bitstream/10150/195593/1/azu_etd_1812_sip1_m.pdf"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W2293190551",
+"title": "Improved compression performance for distributed video coding",
+"year": 2010,
+"venue": "Ghent University Academic Bibliography (Ghent University)",
+"cites": 0,
+"doi": null,
+"pdf": "http://hdl.handle.net/1854/LU-1074506"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W82036176",
+"title": "Scalable Data Collection in Dense Wireless Sensor Networks",
+"year": 2007,
+"venue": "Purdue e-Pubs (Purdue University System)",
+"cites": 1,
+"doi": null,
+"pdf": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2681&context=cstech"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W4287215402",
+"title": "Lifetime Optimization of Dense Wireless Sensor Networks Using Continuous Ring-sector Model",
+"year": 2021,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2104.06304",
+"pdf": "https://arxiv.org/pdf/2104.06304"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W2122391889",
+"title": "Efficient decentralized communications in sensor networks",
+"year": 2004,
+"venue": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+"cites": 0,
+"doi": "https://doi.org/10.5075/epfl-thesis-2952",
+"pdf": "https://infoscience.epfl.ch/record/33427/files/EPFL_TH2952.pdf"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W1904468414",
+"title": "Wireless sensor network: energy efficiency, security, and, fault tolerance",
+"year": 2008,
+"venue": "Memorial University Research Repository (Memorial University)",
+"cites": 0,
+"doi": null,
+"pdf": "http://research.library.mun.ca/9407/1/Wang_Pu.pdf"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W4361771240",
+"title": "CRSDF: Improved Network Lifespan through Chain-routing Scheme and Data Fusion in Wireless Sensor Network",
+"year": 2022,
+"venue": "Annals of Computer Science and Information Systems",
+"cites": 0,
+"doi": "https://doi.org/10.15439/2022r16",
+"pdf": "https://annals-csis.org/proceedings/rice2022/drp/pdf/16.pdf"
+},
+{
+"q": "distributed compression dense microsensor network Slepian-Wolf",
+"id": "https://openalex.org/W2010509356",
+"title": "On the application of compressed sensing in communication networks",
+"year": 2010,
+"venue": "International ICST Conference on Communications and Networking in China",
+"cites": 22,
+"doi": "https://doi.org/10.4108/chinacom.2010.53",
+"pdf": "http://eudl.eu/pdf/10.4108/chinacom.2010.53"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2103662601",
+"title": "Understanding packet delivery performance in dense wireless sensor networks",
+"year": 2003,
+"venue": "International Conference on Embedded Networked Sensor Systems",
+"cites": 1272,
+"doi": "https://doi.org/10.1145/958491.958493",
+"pdf": "https://escholarship.org/content/qt8ct2h4pk/qt8ct2h4pk.pdf"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W4405919068",
+"title": "Resource-efficient remote state estimation over packet-dropping networks",
+"year": 2024,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.14711/thesis-991013340453903412",
+"pdf": "https://repository.hkust.edu.hk/ir/bitstream/1783.1-143812/1/991013340453903412.pdf"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W4243740687",
+"title": "Exploiting temporal and spatial correlation in wireless sensor networks",
+"year": 2013,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.17760/d20003075",
+"pdf": "https://repository.library.northeastern.edu/files/neu:1231/fulltext.pdf"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W4220723811",
+"title": "A Data Aggregation Approach Exploiting Spatial and Temporal Correlation among Sensor Data in Wireless Sensor Networks",
+"year": 2022,
+"venue": "Electronics",
+"cites": 51,
+"doi": "https://doi.org/10.3390/electronics11070989",
+"pdf": "https://www.mdpi.com/2079-9292/11/7/989/pdf?version=1648031940"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W4412993136",
+"title": "A Remote Strawberry Health Monitoring System Performed with Multiple Sensors Approach",
+"year": 2025,
+"venue": "Agriculture",
+"cites": 12,
+"doi": "https://doi.org/10.3390/agriculture15151690",
+"pdf": "https://www.mdpi.com/2077-0472/15/15/1690/pdf?version=1754396677"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W988476746",
+"title": "Exploiting spatial correlations for efficient communication and deployment optimisation in wireless sensor networks",
+"year": 2011,
+"venue": "RWTH Publications (RWTH Aachen)",
+"cites": 1,
+"doi": null,
+"pdf": "http://publications.rwth-aachen.de/record/64494"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2346720329",
+"title": "Spatial anomaly detection in sensor networks using neighborhood information",
+"year": 2016,
+"venue": "Information Fusion",
+"cites": 140,
+"doi": "https://doi.org/10.1016/j.inffus.2016.04.007",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S1566253516300252/pdf"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2897661145",
+"title": "Modelling and Estimation for Uncertain Systems with Transmission Delays, Packet Dropouts, and Out\u2010of\u2010Order Packets",
+"year": 2018,
+"venue": "Complexity",
+"cites": 7,
+"doi": "https://doi.org/10.1155/2018/7531547",
+"pdf": "https://downloads.hindawi.com/journals/complexity/2018/7531547.pdf"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2947561739",
+"title": "Distributed and Communication-Efficient Spatial Auto-Correlation Subsurface Imaging in Sensor Networks",
+"year": 2019,
+"venue": "Sensors",
+"cites": 7,
+"doi": "https://doi.org/10.3390/s19112427",
+"pdf": "https://www.mdpi.com/1424-8220/19/11/2427/pdf?version=1559030647"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2951450390",
+"title": "Distributed estimation over a low-cost sensor network: A Review of state-of-the-art",
+"year": 2019,
+"venue": "Information Fusion",
+"cites": 224,
+"doi": "https://doi.org/10.1016/j.inffus.2019.06.026",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S1566253518307747/pdf"
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2997154460",
+"title": "MAC-Layer Packet Loss Models for Wi-Fi Networks: A Survey",
+"year": 2019,
+"venue": "IEEE Access",
+"cites": 51,
+"doi": "https://doi.org/10.1109/access.2019.2958260",
+"pdf": null
+},
+{
+"q": "correlated packet loss multiple sensors remote estimation spatial correlation",
+"id": "https://openalex.org/W2767452928",
+"title": "Spatial-Temporal Data Collection with Compressive Sensing in Mobile Sensor Networks",
+"year": 2017,
+"venue": "Sensors",
+"cites": 20,
+"doi": "https://doi.org/10.3390/s17112575",
+"pdf": "https://www.mdpi.com/1424-8220/17/11/2575/pdf"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W2140949898",
+"title": "Video Quality Analysis of Distributed Video Coding in Wireless Multimedia Sensor Networks",
+"year": 2014,
+"venue": "International Journal of Information Technology and Computer Science",
+"cites": 9,
+"doi": "https://doi.org/10.5815/ijitcs.2015.01.02",
+"pdf": "https://www.mecs-press.org/ijitcs/ijitcs-v7-n1/IJITCS-V7-N1-2.pdf"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W4407765903",
+"title": "Effects of Packet Loss on Neural Decoding Effectiveness in Wireless Transmission",
+"year": 2025,
+"venue": "Brain Sciences",
+"cites": 2,
+"doi": "https://doi.org/10.3390/brainsci15030221",
+"pdf": "https://www.mdpi.com/2076-3425/15/3/221/pdf?version=1740060605"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W2266782157",
+"title": "Performance analysis and protocol design for wireless cooperative networks",
+"year": 2013,
+"venue": "UVic\u2019s Research and Learning Repository (University of Victoria)",
+"cites": 0,
+"doi": null,
+"pdf": "http://hdl.handle.net/1828/4496"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W4246358603",
+"title": "Comprehensive Protection of Data-Partitioned Video for Broadband Wireless IPTV Streaming",
+"year": 2012,
+"venue": "Mobile Information Systems",
+"cites": 3,
+"doi": "https://doi.org/10.1155/2012/845754",
+"pdf": "https://downloads.hindawi.com/journals/misy/2012/845754.pdf"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W2142426414",
+"title": "Distortion-Based Slice Level Prioritization for Real-Time Video over QoS-Enabled Wireless Networks",
+"year": 2012,
+"venue": "Advances in Multimedia",
+"cites": 2,
+"doi": "https://doi.org/10.1155/2012/319785",
+"pdf": "https://downloads.hindawi.com/journals/am/2012/319785.pdf"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W3024200358",
+"title": "ConcealNet: An End-to-end Neural Network for Packet Loss Concealment in Deep Speech Emotion Recognition",
+"year": 2020,
+"venue": "arXiv (Cornell University)",
+"cites": 11,
+"doi": "https://doi.org/10.48550/arxiv.2005.07777",
+"pdf": "https://arxiv.org/pdf/2005.07777"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W7217395817",
+"title": "FEC Methods' Effects on Intelligent Video Streaming Over 2.4 GHz Wireless Channels: An Analysis",
+"year": 2023,
+"venue": "International Journal of Intelligent Systems and Applications in Engineering",
+"cites": 0,
+"doi": null,
+"pdf": "https://ijisae.org/index.php/IJISAE/article/download/3520/2119"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W4406880192",
+"title": "Prediction of Received Power in Low-Power and Lossy Networks Deployed in Rough Environments",
+"year": 2025,
+"venue": "arXiv (Cornell University)",
+"cites": 0,
+"doi": "https://doi.org/10.48550/arxiv.2501.15182",
+"pdf": "https://arxiv.org/pdf/2501.15182"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W1969069275",
+"title": "Power-Constrained Fuzzy Logic Control of Video Streaming over a Wireless Interconnect",
+"year": 2008,
+"venue": "EURASIP Journal on Advances in Signal Processing",
+"cites": 4,
+"doi": "https://doi.org/10.1155/2008/560749",
+"pdf": "https://asp-eurasipjournals.springeropen.com/counter/pdf/10.1155/2008/560749"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W7217736145",
+"title": "Integrating Long Short-Term Memory and Reinforcement Learning in Federated Learning Frameworks for Energy-Efficient Signal Processing in UAV-Assisted Wireless Communication Networks",
+"year": 2024,
+"venue": "International Journal of Intelligent Systems and Applications in Engineering",
+"cites": 0,
+"doi": null,
+"pdf": "https://ijisae.org/index.php/IJISAE/article/download/5437/5456"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W1982805255",
+"title": "Fuzzy Logic Control of Adaptive ARQ for Video Distribution over a Bluetooth Wireless Link",
+"year": 2007,
+"venue": "Advances in Multimedia",
+"cites": 13,
+"doi": "https://doi.org/10.1155/2007/45798",
+"pdf": "https://downloads.hindawi.com/journals/am/2007/045798.pdf"
+},
+{
+"q": "burst loss Gilbert-Elliott wireless sensor network data reconstruction",
+"id": "https://openalex.org/W2007106898",
+"title": "Enabling Cognitive Load\u2010Aware AR with Rateless Coding on a Wearable Network",
+"year": 2008,
+"venue": "Advances in Multimedia",
+"cites": 1,
+"doi": "https://doi.org/10.1155/2008/853816",
+"pdf": "https://downloads.hindawi.com/journals/am/2008/853816.pdf"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W4220997490",
+"title": "Machine Learning-Based Satellite Routing for SAGIN IoT Networks",
+"year": 2022,
+"venue": "Electronics",
+"cites": 9,
+"doi": "https://doi.org/10.3390/electronics11060862",
+"pdf": "https://www.mdpi.com/2079-9292/11/6/862/pdf?version=1646825976"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W4391671015",
+"title": "Failure Analysis in Next-Generation Critical Cellular Communication Infrastructures",
+"year": 2024,
+"venue": "arXiv (Cornell University)",
+"cites": 2,
+"doi": "https://doi.org/10.48550/arxiv.2402.04448",
+"pdf": "https://arxiv.org/pdf/2402.04448"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W2916978304",
+"title": "The Development of IoT Within Energy Infrastructure",
+"year": 2019,
+"venue": "Springer eBooks",
+"cites": 13,
+"doi": "https://doi.org/10.1007/978-3-030-10427-6_3",
+"pdf": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-10427-6_3.pdf"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W7140149371",
+"title": "A low power sleepy network design for IPv6-based environmental IoT systems",
+"year": 2026,
+"venue": "ePrints Soton (University of Southampton)",
+"cites": 0,
+"doi": null,
+"pdf": "https://eprints.soton.ac.uk/510161/1/Final_Submission_-_Version_of_Record.pdf"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W3193093680",
+"title": "The Potential of Millimeter Waves for Future 5G Cellular and Vehicular Networks",
+"year": 2019,
+"venue": "Padua@research (University of Padova)",
+"cites": 1,
+"doi": null,
+"pdf": "http://paduaresearch.cab.unipd.it/12154/1/tesi-giordani-minor.pdf"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W3091112630",
+"title": "Mobility Management in Emerging Ultra-Dense Cellular Networks: A Survey, Outlook, and Future Research Directions",
+"year": 2020,
+"venue": "IEEE Access",
+"cites": 61,
+"doi": "https://doi.org/10.1109/access.2020.3027258",
+"pdf": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09206546.pdf"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W2792931891",
+"title": "HetHetNets: Heterogeneous Wireless Cellular Networks with Heterogeneous Traffic",
+"year": 2017,
+"venue": null,
+"cites": 0,
+"doi": "https://doi.org/10.22215/etd/2017-12231",
+"pdf": "https://repository.library.carleton.ca/downloads/79407x86n"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W2538463904",
+"title": "Universal Intelligent Small Cell (UnISCell) for next generation cellular networks",
+"year": 2016,
+"venue": "Digital Communications and Networks",
+"cites": 10,
+"doi": "https://doi.org/10.1016/j.dcan.2016.09.003",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S2352864816300499/pdf"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W4387771530",
+"title": "How Should Enterprises Quantify and Analyze (Multi-Party) APT Cyber-Risk Exposure in their Industrial IoT Network?",
+"year": 2023,
+"venue": "ACM Transactions on Management Information Systems",
+"cites": 3,
+"doi": "https://doi.org/10.1145/3605949",
+"pdf": "https://dl.acm.org/doi/pdf/10.1145/3605949"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W7171202191",
+"title": "Intelligent Agricultural Systems Using IoT and AI",
+"year": 2023,
+"venue": "International Journal of Artificial Intelligence & Digital Transformation",
+"cites": 0,
+"doi": "https://doi.org/10.67228/30713315/ijaidt-2023pii9s1x",
+"pdf": "https://worldcometresearchgroup.com/index.php/ijaidt/article/download/245/235"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W3203173188",
+"title": "Resource Allocation Schemes for 5G Network: A Systematic Review",
+"year": 2021,
+"venue": "Sensors",
+"cites": 122,
+"doi": "https://doi.org/10.3390/s21196588",
+"pdf": "https://www.mdpi.com/1424-8220/21/19/6588/pdf?version=1633155181"
+},
+{
+"q": "cellular IoT outage correlated multiple devices rain network failure measurement",
+"id": "https://openalex.org/W4404733731",
+"title": "Teamwork without talking: distributed system estimates maintain approximately centralized control of smart urban drainage systems during communications outages",
+"year": 2024,
+"venue": "Water Research X",
+"cites": 3,
+"doi": "https://doi.org/10.1016/j.wroa.2024.100287",
+"pdf": null
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W2154348116",
+"title": "Design and Deployment of a Remote Robust Sensor Network: Experiences from an Outdoor Water Quality Monitoring Network",
+"year": 2007,
+"venue": "Conference on Local Computer Networks",
+"cites": 83,
+"doi": "https://doi.org/10.1109/lcn.2007.39",
+"pdf": "https://eprints.qut.edu.au/33774/1/33774.pdf"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W2898341790",
+"title": "Optimal placement of imperfect water quality sensors in water distribution networks",
+"year": 2018,
+"venue": "Computers & Chemical Engineering",
+"cites": 56,
+"doi": "https://doi.org/10.1016/j.compchemeng.2018.10.021",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S0098135418301340"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W3113034740",
+"title": "Revisiting the Water Quality Sensor Placement Problem: Optimizing Network Observability and State Estimation Metrics",
+"year": 2021,
+"venue": "Journal of Water Resources Planning and Management",
+"cites": 24,
+"doi": "https://doi.org/10.1061/(asce)wr.1943-5452.0001374",
+"pdf": "https://arxiv.org/pdf/2012.05268"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W1502038831",
+"title": "Use of environmental sensors and sensor networks to develop water and salinity budgets for seasonal wetland real-time water quality management",
+"year": 2009,
+"venue": "Environmental Modelling & Software",
+"cites": 50,
+"doi": "https://doi.org/10.1016/j.envsoft.2009.10.011",
+"pdf": "https://escholarship.org/content/qt60t5113t/qt60t5113t.pdf"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W3080150692",
+"title": "A Review of the Artificial Neural Network Models for Water Quality Prediction",
+"year": 2020,
+"venue": "Applied Sciences",
+"cites": 465,
+"doi": "https://doi.org/10.3390/app10175776",
+"pdf": "https://www.mdpi.com/2076-3417/10/17/5776/pdf?version=1598326186"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W3011706950",
+"title": "Fractal-Heuristic Method of Water Quality Sensor Locations in Water Supply Network",
+"year": 2020,
+"venue": "Water",
+"cites": 9,
+"doi": "https://doi.org/10.3390/w12030832",
+"pdf": "https://www.mdpi.com/2073-4441/12/3/832/pdf?version=1584346046"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W4235155662",
+"title": "Design of Water Quality and Quantity Ecological Compensation Monitoring System based on Wireless Sensor Network",
+"year": 2021,
+"venue": "International Workshop on Computer Science and Engineering (WCSE)",
+"cites": 0,
+"doi": "https://doi.org/10.18178/wcse.2021.06.045",
+"pdf": "https://doi.org/10.18178/wcse.2021.06.045"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W4311457728",
+"title": "Generative adversarial networks for detecting contamination events in water distribution systems using multi-parameter, multi-site water quality monitoring",
+"year": 2022,
+"venue": "Environmental Science and Ecotechnology",
+"cites": 82,
+"doi": "https://doi.org/10.1016/j.ese.2022.100231",
+"pdf": "https://www.sciencedirect.com/science/article/pii/S2666498422000874/pdf"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W3081566125",
+"title": "Clustering of Time Series Water Quality Data Using Dynamic Time Warping: A Case Study from the Bukhan River Water Quality Monitoring Network",
+"year": 2020,
+"venue": "Water",
+"cites": 40,
+"doi": "https://doi.org/10.3390/w12092411",
+"pdf": "https://www.mdpi.com/2073-4441/12/9/2411/pdf?version=1600929023"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W2930669685",
+"title": "Analysis and Prediction of Water Quality Using LSTM Deep Neural Networks in IoT Environment",
+"year": 2019,
+"venue": "Sustainability",
+"cites": 369,
+"doi": "https://doi.org/10.3390/su11072058",
+"pdf": "https://www.mdpi.com/2071-1050/11/7/2058/pdf?version=1554970753"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W7203629431",
+"title": "Water Quality Monitoring in the Era of Big Data: Sensors, AI, and Integrated Frameworks",
+"year": 2026,
+"venue": "Journal of Environmental & Earth Sciences",
+"cites": 0,
+"doi": "https://doi.org/10.30564/jees.v8i8.13361",
+"pdf": "https://journals.bilpubgroup.com/index.php/jees/article/download/13361/7926"
+},
+{
+"q": "water quality monitoring network sensor failure downstream station estimation",
+"id": "https://openalex.org/W3039430629",
+"title": "A summary of water-quality monitoring in San Francisco Bay in water year 2017",
+"year": 2020,
+"venue": "Scientific investigations report",
+"cites": 3,
+"doi": "https://doi.org/10.3133/sir20205064",
+"pdf": "https://pubs.usgs.gov/sir/2020/5064/sir20205064.pdf"
+}
+]

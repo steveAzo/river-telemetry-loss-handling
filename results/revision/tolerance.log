@@ -1,0 +1,44 @@
+01388000 done
+01427510 done
+01438500 done
+01458500 done
+01463500 done
+01465798 done
+014670261 done
+01467087 done
+01467200 done
+01473500 done
+01475530 done
+01477050 done
+03072655 done
+05420400 done
+05537980 done
+05543010 done
+05553700 done
+05559900 done
+05586300 done
+11509370 done
+11509500 done
+11510700 done
+14163900 done
+14203500 done
+14206241 done
+14206694 done
+14207200 done
+14209710 done
+14211010 done
+420853121505500 done
+param                          DO      EC       T     pH
+tol_L1_med                  1.000   2.095   0.100  0.050
+tol_L2_med                  2.000   4.190   0.200  0.100
+tol_L3_med                  5.000  10.475   0.500  0.200
+usgs_exc_med                4.670   6.285   0.200  0.200
+daily_range_med            10.005  12.000   1.100  0.250
+daily_range_p10             3.126   1.000   0.600  0.100
+daily_range_p90            19.080  36.400   2.210  0.600
+amp5_med                    7.449   7.413   0.741  0.500
+amp8_med                   11.919  11.861   1.186  0.800
+sites_with_real_ge5         1.000   0.933   1.000  0.600
+sites_with_real_ge8         0.967   0.933   0.833  0.367
+real_p999_over_sigma_med    9.801  18.316   8.487  4.023
+real_max_over_sigma_med   326.653  31.364  12.478  6.000

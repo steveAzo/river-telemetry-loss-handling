@@ -1,0 +1,118 @@
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 19:25:30 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 19:25:30 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+[34m
+████████ ██ ███    ███ ███████       ███████ ███████ ██████  ██ ███████ ███████     █████  ██
+   ██    ██ ████  ████ ██            ██      ██      ██   ██ ██ ██      ██         ██   ██ ██
+   ██    ██ ██ ████ ██ █████   █████ ███████ █████   ██████  ██ █████   ███████    ███████ ██
+   ██    ██ ██  ██  ██ ██                 ██ ██      ██   ██ ██ ██           ██    ██   ██ ██
+   ██    ██ ██      ██ ███████       ███████ ███████ ██   ██ ██ ███████ ███████ ██ ██   ██ ██   
+ai4ts v0.0.3 - building AI for unified time-series analysis, https://time-series.ai [0m
+
+  delaware: SAITS trained (218 s)
+  delaware: StemGNN trained (482 s)
+  delaware: target 01427510 evaluated
+  delaware: target 01438500 evaluated
+  delaware: target 01458500 evaluated
+  delaware: target 01463500 evaluated
+delaware done in 510 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 19:33:59 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 19:33:59 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  illinois: SAITS trained (278 s)
+  illinois: StemGNN trained (423 s)
+  illinois: target 05537980 evaluated
+  illinois: target 05543010 evaluated
+  illinois: target 05553700 evaluated
+  illinois: target 05559900 evaluated
+  illinois: target 05586300 evaluated
+illinois done in 457 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 19:41:34 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 19:41:34 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  tualatin: SAITS trained (338 s)
+  tualatin: StemGNN trained (581 s)
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:213: RuntimeWarning: All-NaN slice encountered
+  err = float(np.nanmax(np.abs(truth - e)))
+  tualatin: target 14203500 evaluated
+  tualatin: target 14206241 evaluated
+  tualatin: target 14206694 evaluated
+  tualatin: target 14207200 evaluated
+tualatin done in 604 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 19:51:38 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 19:51:38 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  clackamas: SAITS trained (217 s)
+  clackamas: StemGNN trained (446 s)
+  clackamas: target 14209710 evaluated
+  clackamas: target 14210000 evaluated
+  clackamas: target 14211010 evaluated
+clackamas done in 467 s
+2026-10-17 19:59:25 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 19:59:25 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  mckenzie: SAITS trained (304 s)
+  mckenzie: StemGNN trained (363 s)
+  mckenzie: target 14162500 evaluated
+  mckenzie: target 14163900 evaluated
+mckenzie done in 375 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 20:05:45 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 20:05:45 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  monongahela: SAITS trained (235 s)
+  monongahela: StemGNN trained (393 s)
+  monongahela: target 03072655 evaluated
+  monongahela: target 03075070 evaluated
+monongahela done in 410 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 20:12:29 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 20:12:29 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  youghiogheny: SAITS trained (209 s)
+  youghiogheny: StemGNN trained (523 s)
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:213: RuntimeWarning: All-NaN slice encountered
+  err = float(np.nanmax(np.abs(truth - e)))
+  youghiogheny: target 03081000 evaluated
+  youghiogheny: target 03083500 evaluated
+youghiogheny done in 544 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 20:21:33 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 20:21:33 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  schuylkill: SAITS trained (214 s)
+  schuylkill: StemGNN trained (379 s)
+  schuylkill: target 01473500 evaluated
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1215: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+  schuylkill: target 01474500 evaluated
+schuylkill done in 391 s
+C:\Users\User\Desktop\WSN_M\Paper2\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-10-17 20:28:03 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-10-17 20:28:03 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+  klamath: SAITS trained (214 s)
+  klamath: StemGNN trained (410 s)
+  klamath: target 420853121505500 evaluated
+  klamath: target 11509370 evaluated
+  klamath: target 11509500 evaluated
+klamath done in 431 s

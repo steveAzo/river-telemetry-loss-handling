@@ -1,0 +1,89 @@
+max lost among buffering strategies (excluding checkpoint): 0.0797588
+== InWaterSense p_radio 0.0
+                        radio               label  energy_j_per_day  lifetime_y  within_1h  within_24h  delivered
+NB-IoT N211 RAI (search 10 s)              unconf           229.946       0.831      0.539       0.539      0.539
+NB-IoT N211 RAI (search 10 s) unconf_backoff/bo6h            59.485       2.016      0.471       0.471      0.471
+NB-IoT N211 RAI (search 10 s)                 arq           231.471       0.826      0.539       0.539      0.539
+NB-IoT N211 RAI (search 10 s)     arq_buffer/bo6h            63.813       1.945      0.528       0.742      1.000
+NB-IoT N211 RAI (search 10 s)        batch1h/bo6h            23.598       2.881      0.521       0.746      1.000
+NB-IoT N211 RAI (search 10 s)        batch6h/bo6h            13.272       3.286      0.113       0.763      1.000
+                  LoRaWAN SF7              unconf            61.644       1.802      0.539       0.539      0.539
+                  LoRaWAN SF7                 arq           447.064       0.464      0.539       0.539      0.539
+                  LoRaWAN SF7                arq3           175.456       0.973      0.539       0.539      0.539
+                  LoRaWAN SF7     arq_buffer/bo6h            52.667       1.931      0.528       0.741      1.000
+                  LoRaWAN SF7    checkpoint6/bo6h            44.191       2.072      0.512       0.727      0.981
+                  LoRaWAN SF7        batch1h/bo6h            18.904       2.648      0.520       0.745      1.000
+                  LoRaWAN SF7        batch6h/bo6h            11.314       2.890      0.112       0.762      1.000
+                 LoRaWAN SF12              unconf           147.180       1.099      0.539       0.539      0.539
+                 LoRaWAN SF12                 arq           796.119       0.277      0.539       0.539      0.539
+                 LoRaWAN SF12                arq3           354.313       0.565      0.539       0.539      0.539
+                 LoRaWAN SF12     arq_buffer/bo6h           158.684       1.044      0.516       0.709      1.000
+                 LoRaWAN SF12    checkpoint6/bo6h           131.632       1.183      0.501       0.695      0.981
+                 LoRaWAN SF12        batch1h/bo6h            89.450       1.491      0.506       0.713      1.000
+                 LoRaWAN SF12        batch6h/bo6h            79.040       1.594      0.040       0.731      1.000
+== InWaterSense p_radio 0.096
+                        radio               label  energy_j_per_day  lifetime_y  within_1h  within_24h  delivered
+NB-IoT N211 RAI (search 10 s)              unconf           229.946       0.831      0.490       0.490      0.490
+NB-IoT N211 RAI (search 10 s) unconf_backoff/bo6h            59.485       2.016      0.427       0.427      0.427
+NB-IoT N211 RAI (search 10 s)                 arq           235.764       0.814      0.539       0.539      0.539
+NB-IoT N211 RAI (search 10 s)     arq_buffer/bo6h            63.425       1.951      0.506       0.730      1.000
+NB-IoT N211 RAI (search 10 s)        batch1h/bo6h            24.245       2.858      0.513       0.743      1.000
+NB-IoT N211 RAI (search 10 s)        batch6h/bo6h            13.453       3.278      0.111       0.750      1.000
+                  LoRaWAN SF7              unconf            61.644       1.802      0.490       0.490      0.490
+                  LoRaWAN SF7                 arq           452.991       0.459      0.539       0.539      0.539
+                  LoRaWAN SF7                arq3           181.359       0.951      0.539       0.539      0.539
+                  LoRaWAN SF7     arq_buffer/bo6h            54.223       1.908      0.509       0.734      1.000
+                  LoRaWAN SF7    checkpoint6/bo6h            43.904       2.077      0.464       0.674      0.949
+                  LoRaWAN SF7        batch1h/bo6h            19.784       2.623      0.514       0.738      1.000
+                  LoRaWAN SF7        batch6h/bo6h            11.778       2.874      0.109       0.748      1.000
+                 LoRaWAN SF12              unconf           147.180       1.099      0.490       0.490      0.490
+                 LoRaWAN SF12                 arq           806.780       0.274      0.539       0.539      0.539
+                 LoRaWAN SF12                arq3           364.908       0.551      0.539       0.539      0.539
+                 LoRaWAN SF12     arq_buffer/bo6h           167.687       1.005      0.502       0.705      1.000
+                 LoRaWAN SF12    checkpoint6/bo6h           136.174       1.157      0.458       0.660      0.948
+                 LoRaWAN SF12        batch1h/bo6h            96.662       1.428      0.498       0.711      1.000
+                 LoRaWAN SF12        batch6h/bo6h            86.646       1.518      0.040       0.717      1.000
+== Weija p_radio 0.0
+                        radio               label  energy_j_per_day  lifetime_y  within_1h  within_24h  delivered
+NB-IoT N211 RAI (search 10 s)              unconf            40.108       3.611      0.842       0.842      0.842
+NB-IoT N211 RAI (search 10 s) unconf_backoff/bo6h            23.171       4.840      0.829       0.829      0.829
+NB-IoT N211 RAI (search 10 s)                 arq            40.853       3.571      0.842       0.842      0.842
+NB-IoT N211 RAI (search 10 s)     arq_buffer/bo6h            24.241       4.738      0.839       0.892      1.000
+NB-IoT N211 RAI (search 10 s)        batch1h/bo6h            13.717       5.975      0.838       0.891      1.000
+NB-IoT N211 RAI (search 10 s)        batch6h/bo6h             4.371       7.778      0.157       0.890      1.000
+                  LoRaWAN SF7              unconf            19.305       4.158      0.842       0.842      0.842
+                  LoRaWAN SF7                 arq            58.331       2.484      0.842       0.842      0.842
+                  LoRaWAN SF7                arq3            29.190       3.552      0.842       0.842      0.842
+                  LoRaWAN SF7     arq_buffer/bo6h            16.780       4.348      0.839       0.891      1.000
+                  LoRaWAN SF7    checkpoint6/bo6h            17.671       4.279      0.838       0.888      0.994
+                  LoRaWAN SF7        batch1h/bo6h             9.405       5.015      0.838       0.891      1.000
+                  LoRaWAN SF7        batch6h/bo6h             2.729       5.825      0.157       0.890      1.000
+                 LoRaWAN SF12              unconf            46.093       2.843      0.842       0.842      0.842
+                 LoRaWAN SF12                 arq           119.473       1.524      0.842       0.842      0.842
+                 LoRaWAN SF12                arq3            72.072       2.176      0.842       0.842      0.842
+                 LoRaWAN SF12     arq_buffer/bo6h            52.496       2.643      0.837       0.887      1.000
+                 LoRaWAN SF12    checkpoint6/bo6h            46.160       2.841      0.837       0.883      0.994
+                 LoRaWAN SF12        batch1h/bo6h            31.774       3.422      0.837       0.886      1.000
+                 LoRaWAN SF12        batch6h/bo6h            23.784       3.860      0.155       0.886      1.000
+== Weija p_radio 0.096
+                        radio               label  energy_j_per_day  lifetime_y  within_1h  within_24h  delivered
+NB-IoT N211 RAI (search 10 s)              unconf            40.108       3.611      0.763       0.763      0.763
+NB-IoT N211 RAI (search 10 s) unconf_backoff/bo6h            23.171       4.840      0.751       0.751      0.751
+NB-IoT N211 RAI (search 10 s)                 arq            42.969       3.462      0.841       0.841      0.841
+NB-IoT N211 RAI (search 10 s)     arq_buffer/bo6h            26.213       4.561      0.835       0.892      1.000
+NB-IoT N211 RAI (search 10 s)        batch1h/bo6h            14.608       5.845      0.830       0.886      1.000
+NB-IoT N211 RAI (search 10 s)        batch6h/bo6h             4.602       7.720      0.156       0.887      1.000
+                  LoRaWAN SF7              unconf            19.305       4.158      0.763       0.763      0.763
+                  LoRaWAN SF7                 arq            61.260       2.411      0.842       0.842      0.842
+                  LoRaWAN SF7                arq3            32.104       3.406      0.841       0.841      0.841
+                  LoRaWAN SF7     arq_buffer/bo6h            19.412       4.151      0.833       0.891      1.000
+                  LoRaWAN SF7    checkpoint6/bo6h            18.036       4.251      0.768       0.820      0.929
+                  LoRaWAN SF7        batch1h/bo6h            10.793       4.874      0.836       0.891      1.000
+                  LoRaWAN SF7        batch6h/bo6h             3.069       5.778      0.157       0.888      1.000
+                 LoRaWAN SF12              unconf            46.093       2.843      0.763       0.763      0.763
+                 LoRaWAN SF12                 arq           124.741       1.474      0.842       0.842      0.842
+                 LoRaWAN SF12                arq3            77.295       2.078      0.841       0.841      0.841
+                 LoRaWAN SF12     arq_buffer/bo6h            57.907       2.495      0.836       0.886      1.000
+                 LoRaWAN SF12    checkpoint6/bo6h            47.491       2.797      0.772       0.820      0.931
+                 LoRaWAN SF12        batch1h/bo6h            34.647       3.287      0.830       0.886      1.000
+                 LoRaWAN SF12        batch6h/bo6h            26.260       3.712      0.155       0.886      1.000

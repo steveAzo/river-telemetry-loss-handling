@@ -1,0 +1,865 @@
+site,trace,radio,strategy,level,param,within_tol,median_abs_err,shown_share,tol
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L1,T,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L1,EC,1,0,1,2.39
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L1,pH,1,0,1,0.05
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L1,DO,1,0,1,1
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L2,T,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L2,EC,1,0,1,4.78
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L2,pH,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L2,DO,1,0,1,2
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L3,T,1,0,1,0.5
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L3,EC,1,0,1,11.95
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L3,pH,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),unconf,L3,DO,1,0,1,5
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,T,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,EC,1,0,1,2.39
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,pH,1,0,1,0.05
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,DO,1,0,1,1
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,T,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,EC,1,0,1,4.78
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,pH,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,DO,1,0,1,2
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,T,1,0,1,0.5
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,EC,1,0,1,11.95
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,pH,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,DO,1,0,1,5
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L1,T,0.990397,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L1,EC,0.957695,0,1,2.39
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L1,pH,0.971321,0,1,0.05
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L1,DO,0.88749,0,1,1
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L2,T,0.998313,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L2,EC,0.988321,0,1,4.78
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L2,pH,0.99987,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L2,DO,0.993122,0,1,2
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L3,T,1,0,1,0.5
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L3,EC,0.999221,0,1,11.95
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L3,pH,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),batch1h,L3,DO,1,0,1,5
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L1,T,0.990397,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L1,EC,0.958085,0,1,2.39
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L1,pH,0.971451,0,1,0.05
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L1,DO,0.88762,0,1,1
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L2,T,0.998313,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L2,EC,0.988451,0,1,4.78
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L2,pH,0.99987,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L2,DO,0.993122,0,1,2
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L3,T,1,0,1,0.5
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L3,EC,0.999221,0,1,11.95
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L3,pH,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),design,L3,DO,1,0,1,5
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L1,T,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L1,EC,1,0,1,2.39
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L1,pH,1,0,1,0.05
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L1,DO,1,0,1,1
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,T,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,EC,1,0,1,2.39
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,pH,1,0,1,0.05
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,DO,1,0,1,1
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L2,T,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L2,EC,1,0,1,4.78
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L2,pH,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L2,DO,1,0,1,2
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,T,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,EC,1,0,1,4.78
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,pH,1,0,1,0.1
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,DO,1,0,1,2
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L3,T,1,0,1,0.5
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L3,EC,1,0,1,11.95
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L3,pH,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded,L3,DO,1,0,1,5
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,T,1,0,1,0.5
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,EC,1,0,1,11.95
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,none,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF7,unconf,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF7,unconf,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF7,unconf,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF7,unconf,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF7,unconf,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF7,unconf,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF7,unconf,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF7,unconf,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF7,unconf,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF7,unconf,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF7,unconf,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF7,unconf,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF7,arq_buffer,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF7,arq_buffer,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF7,arq_buffer,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF7,arq_buffer,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF7,arq_buffer,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF7,arq_buffer,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF7,arq_buffer,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF7,arq_buffer,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF7,arq_buffer,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF7,arq_buffer,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF7,arq_buffer,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF7,arq_buffer,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF7,batch1h,L1,T,0.990397,0,1,0.1
+14206694,none,LoRaWAN SF7,batch1h,L1,EC,0.957695,0,1,2.39
+14206694,none,LoRaWAN SF7,batch1h,L1,pH,0.971321,0,1,0.05
+14206694,none,LoRaWAN SF7,batch1h,L1,DO,0.88749,0,1,1
+14206694,none,LoRaWAN SF7,batch1h,L2,T,0.998313,0,1,0.2
+14206694,none,LoRaWAN SF7,batch1h,L2,EC,0.988321,0,1,4.78
+14206694,none,LoRaWAN SF7,batch1h,L2,pH,0.99987,0,1,0.1
+14206694,none,LoRaWAN SF7,batch1h,L2,DO,0.993122,0,1,2
+14206694,none,LoRaWAN SF7,batch1h,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF7,batch1h,L3,EC,0.999221,0,1,11.95
+14206694,none,LoRaWAN SF7,batch1h,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF7,batch1h,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF7,design,L1,T,0.990397,0,1,0.1
+14206694,none,LoRaWAN SF7,design,L1,EC,0.958085,0,1,2.39
+14206694,none,LoRaWAN SF7,design,L1,pH,0.971451,0,1,0.05
+14206694,none,LoRaWAN SF7,design,L1,DO,0.88762,0,1,1
+14206694,none,LoRaWAN SF7,design,L2,T,0.998313,0,1,0.2
+14206694,none,LoRaWAN SF7,design,L2,EC,0.988451,0,1,4.78
+14206694,none,LoRaWAN SF7,design,L2,pH,0.99987,0,1,0.1
+14206694,none,LoRaWAN SF7,design,L2,DO,0.993122,0,1,2
+14206694,none,LoRaWAN SF7,design,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF7,design,L3,EC,0.999221,0,1,11.95
+14206694,none,LoRaWAN SF7,design,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF7,design,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF7,design_bounded,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF7,design_bounded,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF7,design_bounded,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF7,design_bounded,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF7,design_bounded_nf,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF7,design_bounded_nf,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF7,design_bounded_nf,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF7,design_bounded_nf,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF7,design_bounded,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF7,design_bounded,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF7,design_bounded,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF7,design_bounded,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF7,design_bounded_nf,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF7,design_bounded_nf,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF7,design_bounded_nf,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF7,design_bounded_nf,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF7,design_bounded,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF7,design_bounded,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF7,design_bounded,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF7,design_bounded,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF7,design_bounded_nf,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF7,design_bounded_nf,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF7,design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF7,design_bounded_nf,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF12,unconf,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF12,unconf,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF12,unconf,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF12,unconf,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF12,unconf,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF12,unconf,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF12,unconf,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF12,unconf,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF12,unconf,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF12,unconf,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF12,unconf,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF12,unconf,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF12,arq_buffer,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF12,arq_buffer,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF12,arq_buffer,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF12,arq_buffer,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF12,arq_buffer,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF12,arq_buffer,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF12,arq_buffer,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF12,arq_buffer,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF12,arq_buffer,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF12,arq_buffer,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF12,arq_buffer,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF12,arq_buffer,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF12,batch1h,L1,T,0.990397,0,1,0.1
+14206694,none,LoRaWAN SF12,batch1h,L1,EC,0.957695,0,1,2.39
+14206694,none,LoRaWAN SF12,batch1h,L1,pH,0.971321,0,1,0.05
+14206694,none,LoRaWAN SF12,batch1h,L1,DO,0.88749,0,1,1
+14206694,none,LoRaWAN SF12,batch1h,L2,T,0.998313,0,1,0.2
+14206694,none,LoRaWAN SF12,batch1h,L2,EC,0.988321,0,1,4.78
+14206694,none,LoRaWAN SF12,batch1h,L2,pH,0.99987,0,1,0.1
+14206694,none,LoRaWAN SF12,batch1h,L2,DO,0.993122,0,1,2
+14206694,none,LoRaWAN SF12,batch1h,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF12,batch1h,L3,EC,0.999221,0,1,11.95
+14206694,none,LoRaWAN SF12,batch1h,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF12,batch1h,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF12,design,L1,T,0.990397,0,1,0.1
+14206694,none,LoRaWAN SF12,design,L1,EC,0.958085,0,1,2.39
+14206694,none,LoRaWAN SF12,design,L1,pH,0.971451,0,1,0.05
+14206694,none,LoRaWAN SF12,design,L1,DO,0.88762,0,1,1
+14206694,none,LoRaWAN SF12,design,L2,T,0.998313,0,1,0.2
+14206694,none,LoRaWAN SF12,design,L2,EC,0.988451,0,1,4.78
+14206694,none,LoRaWAN SF12,design,L2,pH,0.99987,0,1,0.1
+14206694,none,LoRaWAN SF12,design,L2,DO,0.993122,0,1,2
+14206694,none,LoRaWAN SF12,design,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF12,design,L3,EC,0.999221,0,1,11.95
+14206694,none,LoRaWAN SF12,design,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF12,design,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF12,design_bounded,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF12,design_bounded,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF12,design_bounded,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF12,design_bounded,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF12,design_bounded_nf,L1,T,1,0,1,0.1
+14206694,none,LoRaWAN SF12,design_bounded_nf,L1,EC,1,0,1,2.39
+14206694,none,LoRaWAN SF12,design_bounded_nf,L1,pH,1,0,1,0.05
+14206694,none,LoRaWAN SF12,design_bounded_nf,L1,DO,1,0,1,1
+14206694,none,LoRaWAN SF12,design_bounded,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF12,design_bounded,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF12,design_bounded,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF12,design_bounded,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF12,design_bounded_nf,L2,T,1,0,1,0.2
+14206694,none,LoRaWAN SF12,design_bounded_nf,L2,EC,1,0,1,4.78
+14206694,none,LoRaWAN SF12,design_bounded_nf,L2,pH,1,0,1,0.1
+14206694,none,LoRaWAN SF12,design_bounded_nf,L2,DO,1,0,1,2
+14206694,none,LoRaWAN SF12,design_bounded,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF12,design_bounded,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF12,design_bounded,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF12,design_bounded,L3,DO,1,0,1,5
+14206694,none,LoRaWAN SF12,design_bounded_nf,L3,T,1,0,1,0.5
+14206694,none,LoRaWAN SF12,design_bounded_nf,L3,EC,1,0,1,11.95
+14206694,none,LoRaWAN SF12,design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,none,LoRaWAN SF12,design_bounded_nf,L3,DO,1,0,1,5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L1,T,0.658188,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L1,EC,0.6177,1,1,2.39
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L1,pH,0.839086,0,1,0.05
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L1,DO,0.67402,0.141065,1,1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L2,T,0.709058,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L2,EC,0.683623,1,1,4.78
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L2,pH,0.973657,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L2,DO,0.794186,0.141065,1,2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L3,T,0.807553,0,1,0.5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L3,EC,0.803659,1,1,11.95
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L3,pH,0.999351,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),unconf,L3,DO,0.946405,0.141065,1,5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,T,0.628471,0.1,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,EC,0.504931,2,1,2.39
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,pH,0.779003,0,1,0.05
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,DO,0.597457,0.33298,1,1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,T,0.706462,0.1,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,EC,0.580716,2,1,4.78
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,pH,0.958344,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,DO,0.73592,0.33298,1,2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,T,0.819102,0.1,1,0.5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,EC,0.735141,2,1,11.95
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,pH,0.973787,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,DO,0.90436,0.33298,1,5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L1,T,0.61212,0.1,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L1,EC,0.487412,3,1,2.39
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L1,pH,0.783675,0,1,0.05
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L1,DO,0.555671,0.778959,1,1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L2,T,0.696211,0.1,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L2,EC,0.573319,3,1,4.78
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L2,pH,0.957825,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L2,DO,0.720997,0.778959,1,2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L3,T,0.817675,0.1,1,0.5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L3,EC,0.729951,3,1,11.95
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L3,pH,0.973527,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),batch1h,L3,DO,0.91007,0.778959,1,5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L1,T,0.61212,0.1,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L1,EC,0.487542,3,1,2.39
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L1,pH,0.783675,0,1,0.05
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L1,DO,0.555801,0.774537,1,1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L2,T,0.696211,0.1,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L2,EC,0.573319,3,1,4.78
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L2,pH,0.957825,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L2,DO,0.720997,0.774537,1,2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L3,T,0.817675,0.1,1,0.5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L3,EC,0.729951,3,1,11.95
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L3,pH,0.973527,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design,L3,DO,0.91007,0.774537,1,5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L1,T,0.61822,0.1,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L1,EC,0.500779,2,1,2.39
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L1,pH,0.793278,0,1,0.05
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L1,DO,0.583571,0.564361,1,1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,T,0.61822,0.1,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,EC,0.500779,2,1,2.39
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,pH,0.793278,0,1,0.05
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,DO,0.583571,0.564361,1,1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L2,T,0.69647,0.1,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L2,EC,0.576823,3,1,4.78
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L2,pH,0.957825,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L2,DO,0.723073,0.743568,1,2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,T,0.69647,0.1,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,EC,0.576823,3,1,4.78
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,pH,0.957825,0,1,0.1
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,DO,0.723073,0.743568,1,2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L3,T,0.817675,0.1,1,0.5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L3,EC,0.73021,3,1,11.95
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L3,pH,0.973527,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded,L3,DO,0.91007,0.76747,1,5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,T,0.817675,0.1,1,0.5
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,EC,0.73021,3,1,11.95
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,pH,0.973527,0,1,0.2
+14206694,InWaterSense,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,DO,0.91007,0.76747,1,5
+14206694,InWaterSense,LoRaWAN SF7,unconf,L1,T,0.658188,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,unconf,L1,EC,0.6177,1,1,2.39
+14206694,InWaterSense,LoRaWAN SF7,unconf,L1,pH,0.839086,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF7,unconf,L1,DO,0.67402,0.141065,1,1
+14206694,InWaterSense,LoRaWAN SF7,unconf,L2,T,0.709058,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,unconf,L2,EC,0.683623,1,1,4.78
+14206694,InWaterSense,LoRaWAN SF7,unconf,L2,pH,0.973657,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,unconf,L2,DO,0.794186,0.141065,1,2
+14206694,InWaterSense,LoRaWAN SF7,unconf,L3,T,0.807553,0,1,0.5
+14206694,InWaterSense,LoRaWAN SF7,unconf,L3,EC,0.803659,1,1,11.95
+14206694,InWaterSense,LoRaWAN SF7,unconf,L3,pH,0.999351,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,unconf,L3,DO,0.946405,0.141065,1,5
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L1,T,0.628471,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L1,EC,0.504931,2,1,2.39
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L1,pH,0.779003,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L1,DO,0.597457,0.33298,1,1
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L2,T,0.706462,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L2,EC,0.580716,2,1,4.78
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L2,pH,0.958344,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L2,DO,0.73592,0.33298,1,2
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L3,T,0.819102,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L3,EC,0.735141,2,1,11.95
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L3,pH,0.973787,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,arq_buffer,L3,DO,0.90436,0.33298,1,5
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L1,T,0.608357,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L1,EC,0.482481,3,1,2.39
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L1,pH,0.782118,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L1,DO,0.551908,0.817751,1,1
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L2,T,0.693486,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L2,EC,0.569167,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L2,pH,0.957566,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L2,DO,0.71905,0.817751,1,2
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L3,T,0.815988,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L3,EC,0.727355,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L3,pH,0.973397,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,batch1h,L3,DO,0.909291,0.817751,1,5
+14206694,InWaterSense,LoRaWAN SF7,design,L1,T,0.608357,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,design,L1,EC,0.482611,3,1,2.39
+14206694,InWaterSense,LoRaWAN SF7,design,L1,pH,0.782118,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF7,design,L1,DO,0.552037,0.817751,1,1
+14206694,InWaterSense,LoRaWAN SF7,design,L2,T,0.693486,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,design,L2,EC,0.569167,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF7,design,L2,pH,0.957566,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,design,L2,DO,0.71905,0.817751,1,2
+14206694,InWaterSense,LoRaWAN SF7,design,L3,T,0.815988,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF7,design,L3,EC,0.727355,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF7,design,L3,pH,0.973397,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,design,L3,DO,0.909291,0.817751,1,5
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L1,T,0.614326,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L1,EC,0.495977,3,1,2.39
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L1,pH,0.791461,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L1,DO,0.579289,0.586642,1,1
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L1,T,0.61822,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L1,EC,0.500779,2,1,2.39
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L1,pH,0.793278,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L1,DO,0.583571,0.564361,1,1
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L2,T,0.693745,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L2,EC,0.5728,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L2,pH,0.957566,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L2,DO,0.720997,0.764826,1,2
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L2,T,0.69647,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L2,EC,0.576823,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L2,pH,0.957825,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L2,DO,0.723073,0.743568,1,2
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L3,T,0.815988,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L3,EC,0.727615,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L3,pH,0.973397,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,design_bounded,L3,DO,0.909291,0.817751,1,5
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L3,T,0.817675,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L3,EC,0.73021,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L3,pH,0.973527,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF7,design_bounded_nf,L3,DO,0.91007,0.76747,1,5
+14206694,InWaterSense,LoRaWAN SF12,unconf,L1,T,0.658188,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,unconf,L1,EC,0.6177,1,1,2.39
+14206694,InWaterSense,LoRaWAN SF12,unconf,L1,pH,0.839086,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF12,unconf,L1,DO,0.67402,0.141065,1,1
+14206694,InWaterSense,LoRaWAN SF12,unconf,L2,T,0.709058,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,unconf,L2,EC,0.683623,1,1,4.78
+14206694,InWaterSense,LoRaWAN SF12,unconf,L2,pH,0.973657,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,unconf,L2,DO,0.794186,0.141065,1,2
+14206694,InWaterSense,LoRaWAN SF12,unconf,L3,T,0.807553,0,1,0.5
+14206694,InWaterSense,LoRaWAN SF12,unconf,L3,EC,0.803659,1,1,11.95
+14206694,InWaterSense,LoRaWAN SF12,unconf,L3,pH,0.999351,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,unconf,L3,DO,0.946405,0.141065,1,5
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L1,T,0.62938,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L1,EC,0.50545,2,1,2.39
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L1,pH,0.779003,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L1,DO,0.597586,0.330907,1,1
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L2,T,0.706462,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L2,EC,0.581365,2,1,4.78
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L2,pH,0.958344,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L2,DO,0.73618,0.330907,1,2
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L3,T,0.819102,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L3,EC,0.735661,2,1,11.95
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L3,pH,0.973787,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,arq_buffer,L3,DO,0.90436,0.330907,1,5
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L1,T,0.605113,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L1,EC,0.476512,3,1,2.39
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L1,pH,0.780301,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L1,DO,0.547106,0.839483,1,1
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L2,T,0.69076,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L2,EC,0.564755,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L2,pH,0.957566,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L2,DO,0.717363,0.839483,1,2
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L3,T,0.81482,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L3,EC,0.725668,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L3,pH,0.973397,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,batch1h,L3,DO,0.908383,0.839483,1,5
+14206694,InWaterSense,LoRaWAN SF12,design,L1,T,0.605113,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,design,L1,EC,0.476512,3,1,2.39
+14206694,InWaterSense,LoRaWAN SF12,design,L1,pH,0.780301,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF12,design,L1,DO,0.547236,0.839344,1,1
+14206694,InWaterSense,LoRaWAN SF12,design,L2,T,0.69076,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,design,L2,EC,0.564755,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF12,design,L2,pH,0.957566,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,design,L2,DO,0.717363,0.839344,1,2
+14206694,InWaterSense,LoRaWAN SF12,design,L3,T,0.81482,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF12,design,L3,EC,0.725668,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF12,design,L3,pH,0.973397,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,design,L3,DO,0.908383,0.839344,1,5
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L1,T,0.611082,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L1,EC,0.489489,3,1,2.39
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L1,pH,0.789644,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L1,DO,0.574747,0.655744,1,1
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L1,T,0.619128,0.1,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L1,EC,0.501038,2,1,2.39
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L1,pH,0.793148,0,1,0.05
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L1,DO,0.583441,0.564262,1,1
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L2,T,0.69102,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L2,EC,0.568258,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L2,pH,0.957566,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L2,DO,0.719439,0.828821,1,2
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L2,T,0.69647,0.1,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L2,EC,0.577472,3,1,4.78
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L2,pH,0.957825,0,1,0.1
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L2,DO,0.723332,0.743568,1,2
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L3,T,0.81482,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L3,EC,0.725798,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L3,pH,0.973397,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,design_bounded,L3,DO,0.908383,0.839205,1,5
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L3,T,0.817675,0.1,1,0.5
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L3,EC,0.730729,3,1,11.95
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L3,pH,0.973527,0,1,0.2
+14206694,InWaterSense,LoRaWAN SF12,design_bounded_nf,L3,DO,0.91007,0.764826,1,5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L1,T,0.900856,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L1,EC,0.883208,0,1,2.39
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L1,pH,0.951856,0,1,0.05
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L1,DO,0.908124,0,1,1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L2,T,0.917207,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L2,EC,0.899169,0,1,4.78
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L2,pH,0.998832,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L2,DO,0.941993,0,1,2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L3,T,0.950947,0,1,0.5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L3,EC,0.94394,0,1,11.95
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L3,pH,1,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),unconf,L3,DO,0.980016,0,1,5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,T,0.892162,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,EC,0.873475,0,1,2.39
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,pH,0.94926,0,1,0.05
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,DO,0.901765,0,1,1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,T,0.911887,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,EC,0.889696,0,1,4.78
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,pH,0.998832,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,DO,0.937062,0,1,2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,T,0.948871,0,1,0.5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,EC,0.936154,0,1,11.95
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,pH,1,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,DO,0.979496,0,1,5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L1,T,0.883338,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L1,EC,0.832209,0,1,2.39
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L1,pH,0.929146,0,1,0.05
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L1,DO,0.799377,0,1,1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L2,T,0.911108,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L2,EC,0.878666,0,1,4.78
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L2,pH,0.998702,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L2,DO,0.923047,0,1,2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L3,T,0.950298,0,1,0.5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L3,EC,0.933948,0,1,11.95
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L3,pH,1,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),batch1h,L3,DO,0.976512,0,1,5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L1,T,0.883338,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L1,EC,0.832598,0,1,2.39
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L1,pH,0.929276,0,1,0.05
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L1,DO,0.799507,0,1,1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L2,T,0.911108,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L2,EC,0.878796,0,1,4.78
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L2,pH,0.998702,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L2,DO,0.923047,0,1,2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L3,T,0.950298,0,1,0.5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L3,EC,0.933948,0,1,11.95
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L3,pH,1,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design,L3,DO,0.976512,0,1,5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L1,T,0.890605,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L1,EC,0.873605,0,1,2.39
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L1,pH,0.950169,0,1,0.05
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L1,DO,0.901116,0,1,1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,T,0.890605,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,EC,0.873605,0,1,2.39
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,pH,0.950169,0,1,0.05
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,DO,0.901116,0,1,1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L2,T,0.911238,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L2,EC,0.889696,0,1,4.78
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L2,pH,0.998832,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L2,DO,0.936932,0,1,2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,T,0.911238,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,EC,0.889696,0,1,4.78
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,pH,0.998832,0,1,0.1
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,DO,0.936932,0,1,2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L3,T,0.950298,0,1,0.5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L3,EC,0.934726,0,1,11.95
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L3,pH,1,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded,L3,DO,0.976512,0,1,5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,T,0.950298,0,1,0.5
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,EC,0.934726,0,1,11.95
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,Weija,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,DO,0.976512,0,1,5
+14206694,Weija,LoRaWAN SF7,unconf,L1,T,0.900856,0,1,0.1
+14206694,Weija,LoRaWAN SF7,unconf,L1,EC,0.883208,0,1,2.39
+14206694,Weija,LoRaWAN SF7,unconf,L1,pH,0.951856,0,1,0.05
+14206694,Weija,LoRaWAN SF7,unconf,L1,DO,0.908124,0,1,1
+14206694,Weija,LoRaWAN SF7,unconf,L2,T,0.917207,0,1,0.2
+14206694,Weija,LoRaWAN SF7,unconf,L2,EC,0.899169,0,1,4.78
+14206694,Weija,LoRaWAN SF7,unconf,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF7,unconf,L2,DO,0.941993,0,1,2
+14206694,Weija,LoRaWAN SF7,unconf,L3,T,0.950947,0,1,0.5
+14206694,Weija,LoRaWAN SF7,unconf,L3,EC,0.94394,0,1,11.95
+14206694,Weija,LoRaWAN SF7,unconf,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF7,unconf,L3,DO,0.980016,0,1,5
+14206694,Weija,LoRaWAN SF7,arq_buffer,L1,T,0.892162,0,1,0.1
+14206694,Weija,LoRaWAN SF7,arq_buffer,L1,EC,0.873475,0,1,2.39
+14206694,Weija,LoRaWAN SF7,arq_buffer,L1,pH,0.94926,0,1,0.05
+14206694,Weija,LoRaWAN SF7,arq_buffer,L1,DO,0.901765,0,1,1
+14206694,Weija,LoRaWAN SF7,arq_buffer,L2,T,0.911887,0,1,0.2
+14206694,Weija,LoRaWAN SF7,arq_buffer,L2,EC,0.889696,0,1,4.78
+14206694,Weija,LoRaWAN SF7,arq_buffer,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF7,arq_buffer,L2,DO,0.937062,0,1,2
+14206694,Weija,LoRaWAN SF7,arq_buffer,L3,T,0.948871,0,1,0.5
+14206694,Weija,LoRaWAN SF7,arq_buffer,L3,EC,0.936154,0,1,11.95
+14206694,Weija,LoRaWAN SF7,arq_buffer,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF7,arq_buffer,L3,DO,0.979496,0,1,5
+14206694,Weija,LoRaWAN SF7,batch1h,L1,T,0.882559,0,1,0.1
+14206694,Weija,LoRaWAN SF7,batch1h,L1,EC,0.831171,0,1,2.39
+14206694,Weija,LoRaWAN SF7,batch1h,L1,pH,0.928757,0,1,0.05
+14206694,Weija,LoRaWAN SF7,batch1h,L1,DO,0.798858,0,1,1
+14206694,Weija,LoRaWAN SF7,batch1h,L2,T,0.910719,0,1,0.2
+14206694,Weija,LoRaWAN SF7,batch1h,L2,EC,0.877887,0,1,4.78
+14206694,Weija,LoRaWAN SF7,batch1h,L2,pH,0.998702,0,1,0.1
+14206694,Weija,LoRaWAN SF7,batch1h,L2,DO,0.922528,0,1,2
+14206694,Weija,LoRaWAN SF7,batch1h,L3,T,0.950039,0,1,0.5
+14206694,Weija,LoRaWAN SF7,batch1h,L3,EC,0.933558,0,1,11.95
+14206694,Weija,LoRaWAN SF7,batch1h,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF7,batch1h,L3,DO,0.976382,0,1,5
+14206694,Weija,LoRaWAN SF7,design,L1,T,0.882559,0,1,0.1
+14206694,Weija,LoRaWAN SF7,design,L1,EC,0.83156,0,1,2.39
+14206694,Weija,LoRaWAN SF7,design,L1,pH,0.928887,0,1,0.05
+14206694,Weija,LoRaWAN SF7,design,L1,DO,0.798988,0,1,1
+14206694,Weija,LoRaWAN SF7,design,L2,T,0.910719,0,1,0.2
+14206694,Weija,LoRaWAN SF7,design,L2,EC,0.878017,0,1,4.78
+14206694,Weija,LoRaWAN SF7,design,L2,pH,0.998702,0,1,0.1
+14206694,Weija,LoRaWAN SF7,design,L2,DO,0.922528,0,1,2
+14206694,Weija,LoRaWAN SF7,design,L3,T,0.950039,0,1,0.5
+14206694,Weija,LoRaWAN SF7,design,L3,EC,0.933558,0,1,11.95
+14206694,Weija,LoRaWAN SF7,design,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF7,design,L3,DO,0.976382,0,1,5
+14206694,Weija,LoRaWAN SF7,design_bounded,L1,T,0.889826,0,1,0.1
+14206694,Weija,LoRaWAN SF7,design_bounded,L1,EC,0.872567,0,1,2.39
+14206694,Weija,LoRaWAN SF7,design_bounded,L1,pH,0.949779,0,1,0.05
+14206694,Weija,LoRaWAN SF7,design_bounded,L1,DO,0.900597,0,1,1
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L1,T,0.890605,0,1,0.1
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L1,EC,0.873605,0,1,2.39
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L1,pH,0.950169,0,1,0.05
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L1,DO,0.901116,0,1,1
+14206694,Weija,LoRaWAN SF7,design_bounded,L2,T,0.910849,0,1,0.2
+14206694,Weija,LoRaWAN SF7,design_bounded,L2,EC,0.888918,0,1,4.78
+14206694,Weija,LoRaWAN SF7,design_bounded,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF7,design_bounded,L2,DO,0.936413,0,1,2
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L2,T,0.911238,0,1,0.2
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L2,EC,0.889696,0,1,4.78
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L2,DO,0.936932,0,1,2
+14206694,Weija,LoRaWAN SF7,design_bounded,L3,T,0.950039,0,1,0.5
+14206694,Weija,LoRaWAN SF7,design_bounded,L3,EC,0.934337,0,1,11.95
+14206694,Weija,LoRaWAN SF7,design_bounded,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF7,design_bounded,L3,DO,0.976382,0,1,5
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L3,T,0.950298,0,1,0.5
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L3,EC,0.934726,0,1,11.95
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF7,design_bounded_nf,L3,DO,0.976512,0,1,5
+14206694,Weija,LoRaWAN SF12,unconf,L1,T,0.900856,0,1,0.1
+14206694,Weija,LoRaWAN SF12,unconf,L1,EC,0.883208,0,1,2.39
+14206694,Weija,LoRaWAN SF12,unconf,L1,pH,0.951856,0,1,0.05
+14206694,Weija,LoRaWAN SF12,unconf,L1,DO,0.908124,0,1,1
+14206694,Weija,LoRaWAN SF12,unconf,L2,T,0.917207,0,1,0.2
+14206694,Weija,LoRaWAN SF12,unconf,L2,EC,0.899169,0,1,4.78
+14206694,Weija,LoRaWAN SF12,unconf,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF12,unconf,L2,DO,0.941993,0,1,2
+14206694,Weija,LoRaWAN SF12,unconf,L3,T,0.950947,0,1,0.5
+14206694,Weija,LoRaWAN SF12,unconf,L3,EC,0.94394,0,1,11.95
+14206694,Weija,LoRaWAN SF12,unconf,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF12,unconf,L3,DO,0.980016,0,1,5
+14206694,Weija,LoRaWAN SF12,arq_buffer,L1,T,0.892162,0,1,0.1
+14206694,Weija,LoRaWAN SF12,arq_buffer,L1,EC,0.873475,0,1,2.39
+14206694,Weija,LoRaWAN SF12,arq_buffer,L1,pH,0.94926,0,1,0.05
+14206694,Weija,LoRaWAN SF12,arq_buffer,L1,DO,0.901765,0,1,1
+14206694,Weija,LoRaWAN SF12,arq_buffer,L2,T,0.911887,0,1,0.2
+14206694,Weija,LoRaWAN SF12,arq_buffer,L2,EC,0.889696,0,1,4.78
+14206694,Weija,LoRaWAN SF12,arq_buffer,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF12,arq_buffer,L2,DO,0.937062,0,1,2
+14206694,Weija,LoRaWAN SF12,arq_buffer,L3,T,0.948871,0,1,0.5
+14206694,Weija,LoRaWAN SF12,arq_buffer,L3,EC,0.936154,0,1,11.95
+14206694,Weija,LoRaWAN SF12,arq_buffer,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF12,arq_buffer,L3,DO,0.979496,0,1,5
+14206694,Weija,LoRaWAN SF12,batch1h,L1,T,0.88217,0,1,0.1
+14206694,Weija,LoRaWAN SF12,batch1h,L1,EC,0.830651,0,1,2.39
+14206694,Weija,LoRaWAN SF12,batch1h,L1,pH,0.928757,0,1,0.05
+14206694,Weija,LoRaWAN SF12,batch1h,L1,DO,0.799118,0,1,1
+14206694,Weija,LoRaWAN SF12,batch1h,L2,T,0.9102,0,1,0.2
+14206694,Weija,LoRaWAN SF12,batch1h,L2,EC,0.877498,0,1,4.78
+14206694,Weija,LoRaWAN SF12,batch1h,L2,pH,0.998702,0,1,0.1
+14206694,Weija,LoRaWAN SF12,batch1h,L2,DO,0.922787,0,1,2
+14206694,Weija,LoRaWAN SF12,batch1h,L3,T,0.949909,0,1,0.5
+14206694,Weija,LoRaWAN SF12,batch1h,L3,EC,0.933169,0,1,11.95
+14206694,Weija,LoRaWAN SF12,batch1h,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF12,batch1h,L3,DO,0.976512,0,1,5
+14206694,Weija,LoRaWAN SF12,design,L1,T,0.88217,0,1,0.1
+14206694,Weija,LoRaWAN SF12,design,L1,EC,0.831041,0,1,2.39
+14206694,Weija,LoRaWAN SF12,design,L1,pH,0.928887,0,1,0.05
+14206694,Weija,LoRaWAN SF12,design,L1,DO,0.799247,0,1,1
+14206694,Weija,LoRaWAN SF12,design,L2,T,0.9102,0,1,0.2
+14206694,Weija,LoRaWAN SF12,design,L2,EC,0.877628,0,1,4.78
+14206694,Weija,LoRaWAN SF12,design,L2,pH,0.998702,0,1,0.1
+14206694,Weija,LoRaWAN SF12,design,L2,DO,0.922787,0,1,2
+14206694,Weija,LoRaWAN SF12,design,L3,T,0.949909,0,1,0.5
+14206694,Weija,LoRaWAN SF12,design,L3,EC,0.933169,0,1,11.95
+14206694,Weija,LoRaWAN SF12,design,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF12,design,L3,DO,0.976512,0,1,5
+14206694,Weija,LoRaWAN SF12,design_bounded,L1,T,0.889567,0,1,0.1
+14206694,Weija,LoRaWAN SF12,design_bounded,L1,EC,0.872048,0,1,2.39
+14206694,Weija,LoRaWAN SF12,design_bounded,L1,pH,0.949779,0,1,0.05
+14206694,Weija,LoRaWAN SF12,design_bounded,L1,DO,0.900337,0,1,1
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L1,T,0.890605,0,1,0.1
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L1,EC,0.873605,0,1,2.39
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L1,pH,0.950169,0,1,0.05
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L1,DO,0.901116,0,1,1
+14206694,Weija,LoRaWAN SF12,design_bounded,L2,T,0.91033,0,1,0.2
+14206694,Weija,LoRaWAN SF12,design_bounded,L2,EC,0.888528,0,1,4.78
+14206694,Weija,LoRaWAN SF12,design_bounded,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF12,design_bounded,L2,DO,0.936673,0,1,2
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L2,T,0.911238,0,1,0.2
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L2,EC,0.889696,0,1,4.78
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L2,pH,0.998832,0,1,0.1
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L2,DO,0.936932,0,1,2
+14206694,Weija,LoRaWAN SF12,design_bounded,L3,T,0.949909,0,1,0.5
+14206694,Weija,LoRaWAN SF12,design_bounded,L3,EC,0.933948,0,1,11.95
+14206694,Weija,LoRaWAN SF12,design_bounded,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF12,design_bounded,L3,DO,0.976512,0,1,5
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L3,T,0.950298,0,1,0.5
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L3,EC,0.934726,0,1,11.95
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,Weija,LoRaWAN SF12,design_bounded_nf,L3,DO,0.976512,0,1,5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L1,T,0.991695,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L1,EC,0.992473,0,1,2.39
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L1,pH,0.997405,0,1,0.05
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L1,DO,0.987153,0,1,1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L2,T,0.995069,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L2,EC,0.99442,0,1,4.78
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L2,pH,0.99987,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L2,DO,0.997664,0,1,2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L3,T,0.995718,0,1,0.5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L3,EC,0.995847,0,1,11.95
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L3,pH,1,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),unconf,L3,DO,1,0,1,5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,T,0.991825,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,EC,0.993901,0,1,2.39
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,pH,1,0,1,0.05
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L1,DO,0.993512,0,1,1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,T,0.99429,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,EC,0.994939,0,1,4.78
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,pH,1,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L2,DO,0.997664,0,1,2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,T,0.995718,0,1,0.5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,EC,0.995847,0,1,11.95
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,pH,1,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),arq_buffer,L3,DO,1,0,1,5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L1,T,0.982741,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L1,EC,0.951856,0,1,2.39
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L1,pH,0.971321,0,1,0.05
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L1,DO,0.88217,0,1,1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L2,T,0.992863,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L2,EC,0.98326,0,1,4.78
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L2,pH,0.99987,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L2,DO,0.990916,0,1,2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L3,T,0.995718,0,1,0.5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L3,EC,0.995069,0,1,11.95
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L3,pH,1,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),batch1h,L3,DO,1,0,1,5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L1,T,0.982741,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L1,EC,0.952245,0,1,2.39
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L1,pH,0.971451,0,1,0.05
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L1,DO,0.8823,0,1,1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L2,T,0.992863,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L2,EC,0.98339,0,1,4.78
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L2,pH,0.99987,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L2,DO,0.990916,0,1,2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L3,T,0.995718,0,1,0.5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L3,EC,0.995069,0,1,11.95
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L3,pH,1,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design,L3,DO,1,0,1,5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L1,T,0.992084,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L1,EC,0.993771,0,1,2.39
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L1,pH,1,0,1,0.05
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L1,DO,0.993382,0,1,1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,T,0.992084,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,EC,0.993771,0,1,2.39
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,pH,1,0,1,0.05
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L1,DO,0.993382,0,1,1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L2,T,0.99455,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L2,EC,0.994939,0,1,4.78
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L2,pH,1,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L2,DO,0.997534,0,1,2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,T,0.99455,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,EC,0.994939,0,1,4.78
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,pH,1,0,1,0.1
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L2,DO,0.997534,0,1,2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L3,T,0.995718,0,1,0.5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L3,EC,0.995847,0,1,11.95
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L3,pH,1,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded,L3,DO,1,0,1,5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,T,0.995718,0,1,0.5
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,EC,0.995847,0,1,11.95
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,UVA,NB-IoT N211 RAI (search 10 s),design_bounded_nf,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF7,unconf,L1,T,0.991695,0,1,0.1
+14206694,UVA,LoRaWAN SF7,unconf,L1,EC,0.992473,0,1,2.39
+14206694,UVA,LoRaWAN SF7,unconf,L1,pH,0.997405,0,1,0.05
+14206694,UVA,LoRaWAN SF7,unconf,L1,DO,0.987153,0,1,1
+14206694,UVA,LoRaWAN SF7,unconf,L2,T,0.995069,0,1,0.2
+14206694,UVA,LoRaWAN SF7,unconf,L2,EC,0.99442,0,1,4.78
+14206694,UVA,LoRaWAN SF7,unconf,L2,pH,0.99987,0,1,0.1
+14206694,UVA,LoRaWAN SF7,unconf,L2,DO,0.997664,0,1,2
+14206694,UVA,LoRaWAN SF7,unconf,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF7,unconf,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF7,unconf,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF7,unconf,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF7,arq_buffer,L1,T,0.991825,0,1,0.1
+14206694,UVA,LoRaWAN SF7,arq_buffer,L1,EC,0.993901,0,1,2.39
+14206694,UVA,LoRaWAN SF7,arq_buffer,L1,pH,1,0,1,0.05
+14206694,UVA,LoRaWAN SF7,arq_buffer,L1,DO,0.993512,0,1,1
+14206694,UVA,LoRaWAN SF7,arq_buffer,L2,T,0.99429,0,1,0.2
+14206694,UVA,LoRaWAN SF7,arq_buffer,L2,EC,0.994939,0,1,4.78
+14206694,UVA,LoRaWAN SF7,arq_buffer,L2,pH,1,0,1,0.1
+14206694,UVA,LoRaWAN SF7,arq_buffer,L2,DO,0.997664,0,1,2
+14206694,UVA,LoRaWAN SF7,arq_buffer,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF7,arq_buffer,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF7,arq_buffer,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF7,arq_buffer,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF7,batch1h,L1,T,0.982611,0,1,0.1
+14206694,UVA,LoRaWAN SF7,batch1h,L1,EC,0.951726,0,1,2.39
+14206694,UVA,LoRaWAN SF7,batch1h,L1,pH,0.971321,0,1,0.05
+14206694,UVA,LoRaWAN SF7,batch1h,L1,DO,0.88204,0,1,1
+14206694,UVA,LoRaWAN SF7,batch1h,L2,T,0.992733,0,1,0.2
+14206694,UVA,LoRaWAN SF7,batch1h,L2,EC,0.98313,0,1,4.78
+14206694,UVA,LoRaWAN SF7,batch1h,L2,pH,0.99987,0,1,0.1
+14206694,UVA,LoRaWAN SF7,batch1h,L2,DO,0.990916,0,1,2
+14206694,UVA,LoRaWAN SF7,batch1h,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF7,batch1h,L3,EC,0.995069,0,1,11.95
+14206694,UVA,LoRaWAN SF7,batch1h,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF7,batch1h,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF7,design,L1,T,0.982611,0,1,0.1
+14206694,UVA,LoRaWAN SF7,design,L1,EC,0.952115,0,1,2.39
+14206694,UVA,LoRaWAN SF7,design,L1,pH,0.971451,0,1,0.05
+14206694,UVA,LoRaWAN SF7,design,L1,DO,0.88217,0,1,1
+14206694,UVA,LoRaWAN SF7,design,L2,T,0.992733,0,1,0.2
+14206694,UVA,LoRaWAN SF7,design,L2,EC,0.98326,0,1,4.78
+14206694,UVA,LoRaWAN SF7,design,L2,pH,0.99987,0,1,0.1
+14206694,UVA,LoRaWAN SF7,design,L2,DO,0.990916,0,1,2
+14206694,UVA,LoRaWAN SF7,design,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF7,design,L3,EC,0.995069,0,1,11.95
+14206694,UVA,LoRaWAN SF7,design,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF7,design,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF7,design_bounded,L1,T,0.991954,0,1,0.1
+14206694,UVA,LoRaWAN SF7,design_bounded,L1,EC,0.993641,0,1,2.39
+14206694,UVA,LoRaWAN SF7,design_bounded,L1,pH,1,0,1,0.05
+14206694,UVA,LoRaWAN SF7,design_bounded,L1,DO,0.993252,0,1,1
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L1,T,0.992084,0,1,0.1
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L1,EC,0.993771,0,1,2.39
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L1,pH,1,0,1,0.05
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L1,DO,0.993382,0,1,1
+14206694,UVA,LoRaWAN SF7,design_bounded,L2,T,0.99442,0,1,0.2
+14206694,UVA,LoRaWAN SF7,design_bounded,L2,EC,0.994809,0,1,4.78
+14206694,UVA,LoRaWAN SF7,design_bounded,L2,pH,1,0,1,0.1
+14206694,UVA,LoRaWAN SF7,design_bounded,L2,DO,0.997534,0,1,2
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L2,T,0.99455,0,1,0.2
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L2,EC,0.994939,0,1,4.78
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L2,pH,1,0,1,0.1
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L2,DO,0.997534,0,1,2
+14206694,UVA,LoRaWAN SF7,design_bounded,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF7,design_bounded,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF7,design_bounded,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF7,design_bounded,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF7,design_bounded_nf,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF12,unconf,L1,T,0.991695,0,1,0.1
+14206694,UVA,LoRaWAN SF12,unconf,L1,EC,0.992473,0,1,2.39
+14206694,UVA,LoRaWAN SF12,unconf,L1,pH,0.997405,0,1,0.05
+14206694,UVA,LoRaWAN SF12,unconf,L1,DO,0.987153,0,1,1
+14206694,UVA,LoRaWAN SF12,unconf,L2,T,0.995069,0,1,0.2
+14206694,UVA,LoRaWAN SF12,unconf,L2,EC,0.99442,0,1,4.78
+14206694,UVA,LoRaWAN SF12,unconf,L2,pH,0.99987,0,1,0.1
+14206694,UVA,LoRaWAN SF12,unconf,L2,DO,0.997664,0,1,2
+14206694,UVA,LoRaWAN SF12,unconf,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF12,unconf,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF12,unconf,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF12,unconf,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF12,arq_buffer,L1,T,0.991825,0,1,0.1
+14206694,UVA,LoRaWAN SF12,arq_buffer,L1,EC,0.993901,0,1,2.39
+14206694,UVA,LoRaWAN SF12,arq_buffer,L1,pH,1,0,1,0.05
+14206694,UVA,LoRaWAN SF12,arq_buffer,L1,DO,0.993512,0,1,1
+14206694,UVA,LoRaWAN SF12,arq_buffer,L2,T,0.99429,0,1,0.2
+14206694,UVA,LoRaWAN SF12,arq_buffer,L2,EC,0.994939,0,1,4.78
+14206694,UVA,LoRaWAN SF12,arq_buffer,L2,pH,1,0,1,0.1
+14206694,UVA,LoRaWAN SF12,arq_buffer,L2,DO,0.997664,0,1,2
+14206694,UVA,LoRaWAN SF12,arq_buffer,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF12,arq_buffer,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF12,arq_buffer,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF12,arq_buffer,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF12,batch1h,L1,T,0.982611,0,1,0.1
+14206694,UVA,LoRaWAN SF12,batch1h,L1,EC,0.951726,0,1,2.39
+14206694,UVA,LoRaWAN SF12,batch1h,L1,pH,0.971321,0,1,0.05
+14206694,UVA,LoRaWAN SF12,batch1h,L1,DO,0.88217,0,1,1
+14206694,UVA,LoRaWAN SF12,batch1h,L2,T,0.992733,0,1,0.2
+14206694,UVA,LoRaWAN SF12,batch1h,L2,EC,0.98326,0,1,4.78
+14206694,UVA,LoRaWAN SF12,batch1h,L2,pH,0.99987,0,1,0.1
+14206694,UVA,LoRaWAN SF12,batch1h,L2,DO,0.990916,0,1,2
+14206694,UVA,LoRaWAN SF12,batch1h,L3,T,0.995588,0,1,0.5
+14206694,UVA,LoRaWAN SF12,batch1h,L3,EC,0.995069,0,1,11.95
+14206694,UVA,LoRaWAN SF12,batch1h,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF12,batch1h,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF12,design,L1,T,0.982611,0,1,0.1
+14206694,UVA,LoRaWAN SF12,design,L1,EC,0.952115,0,1,2.39
+14206694,UVA,LoRaWAN SF12,design,L1,pH,0.971451,0,1,0.05
+14206694,UVA,LoRaWAN SF12,design,L1,DO,0.8823,0,1,1
+14206694,UVA,LoRaWAN SF12,design,L2,T,0.992733,0,1,0.2
+14206694,UVA,LoRaWAN SF12,design,L2,EC,0.98339,0,1,4.78
+14206694,UVA,LoRaWAN SF12,design,L2,pH,0.99987,0,1,0.1
+14206694,UVA,LoRaWAN SF12,design,L2,DO,0.990916,0,1,2
+14206694,UVA,LoRaWAN SF12,design,L3,T,0.995588,0,1,0.5
+14206694,UVA,LoRaWAN SF12,design,L3,EC,0.995069,0,1,11.95
+14206694,UVA,LoRaWAN SF12,design,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF12,design,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF12,design_bounded,L1,T,0.991954,0,1,0.1
+14206694,UVA,LoRaWAN SF12,design_bounded,L1,EC,0.993641,0,1,2.39
+14206694,UVA,LoRaWAN SF12,design_bounded,L1,pH,1,0,1,0.05
+14206694,UVA,LoRaWAN SF12,design_bounded,L1,DO,0.993382,0,1,1
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L1,T,0.992084,0,1,0.1
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L1,EC,0.993771,0,1,2.39
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L1,pH,1,0,1,0.05
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L1,DO,0.993382,0,1,1
+14206694,UVA,LoRaWAN SF12,design_bounded,L2,T,0.99442,0,1,0.2
+14206694,UVA,LoRaWAN SF12,design_bounded,L2,EC,0.994939,0,1,4.78
+14206694,UVA,LoRaWAN SF12,design_bounded,L2,pH,1,0,1,0.1
+14206694,UVA,LoRaWAN SF12,design_bounded,L2,DO,0.997534,0,1,2
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L2,T,0.99455,0,1,0.2
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L2,EC,0.994939,0,1,4.78
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L2,pH,1,0,1,0.1
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L2,DO,0.997534,0,1,2
+14206694,UVA,LoRaWAN SF12,design_bounded,L3,T,0.995588,0,1,0.5
+14206694,UVA,LoRaWAN SF12,design_bounded,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF12,design_bounded,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF12,design_bounded,L3,DO,1,0,1,5
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L3,T,0.995718,0,1,0.5
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L3,EC,0.995847,0,1,11.95
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L3,pH,1,0,1,0.2
+14206694,UVA,LoRaWAN SF12,design_bounded_nf,L3,DO,1,0,1,5

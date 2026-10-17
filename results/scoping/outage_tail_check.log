@@ -1,0 +1,22 @@
+
+== InWaterSense node 1 (1619 outages)
+  share of lost slots in outages >=  6 h: 0.68  95% CI [0.55, 0.77]  (from 54 outages)
+  share of lost slots in outages >= 24 h: 0.51  95% CI [0.29, 0.65]  (from 14 outages)
+  P(outage >= L):        1h    6h   24h   72h
+    observed           0.161  0.033  0.009  0.004
+    geom               0.591  0.025  0.000  0.000
+    geom2              0.144  0.067  0.016  0.000
+    dlnorm             0.186  0.032  0.007  0.002
+    zeta               0.176  0.041  0.013  0.005
+  Spearman(outage, next up-run) = -0.20;  Spearman(outage, next outage) = +0.27  (memoryless: 0)
+
+== Weija conductivity (42 outages)
+  share of lost slots in outages >=  6 h: 0.89  95% CI [0.35, 0.96]  (from 6 outages)
+  share of lost slots in outages >= 24 h: 0.83  95% CI [0.00, 0.94]  (from 3 outages)
+  P(outage >= L):        1h    6h   24h   72h
+    observed           0.524  0.143  0.071  0.048
+    geom               0.953  0.589  0.120  0.002
+    geom2              0.716  0.124  0.090  0.051
+    dlnorm             0.536  0.153  0.060  0.025
+    zeta               0.543  0.146  0.057  0.024
+  Spearman(outage, next up-run) = -0.06;  Spearman(outage, next outage) = +0.02  (memoryless: 0)

@@ -1,0 +1,236 @@
+[
+  {
+    "file": "01427510_2023-01-01_2023-12-31.csv",
+    "raw_values": 134228,
+    "approved_values": 134228,
+    "timestamps": 34624,
+    "median_step_min": 15.0,
+    "segments": 4,
+    "complete_T_EC_DO_pH": 31382
+  },
+  {
+    "file": "01463500_2023-01-01_2023-12-31.csv",
+    "raw_values": 43614,
+    "approved_values": 43614,
+    "timestamps": 8725,
+    "median_step_min": 60.0,
+    "segments": 22,
+    "complete_T_EC_DO_pH": 8718
+  },
+  {
+    "file": "014670261_2023-01-01_2023-12-31.csv",
+    "raw_values": 145452,
+    "approved_values": 137587,
+    "timestamps": 34438,
+    "median_step_min": 15.0,
+    "segments": 25,
+    "complete_T_EC_DO_pH": 34308
+  },
+  {
+    "file": "01467200_2023-01-01_2023-12-31.csv",
+    "raw_values": 416735,
+    "approved_values": 416735,
+    "timestamps": 104210,
+    "median_step_min": 5.0,
+    "segments": 5,
+    "complete_T_EC_DO_pH": 104147
+  },
+  {
+    "file": "01474500_2023-01-01_2023-12-31.csv",
+    "raw_values": 52269,
+    "approved_values": 52269,
+    "timestamps": 17426,
+    "median_step_min": 30.0,
+    "segments": 15,
+    "complete_T_EC_DO_pH": 0
+  },
+  {
+    "file": "01477050_2023-01-01_2023-12-31.csv",
+    "raw_values": 332110,
+    "approved_values": 136106,
+    "timestamps": 35003,
+    "median_step_min": 15.0,
+    "segments": 6,
+    "complete_T_EC_DO_pH": 33042
+  },
+  {
+    "file": "03072655_2023-01-01_2023-12-31.csv",
+    "raw_values": 125390,
+    "approved_values": 125390,
+    "timestamps": 34987,
+    "median_step_min": 15.0,
+    "segments": 8,
+    "complete_T_EC_DO_pH": 20479
+  },
+  {
+    "file": "03075070_2023-01-01_2023-12-31.csv",
+    "raw_values": 121853,
+    "approved_values": 121853,
+    "timestamps": 34906,
+    "median_step_min": 15.0,
+    "segments": 8,
+    "complete_T_EC_DO_pH": 17323
+  },
+  {
+    "file": "03081000_2023-01-01_2023-12-31.csv",
+    "raw_values": 119759,
+    "approved_values": 119759,
+    "timestamps": 34807,
+    "median_step_min": 15.0,
+    "segments": 8,
+    "complete_T_EC_DO_pH": 17257
+  },
+  {
+    "file": "03083500_2023-01-01_2023-12-31.csv",
+    "raw_values": 119831,
+    "approved_values": 119831,
+    "timestamps": 34996,
+    "median_step_min": 15.0,
+    "segments": 8,
+    "complete_T_EC_DO_pH": 17484
+  },
+  {
+    "file": "05537980_2023-01-01_2023-12-31.csv",
+    "raw_values": 126416,
+    "approved_values": 126383,
+    "timestamps": 31758,
+    "median_step_min": 15.0,
+    "segments": 18,
+    "complete_T_EC_DO_pH": 31368
+  },
+  {
+    "file": "05543010_2023-01-01_2023-12-31.csv",
+    "raw_values": 137125,
+    "approved_values": 137125,
+    "timestamps": 35011,
+    "median_step_min": 15.0,
+    "segments": 5,
+    "complete_T_EC_DO_pH": 32682
+  },
+  {
+    "file": "05553700_2023-01-01_2023-12-31.csv",
+    "raw_values": 132754,
+    "approved_values": 123918,
+    "timestamps": 34194,
+    "median_step_min": 15.0,
+    "segments": 8,
+    "complete_T_EC_DO_pH": 21441
+  },
+  {
+    "file": "05559900_2023-01-01_2023-12-31.csv",
+    "raw_values": 97510,
+    "approved_values": 97510,
+    "timestamps": 24387,
+    "median_step_min": 15.0,
+    "segments": 64,
+    "complete_T_EC_DO_pH": 24349
+  },
+  {
+    "file": "11509370_2023-01-01_2023-12-31.csv",
+    "raw_values": 69468,
+    "approved_values": 69468,
+    "timestamps": 17670,
+    "median_step_min": 30.0,
+    "segments": 3,
+    "complete_T_EC_DO_pH": 16807
+  },
+  {
+    "file": "11509500_2023-01-01_2023-12-31.csv",
+    "raw_values": 147998,
+    "approved_values": 139834,
+    "timestamps": 35038,
+    "median_step_min": 15.0,
+    "segments": 1,
+    "complete_T_EC_DO_pH": 34723
+  },
+  {
+    "file": "14162500_2023-01-01_2023-12-31.csv",
+    "raw_values": 87440,
+    "approved_values": 87440,
+    "timestamps": 35324,
+    "median_step_min": 15.0,
+    "segments": 1,
+    "complete_T_EC_DO_pH": 17122
+  },
+  {
+    "file": "14163900_2023-01-01_2023-12-31.csv",
+    "raw_values": 140027,
+    "approved_values": 140027,
+    "timestamps": 35040,
+    "median_step_min": 15.0,
+    "segments": 1,
+    "complete_T_EC_DO_pH": 34964
+  },
+  {
+    "file": "14203500_2023-01-01_2023-12-31.csv",
+    "raw_values": 137339,
+    "approved_values": 137339,
+    "timestamps": 35003,
+    "median_step_min": 15.0,
+    "segments": 6,
+    "complete_T_EC_DO_pH": 32344
+  },
+  {
+    "file": "14206241_2023-01-01_2023-12-31.csv",
+    "raw_values": 70314,
+    "approved_values": 70314,
+    "timestamps": 18178,
+    "median_step_min": 30.0,
+    "segments": 2,
+    "complete_T_EC_DO_pH": 17138
+  },
+  {
+    "file": "14206694_2023-01-01_2023-12-31.csv",
+    "raw_values": 38564,
+    "approved_values": 38564,
+    "timestamps": 9643,
+    "median_step_min": 30.0,
+    "segments": 2,
+    "complete_T_EC_DO_pH": 9635
+  },
+  {
+    "file": "14207200_2023-01-01_2023-12-31.csv",
+    "raw_values": 67864,
+    "approved_values": 67864,
+    "timestamps": 17489,
+    "median_step_min": 30.0,
+    "segments": 7,
+    "complete_T_EC_DO_pH": 15416
+  },
+  {
+    "file": "14209710_2023-01-01_2023-12-31.csv",
+    "raw_values": 69992,
+    "approved_values": 69992,
+    "timestamps": 17506,
+    "median_step_min": 30.0,
+    "segments": 6,
+    "complete_T_EC_DO_pH": 17482
+  },
+  {
+    "file": "14210000_2023-01-01_2023-12-31.csv",
+    "raw_values": 60229,
+    "approved_values": 56255,
+    "timestamps": 17479,
+    "median_step_min": 30.0,
+    "segments": 9,
+    "complete_T_EC_DO_pH": 3833
+  },
+  {
+    "file": "14211010_2023-01-01_2023-12-31.csv",
+    "raw_values": 139950,
+    "approved_values": 139950,
+    "timestamps": 35004,
+    "median_step_min": 15.0,
+    "segments": 6,
+    "complete_T_EC_DO_pH": 34954
+  },
+  {
+    "file": "420853121505500_2023-01-01_2023-12-31.csv",
+    "raw_values": 68774,
+    "approved_values": 68774,
+    "timestamps": 17504,
+    "median_step_min": 30.0,
+    "segments": 2,
+    "complete_T_EC_DO_pH": 16265
+  }
+]

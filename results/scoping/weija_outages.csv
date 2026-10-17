@@ -1,0 +1,10 @@
+file,probe,start,end,step_min,rx,missing,loss,events,lost_share_ge_1d,max_outage_d
+calcium_cleaned_records.csv,Calcium Ion (Ca2+) Sensor,2018-10-30 10:52:14,2019-03-11 16:15:38,32.45,3458,2468,0.41647,32,0.950567,36.6865
+conductivity_cleaned_records.csv,Conductivity Sensor,2018-10-31 15:10:54,2019-03-11 16:28:01,32.5167,4927,894,0.153582,42,0.828859,7.54206
+dissolved_oxygen_cleaned_records.csv,Dissolved Oxygen Sensor,2018-10-30 12:39:46,2019-03-11 14:48:36,302.467,485,145,0.230159,31,0.710345,14.0731
+fluoride_cleaned_records.csv,Fluoride Ion (F-) Sensor,2018-10-30 10:49:22,2019-03-11 16:15:00,32.4667,3275,2622,0.444633,33,0.922578,36.7054
+orp_cleaned_records.csv,Oxidation Reduction Potential,2018-10-30 12:40:42,2019-03-11 14:49:25,302.45,520,109,0.173291,6,0.93578,14.0723
+ph_cleaned_records.csv,pH Sensor,2018-10-30 11:17:57,2019-03-11 16:27:20,32.5167,5054,811,0.138278,9,0.975339,7.54206
+temperature_cleaned_records.csv,Temperature Sensor Five,2018-10-30 12:38:49,2019-03-11 14:47:55,302.45,523,107,0.169841,5,0.943925,13.8623
+temperature_cleaned_records.csv,Temperature Sensor One,2018-10-30 10:48:18,2019-03-11 16:13:54,32.4667,3572,2342,0.396009,5,0.999573,36.7054
+temperature_cleaned_records.csv,Temperature Sensor Two,2018-10-30 11:15:13,2019-01-04 03:32:06,32.55,2840,70,0.024055,7,0.714286,1.13021

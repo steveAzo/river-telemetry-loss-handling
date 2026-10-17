@@ -1,0 +1,210 @@
+loading data/loed_full/LoED_full.zip
+  read 01_03_2019.csv: 40,938 unique frames so far
+  read 01_04_2019.csv: 81,599 unique frames so far
+  read 01_05_2020.csv: 101,985 unique frames so far
+  read 01_06_2020.csv: 124,392 unique frames so far
+  read 01_07_2020.csv: 142,855 unique frames so far
+  read 01_08_2020.csv: 161,390 unique frames so far
+  read 01_09_2020.csv: 178,149 unique frames so far
+  read 02_03_2019.csv: 221,722 unique frames so far
+  read 02_04_2019.csv: 261,195 unique frames so far
+  read 02_05_2020.csv: 282,976 unique frames so far
+  read 02_06_2020.csv: 307,183 unique frames so far
+  read 02_07_2020.csv: 326,698 unique frames so far
+  read 02_08_2020.csv: 345,664 unique frames so far
+  read 02_09_2020.csv: 354,158 unique frames so far
+  read 03_03_2019.csv: 399,744 unique frames so far
+  read 03_04_2019.csv: 439,427 unique frames so far
+  read 03_05_2020.csv: 462,308 unique frames so far
+  read 03_06_2020.csv: 485,249 unique frames so far
+  read 03_07_2020.csv: 503,601 unique frames so far
+  read 03_08_2020.csv: 521,201 unique frames so far
+  read 04_03_2019.csv: 560,803 unique frames so far
+  read 04_04_2019.csv: 578,721 unique frames so far
+  read 04_05_2020.csv: 599,228 unique frames so far
+  read 04_06_2020.csv: 620,777 unique frames so far
+  read 04_07_2020.csv: 639,037 unique frames so far
+  read 04_08_2020.csv: 657,490 unique frames so far
+  read 05_03_2019.csv: 693,531 unique frames so far
+  read 05_04_2019.csv: 693,531 unique frames so far
+  read 05_05_2020.csv: 714,496 unique frames so far
+  read 05_06_2020.csv: 737,538 unique frames so far
+  read 05_07_2020.csv: 755,935 unique frames so far
+  read 05_08_2020.csv: 774,939 unique frames so far
+  read 06_03_2019.csv: 814,489 unique frames so far
+  read 06_05_2020.csv: 834,996 unique frames so far
+  read 06_06_2020.csv: 858,310 unique frames so far
+  read 06_07_2020.csv: 874,919 unique frames so far
+  read 06_08_2020.csv: 893,933 unique frames so far
+  read 07_03_2019.csv: 931,508 unique frames so far
+  read 07_05_2020.csv: 952,042 unique frames so far
+  read 07_06_2020.csv: 975,169 unique frames so far
+  read 07_07_2020.csv: 992,157 unique frames so far
+  read 07_08_2020.csv: 1,011,187 unique frames so far
+  read 08_02_2019.csv: 1,029,710 unique frames so far
+  read 08_03_2019.csv: 1,068,871 unique frames so far
+  read 08_05_2020.csv: 1,089,526 unique frames so far
+  read 08_06_2020.csv: 1,109,987 unique frames so far
+  read 08_07_2020.csv: 1,127,014 unique frames so far
+  read 08_08_2020.csv: 1,148,251 unique frames so far
+  read 09_02_2019.csv: 1,207,041 unique frames so far
+  read 09_03_2019.csv: 1,249,399 unique frames so far
+  read 09_05_2020.csv: 1,270,868 unique frames so far
+  read 09_06_2020.csv: 1,292,572 unique frames so far
+  read 09_07_2020.csv: 1,310,028 unique frames so far
+  read 09_08_2020.csv: 1,332,730 unique frames so far
+  read 10_02_2019.csv: 1,391,940 unique frames so far
+  read 10_03_2019.csv: 1,439,467 unique frames so far
+  read 10_05_2020.csv: 1,460,364 unique frames so far
+  read 10_06_2020.csv: 1,485,725 unique frames so far
+  read 10_07_2020.csv: 1,503,284 unique frames so far
+  read 10_08_2020.csv: 1,522,791 unique frames so far
+  read 11_02_2019.csv: 1,570,303 unique frames so far
+  read 11_03_2019.csv: 1,611,090 unique frames so far
+  read 11_05_2020.csv: 1,630,910 unique frames so far
+  read 11_06_2020.csv: 1,655,875 unique frames so far
+  read 11_07_2020.csv: 1,674,082 unique frames so far
+  read 11_08_2020.csv: 1,694,089 unique frames so far
+  read 12_02_2019.csv: 1,746,504 unique frames so far
+  read 12_03_2019.csv: 1,787,731 unique frames so far
+  read 12_05_2020.csv: 1,807,851 unique frames so far
+  read 12_06_2020.csv: 1,832,514 unique frames so far
+  read 12_07_2020.csv: 1,851,374 unique frames so far
+  read 12_08_2020.csv: 1,871,720 unique frames so far
+  read 13_02_2019.csv: 1,926,584 unique frames so far
+  read 13_03_2019.csv: 1,962,759 unique frames so far
+  read 13_05_2020.csv: 1,982,966 unique frames so far
+  read 13_06_2020.csv: 2,010,332 unique frames so far
+  read 13_07_2020.csv: 2,028,086 unique frames so far
+  read 13_08_2020.csv: 2,047,549 unique frames so far
+  read 14_02_2019.csv: 2,102,137 unique frames so far
+  read 14_03_2019.csv: 2,142,638 unique frames so far
+  read 14_05_2020.csv: 2,162,723 unique frames so far
+  read 14_06_2020.csv: 2,188,487 unique frames so far
+  read 14_07_2020.csv: 2,207,337 unique frames so far
+  read 14_08_2020.csv: 2,226,672 unique frames so far
+  read 15_02_2019.csv: 2,281,367 unique frames so far
+  read 15_03_2019.csv: 2,322,460 unique frames so far
+  read 15_05_2020.csv: 2,343,013 unique frames so far
+  read 15_06_2020.csv: 2,366,230 unique frames so far
+  read 15_07_2020.csv: 2,383,492 unique frames so far
+  read 15_08_2020.csv: 2,404,153 unique frames so far
+  read 16_02_2019.csv: 2,461,067 unique frames so far
+  read 16_03_2019.csv: 2,505,702 unique frames so far
+  read 16_05_2020.csv: 2,526,537 unique frames so far
+  read 16_06_2020.csv: 2,552,178 unique frames so far
+  read 16_07_2020.csv: 2,566,233 unique frames so far
+  read 16_08_2020.csv: 2,588,293 unique frames so far
+  read 17_02_2019.csv: 2,647,404 unique frames so far
+  read 17_03_2019.csv: 2,694,757 unique frames so far
+  read 17_05_2020.csv: 2,715,579 unique frames so far
+  read 17_06_2020.csv: 2,740,325 unique frames so far
+  read 17_07_2020.csv: 2,754,027 unique frames so far
+  read 17_08_2020.csv: 2,773,321 unique frames so far
+  read 18_02_2019.csv: 2,828,276 unique frames so far
+  read 18_03_2019.csv: 2,869,879 unique frames so far
+  read 18_05_2020.csv: 2,888,565 unique frames so far
+  read 18_06_2020.csv: 2,911,553 unique frames so far
+  read 18_07_2020.csv: 2,926,443 unique frames so far
+  read 18_08_2020.csv: 2,945,120 unique frames so far
+  read 19_02_2019.csv: 2,998,221 unique frames so far
+  read 19_03_2019.csv: 3,037,626 unique frames so far
+  read 19_05_2020.csv: 3,056,569 unique frames so far
+  read 19_06_2020.csv: 3,080,527 unique frames so far
+  read 19_07_2020.csv: 3,096,164 unique frames so far
+  read 19_08_2020.csv: 3,114,747 unique frames so far
+  read 20_02_2019.csv: 3,167,871 unique frames so far
+  read 20_03_2019.csv: 3,207,165 unique frames so far
+  read 20_05_2020.csv: 3,226,085 unique frames so far
+  read 20_06_2020.csv: 3,252,294 unique frames so far
+  read 20_07_2020.csv: 3,265,645 unique frames so far
+  read 20_08_2020.csv: 3,283,187 unique frames so far
+  read 21_02_2019.csv: 3,337,027 unique frames so far
+  read 21_03_2019.csv: 3,374,412 unique frames so far
+  read 21_05_2020.csv: 3,394,172 unique frames so far
+  read 21_06_2020.csv: 3,420,277 unique frames so far
+  read 21_07_2020.csv: 3,434,916 unique frames so far
+  read 21_08_2020.csv: 3,451,788 unique frames so far
+  read 22_02_2019.csv: 3,506,641 unique frames so far
+  read 22_03_2019.csv: 3,545,815 unique frames so far
+  read 22_05_2020.csv: 3,565,560 unique frames so far
+  read 22_06_2020.csv: 3,589,951 unique frames so far
+  read 22_07_2020.csv: 3,606,685 unique frames so far
+  read 22_08_2020.csv: 3,624,653 unique frames so far
+  read 23_02_2019.csv: 3,682,821 unique frames so far
+  read 23_03_2019.csv: 3,725,803 unique frames so far
+  read 23_05_2020.csv: 3,747,138 unique frames so far
+  read 23_06_2020.csv: 3,771,332 unique frames so far
+  read 23_07_2020.csv: 3,787,624 unique frames so far
+  read 23_08_2020.csv: 3,807,407 unique frames so far
+  read 24_02_2019.csv: 3,869,188 unique frames so far
+  read 24_03_2019.csv: 3,914,204 unique frames so far
+  read 24_05_2020.csv: 3,936,147 unique frames so far
+  read 24_06_2020.csv: 3,958,857 unique frames so far
+  read 24_07_2020.csv: 3,974,085 unique frames so far
+  read 24_08_2020.csv: 3,991,283 unique frames so far
+  read 25_02_2019.csv: 4,047,467 unique frames so far
+  read 25_03_2019.csv: 4,088,046 unique frames so far
+  read 25_04_2020.csv: 4,109,172 unique frames so far
+  read 25_05_2020.csv: 4,129,364 unique frames so far
+  read 25_06_2020.csv: 4,151,723 unique frames so far
+  read 25_07_2020.csv: 4,168,010 unique frames so far
+  read 25_08_2020.csv: 4,185,270 unique frames so far
+  read 26_02_2019.csv: 4,235,673 unique frames so far
+  read 26_03_2019.csv: 4,276,576 unique frames so far
+  read 26_04_2020.csv: 4,298,127 unique frames so far
+  read 26_05_2020.csv: 4,318,104 unique frames so far
+  read 26_06_2020.csv: 4,340,622 unique frames so far
+  read 26_07_2020.csv: 4,357,709 unique frames so far
+  read 26_08_2020.csv: 4,375,225 unique frames so far
+  read 27_02_2019.csv: 4,418,250 unique frames so far
+  read 27_03_2019.csv: 4,458,612 unique frames so far
+  read 27_04_2020.csv: 4,479,401 unique frames so far
+  read 27_05_2020.csv: 4,500,014 unique frames so far
+  read 27_06_2020.csv: 4,523,994 unique frames so far
+  read 27_07_2020.csv: 4,538,736 unique frames so far
+  read 27_08_2020.csv: 4,555,106 unique frames so far
+  read 28_02_2019.csv: 4,596,907 unique frames so far
+  read 28_03_2019.csv: 4,637,040 unique frames so far
+  read 28_04_2020.csv: 4,657,418 unique frames so far
+  read 28_05_2020.csv: 4,677,192 unique frames so far
+  read 28_06_2020.csv: 4,702,390 unique frames so far
+  read 28_07_2020.csv: 4,718,419 unique frames so far
+  read 28_08_2020.csv: 4,734,504 unique frames so far
+  read 29_03_2019.csv: 4,775,197 unique frames so far
+  read 29_04_2020.csv: 4,795,914 unique frames so far
+  read 29_05_2020.csv: 4,816,212 unique frames so far
+  read 29_06_2020.csv: 4,836,478 unique frames so far
+  read 29_07_2020.csv: 4,853,710 unique frames so far
+  read 29_08_2020.csv: 4,870,721 unique frames so far
+  read 30_03_2019.csv: 4,915,489 unique frames so far
+  read 30_04_2020.csv: 4,935,835 unique frames so far
+  read 30_05_2020.csv: 4,959,558 unique frames so far
+  read 30_06_2020.csv: 4,977,681 unique frames so far
+  read 30_07_2020.csv: 4,994,884 unique frames so far
+  read 30_08_2020.csv: 5,013,679 unique frames so far
+  read 31_03_2019.csv: 5,059,521 unique frames so far
+  read 31_05_2020.csv: 5,082,978 unique frames so far
+  read 31_07_2020.csv: 5,100,000 unique frames so far
+  read 31_08_2020.csv: 5,118,817 unique frames so far
+unique uplink frames: 5,118,817; devices 8,503; gateways 9
+         gateway  active_hours  span_hours  availability  n_outages  median_outage_h  max_outage_h
+0000024b0b031c97          3132        3132         1.000          0              0.0             0
+00000f0c22433141           750         840         0.893          3              3.0            86
+00800000a0001914          1879       13726         0.137          5            219.0         11004
+00800000a0001793          3079       13227         0.233          4            441.5          9264
+00000f0c210281c4           433         433         1.000          0              0.0             0
+00000f0c210721f2          1315        1316         0.999          1              1.0             1
+7276ff002e062804          3132        3132         1.000          0              0.0             0
+00800000a0001794           387         387         1.000          0              0.0             0
+00000f0c224331c4           337         338         0.997          1              1.0             1
+gateway inactive runs: 14; median 67 h; max 11004 h (long runs are mostly campaign gaps, see docstring)
+  runs <= 72 h (plausible operational outages): 7; median 1 h; share >= 6 h 0.14; share of their down-hours in runs >= 24 h 0.86
+
+devices with >= 200 frames: 1780; well-heard (radio loss < 20%): 179
+all devices: missing frames 17,314,141: radio 0.91, gateway-down 0.09
+well-heard devices: pooled radio loss 0.096; median per device 0.095; P(loss | previous loss) 0.248
+radio-loss bursts: 56276; length 1: 0.84; 2-5: 0.15; >5: 0.01; max 589
+well-heard devices: share of missing frames during gateway-down hours 0.13
+gateway logged nothing in the minute of the loss: coinciding losses 0.029 (n=17897); isolated losses 0.126 (n=75470)
+co-loss: share of radio losses coinciding (same minute) with another device's loss at a shared gateway: observed 0.192; independence baseline (random shifts +-7 d, 5 draws) 0.182 [0.167, 0.195]

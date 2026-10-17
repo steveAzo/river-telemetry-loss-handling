@@ -1,0 +1,7 @@
+record,L_h,share_obs,ci_lo,ci_hi,n_outages_ge,n_outages,rho_out_next_up,p_out_next_up,rho_out_next_out,p_out_next_out
+InWaterSense node 1,6,0.684658,0.548609,0.772255,54,1619,,,,
+InWaterSense node 1,24,0.506716,0.293512,0.645987,14,1619,,,,
+InWaterSense node 1,spearman,,,,,1619,-0.20444,9.98389e-17,0.266492,1.04329e-27
+Weija conductivity,6,0.889262,0.348978,0.956604,6,42,,,,
+Weija conductivity,24,0.828859,0,0.935051,3,42,,,,
+Weija conductivity,spearman,,,,,42,-0.0559255,0.728369,0.0236901,0.883116

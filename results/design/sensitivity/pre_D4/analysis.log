@@ -1,0 +1,166 @@
+sites: 30
+
+H8 picture on the no-outage link (newest-first; FIFO min for comparison)
+                                     min  median  fifo_min
+radio                         param                       
+LoRaWAN SF12                  DO     1.0     1.0    0.9830
+                              EC     1.0     1.0    0.9908
+                              T      1.0     1.0    0.9967
+                              pH     1.0     1.0    0.9969
+LoRaWAN SF7                   DO     1.0     1.0    1.0000
+                              EC     1.0     1.0    1.0000
+                              T      1.0     1.0    1.0000
+                              pH     1.0     1.0    1.0000
+NB-IoT N211 RAI (search 10 s) DO     1.0     1.0    1.0000
+                              EC     1.0     1.0    1.0000
+                              T      1.0     1.0    1.0000
+                              pH     1.0     1.0    1.0000
+H8 energy nf / FIFO over all trace x radio x site: min 1.0000, max 1.0000
+   all-trace picture (nf vs FIFO, medians):
+strategy                                          design_bounded  design_bounded_nf
+trace        radio                         param                                   
+InWaterSense LoRaWAN SF12                  DO             0.7314             0.7397
+                                           EC             0.7180             0.7239
+                                           T              0.6904             0.6965
+                                           pH             0.8751             0.8766
+             LoRaWAN SF7                   DO             0.7371             0.7391
+                                           EC             0.7207             0.7230
+                                           T              0.6946             0.6971
+                                           pH             0.8765             0.8770
+             NB-IoT N211 RAI (search 10 s) DO             0.7391             0.7391
+                                           EC             0.7230             0.7230
+                                           T              0.6971             0.6971
+                                           pH             0.8770             0.8770
+UVA          LoRaWAN SF12                  DO             0.9890             0.9922
+                                           EC             0.9923             0.9942
+                                           T              0.9915             0.9919
+                                           pH             0.9970             0.9975
+             LoRaWAN SF7                   DO             0.9922             0.9922
+                                           EC             0.9948             0.9948
+                                           T              0.9919             0.9920
+                                           pH             0.9976             0.9976
+             NB-IoT N211 RAI (search 10 s) DO             0.9922             0.9922
+                                           EC             0.9948             0.9948
+                                           T              0.9920             0.9920
+                                           pH             0.9976             0.9976
+Weija        LoRaWAN SF12                  DO             0.8983             0.9035
+                                           EC             0.8980             0.8993
+                                           T              0.8826             0.8835
+                                           pH             0.9490             0.9502
+             LoRaWAN SF7                   DO             0.9030             0.9036
+                                           EC             0.8990             0.8993
+                                           T              0.8832             0.8835
+                                           pH             0.9500             0.9502
+             NB-IoT N211 RAI (search 10 s) DO             0.9036             0.9036
+                                           EC             0.8993             0.8993
+                                           T              0.8835             0.8835
+                                           pH             0.9502             0.9502
+none         LoRaWAN SF12                  DO             0.9977             1.0000
+                                           EC             0.9997             1.0000
+                                           T              0.9998             1.0000
+                                           pH             0.9998             1.0000
+             LoRaWAN SF7                   DO             1.0000             1.0000
+                                           EC             1.0000             1.0000
+                                           T              1.0000             1.0000
+                                           pH             1.0000             1.0000
+             NB-IoT N211 RAI (search 10 s) DO             1.0000             1.0000
+                                           EC             1.0000             1.0000
+                                           T              1.0000             1.0000
+                                           pH             1.0000             1.0000
+
+H9 (picture vs per-reading ARQ at each level; medians over sites) - LoRaWAN SF7 shown; full table in CSV
+level        trace       radio param  within_arq  within_design  within_bounded  bounded_minus_arq_pp  pass
+   L1 InWaterSense LoRaWAN SF7    DO       0.627          0.497           0.630                 0.071  True
+   L1 InWaterSense LoRaWAN SF7    EC       0.621          0.607           0.624                 0.080  True
+   L1 InWaterSense LoRaWAN SF7     T       0.639          0.611           0.645                 0.095  True
+   L1 InWaterSense LoRaWAN SF7    pH       0.683          0.606           0.689                -0.091  True
+   L1          UVA LoRaWAN SF7    DO       0.989          0.718           0.989                -0.012  True
+   L1          UVA LoRaWAN SF7    EC       0.991          0.926           0.991                -0.008  True
+   L1          UVA LoRaWAN SF7     T       0.990          0.928           0.990                -0.008  True
+   L1          UVA LoRaWAN SF7    pH       0.990          0.797           0.990                -0.007  True
+   L1        Weija LoRaWAN SF7    DO       0.870          0.649           0.870                -0.018  True
+   L1        Weija LoRaWAN SF7    EC       0.874          0.813           0.873                -0.049  True
+   L1        Weija LoRaWAN SF7     T       0.868          0.819           0.866                -0.058  True
+   L1        Weija LoRaWAN SF7    pH       0.893          0.725           0.894                -0.015  True
+   L1         none LoRaWAN SF7    DO       1.000          0.728           1.000                 0.000  True
+   L1         none LoRaWAN SF7    EC       1.000          0.937           1.000                 0.000  True
+   L1         none LoRaWAN SF7     T       1.000          0.945           1.000                 0.000  True
+   L1         none LoRaWAN SF7    pH       1.000          0.802           1.000                 0.000  True
+   L2 InWaterSense LoRaWAN SF7    DO       0.738          0.708           0.737                 0.448  True
+   L2 InWaterSense LoRaWAN SF7    EC       0.715          0.711           0.721                 0.024  True
+   L2 InWaterSense LoRaWAN SF7     T       0.692          0.686           0.695                 0.165  True
+   L2 InWaterSense LoRaWAN SF7    pH       0.869          0.883           0.877                 0.038  True
+   L2          UVA LoRaWAN SF7    DO       0.992          0.902           0.992                -0.003  True
+   L2          UVA LoRaWAN SF7    EC       0.995          0.978           0.995                 0.000  True
+   L2          UVA LoRaWAN SF7     T       0.992          0.976           0.992                -0.007  True
+   L2          UVA LoRaWAN SF7    pH       0.998          0.981           0.998                -0.002  True
+   L2        Weija LoRaWAN SF7    DO       0.902          0.828           0.903                 0.023  True
+   L2        Weija LoRaWAN SF7    EC       0.898          0.881           0.899                -0.023  True
+   L2        Weija LoRaWAN SF7     T       0.884          0.867           0.883                -0.020  True
+   L2        Weija LoRaWAN SF7    pH       0.949          0.940           0.950                 0.004  True
+   L2         none LoRaWAN SF7    DO       1.000          0.912           1.000                 0.000  True
+   L2         none LoRaWAN SF7    EC       1.000          0.983           1.000                 0.000  True
+   L2         none LoRaWAN SF7     T       1.000          0.985           1.000                 0.000  True
+   L2         none LoRaWAN SF7    pH       1.000          0.987           1.000                 0.000  True
+   L3 InWaterSense LoRaWAN SF7    DO       0.870          0.861           0.866                 0.033  True
+   L3 InWaterSense LoRaWAN SF7    EC       0.840          0.838           0.846                 0.325  True
+   L3 InWaterSense LoRaWAN SF7     T       0.788          0.785           0.785                -0.010  True
+   L3 InWaterSense LoRaWAN SF7    pH       0.947          0.950           0.948                -0.004  True
+   L3          UVA LoRaWAN SF7    DO       0.996          0.980           0.996                 0.000  True
+   L3          UVA LoRaWAN SF7    EC       0.998          0.994           0.998                 0.000  True
+   L3          UVA LoRaWAN SF7     T       0.995          0.990           0.995                -0.004  True
+   L3          UVA LoRaWAN SF7    pH       0.999          0.997           0.999                 0.000  True
+   L3        Weija LoRaWAN SF7    DO       0.950          0.944           0.950                 0.002  True
+   L3        Weija LoRaWAN SF7    EC       0.940          0.937           0.940                 0.021  True
+   L3        Weija LoRaWAN SF7     T       0.910          0.908           0.910                -0.033  True
+   L3        Weija LoRaWAN SF7    pH       0.968          0.967           0.968                 0.009  True
+   L3         none LoRaWAN SF7    DO       1.000          0.990           1.000                 0.000  True
+   L3         none LoRaWAN SF7    EC       1.000          0.998           1.000                 0.000  True
+   L3         none LoRaWAN SF7     T       1.000          0.999           1.000                 0.000  True
+   L3         none LoRaWAN SF7    pH       1.000          0.999           1.000                 0.000  True
+
+H10 (energy J/day at each level; medians over sites)
+level        trace                         radio   E_arq  E_design  E_bounded  bounded_over_design  arq_over_bounded  sites_bounded_le_arq  pass
+   L1 InWaterSense                  LoRaWAN SF12 107.900    76.603     90.475                1.184             1.174                 1.000  True
+   L1 InWaterSense                   LoRaWAN SF7  36.281    18.857     28.249                1.441             1.232                 1.000  True
+   L1 InWaterSense NB-IoT N211 RAI (search 10 s)  44.251    23.777     34.349                1.445             1.207                 0.967  True
+   L1          UVA                  LoRaWAN SF12 115.620    62.523     78.157                1.321             1.399                 1.000  True
+   L1          UVA                   LoRaWAN SF7  36.108     9.689     21.129                2.166             1.477                 1.000  True
+   L1          UVA NB-IoT N211 RAI (search 10 s)  53.962    14.161     31.502                2.205             1.478                 0.967  True
+   L1        Weija                  LoRaWAN SF12 106.090    62.900     76.691                1.270             1.334                 1.000  True
+   L1        Weija                   LoRaWAN SF7  32.071    10.779     20.337                1.879             1.404                 1.000  True
+   L1        Weija NB-IoT N211 RAI (search 10 s)  48.611    15.714     30.330                1.925             1.413                 0.967  True
+   L1         none                  LoRaWAN SF12 112.303    60.197     75.521                1.325             1.408                 1.000  True
+   L1         none                   LoRaWAN SF7  34.180     9.000     19.869                2.195             1.481                 1.000  True
+   L1         none NB-IoT N211 RAI (search 10 s)  52.822    13.569     30.606                2.243             1.482                 1.000  True
+   L2 InWaterSense                  LoRaWAN SF12 107.900    76.603     81.514                1.058             1.309                 1.000  True
+   L2 InWaterSense                   LoRaWAN SF7  36.281    18.857     22.731                1.168             1.549                 1.000  True
+   L2 InWaterSense NB-IoT N211 RAI (search 10 s)  44.251    23.777     28.082                1.171             1.537                 0.967  True
+   L2          UVA                  LoRaWAN SF12 115.620    62.523     66.928                1.098             1.678                 1.000  True
+   L2          UVA                   LoRaWAN SF7  36.108     9.689     14.463                1.484             2.302                 1.000  True
+   L2          UVA NB-IoT N211 RAI (search 10 s)  53.962    14.161     21.388                1.499             2.322                 0.967  True
+   L2        Weija                  LoRaWAN SF12 106.090    62.900     66.945                1.085             1.559                 1.000  True
+   L2        Weija                   LoRaWAN SF7  32.071    10.779     14.851                1.361             2.036                 1.000  True
+   L2        Weija NB-IoT N211 RAI (search 10 s)  48.611    15.714     21.826                1.384             2.092                 0.967  True
+   L2         none                  LoRaWAN SF12 112.303    60.197     64.447                1.100             1.689                 1.000  True
+   L2         none                   LoRaWAN SF7  34.180     9.000     13.528                1.495             2.328                 1.000  True
+   L2         none NB-IoT N211 RAI (search 10 s)  52.822    13.569     20.663                1.514             2.350                 1.000  True
+   L3 InWaterSense                  LoRaWAN SF12 107.900    76.603     77.598                1.010             1.396                 1.000  True
+   L3 InWaterSense                   LoRaWAN SF7  36.281    18.857     19.767                1.031             1.823                 1.000  True
+   L3 InWaterSense NB-IoT N211 RAI (search 10 s)  44.251    23.777     24.848                1.034             1.779                 0.967  True
+   L3          UVA                  LoRaWAN SF12 115.620    62.523     63.112                1.014             1.817                 1.000  True
+   L3          UVA                   LoRaWAN SF7  36.108     9.689     10.603                1.096             3.220                 1.000  True
+   L3          UVA NB-IoT N211 RAI (search 10 s)  53.962    14.161     15.655                1.101             3.283                 0.967  True
+   L3        Weija                  LoRaWAN SF12 106.090    62.900     63.500                1.013             1.657                 1.000  True
+   L3        Weija                   LoRaWAN SF7  32.071    10.779     11.573                1.073             2.646                 1.000  True
+   L3        Weija NB-IoT N211 RAI (search 10 s)  48.611    15.714     16.797                1.079             2.744                 0.967  True
+   L3         none                  LoRaWAN SF12 112.303    60.197     60.763                1.014             1.829                 1.000  True
+   L3         none                   LoRaWAN SF7  34.180     9.000      9.913                1.099             3.282                 1.000  True
+   L3         none NB-IoT N211 RAI (search 10 s)  52.822    13.569     15.119                1.105             3.346                 1.000  True
+
+VERDICTS
+  H8 FAIL (nf 100% within tolerance on the no-outage link everywhere; energy within 1%)
+  H9  at L1: 48/48 param x trace x radio
+  H10 at L1: 12/12 trace x radio
+  H9  at L3: 48/48 param x trace x radio
+  H10 at L3: 12/12 trace x radio

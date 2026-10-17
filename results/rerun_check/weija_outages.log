@@ -1,0 +1,9 @@
+Calcium Ion (Ca2+) Sensor    2018-10-30..2019-03-11 step= 32.5min rx=  3458 loss=0.42 events=  32 | events/lost-share: 1slot 0.44/0.01  <6h 0.31/0.02  6-24h 0.12/0.02  >=1d 0.12/0.95  max=36.7d
+Conductivity Sensor          2018-10-31..2019-03-11 step= 32.5min rx=  4927 loss=0.15 events=  42 | events/lost-share: 1slot 0.48/0.02  <6h 0.38/0.09  6-24h 0.07/0.06  >=1d 0.07/0.83  max=7.5d
+Dissolved Oxygen Sensor      2018-10-30..2019-03-11 step=302.5min rx=   485 loss=0.23 events=  31 | events/lost-share: 1slot 0.65/0.14  <6h 0.00/0.00  6-24h 0.29/0.15  >=1d 0.06/0.71  max=14.1d
+Fluoride Ion (F-) Sensor     2018-10-30..2019-03-11 step= 32.5min rx=  3275 loss=0.44 events=  33 | events/lost-share: 1slot 0.39/0.00  <6h 0.21/0.01  6-24h 0.24/0.06  >=1d 0.15/0.92  max=36.7d
+Oxidation Reduction Potentia 2018-10-30..2019-03-11 step=302.4min rx=   520 loss=0.17 events=   6 | events/lost-share: 1slot 0.50/0.03  <6h 0.00/0.00  6-24h 0.17/0.04  >=1d 0.33/0.94  max=14.1d
+pH Sensor                    2018-10-30..2019-03-11 step= 32.5min rx=  5054 loss=0.14 events=   9 | events/lost-share: 1slot 0.44/0.00  <6h 0.00/0.00  6-24h 0.11/0.02  >=1d 0.44/0.98  max=7.5d
+Temperature Sensor Five      2018-10-30..2019-03-11 step=302.4min rx=   523 loss=0.17 events=   5 | events/lost-share: 1slot 0.40/0.02  <6h 0.00/0.00  6-24h 0.20/0.04  >=1d 0.40/0.94  max=13.9d
+Temperature Sensor One       2018-10-30..2019-03-11 step= 32.5min rx=  3572 loss=0.40 events=   5 | events/lost-share: 1slot 0.20/0.00  <6h 0.00/0.00  6-24h 0.00/0.00  >=1d 0.80/1.00  max=36.7d
+Temperature Sensor Two       2018-10-30..2019-01-04 step= 32.5min rx=  2840 loss=0.02 events=   7 | events/lost-share: 1slot 0.71/0.07  <6h 0.00/0.00  6-24h 0.14/0.21  >=1d 0.14/0.71  max=1.1d

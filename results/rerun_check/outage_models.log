@@ -1,0 +1,18 @@
+
+== InWaterSense node 1: slot 10.2 min, 1619 outages, loss 0.460, median outage 2 slots, max 1879 slots (13.3 d); observed share of lost slots in outages >=6h 0.68, >=24h 0.51
+  outage geom    AIC   10536.6  share>=6h 0.11 (obs 0.68)  share>=24h 0.00 (obs 0.51)  q=0.9002
+  outage geom2   AIC    7107.1  share>=6h 0.74 (obs 0.68)  share>=24h 0.35 (obs 0.51)  w_short=0.893 q_short=0.5484 q_long=0.9867
+  outage dlnorm  AIC    6859.2  share>=6h 0.59 (obs 0.68)  share>=24h 0.38 (obs 0.51)  mu=-3.737 sigma=2.793
+  outage zeta    AIC    6862.9  share>=6h 0.86 (obs 0.68)  share>=24h 0.77 (obs 0.51)  alpha=1.78
+  up-run geom    AIC   11092.7  mean up-run 11.8 slots  q=0.9151
+  up-run geom2   AIC    8452.8  mean up-run 11.8 slots  w_short=0.8254 q_short=0.6064 q_long=0.982
+  -> best outage model by AIC: dlnorm
+
+== Weija conductivity: slot 32.5 min, 42 outages, loss 0.154, median outage 2 slots, max 334 slots (7.5 d); observed share of lost slots in outages >=6h 0.89, >=24h 0.83
+  outage geom    AIC     340.9  share>=6h 0.89 (obs 0.89)  share>=24h 0.37 (obs 0.83)  q=0.953
+  outage geom2   AIC     235.6  share>=6h 0.88 (obs 0.89)  share>=24h 0.84 (obs 0.83)  w_short=0.8797 q_short=0.6781 q_long=0.9935
+  outage dlnorm  AIC     222.4  share>=6h 0.93 (obs 0.89)  share>=24h 0.85 (obs 0.83)  mu=-20.81 sigma=6.304
+  outage zeta    AIC     220.7  share>=6h 0.93 (obs 0.89)  share>=24h 0.86 (obs 0.83)  alpha=1.63
+  up-run geom    AIC     495.4  mean up-run 114.6 slots  q=0.9913
+  up-run geom2   AIC     451.4  mean up-run 114.6 slots  w_short=0.5011 q_short=0.8693 q_long=0.9955
+  -> best outage model by AIC: zeta

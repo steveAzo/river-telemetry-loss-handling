@@ -1,0 +1,20 @@
+{
+  "weija": {
+    "EC missing (v0.1 record)": 916,
+    "  of which node-silent": 773,
+    "  of which another stream delivered (link up)": 143,
+    "long_gaps_alive_share": 0.06155778894472362,
+    "long_gaps_n": 6
+  },
+  "inws": {
+    "node-1 missing slots in window": 9180,
+    "  node 2 delivering (node-1-specific)": 1957,
+    "  node 2 silent too (shared path, shared power, or coincidence)": 7223,
+    "pi_shared all gaps": 0.701,
+    "pi_shared gaps < 6 h": 0.366,
+    "pi_shared gaps >= 6 h": 0.737,
+    "pi_shared gaps >= 1 d": 0.691,
+    "window_share_of_all_lost": 0.5656540760367244,
+    "node2_silent_when_n1_missing": 0.7868191721132898
+  }
+}

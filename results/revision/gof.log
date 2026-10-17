@@ -1,0 +1,33 @@
+InWaterSense             geom    AIC    10536.6  KS D 0.4837  p 0.0050  {'q': np.float64(0.9002464571780653)}
+InWaterSense             geom2   AIC     7107.1  KS D 0.0684  p 0.0050  {'w_short': np.float64(0.8930203302089327), 'q_short': np.float64(0.5484114423023784), 'q_long': np.float64(0.9867059724588858)}
+InWaterSense             dlnorm  AIC     6859.2  KS D 0.0265  p 0.0050  {'mu': np.float64(-3.736623082397916), 'sigma': np.float64(2.7926751239698087)}
+InWaterSense             zeta    AIC     6862.9  KS D 0.0494  p 0.0050  {'alpha': np.float64(1.7795877534657194)}
+Weija (v0.1 EC record)   geom    AIC      340.9  KS D 0.5511  p 0.0050  {'q': np.float64(0.9530201342281879)}
+Weija (v0.1 EC record)   geom2   AIC      235.6  KS D 0.1922  p 0.0050  {'w_short': np.float64(0.8796839924222023), 'q_short': np.float64(0.6780821824072045), 'q_long': np.float64(0.9935150382490218)}
+Weija (v0.1 EC record)   dlnorm  AIC      222.4  KS D 0.0721  p 0.3682  {'mu': np.float64(-20.810181053420944), 'sigma': np.float64(6.303662774396794)}
+Weija (v0.1 EC record)   zeta    AIC      220.7  KS D 0.0642  p 0.6368  {'alpha': np.float64(1.6297506326998972)}
+Weija (node record)      geom    AIC      265.0  KS D 0.5745  p 0.0050  {'q': np.float64(0.9616810877626699)}
+Weija (node record)      geom2   AIC      195.5  KS D 0.1122  p 0.2388  {'w_short': np.float64(0.9304109924043407), 'q_short': np.float64(0.8067091827173732), 'q_long': np.float64(0.996730338460827)}
+Weija (node record)      dlnorm  AIC      205.5  KS D 0.1653  p 0.0348  {'mu': np.float64(1.0159702507646764), 'sigma': np.float64(1.8028057445405992)}
+Weija (node record)      zeta    AIC      209.9  KS D 0.2084  p 0.0050  {'alpha': np.float64(1.477502099511965)}
+UVA                      geom    AIC    76881.0  KS D 0.2613  p 0.0050  {'q': np.float64(0.3726443455704248)}
+UVA                      geom2   AIC    32966.3  KS D 0.0113  p 0.0050  {'w_short': np.float64(0.9971865250235175), 'q_short': np.float64(0.12018432424031633), 'q_long': np.float64(0.993891561690549)}
+UVA                      dlnorm  AIC    33327.0  KS D 0.0119  p 0.0050  {'mu': np.float64(-130883.55700796472), 'sigma': np.float64(251.38703756941968)}
+UVA                      zeta    AIC    33179.8  KS D 0.0082  p 0.0050  {'alpha': np.float64(3.5505679392703398)}
+                record  model        aic  best_aic  best_aic_without_longest   ks_D  ks_p_boot
+          InWaterSense   geom 10536.6046     False                     False 0.4837     0.0050
+          InWaterSense  geom2  7107.1460     False                     False 0.0684     0.0050
+          InWaterSense dlnorm  6859.2070      True                      True 0.0265     0.0050
+          InWaterSense   zeta  6862.9064     False                     False 0.0494     0.0050
+Weija (v0.1 EC record)   geom   340.8702     False                     False 0.5511     0.0050
+Weija (v0.1 EC record)  geom2   235.6337     False                     False 0.1922     0.0050
+Weija (v0.1 EC record) dlnorm   222.4077     False                     False 0.0721     0.3682
+Weija (v0.1 EC record)   zeta   220.7248      True                      True 0.0642     0.6368
+   Weija (node record)   geom   265.0290     False                     False 0.5745     0.0050
+   Weija (node record)  geom2   195.4511      True                      True 0.1122     0.2388
+   Weija (node record) dlnorm   205.5321     False                     False 0.1653     0.0348
+   Weija (node record)   zeta   209.9169     False                     False 0.2084     0.0050
+                   UVA   geom 76881.0420     False                     False 0.2613     0.0050
+                   UVA  geom2 32966.2807      True                      True 0.0113     0.0050
+                   UVA dlnorm 33326.9512     False                     False 0.0119     0.0050
+                   UVA   zeta 33179.7592     False                     False 0.0082     0.0050

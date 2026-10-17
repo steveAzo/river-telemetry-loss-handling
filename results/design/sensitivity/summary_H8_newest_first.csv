@@ -1,0 +1,13 @@
+radio,param,min,median,fifo_min
+LoRaWAN SF12,DO,1.0,1.0,0.987234
+LoRaWAN SF12,EC,1.0,1.0,0.990797
+LoRaWAN SF12,T,1.0,1.0,0.996654
+LoRaWAN SF12,pH,1.0,1.0,0.996922
+LoRaWAN SF7,DO,1.0,1.0,1.0
+LoRaWAN SF7,EC,1.0,1.0,1.0
+LoRaWAN SF7,T,1.0,1.0,1.0
+LoRaWAN SF7,pH,1.0,1.0,1.0
+NB-IoT N211 RAI (search 10 s),DO,1.0,1.0,1.0
+NB-IoT N211 RAI (search 10 s),EC,1.0,1.0,1.0
+NB-IoT N211 RAI (search 10 s),T,1.0,1.0,1.0
+NB-IoT N211 RAI (search 10 s),pH,1.0,1.0,1.0

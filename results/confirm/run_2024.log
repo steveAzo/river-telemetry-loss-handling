@@ -1,0 +1,51 @@
+01388000 done in 277 s (17280 event rows)
+01400500 done in 316 s (17280 event rows)
+skip 01388000
+skip 01400500
+01402000 done in 163 s (10944 event rows)
+01427510 done in 244 s (17280 event rows)
+01458500 done in 321 s (17280 event rows)
+01463500 done in 48 s (17280 event rows)
+01465798 done in 289 s (14112 event rows)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1214: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)
+014670261 done in 399 s (17280 event rows)
+01467087 done in 251 s (17280 event rows)
+01467200 done in 816 s (17280 event rows)
+01473500 done in 248 s (16992 event rows)
+01473900 done in 219 s (15552 event rows)
+01475530 done in 157 s (14400 event rows)
+01477050 done in 238 s (16704 event rows)
+03072655 done in 313 s (12960 event rows)
+05420400 done in 211 s (14688 event rows)
+05537980 done in 255 s (17280 event rows)
+05543010 done in 286 s (17280 event rows)
+05553700 done in 285 s (17280 event rows)
+05559900 done in 254 s (17280 event rows)
+05586300 done in 256 s (17280 event rows)
+11509370 done in 114 s (17280 event rows)
+11509500 done in 302 s (17280 event rows)
+11510700 done in 348 s (17280 event rows)
+14163900 done in 341 s (17280 event rows)
+14203500 done in 292 s (17280 event rows)
+14206241 done in 133 s (17280 event rows)
+14206694 done in 69 s (12384 event rows)
+14207200 done in 108 s (17280 event rows)
+14209710 done in 108 s (17280 event rows)
+14210000 done in 100 s (17280 event rows)
+14211010 done in 259 s (17280 event rows)
+420853121505500 done in 126 s (17280 event rows)

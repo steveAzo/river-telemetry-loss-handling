@@ -1,0 +1,35 @@
+receptions 2,091,512; sensors 10; gateways 3; 2024-02-09 00:01:15 .. 2025-06-11 23:59:56
+
+system availability (10-min bins): 0.9872; outages 12; median 1.67 h; max 82.2 h; down-hours in outages >= 24 h 0.83
+  gatewayA: up 0.9745 of system-up time; gateway-only outages 8, median 19.8 h, max 94.0 h
+  gatewayB: up 0.9949 of system-up time; gateway-only outages 59, median 0.5 h, max 17.0 h
+  gatewayC: up 0.9382 of system-up time; gateway-only outages 1, median 716.5 h, max 716.5 h
+
+per sensor (frames):
+       s     rx  system  gateway  radio           serving  missing   loss
+sensor01 132576    1802        0   6466 gatewayA,gatewayC     8268 0.0587
+sensor02 159367    2106        0   2832 gatewayA,gatewayC     4938 0.0301
+sensor03 131967    1802        0   1524 gatewayA,gatewayC     3326 0.0246
+sensor04 134703    1802        0   4337 gatewayA,gatewayC     6139 0.0436
+sensor05 137269    1802        0   1769 gatewayA,gatewayC     3571 0.0254
+sensor06 136942    1802        0   2097 gatewayA,gatewayC     3899 0.0277
+sensor07 136963    1802        0   2074 gatewayA,gatewayC     3876 0.0275
+sensor08 129798    1802        0   9239 gatewayA,gatewayB    11041 0.0784
+sensor09 127714    1802        0  11319 gatewayA,gatewayB    13121 0.0932
+sensor10   5514       0        0     32 gatewayA,gatewayC       32 0.0058
+
+all missing frames 58,211: system 0.284, gateway 0.000, radio 0.716
+pooled loss 0.0451
+
+outage runs 36519; length 1: 0.89; median 1 slots; max 1151 (4.0 d)
+  all      runs  36519  lost slots   58211  median     1  share of lost slots in runs >= 1 h 0.29, >= 6 h 0.27, >= 24 h 0.24
+  radio    runs  36422  lost slots   41506  median     1  share of lost slots in runs >= 1 h 0.00, >= 6 h 0.00, >= 24 h 0.00
+  system   runs     97  lost slots   16705  median    23  share of lost slots in runs >= 1 h 0.99, >= 6 h 0.94, >= 24 h 0.82
+  model fits on all runs (AIC; share >= 6 h / >= 24 h):
+    geom    AIC    76881.0  0.00 / 0.00
+    geom2   AIC    32966.3  0.27 / 0.14
+    dlnorm  AIC    33327.0  0.00 / 0.00
+    zeta    AIC    33179.8  0.00 / 0.00
+
+weather rows 124,357; intervals with rain 0.024; accumulated-rain decreases (resets) 136
+link loss per pair, dry vs rain: median 0.0918 vs 0.0921; pairs with more loss in rain 0.39 of 18; median difference -0.0017; Wilcoxon p = 0.64

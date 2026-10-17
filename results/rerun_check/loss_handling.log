@@ -1,0 +1,268 @@
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.0   E_tx=    82.1 J/d life= 1.69 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.096 E_tx=    82.1 J/d life= 1.69 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.0   E_tx=    82.1 J/d life= 1.69 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.096 E_tx=    82.1 J/d life= 1.69 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.0   E_tx=    48.6 J/d life= 2.22 y on-time=0.504 late=0.000 lost=0.496 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.096 E_tx=    48.6 J/d life= 2.22 y on-time=0.457 late=0.000 lost=0.543 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.0   E_tx=    40.6 J/d life= 2.39 y on-time=0.471 late=0.000 lost=0.529 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.096 E_tx=    40.6 J/d life= 2.39 y on-time=0.427 late=0.000 lost=0.573 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.0   E_tx=    83.7 J/d life= 1.68 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.096 E_tx=    88.0 J/d life= 1.63 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.0   E_tx=    88.0 J/d life= 1.63 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.096 E_tx=    92.3 J/d life= 1.58 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=10.5/195.4 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.0   E_tx=    53.4 J/d life= 2.12 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.096 E_tx=    56.5 J/d life= 2.07 y on-time=0.494 late=0.506 lost=0.000 delay p50/p95=12.2/189.9 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.0   E_tx=    45.0 J/d life= 2.29 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.096 E_tx=    46.7 J/d life= 2.26 y on-time=0.454 late=0.546 lost=0.000 delay p50/p95=23.4/212.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.0   E_tx=    86.5 J/d life= 1.64 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.096 E_tx=    86.9 J/d life= 1.64 y on-time=0.489 late=0.461 lost=0.051 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.0   E_tx=    51.9 J/d life= 2.15 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.096 E_tx=    52.3 J/d life= 2.14 y on-time=0.458 late=0.496 lost=0.046 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.0   E_tx=    43.6 J/d life= 2.32 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.096 E_tx=    43.9 J/d life= 2.32 y on-time=0.427 late=0.529 lost=0.044 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.0   E_tx=    12.2 J/d life= 3.34 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.096 E_tx=    13.0 J/d life= 3.30 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/171.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.0   E_tx=     5.5 J/d life= 3.68 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/137.8 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.096 E_tx=     5.7 J/d life= 3.66 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/139.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.0   E_tx=   229.9 J/d life= 0.83 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.096 E_tx=   229.9 J/d life= 0.83 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.0   E_tx=   229.9 J/d life= 0.83 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.096 E_tx=   229.9 J/d life= 0.83 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.0   E_tx=    87.1 J/d life= 1.64 y on-time=0.504 late=0.000 lost=0.496 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.096 E_tx=    87.1 J/d life= 1.64 y on-time=0.457 late=0.000 lost=0.543 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.0   E_tx=    59.5 J/d life= 2.02 y on-time=0.471 late=0.000 lost=0.529 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.096 E_tx=    59.5 J/d life= 2.02 y on-time=0.427 late=0.000 lost=0.573 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.0   E_tx=   231.5 J/d life= 0.83 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.096 E_tx=   235.8 J/d life= 0.81 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.0   E_tx=   235.9 J/d life= 0.81 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.096 E_tx=   240.1 J/d life= 0.80 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=10.5/195.4 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.0   E_tx=    91.8 J/d life= 1.59 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.096 E_tx=    94.0 J/d life= 1.56 y on-time=0.494 late=0.506 lost=0.000 delay p50/p95=12.2/189.9 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.0   E_tx=    63.8 J/d life= 1.95 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.096 E_tx=    63.4 J/d life= 1.95 y on-time=0.454 late=0.546 lost=0.000 delay p50/p95=23.4/212.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.0   E_tx=   234.3 J/d life= 0.82 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.096 E_tx=   234.7 J/d life= 0.82 y on-time=0.489 late=0.461 lost=0.051 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.0   E_tx=    90.4 J/d life= 1.60 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.096 E_tx=    90.8 J/d life= 1.60 y on-time=0.458 late=0.496 lost=0.046 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.0   E_tx=    62.5 J/d life= 1.97 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.096 E_tx=    62.8 J/d life= 1.96 y on-time=0.427 late=0.529 lost=0.044 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.0   E_tx=    23.6 J/d life= 2.88 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.096 E_tx=    24.2 J/d life= 2.86 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/171.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.0   E_tx=    13.3 J/d life= 3.29 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/137.8 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.096 E_tx=    13.5 J/d life= 3.28 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/139.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.0   E_tx=  1177.5 J/d life= 0.19 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.096 E_tx=  1177.5 J/d life= 0.19 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.0   E_tx=  1177.5 J/d life= 0.19 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.096 E_tx=  1177.5 J/d life= 0.19 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.0   E_tx=   333.8 J/d life= 0.61 y on-time=0.504 late=0.000 lost=0.496 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.096 E_tx=   333.8 J/d life= 0.61 y on-time=0.457 late=0.000 lost=0.543 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.0   E_tx=   180.4 J/d life= 1.00 y on-time=0.471 late=0.000 lost=0.529 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.096 E_tx=   180.4 J/d life= 1.00 y on-time=0.427 late=0.000 lost=0.573 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.0   E_tx=  1179.0 J/d life= 0.19 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.096 E_tx=  1183.3 J/d life= 0.19 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.0   E_tx=  1183.4 J/d life= 0.19 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.096 E_tx=  1187.6 J/d life= 0.19 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=10.5/195.4 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.0   E_tx=   338.5 J/d life= 0.60 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.096 E_tx=   334.6 J/d life= 0.61 y on-time=0.494 late=0.506 lost=0.000 delay p50/p95=12.2/189.9 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.0   E_tx=   184.7 J/d life= 0.98 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.096 E_tx=   170.6 J/d life= 1.04 y on-time=0.454 late=0.546 lost=0.000 delay p50/p95=23.4/212.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.0   E_tx=  1181.8 J/d life= 0.19 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.096 E_tx=  1182.3 J/d life= 0.19 y on-time=0.489 late=0.461 lost=0.051 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.0   E_tx=   337.1 J/d life= 0.61 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.096 E_tx=   337.5 J/d life= 0.61 y on-time=0.458 late=0.496 lost=0.046 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.0   E_tx=   183.4 J/d life= 0.99 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.096 E_tx=   183.7 J/d life= 0.99 y on-time=0.427 late=0.529 lost=0.044 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.0   E_tx=    96.6 J/d life= 1.54 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.096 E_tx=    96.5 J/d life= 1.54 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/171.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.0   E_tx=    63.4 J/d life= 1.95 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/137.8 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.096 E_tx=    63.0 J/d life= 1.96 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/139.3 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    unconf        cap=0h p=0.0   E_tx=    61.6 J/d life= 1.80 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    unconf        cap=0h p=0.096 E_tx=    61.6 J/d life= 1.80 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq           cap=0h p=0.0   E_tx=   447.1 J/d life= 0.46 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq           cap=0h p=0.096 E_tx=   453.0 J/d life= 0.46 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq3          cap=0h p=0.0   E_tx=   175.5 J/d life= 0.97 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq3          cap=0h p=0.096 E_tx=   181.4 J/d life= 0.95 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=0h p=0.0   E_tx=   116.7 J/d life= 1.28 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.6/196.3 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=0h p=0.096 E_tx=   121.7 J/d life= 1.24 y on-time=0.534 late=0.466 lost=0.000 delay p50/p95=10.2/195.6 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=1h p=0.0   E_tx=    65.7 J/d life= 1.75 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.6/191.5 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=1h p=0.096 E_tx=    69.2 J/d life= 1.70 y on-time=0.496 late=0.504 lost=0.000 delay p50/p95=12.4/190.8 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=6h p=0.0   E_tx=    52.7 J/d life= 1.93 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.6/213.6 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=6h p=0.096 E_tx=    54.2 J/d life= 1.91 y on-time=0.456 late=0.544 lost=0.000 delay p50/p95=22.4/213.7 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=0h p=0.0   E_tx=    94.7 J/d life= 1.44 y on-time=0.539 late=0.430 lost=0.031 delay p50/p95=14.0/200.9 h dup/d=4.9
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=0h p=0.096 E_tx=    96.2 J/d life= 1.43 y on-time=0.498 late=0.435 lost=0.066 delay p50/p95=13.4/200.0 h dup/d=4.3
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=1h p=0.0   E_tx=    56.2 J/d life= 1.88 y on-time=0.516 late=0.459 lost=0.025 delay p50/p95=16.6/197.3 h dup/d=4.2
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=1h p=0.096 E_tx=    56.9 J/d life= 1.87 y on-time=0.473 late=0.466 lost=0.061 delay p50/p95=16.1/196.1 h dup/d=3.7
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=6h p=0.0   E_tx=    44.2 J/d life= 2.07 y on-time=0.478 late=0.503 lost=0.019 delay p50/p95=24.6/215.7 h dup/d=3.1
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=6h p=0.096 E_tx=    43.9 J/d life= 2.08 y on-time=0.431 late=0.517 lost=0.051 delay p50/p95=27.5/237.3 h dup/d=2.6
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=0h p=0.0   E_tx=    81.6 J/d life= 1.57 y on-time=0.539 late=0.404 lost=0.056 delay p50/p95=17.2/204.7 h dup/d=10.7
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=0h p=0.096 E_tx=    82.3 J/d life= 1.56 y on-time=0.491 late=0.414 lost=0.095 delay p50/p95=16.3/203.4 h dup/d=9.6
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=1h p=0.0   E_tx=    52.3 J/d life= 1.94 y on-time=0.528 late=0.425 lost=0.048 delay p50/p95=20.9/202.3 h dup/d=10.1
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=1h p=0.096 E_tx=    52.7 J/d life= 1.93 y on-time=0.478 late=0.434 lost=0.088 delay p50/p95=20.3/201.2 h dup/d=9.1
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=6h p=0.0   E_tx=    44.1 J/d life= 2.07 y on-time=0.496 late=0.463 lost=0.041 delay p50/p95=26.2/200.3 h dup/d=8.4
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=6h p=0.096 E_tx=    43.5 J/d life= 2.08 y on-time=0.441 late=0.483 lost=0.076 delay p50/p95=25.7/197.5 h dup/d=7.3
+InWaterSense LoRaWAN SF7                    batch1h       cap=6h p=0.0   E_tx=    18.9 J/d life= 2.65 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.8 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    batch1h       cap=6h p=0.096 E_tx=    19.8 J/d life= 2.62 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.8 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    batch6h       cap=6h p=0.0   E_tx=    11.3 J/d life= 2.89 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/138.1 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    batch6h       cap=6h p=0.096 E_tx=    11.8 J/d life= 2.87 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.9/140.1 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   unconf        cap=0h p=0.0   E_tx=   147.2 J/d life= 1.10 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   unconf        cap=0h p=0.096 E_tx=   147.2 J/d life= 1.10 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq           cap=0h p=0.0   E_tx=   796.1 J/d life= 0.28 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq           cap=0h p=0.096 E_tx=   806.8 J/d life= 0.27 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq3          cap=0h p=0.0   E_tx=   354.3 J/d life= 0.56 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq3          cap=0h p=0.096 E_tx=   364.9 J/d life= 0.55 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=0h p=0.0   E_tx=   272.8 J/d life= 0.70 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=15.7/205.3 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=0h p=0.096 E_tx=   284.4 J/d life= 0.68 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=15.2/204.7 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=1h p=0.0   E_tx=   182.2 J/d life= 0.95 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=17.4/201.3 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=1h p=0.096 E_tx=   191.1 J/d life= 0.92 y on-time=0.495 late=0.505 lost=0.000 delay p50/p95=16.8/200.1 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=6h p=0.0   E_tx=   158.7 J/d life= 1.04 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=31.7/221.4 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=6h p=0.096 E_tx=   167.7 J/d life= 1.00 y on-time=0.457 late=0.543 lost=0.000 delay p50/p95=30.2/387.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=0h p=0.0   E_tx=   222.3 J/d life= 0.82 y on-time=0.539 late=0.430 lost=0.031 delay p50/p95=19.6/209.3 h dup/d=4.9
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=0h p=0.096 E_tx=   227.2 J/d life= 0.80 y on-time=0.497 late=0.435 lost=0.068 delay p50/p95=18.9/208.6 h dup/d=4.4
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=1h p=0.0   E_tx=   152.8 J/d life= 1.07 y on-time=0.516 late=0.459 lost=0.025 delay p50/p95=23.0/206.2 h dup/d=4.2
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=1h p=0.096 E_tx=   157.2 J/d life= 1.05 y on-time=0.473 late=0.466 lost=0.061 delay p50/p95=22.5/205.3 h dup/d=3.7
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=6h p=0.0   E_tx=   131.6 J/d life= 1.18 y on-time=0.478 late=0.503 lost=0.019 delay p50/p95=32.1/225.6 h dup/d=3.1
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=6h p=0.096 E_tx=   136.2 J/d life= 1.16 y on-time=0.436 late=0.511 lost=0.052 delay p50/p95=31.2/224.5 h dup/d=2.8
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=0h p=0.0   E_tx=   200.7 J/d life= 0.88 y on-time=0.539 late=0.404 lost=0.056 delay p50/p95=24.0/214.6 h dup/d=10.7
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=0h p=0.096 E_tx=   204.8 J/d life= 0.87 y on-time=0.490 late=0.412 lost=0.098 delay p50/p95=23.0/212.7 h dup/d=9.7
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=1h p=0.0   E_tx=   147.3 J/d life= 1.10 y on-time=0.528 late=0.425 lost=0.048 delay p50/p95=29.9/211.0 h dup/d=10.1
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=1h p=0.096 E_tx=   150.9 J/d life= 1.08 y on-time=0.478 late=0.433 lost=0.089 delay p50/p95=28.8/211.0 h dup/d=9.1
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=6h p=0.0   E_tx=   132.1 J/d life= 1.18 y on-time=0.496 late=0.463 lost=0.041 delay p50/p95=34.7/209.8 h dup/d=8.4
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=6h p=0.096 E_tx=   135.5 J/d life= 1.16 y on-time=0.448 late=0.474 lost=0.079 delay p50/p95=34.3/208.6 h dup/d=7.4
+InWaterSense LoRaWAN SF12                   batch1h       cap=6h p=0.0   E_tx=    89.5 J/d life= 1.49 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/178.7 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   batch1h       cap=6h p=0.096 E_tx=    96.7 J/d life= 1.43 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=1.0/180.7 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   batch6h       cap=6h p=0.0   E_tx=    79.0 J/d life= 1.59 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=5.2/148.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   batch6h       cap=6h p=0.096 E_tx=    86.6 J/d life= 1.52 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=5.2/150.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.0   E_tx=    24.2 J/d life= 4.74 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.096 E_tx=    24.2 J/d life= 4.74 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.0   E_tx=    24.2 J/d life= 4.74 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.096 E_tx=    24.2 J/d life= 4.74 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.0   E_tx=    22.1 J/d life= 4.94 y on-time=0.839 late=0.000 lost=0.161 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.096 E_tx=    22.1 J/d life= 4.94 y on-time=0.761 late=0.000 lost=0.239 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.0   E_tx=    20.3 J/d life= 5.14 y on-time=0.829 late=0.000 lost=0.171 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.096 E_tx=    20.3 J/d life= 5.14 y on-time=0.751 late=0.000 lost=0.249 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.0   E_tx=    25.0 J/d life= 4.67 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.096 E_tx=    27.1 J/d life= 4.48 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.0   E_tx=    25.3 J/d life= 4.64 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.096 E_tx=    27.5 J/d life= 4.45 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=53.7/166.3 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.0   E_tx=    23.2 J/d life= 4.83 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.096 E_tx=    25.4 J/d life= 4.64 y on-time=0.837 late=0.163 lost=0.000 delay p50/p95=51.8/166.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.0   E_tx=    21.3 J/d life= 5.02 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.096 E_tx=    23.4 J/d life= 4.82 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.5/167.5 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.0   E_tx=    24.6 J/d life= 4.70 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.096 E_tx=    24.6 J/d life= 4.70 y on-time=0.763 late=0.158 lost=0.079 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.0   E_tx=    22.5 J/d life= 4.91 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.096 E_tx=    22.5 J/d life= 4.91 y on-time=0.760 late=0.161 lost=0.080 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.0   E_tx=    20.6 J/d life= 5.10 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.096 E_tx=    20.6 J/d life= 5.10 y on-time=0.750 late=0.171 lost=0.079 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.0   E_tx=    11.3 J/d life= 6.36 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.096 E_tx=    12.2 J/d life= 6.21 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/112.1 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.0   E_tx=     2.7 J/d life= 8.22 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.096 E_tx=     2.9 J/d life= 8.16 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/107.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.0   E_tx=    40.1 J/d life= 3.61 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.096 E_tx=    40.1 J/d life= 3.61 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.0   E_tx=    40.1 J/d life= 3.61 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.096 E_tx=    40.1 J/d life= 3.61 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.0   E_tx=    30.7 J/d life= 4.20 y on-time=0.839 late=0.000 lost=0.161 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.096 E_tx=    30.7 J/d life= 4.20 y on-time=0.761 late=0.000 lost=0.239 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.0   E_tx=    23.2 J/d life= 4.84 y on-time=0.829 late=0.000 lost=0.171 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.096 E_tx=    23.2 J/d life= 4.84 y on-time=0.751 late=0.000 lost=0.249 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.0   E_tx=    40.9 J/d life= 3.57 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.096 E_tx=    43.0 J/d life= 3.46 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.0   E_tx=    41.2 J/d life= 3.55 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.096 E_tx=    43.4 J/d life= 3.44 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=53.7/166.3 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.0   E_tx=    31.8 J/d life= 4.12 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.096 E_tx=    34.0 J/d life= 3.98 y on-time=0.837 late=0.163 lost=0.000 delay p50/p95=51.8/166.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.0   E_tx=    24.2 J/d life= 4.74 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.096 E_tx=    26.2 J/d life= 4.56 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.5/167.5 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.0   E_tx=    40.5 J/d life= 3.59 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.096 E_tx=    40.5 J/d life= 3.59 y on-time=0.763 late=0.158 lost=0.079 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.0   E_tx=    31.1 J/d life= 4.18 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.096 E_tx=    31.1 J/d life= 4.17 y on-time=0.760 late=0.161 lost=0.080 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.0   E_tx=    23.5 J/d life= 4.81 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.096 E_tx=    23.5 J/d life= 4.81 y on-time=0.750 late=0.171 lost=0.079 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.0   E_tx=    13.7 J/d life= 5.97 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.096 E_tx=    14.6 J/d life= 5.85 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/112.1 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.0   E_tx=     4.4 J/d life= 7.78 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.096 E_tx=     4.6 J/d life= 7.72 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/107.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.0   E_tx=   141.8 J/d life= 1.43 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.096 E_tx=   141.8 J/d life= 1.43 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.0   E_tx=   141.8 J/d life= 1.43 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.096 E_tx=   141.8 J/d life= 1.43 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.0   E_tx=    85.9 J/d life= 2.14 y on-time=0.839 late=0.000 lost=0.161 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.096 E_tx=    85.9 J/d life= 2.14 y on-time=0.761 late=0.000 lost=0.239 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.0   E_tx=    41.7 J/d life= 3.53 y on-time=0.829 late=0.000 lost=0.171 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.096 E_tx=    41.7 J/d life= 3.53 y on-time=0.751 late=0.000 lost=0.249 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.0   E_tx=   142.5 J/d life= 1.42 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.096 E_tx=   144.6 J/d life= 1.41 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.0   E_tx=   142.9 J/d life= 1.42 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.096 E_tx=   145.0 J/d life= 1.40 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=53.7/166.3 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.0   E_tx=    87.0 J/d life= 2.12 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.096 E_tx=    89.1 J/d life= 2.08 y on-time=0.837 late=0.163 lost=0.000 delay p50/p95=51.8/166.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.0   E_tx=    42.8 J/d life= 3.47 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.096 E_tx=    44.4 J/d life= 3.39 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.5/167.5 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.0   E_tx=   142.1 J/d life= 1.43 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.096 E_tx=   142.2 J/d life= 1.43 y on-time=0.763 late=0.158 lost=0.079 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.0   E_tx=    86.2 J/d life= 2.13 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.096 E_tx=    86.3 J/d life= 2.13 y on-time=0.760 late=0.161 lost=0.080 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.0   E_tx=    42.0 J/d life= 3.51 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.096 E_tx=    42.1 J/d life= 3.51 y on-time=0.750 late=0.171 lost=0.079 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.0   E_tx=    29.4 J/d life= 4.30 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.096 E_tx=    30.1 J/d life= 4.24 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/112.1 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.0   E_tx=    15.1 J/d life= 5.77 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.096 E_tx=    15.4 J/d life= 5.74 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/107.8 h dup/d=0.0
+Weija        LoRaWAN SF7                    unconf        cap=0h p=0.0   E_tx=    19.3 J/d life= 4.16 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    unconf        cap=0h p=0.096 E_tx=    19.3 J/d life= 4.16 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq           cap=0h p=0.0   E_tx=    58.3 J/d life= 2.48 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq           cap=0h p=0.096 E_tx=    61.3 J/d life= 2.41 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq3          cap=0h p=0.0   E_tx=    29.2 J/d life= 3.55 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq3          cap=0h p=0.096 E_tx=    32.1 J/d life= 3.41 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=0h p=0.0   E_tx=    21.5 J/d life= 4.00 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.9/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=0h p=0.096 E_tx=    24.5 J/d life= 3.82 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=54.1/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=1h p=0.0   E_tx=    19.0 J/d life= 4.18 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.7/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=1h p=0.096 E_tx=    22.0 J/d life= 3.97 y on-time=0.838 late=0.162 lost=0.000 delay p50/p95=52.1/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=6h p=0.0   E_tx=    16.8 J/d life= 4.35 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.8/167.7 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=6h p=0.096 E_tx=    19.4 J/d life= 4.15 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.3/167.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    checkpoint6   cap=0h p=0.0   E_tx=    22.0 J/d life= 3.97 y on-time=0.842 late=0.151 lost=0.007 delay p50/p95=60.3/166.9 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=0h p=0.096 E_tx=    22.5 J/d life= 3.94 y on-time=0.776 late=0.151 lost=0.073 delay p50/p95=60.3/167.0 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=1h p=0.0   E_tx=    19.6 J/d life= 4.13 y on-time=0.840 late=0.153 lost=0.007 delay p50/p95=59.2/167.3 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=1h p=0.096 E_tx=    20.1 J/d life= 4.10 y on-time=0.774 late=0.154 lost=0.072 delay p50/p95=58.4/167.5 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=6h p=0.0   E_tx=    17.7 J/d life= 4.28 y on-time=0.835 late=0.159 lost=0.006 delay p50/p95=55.1/167.5 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=6h p=0.096 E_tx=    18.0 J/d life= 4.25 y on-time=0.765 late=0.164 lost=0.071 delay p50/p95=54.6/170.2 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint36  cap=0h p=0.0   E_tx=    21.4 J/d life= 4.01 y on-time=0.842 late=0.139 lost=0.019 delay p50/p95=69.5/167.8 h dup/d=1.1
+Weija        LoRaWAN SF7                    checkpoint36  cap=0h p=0.096 E_tx=    21.6 J/d life= 4.00 y on-time=0.766 late=0.141 lost=0.093 delay p50/p95=68.9/168.6 h dup/d=1.0
+Weija        LoRaWAN SF7                    checkpoint36  cap=1h p=0.0   E_tx=    19.5 J/d life= 4.15 y on-time=0.841 late=0.140 lost=0.019 delay p50/p95=69.2/168.2 h dup/d=1.1
+Weija        LoRaWAN SF7                    checkpoint36  cap=1h p=0.096 E_tx=    19.6 J/d life= 4.14 y on-time=0.765 late=0.143 lost=0.093 delay p50/p95=67.9/168.9 h dup/d=1.0
+Weija        LoRaWAN SF7                    checkpoint36  cap=6h p=0.0   E_tx=    17.9 J/d life= 4.26 y on-time=0.838 late=0.143 lost=0.019 delay p50/p95=68.4/169.9 h dup/d=1.1
+Weija        LoRaWAN SF7                    checkpoint36  cap=6h p=0.096 E_tx=    18.0 J/d life= 4.25 y on-time=0.762 late=0.145 lost=0.093 delay p50/p95=67.3/170.1 h dup/d=1.0
+Weija        LoRaWAN SF7                    batch1h       cap=6h p=0.0   E_tx=     9.4 J/d life= 5.02 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.1 h dup/d=0.0
+Weija        LoRaWAN SF7                    batch1h       cap=6h p=0.096 E_tx=    10.8 J/d life= 4.87 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.1 h dup/d=0.0
+Weija        LoRaWAN SF7                    batch6h       cap=6h p=0.0   E_tx=     2.7 J/d life= 5.83 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.1 h dup/d=0.0
+Weija        LoRaWAN SF7                    batch6h       cap=6h p=0.096 E_tx=     3.1 J/d life= 5.78 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.1 h dup/d=0.0
+Weija        LoRaWAN SF12                   unconf        cap=0h p=0.0   E_tx=    46.1 J/d life= 2.84 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   unconf        cap=0h p=0.096 E_tx=    46.1 J/d life= 2.84 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq           cap=0h p=0.0   E_tx=   119.5 J/d life= 1.52 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq           cap=0h p=0.096 E_tx=   124.7 J/d life= 1.47 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq3          cap=0h p=0.0   E_tx=    72.1 J/d life= 2.18 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq3          cap=0h p=0.096 E_tx=    77.3 J/d life= 2.08 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=0h p=0.0   E_tx=    61.1 J/d life= 2.42 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=59.9/166.8 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=0h p=0.096 E_tx=    66.8 J/d life= 2.28 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=59.7/166.8 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=1h p=0.0   E_tx=    56.6 J/d life= 2.53 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=58.0/166.9 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=1h p=0.096 E_tx=    62.2 J/d life= 2.39 y on-time=0.838 late=0.162 lost=0.000 delay p50/p95=57.3/166.8 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=6h p=0.0   E_tx=    52.5 J/d life= 2.64 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=52.2/168.2 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=6h p=0.096 E_tx=    57.9 J/d life= 2.50 y on-time=0.828 late=0.172 lost=0.000 delay p50/p95=51.8/168.1 h dup/d=0.0
+Weija        LoRaWAN SF12                   checkpoint6   cap=0h p=0.0   E_tx=    54.0 J/d life= 2.60 y on-time=0.842 late=0.151 lost=0.007 delay p50/p95=65.2/167.4 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=0h p=0.096 E_tx=    55.2 J/d life= 2.57 y on-time=0.776 late=0.152 lost=0.073 delay p50/p95=64.9/167.6 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=1h p=0.0   E_tx=    49.7 J/d life= 2.73 y on-time=0.840 late=0.153 lost=0.007 delay p50/p95=64.2/167.8 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=1h p=0.096 E_tx=    51.0 J/d life= 2.69 y on-time=0.775 late=0.154 lost=0.071 delay p50/p95=63.2/167.6 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=6h p=0.0   E_tx=    46.2 J/d life= 2.84 y on-time=0.835 late=0.159 lost=0.006 delay p50/p95=60.3/168.1 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=6h p=0.096 E_tx=    47.5 J/d life= 2.80 y on-time=0.769 late=0.162 lost=0.069 delay p50/p95=58.2/167.9 h dup/d=0.4
+Weija        LoRaWAN SF12                   checkpoint36  cap=0h p=0.0   E_tx=    51.9 J/d life= 2.66 y on-time=0.842 late=0.139 lost=0.019 delay p50/p95=74.1/168.4 h dup/d=1.1
+Weija        LoRaWAN SF12                   checkpoint36  cap=0h p=0.096 E_tx=    52.4 J/d life= 2.64 y on-time=0.766 late=0.142 lost=0.093 delay p50/p95=72.6/168.5 h dup/d=1.0
+Weija        LoRaWAN SF12                   checkpoint36  cap=1h p=0.0   E_tx=    48.4 J/d life= 2.77 y on-time=0.841 late=0.140 lost=0.019 delay p50/p95=73.9/168.8 h dup/d=1.1
+Weija        LoRaWAN SF12                   checkpoint36  cap=1h p=0.096 E_tx=    49.0 J/d life= 2.75 y on-time=0.765 late=0.142 lost=0.093 delay p50/p95=72.5/168.9 h dup/d=1.0
+Weija        LoRaWAN SF12                   checkpoint36  cap=6h p=0.0   E_tx=    45.5 J/d life= 2.86 y on-time=0.838 late=0.143 lost=0.019 delay p50/p95=73.3/170.5 h dup/d=1.1
+Weija        LoRaWAN SF12                   checkpoint36  cap=6h p=0.096 E_tx=    45.9 J/d life= 2.85 y on-time=0.757 late=0.150 lost=0.093 delay p50/p95=74.8/176.5 h dup/d=1.0
+Weija        LoRaWAN SF12                   batch1h       cap=6h p=0.0   E_tx=    31.8 J/d life= 3.42 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/106.3 h dup/d=0.0
+Weija        LoRaWAN SF12                   batch1h       cap=6h p=0.096 E_tx=    34.6 J/d life= 3.29 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/106.3 h dup/d=0.0
+Weija        LoRaWAN SF12                   batch6h       cap=6h p=0.0   E_tx=    23.8 J/d life= 3.86 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/108.2 h dup/d=0.0
+Weija        LoRaWAN SF12                   batch6h       cap=6h p=0.096 E_tx=    26.3 J/d life= 3.71 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/108.2 h dup/d=0.0
