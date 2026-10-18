@@ -7,11 +7,14 @@
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{array}
 \usepackage{multirow}
 \usepackage{xcolor}
 \usepackage{cite}
 \usepackage{url}
+\usepackage{xr-hyper}
 \usepackage[hidelinks,hypertexnames=false]{hyperref}
+\externaldocument{supplement}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \graphicspath{{figs/}}
@@ -26,7 +29,7 @@
 \author{Kofi Sarpong Adu-Manu and Stephen Kwaku Azongo
 \thanks{K.~S.~Adu-Manu and S.~K.~Azongo are with the Department of Computer Science, University of Ghana, Legon, Ghana. Corresponding author: K.~S.~Adu-Manu.}}
 
-\markboth{Draft v0.2 (revision) --- not for distribution}{}
+\markboth{Draft v0.3 (condensed) --- not for distribution}{}
 \maketitle
 
 \input{sec_abstract}
@@ -40,7 +43,7 @@
 \input{sec_discussion}
 
 \section*{Data and Code Availability}
-The USGS~\cite{usgs2023nwis}, InWaterSense~\cite{ahmedi2021inwatersense}, LoED~\cite{bhatia2020loeddata} and UVA~\cite{nikseresht2025uvadata} data are public. The Weija records were provided by the deployment's operators~\cite{adumanu2020smart}; their raw values are not redistributed, but the delivery trace derived from them (the time of every record of every stream, and whether it counts as a genuine delivery) is. The code, configurations, seeds, environment lock files, data-acquisition scripts, input checksums, the frozen confirmatory plan with the hashes of the frozen code, and the derived traces are archived at [archive DOI].  % to be inserted at submission Every number in this paper is generated from the result files by a script that records its source.
+The USGS~\cite{usgs2023nwis}, InWaterSense~\cite{ahmedi2021inwatersense}, LoED~\cite{bhatia2020loeddata} and UVA~\cite{nikseresht2025uvadata} data are public. The Weija records were provided by the deployment's operators~\cite{adumanu2020smart}; their raw values are not redistributed, but the delivery trace derived from them (the time of every record of every stream, and whether it counts as a genuine delivery) is. The code, configurations, seeds, environment lock files, data-acquisition scripts, input checksums, the frozen confirmatory plan with the hashes of the frozen code, and the derived traces are archived at [archive DOI].  % to be inserted at submission Every number in this paper and its supplement is generated from the result files by a script that records its source.
 
 \section*{Acknowledgment}
 This work received no external funding.

@@ -46,6 +46,15 @@ FIX["piao2014lowrank"] = {}
 FIX["ingelrest2010sensorscope"]["author"] = ("Ingelrest, Fran{\\c{c}}ois and Barrenetxea, Guillermo and Schaefer, Gunnar and "
                                              "Vetterli, Martin and Couach, Olivier and Parlange, Marc")   # LaTeX escape for the cedilla
 
+# revision references: acronyms protected from IEEEtran's lower-casing of titles
+FIX["du2023saits"] = {"title": "{SAITS}: Self-Attention-Based Imputation for Time Series"}
+FIX["nie2024imputeformer"] = {"title": "{ImputeFormer}: Low Rankness-Induced Transformers for Generalizable Spatiotemporal Imputation",
+                              "booktitle": "Proc. 30th ACM SIGKDD Conf. Knowledge Discovery and Data Mining (KDD)"}
+FIX["marcelis2017dare"] = {"title": "{DaRe}: Data Recovery through Application Layer Coding for {LoRaWAN}",
+                           "booktitle": "Proc. 2nd Int. Conf. Internet-of-Things Design and Implementation (IoTDI)"}
+FIX["huang2020harq"] = {"title": "Real-Time Remote Estimation With Hybrid {ARQ} in Wireless Networked Control"}
+FIX["jing2024casper"] = {"booktitle": "Proc. 33rd ACM Int. Conf. Information and Knowledge Management (CIKM)"}
+
 RENAME = {"kyrgyzstan2025weather": "zennaro2025kyrgyzstan"}
 EXCLUDE = ["adumanu2026code", "adumanu2026prediction"]
 

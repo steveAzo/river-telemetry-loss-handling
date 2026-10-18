@@ -76,8 +76,8 @@ def arq_timing(M, pct, num, times):
     M("arqBufRatioMin", num(bi.min(), 2), "loss_A.csv InWaterSense LoRaWAN buffer/unconf energy over models")
     M("arqBufRatioMax", num(bi.max(), 2), "same, max")
     lo = inws[inws.radio != "NB-IoT"].e_ratio
-    M("arqRatioMin", num(lo.min(), 1), "loss_A.csv InWaterSense LoRaWAN ARQ/unconf energy over models, variants")
-    M("arqRatioMax", num(lo.max(), 1), "same, max")
+    M("arqRatioMin", times(lo.min(), 1), "loss_A.csv InWaterSense LoRaWAN ARQ/unconf energy over models, variants")
+    M("arqRatioMax", times(lo.max(), 1), "same, max")
     f7 = inws[(inws.model == "full") & (inws.radio == "LoRaWAN SF7")].set_index("strategy").e_ratio
     M("arqVOneZeroTwo", times(f7["arq8_v102"], 1), "loss_A.csv InWaterSense SF7 full: 8 tx, LoRaWAN 1.0.2 DR stepping")
     M("arqVOneZeroFour", times(f7["arq8_v104"], 1), "loss_A.csv InWaterSense SF7 full: NbTrans 8, LoRaWAN 1.0.4")

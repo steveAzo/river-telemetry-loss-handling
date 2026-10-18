@@ -52,6 +52,9 @@ for f, s in tex.items():
         fail.append(f"{f}: mentions or cites Paper 1 (this paper is standalone)")
     body = re.sub(r"\\begin\{algorithmic\}.*?\\end\{algorithmic\}", "", s, flags=re.S)
     body = re.sub(r"\\begin\{tabular\}.*?\\end\{tabular\}", "", body, flags=re.S)
+    broken = re.findall(r"(?<![\\A-Za-z])(ef|egin|abel|ite|extbf)\{", s)   # e.g. "\ref" turned into a CR + "ef{"
+    if broken:
+        fail.append(f"{f}: a LaTeX command lost its backslash: {sorted(set(broken))}")
     if "\\textbf" in body:
         fail.append(f"{f}: bold in running text")
     body_text = re.sub(r"\\thanks\{.*?\}\}", "", s, flags=re.S)  # the affiliation note may name the authors

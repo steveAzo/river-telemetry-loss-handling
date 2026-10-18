@@ -28,9 +28,14 @@ s = re.sub(r"\\input\{(sec_[a-z]+)\}", inline, s)
 s = re.sub(r"\\includegraphics(\[[^\]]*\])?\{(fig_[a-z_]+)\}", lambda m: r"\includegraphics" + (m.group(1) or "") + "{figs/" + m.group(2) + ".png}", s)
 
 # numbers as LaTeX printed them
-aux = {k: re.sub(r"\\mbox\s*\{([^}]*)\}", r"\1", v) for k, v in
-       re.findall(r"\\newlabel\{([^}]+)\}\{\{((?:[^{}]|\{[^{}]*\})*)\}", open(f"{d}/main.aux", encoding="utf-8").read())}
+aux = {}
+for auxf in ("supplement.aux", "main.aux"):         # the supplement's labels (S1, Table S1, ...) are cited by the paper
+    aux.update({k: re.sub(r"\\mbox\s*\{([^}]*)\}", r"\1", v) for k, v in
+                re.findall(r"\\newlabel\{([^}]+)\}\{\{((?:[^{}]|\{[^{}]*\})*)\}", open(f"{d}/{auxf}", encoding="utf-8").read())})
 s = s.replace(r"\IEEEPARstart{R}{iver}", "River")
+# pandoc does not know \newcolumntype: drop the definition and use plain p{} columns for the Word copy
+s = re.sub(r"\\newcolumntype\{L\}\[1\]\{[^\n]*\n", "", s)
+s = re.sub(r"L\{([0-9.]+cm)\}", r"p{\1}", s)
 s = s.replace(r"\frac12", r"\tfrac12")          # Word sets a display \frac12 at full height; LaTeX keeps it small
 assert r"\IEEEPARstart" not in s
 s = re.sub(r"\\begin\{IEEEkeywords\}\s*(.*?)\s*\\end\{IEEEkeywords\}", r"@@KW@@\1", s, flags=re.S)

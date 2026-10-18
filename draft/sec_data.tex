@@ -1,25 +1,15 @@
 \section{Data and Models}
 \label{sec:data}
 
-\emph{Terms.} A \emph{reading} is one sampling cycle of a node: the four parameters taken at one instant, which travel together. Time is divided into \emph{slots} at the reporting cadence, one reading per slot. A \emph{delivery gap} is a run of consecutive slots for which no reading reached the server, whatever the cause. A \emph{system outage} is a delivery gap verified to affect every node of a network (its gateway, backhaul or server); a \emph{gateway outage} affects the nodes of one gateway; a \emph{radio loss} is a frame lost while the rest of the path worked. These terms are used with these meanings throughout.
+\emph{Terms.} A \emph{reading} is one sampling cycle of a node: the four parameters taken at one instant, which travel together. Time is divided into \emph{slots} at the reporting cadence, one reading per slot. A \emph{delivery gap} is a run of slots for which no reading reached the server, whatever the cause; a \emph{system outage} is a delivery gap verified to affect every node of a network (its gateway, backhaul or server); a \emph{radio loss} is a frame lost while the rest of the path worked.
 
-\subsection{Delivery records}
+\subsection{Delivery records and the cause of gaps}
 \label{sec:data-records}
-The study uses four real records of what a network delivered (Table~\ref{tab:records}).
-
-\emph{InWaterSense} (Kosovo). Node~1 of the InWaterSense deployment on the Sitnica river~\cite{ahmedi2022dataset,ahmedi2021inwatersense} reported about every 611~s from May~2015 to January~2016. The node sends each parameter as a separate message, seconds apart; the messages of one sampling instant are grouped into a reading, and a slot counts as delivered if a reading arrived for it. The node delivered \inwsDelivered{} readings and missed \inwsMissing{} slots (\inwsLoss).
-
-\emph{Weija} (Ghana). The Weija deployment~\cite{adumanu2020smart} logged \weijaStreams{} parameter streams from one node from October~2018 to March~2019. Only records not marked as imputed count as delivered. Gap statistics and models use the conductivity stream (\weijaCondStepMin-minute cadence), and the other streams are used to check that its pattern is typical and to examine the cause of its gaps (Sec.~\ref{sec:data-cause}). Even among the records not marked as imputed, \weijaManyDecimals{} of the conductivity values carry more than the three decimals the logger otherwise records (up to \weijaMaxDecimals), a sign of unflagged interpolation. Such values hide some short gaps, so counts of short gaps are lower bounds; long gaps are not affected.
-
-\emph{UVA} (Virginia, USA). Ten LoRaWAN sensors reporting every 5~min through three gateways on The Things Network, from February~2024 to June~2025~\cite{nikseresht2025uva,nikseresht2025uvadata}. Missing frames are found from frame-counter gaps. A missing frame is classified as a \emph{system} loss if no sensor at all reached the database in its 10-minute bin (network server, internet or the operators' logging pipeline), as a \emph{gateway} loss if all of the sensor's serving gateways were silent, and as a \emph{radio} loss otherwise.
-
-\emph{LoED} (London, UK). The LoRaWAN at the Edge Dataset~\cite{bhatia2020loed,bhatia2020loeddata} logs \loedFrames{} uplink frames from \loedDevices{} device addresses heard by \loedGateways{} gateways. The devices belong to other operators, so a frame counts as lost when no LoED gateway heard it, and most devices are simply far away. Only \emph{well-heard} devices are therefore used, those with at least 200 frames and a radio loss below 20\% (\loedWellHeard{} of \loedDevicesTwoHundred{}), as a proxy for a node's own link, and a missing frame is classified as a gateway loss if none of the device's serving gateways logged anything in that hour.
-
-\emph{Frame counters.} Both LoRaWAN analyses count a frame once per device and frame counter, whichever gateways heard it and however often it was retransmitted. A counter decrease or a jump beyond a threshold (5{,}000 frames on UVA, 1{,}000 on LoED) is treated as a reset or rejoin, not as loss. On UVA, \uvaDecreases{} counter decrease occurred, no (sensor, counter) pair was received at two different times (no counter reuse), every sensor kept its 5-minute cadence in every month, and a threshold of 1{,}000 instead of 5{,}000 changes the count of missing frames by \uvaMissThouVsFive. On LoED, \loedResetDevices{} of the \loedWellHeardN{} well-heard devices show a reset, and their pooled loss is \loedLossHundred{} with a threshold of 100 and \loedLossThousand{} with 1{,}000.
+The study uses four records of what a network delivered (Table~\ref{tab:records}; details in Supplement Sec.~\ref{sec:s-records}). \emph{InWaterSense} (Kosovo): node~1 on the Sitnica river~\cite{ahmedi2022dataset,ahmedi2021inwatersense}, reporting about every 611~s from May~2015 to January~2016. \emph{Weija} (Ghana): \weijaStreams{} parameter streams of one node, October~2018 to March~2019~\cite{adumanu2020smart}; records marked as imputed do not count, and gap statistics use the conductivity stream (\weijaCondStepMin-min cadence). \emph{UVA} (USA): ten LoRaWAN sensors reporting every 5~min through three gateways, February~2024 to June~2025~\cite{nikseresht2025uva,nikseresht2025uvadata}; missing frames are found from frame counters and classed as \emph{system} losses if no sensor reached the database in that 10-min bin, as gateway losses if all of the sensor's gateways were silent, and as radio losses otherwise. \emph{LoED} (UK): uplinks heard by nine gateways~\cite{bhatia2020loed,bhatia2020loeddata}, of which only well-heard devices (at least 200 frames, radio loss below 20\%) are used.
 
 \begin{table}[t]
 \centering
-\caption{Delivery records. Loss: share of expected readings (InWaterSense, Weija) or frames (UVA, LoED) that did not arrive. Gaps: runs of consecutive missing slots or frames. Lost in $\ge$1~d: share of the missing readings that fall in gaps of one day or more, $S(1~\mathrm{d})$ in (\ref{eq:share}). Weija: conductivity stream (\weijaDayLostMin--\weijaDayLostMax{} over all \weijaStreams{} streams). LoED: well-heard devices only (radio loss). GW: gateways.}
+\caption{Delivery records. Loss: share of expected readings (InWaterSense, Weija) or frames (UVA, LoED) that did not arrive. Gaps: runs of missing slots or frames. Lost in $\ge$1~d: $S(1~\mathrm{d})$ in (\ref{eq:share}). Weija: conductivity stream (\weijaDayLostMin--\weijaDayLostMax{} over all \weijaStreams{} streams). LoED: well-heard devices (radio loss).}
 \label{tab:records}
 \scriptsize
 \setlength{\tabcolsep}{2.5pt}
@@ -35,101 +25,48 @@ LoED & LoRaWAN, 9 GW & varies & \loedRadioLoss & \loedBursts & -- \\
 \end{tabular}
 \end{table}
 
-\subsection{What the water-quality records say about the cause of a gap}
-\label{sec:data-cause}
-Neither water-quality record has a node status log, so a gap in which the network was down cannot be told apart directly from one in which the node produced nothing. Two partial checks are possible.
-
-\emph{Weija: the node's other streams.} The node's sensors share one logger and one uplink. A conductivity slot in which another stream delivered a genuine reading (not imputed, at most three decimals, not on an interpolated line) had a live node and a working uplink. Of the \weijaEcMissing{} missing conductivity slots, \weijaNodeSilentShare{} were node-silent, with no genuine reading from any stream, and \weijaOtherStreamShare{} were conductivity-only gaps with the link up. In gaps of 6~h or more only \weijaLongAliveShare{} of the slots had another stream delivering: Weija's long gaps are silences of the whole node, which may be the node, its logger or its uplink. The node-level record (a slot is delivered if any stream delivered) loses \weijaNodeLoss{} of the slots in \weijaNodeGaps{} gaps, with \weijaNodeDayLost{} of the missing slots in gaps of a day or more, close to the conductivity record's \weijaCondDayLost{}.
-
-\emph{InWaterSense: the second node.} Both InWaterSense nodes reached the server through one gateway with one GPRS link, housed in node~2's manhole~\cite{ahmedi2022dataset}. While node~2 was operating (May--August 2015, a window that holds \inwsWindowShare{} of node~1's missing slots), a node-1 gap during which node~2 kept delivering cannot be a gateway, GPRS or server outage. Node~2 was silent during \inwsNodeTwoSilent{} of node~1's missing slots, far more often than when node~1 delivered. Correcting for node~2's own, local rate of silence, gaps of 6~h or more were about \inwsSharedLong{} shared-cause (gateway, backhaul, server or a shared power failure) and \inwsSpecificLong{} specific to node~1, while gaps shorter than 6~h were \inwsSpecificShort{} node-specific, as radio losses would be.
-
-These checks support reading most long gaps as failures of the path to the server, but they cannot rule out that some were nodes that stopped producing readings. Sec.~\ref{sec:handling} therefore treats buffering's recovery as an upper bound and repeats the replay with up to half of the long-gap slots reassigned to a node that was off.
+Neither water-quality record has a node status log, so a gap in which the network was down cannot be told apart directly from one in which the node produced nothing. Two partial checks are possible. On Weija, the node's other streams share its logger and uplink: of the \weijaEcMissing{} missing conductivity slots, \weijaNodeSilentShare{} were silences of the whole node, and in gaps of 6~h or more only \weijaLongAliveShare{} of the slots had another stream delivering. The long gaps are node-wide silences (node, logger or uplink). InWaterSense's two nodes reached the server through one gateway and one GPRS link~\cite{ahmedi2022dataset}; while node~2 was operating, it was silent in \inwsNodeTwoSilent{} of node~1's missing slots, and after correcting for its own silence, gaps of 6~h or more were about \inwsSharedLong{} shared-cause (gateway, backhaul, server or shared power) and \inwsSpecificLong{} specific to node~1. Most long gaps are therefore failures of the path to the server, but some may be nodes that produced nothing; Sec.~\ref{sec:handling} treats buffering's recovery as an upper bound.
 
 \subsection{Gap-length models}
 \label{sec:data-outages}
-A delivery record is reduced to alternating \emph{up-runs} (consecutive delivered slots) and gaps (consecutive missing slots), in units of the record's slot. Let $k_1,\dots,k_n$ be the gap lengths and $h(k)$ the duration of a gap of $k$ slots. Because the quantity that matters for loss handling is where the missing data are, not where the gap events are, the main statistic is the share of missing slots that fall in gaps of at least a duration $L$,
+A record is reduced to alternating up-runs and gaps of $k_1,\dots,k_n$ slots; let $h(k)$ be the duration of a gap of $k$ slots. Because loss handling depends on where the missing data are, the main statistic is the share of missing slots in gaps of at least duration $L$,
 \begin{equation}
 S(L)=\frac{\sum_{i:\,h(k_i)\ge L} k_i}{\sum_{i=1}^{n} k_i},
 \label{eq:share}
 \end{equation}
-reported for $L=6$~h and 1~day with bootstrap 95\% confidence intervals~\cite{efron1979bootstrap} (gaps resampled with replacement, 5{,}000 draws). A gap is bounded by delivered slots on both sides, so every gap length is fully observed; only the first and last up-runs are censored, and up-runs are not modelled.
-
-Four models are fitted to the gap lengths $k\ge1$ by maximum likelihood:
-\begin{align}
-P_\mathrm{geo}(k)&=(1-q)\,q^{k-1}, \label{eq:geo}\\
-P_\mathrm{mix}(k)&=w\,(1-q_1)\,q_1^{k-1}+(1-w)\,(1-q_2)\,q_2^{k-1}, \label{eq:mix}\\
-P_\mathrm{ln}(k)&=\frac{\Phi\!\left(\frac{\ln(k+\frac12)-\mu}{\sigma}\right)-\Phi\!\left(\frac{\ln(k-\frac12)-\mu}{\sigma}\right)}{1-\Phi\!\left(\frac{\ln\frac12-\mu}{\sigma}\right)}, \label{eq:ln}\\
-P_\mathrm{pl}(k)&=\frac{k^{-\alpha}}{\zeta(\alpha)}, \label{eq:pl}
-\end{align}
-where $\Phi$ is the standard normal distribution function and $\zeta$ the Riemann zeta function. The geometric model (\ref{eq:geo}) is the distribution of gap lengths whenever the loss process has a single loss state with a constant chance of ending in each slot: independent (Bernoulli) losses, and the two-state Gilbert--Elliott channel, whose losses are correlated in time but whose loss periods still have geometric lengths. It is this single-loss-state assumption on gap lengths that is tested here. The two-geometric mixture (\ref{eq:mix}) is equivalent to a Markov chain with one up state and two loss states (``short loss'' and ``long gap''); (\ref{eq:ln}) is a lognormal discretised to integer lengths; and (\ref{eq:pl}) is a discrete power law. Models are compared by Akaike's information criterion, $\mathrm{AIC}=2p-2\ln\hat{\mathcal{L}}$ for $p$ parameters and maximised likelihood $\hat{\mathcal{L}}$~\cite{akaike1974aic}, lower being better. Because AIC only ranks models, each is also tested absolutely, by a discrete Kolmogorov--Smirnov statistic $D=\max_k|\hat F(k)-F(k)|$ with a parametric-bootstrap $p$-value (200 samples from the fitted model, each refitted). Dependence between consecutive gaps and up-runs is measured by Spearman's rank correlation.
+with bootstrap 95\% confidence intervals~\cite{efron1979bootstrap}. The gap lengths are fitted by maximum likelihood with a geometric model,
+\begin{equation}
+P_\mathrm{geo}(k)=(1-q)\,q^{k-1},
+\label{eq:geo}
+\end{equation}
+the gap-length distribution of any loss process with a single loss state, including independent losses and the Gilbert--Elliott channel; a two-geometric mixture,
+\begin{equation}
+P_\mathrm{mix}(k)=w\,(1-q_1)\,q_1^{k-1}+(1-w)\,(1-q_2)\,q_2^{k-1},
+\label{eq:mix}
+\end{equation}
+a Markov chain with one up state and two loss states (short loss, long gap); a discrete lognormal; and a discrete power law. Models are ranked by Akaike's information criterion and tested absolutely by a bootstrap Kolmogorov--Smirnov test (Supplement Sec.~\ref{sec:s-models}).
 
 \subsection{Energy model and loss-handling strategies}
 \label{sec:data-energy}
-The node is a Libelium Waspmote-class host~\cite{libelium2020plugsense} with one of three radios: NB-IoT (the N211 module measured in~\cite{michelinakis2021dissecting}, with release assistance, RAI), LoRaWAN at spreading factor 7 (SF7), or LoRaWAN at SF12 in the EU868 band. Each transmission attempt $a$ is charged the measured energy $e_a$ of its radio and outcome:
+The node is a Waspmote-class host~\cite{libelium2020plugsense} with NB-IoT (the N211 module with release assistance~\cite{michelinakis2021dissecting}), LoRaWAN SF7 or LoRaWAN SF12 (EU868). Each transmission attempt is charged the measured energy of its radio and outcome, host time included (Supplement Sec.~\ref{sec:s-energy}). NB-IoT energies come from UDP datagrams to an echo server~\cite{michelinakis2021dissecting}, so a confirmed report is acknowledged by the application, end to end; a cell search without a network costs the receive power~\cite{sorensen2022nbiot} times a search time swept over 2.2--60~s. LoRaWAN energies come from state-by-state current profiles~\cite{casals2017lorawan}: at SF7 the acknowledgement arrives in the first receive window, so a confirmed success is cheaper than an unconfirmed report; at SF12 it is dearer. The acknowledgement comes from the network server. LoRaWAN 1.0.2 recommends eight transmissions of a confirmed frame with the data rate lowered every two~\cite{lora2016spec102}; LoRaWAN 1.0.4 sends a frame NbTrans times (1--15) at a fixed rate~\cite{lora2020spec104}; both are evaluated. The 1\% duty cycle spaces frames~\cite{lora2021rp002}. A bulk frame carries \rpfNb{} readings on NB-IoT, \rpfSfSeven{} at SF7 and \rpfSfTwelve{} at SF12. Over a record of $D$ days, the transmission energy per day and the lifetime on a battery of energy $B$ are
+\begin{equation}
+E_\mathrm{tx}=\frac{1}{D}\sum_{a} e_a,\qquad Y=\frac{B}{365\,(E_\mathrm{floor}+E_\mathrm{tx})},
+\label{eq:energy}
+\end{equation}
+where $e_a$ is the energy of attempt $a$ and $E_\mathrm{floor}$ the daily sleep and sensing energy. Absolute energy depends on the platform and stack: an independent measurement on another board~\cite{ugwuanyi2021developing} reports \ugwLoraRatio{} this model's per-message energy on LoRaWAN and \ugwNbRatio{} on NB-IoT (TCP without release assistance). The results are therefore ratios between strategies on the same radio; lifetimes are illustrative.
 
-\emph{NB-IoT.} The measurements~\cite{michelinakis2021dissecting} send UDP datagrams of 12--512~B in normal coverage to a server that echoes them, without an application protocol such as CoAP. An unconfirmed report costs \eNbUnconf~J (connection released after the uplink) and a confirmed one \eNbConf~J (released after the server's echo, which is the acknowledgement: it comes from the application, end to end). A bulk frame of up to 512~B, the module's largest datagram, costs up to 60\% more than a 20-byte report~\cite{michelinakis2021dissecting}. No published measurement was found of the energy that an NB-IoT modem spends searching for a cell when there is no network; it is therefore modelled as the receive power of \pRxNb~W~\cite{sorensen2022nbiot} times a search time $T_\mathrm{search}$, swept over $\{2.2, 10, 60\}$~s (default 10~s, \eNbSearch~J per failed attempt).
-
-\emph{LoRaWAN.} Energies come from the state-by-state current profile of~\cite{casals2017lorawan}, with airtime computed from the payload. At SF7 the acknowledgement arrives in the first receive window, so a confirmed success (\eSfSevenConf~J for a 20-byte report) is cheaper than an unconfirmed report (\eSfSevenUnconf~J), which keeps both windows open; at SF12 it arrives in the second window and a confirmed success is dearer (\eSfTwelveConf{} vs \eSfTwelveUnconf~J). A failed confirmed attempt adds the retransmission time-out, RETRANSMIT\_TIMEOUT, of 1--3~s~\cite{lora2021rp002}. The number of transmissions depends on the specification version. LoRaWAN 1.0.2 strongly recommends eight transmissions of a confirmed frame, with the data rate lowered every two~\cite{lora2016spec102}; LoRaWAN 1.0.4 transmits a frame NbTrans times, a number between 1 and 15 set by the network, with no change of data rate~\cite{lora2020spec104}. Both are evaluated. The acknowledgement of a confirmed uplink comes from the network server; Sec.~\ref{sec:des-design} returns to what this means for the design. Frames carry at most the regional maximum payload~\cite{lora2021rp002}, and the 1\% duty cycle forbids a new frame before 100 times the previous frame's airtime has passed.
-
-A reading in a bulk frame takes 12~B (four parameters, a time offset and a sequence number) and a frame 4~B of overhead, so a frame holds \rpfNb{} readings on NB-IoT, \rpfSfSeven{} at SF7 and \rpfSfTwelve{} at SF12. The host is awake for every attempt, at $P_\mathrm{on}=\hostOnMW$~mW~\cite{libelium2020plugsense}, and its awake time is added to $e_a$. Over a record of $D$ days with sampling interval $T_\mathrm{s}$ (s), the transmission energy per day and the modelled lifetime on a battery of energy $B$ are
-\begin{gather}
-E_\mathrm{tx}=\frac{1}{D}\sum_{a} e_a,\qquad Y=\frac{B}{365\,(E_\mathrm{floor}+E_\mathrm{tx})},\label{eq:energy}\\
-E_\mathrm{floor}=86{,}400\,(P_\mathrm{sleep}^\mathrm{radio}+P_\mathrm{sleep}^\mathrm{host})+\frac{86{,}400}{T_\mathrm{s}}\,P_\mathrm{on}\,T_\mathrm{sense},\label{eq:floor}
-\end{gather}
-where the floor (\ref{eq:floor}) covers sleep and sensing: radio sleep power \nbPsmUW~$\mu$W for NB-IoT in power-saving mode~\cite{michelinakis2021dissecting} and \loraSleepUW~$\mu$W for the LoRa radio~\cite{casals2017lorawan}, host deep sleep \hostSleepMW~mW~\cite{libelium2020plugsense}, and an assumed $T_\mathrm{sense}=\tSenseS$~s awake per sample for probe settling and reading, with a 6{,}600~mAh battery at \vNode~V ($B=\batteryKJ$~kJ). Absolute energy depends strongly on the platform and the protocol stack: an independent measurement on a different board and stack~\cite{ugwuanyi2021developing} (a 44-byte uplink, TCP without RAI on NB-IoT) reports \ugwLoraRatio{} the per-message energy of this model for LoRaWAN SF7 and \ugwNbRatio{} for NB-IoT. The results are therefore stated as ratios between strategies on the same radio, which Sec.~\ref{sec:hand-robust} tests against wide parameter uncertainty; lifetimes are illustrative.
-
-The following strategies are compared:
-\begin{itemize}
-\item \emph{Unconfirmed}: one unconfirmed attempt per reading; a lost reading is never recovered.
-\item \emph{Unconfirmed + back-off} (NB-IoT only): as above, but when the modem reports that there is no network the node backs off its attempts as in (\ref{eq:backoff}) and discards the readings it cannot send. This is the fair NB-IoT baseline: a node that searches for a cell in every slot of a day-long gap wastes energy for no benefit.
-\item \emph{ARQ}: confirmed, up to 8 transmissions per reading on LoRaWAN or 3 on NB-IoT, with 3 on LoRaWAN as a sensitivity.
-\item \emph{Confirmed + buffer + back-off} (``ARQ + buffer''): a reading that fails is buffered and the node enters outage mode, in which it sends one small confirmed probe at a time. After the $n$-th failed probe it waits
+The strategies are: \emph{unconfirmed} (one attempt per reading); \emph{unconfirmed + back-off} (NB-IoT; the fair baseline, because a node that searches for a cell in every slot of a gap wastes energy); \emph{ARQ} (up to 8 transmissions on LoRaWAN, 3 on NB-IoT); \emph{ARQ + buffer}, in which a failed reading is buffered and the node sends one small confirmed probe at a time, waiting
 \begin{equation}
 w_n=\min\left(2^{n},\,K\right)\ \text{slots},\qquad K=6~\text{h},
 \label{eq:backoff}
 \end{equation}
-before the next, buffering the readings of the skipped slots without radio energy. When a probe succeeds, the buffer is uploaded in confirmed bulk frames. The cap $K$ is examined in Sec.~\ref{sec:hand-batch}.
-\item \emph{Batching}: the node always buffers and uploads its buffer every 1~h or 6~h in confirmed bulk frames, with the back-off (\ref{eq:backoff}) when an upload fails.
-\end{itemize}
+after the $n$-th failed probe and uploading the buffer in confirmed bulk frames once a probe succeeds; and \emph{batching}, which uploads its buffer every 1 or 6~h with the same back-off.
 
-\emph{Replay.} Delivery records are replayed as the link state: a slot in which the record delivered nothing is a slot in which the first attempt fails. What happens to later attempts in the same slot is not in the record. Three models bracket it. In the \emph{full-slot} model the link stays down for the whole slot, so every retry fails (pessimistic for ARQ). In the \emph{restoration} model the link returns at a uniformly random time between the last missing and the next delivered instant of each gap, so only a gap's last slot can gain from a retry. In the \emph{burst} model, in addition, gaps of up to 1~h are read as radio-loss bursts, in which every retry fails with the probability of a loss following a loss on LoED (\loedCondLoss), rather than surely (optimistic for ARQ). Retries happen at their real times: after the receive windows, the retransmission time-out and the duty-cycle wait. Independent radio losses can be added per attempt, with probability $p_\mathrm{radio}=0.096$ from LoED (Sec.~\ref{sec:out-lorawan}). The buffer is unlimited, writing to it costs no energy, and a backlog is uploaded at once unless stated otherwise; Sec.~\ref{sec:hand-buffer} relaxes all three, with flash-write energy from a datasheet~\cite{winbond2018w25q128jv}. The reported metrics are the energy (\ref{eq:energy}), the share of readings delivered, and the share of all readings that reached the server within 1~h.
-
-Table~\ref{tab:assumptions} lists every model input and whether it was measured, inferred from data, or assumed.
-
-\begin{table}[t]
-\centering
-\caption{Model inputs: measured (M) in the cited work, inferred (I) from the records, or assumed (A); where assumed, how it is tested.}
-\label{tab:assumptions}
-\scriptsize
-\setlength{\tabcolsep}{2pt}
-\begin{tabular}{@{}p{2.4cm}p{3.6cm}cp{1.9cm}@{}}
-\toprule
-Input & Value & & Tested by \\
-\midrule
-Link state & from the delivery records & I & gap cause, timing models \\
-Retry timing in a gap & full slot / restoration / burst & A & all three \\
-Reading generated in a gap & yes & A & node-off share 0--50\% \\
-Radio loss & 0 or 0.096 per attempt (LoED) & I & both \\
-Cadence & 611 s, 32.5 min, 5--60 min (USGS) & I & -- \\
-Payload & 20 B report; 12 B per reading + 4 B & A & -- \\
-ACK layer & LoRaWAN: network server; NB-IoT: application & M & application ACK variant \\
-Transmissions & 8 (LoRaWAN 1.0.2), NbTrans 3 or 8 (1.0.4); NB-IoT 3 & M & both versions \\
-LoRaWAN energies & state currents~\cite{casals2017lorawan} & M & $\times$0.5--2 \\
-NB-IoT energies & per report~\cite{michelinakis2021dissecting} & M & $\times$0.5--2 \\
-NB-IoT search & 0.222 W $\times$ 2.2--60 s & A & sweep \\
-Host & 69 mW awake, 0.12 mW asleep~\cite{libelium2020plugsense} & M & $\times$0.5--2 \\
-Sensing & 5 s awake per sample & A & ratios unaffected \\
-Storage & unlimited, free & A & RAM 2--64 KB, flash \\
-Backlog drain & at once & A & duty-cycle limit \\
-Back-off cap $K$ & 6 h & A & 1--24 h \\
-Battery & 6{,}600 mAh, ideal & A & ratios only \\
-\bottomrule
-\end{tabular}
-\end{table}
+\emph{Replay.} A slot in which a record delivered nothing is a slot in which the first attempt fails; what happens to later attempts in that slot is not in the record. Three models bracket it: the link stays down for the whole slot (full slot, pessimistic for ARQ); it returns at a uniformly random time before the next delivered slot (restoration); or, in addition, gaps of up to an hour are radio-loss bursts through which retries usually pass (burst, optimistic for ARQ). Independent radio losses of 0.096 per attempt (LoED) can be added. The buffer is unlimited and free unless stated. Supplement Table~\ref{tab:s-assumptions} lists every input as measured, inferred or assumed.
 
 \subsection{The server's real-time picture and the tolerances}
 \label{sec:data-picture}
-Between deliveries the server must show something. Let $x(t)$ be the true reading of one parameter at slot $t$, $A(\tau)$ the set of slots whose readings have arrived at the server by time $\tau$, and $s^\ast(\tau)=\max A(\tau)$ the latest of them. The server shows
+Let $x(t)$ be the true reading of one parameter at slot $t$, $A(\tau)$ the set of slots whose readings have arrived by time $\tau$, and $s^\ast(\tau)=\max A(\tau)$. The server shows
 \begin{equation}
 \hat{x}(\tau)=\begin{cases}
 x(\tau), & \tau\in A(\tau),\\
@@ -137,8 +74,6 @@ x(s^\ast)+\Delta(\tau), & \text{otherwise},
 \end{cases}
 \label{eq:picture}
 \end{equation}
-where the diel correction $\Delta(\tau)=x(\tau-24\,\mathrm{h})-x(s^\ast-24\,\mathrm{h})$ if both of these readings are in $A(\tau)$, and $\Delta(\tau)=0$ otherwise, that is, the latest arrived reading plus the site's own change over the same hours one day earlier. This \emph{own-diel} estimator is the best simple real-time estimator in the river data used here (Sec.~\ref{sec:reconstruct}). The picture is scored as the share of slots at which $|\hat{x}(\tau)-x(\tau)|\le\delta$, for a tolerance $\delta$ per parameter, the inequality being inclusive. Three tolerance levels are used. At the reference level L2, $\delta$ is 0.2~$^\circ$C for T, 2\% saturation for DO, 0.1 for pH and 2\% of the record's median for EC; the tight level L1 halves these (0.1~$^\circ$C, 1\%sat, 0.05, 1\%), and the loose level L3 widens them (0.5~$^\circ$C, 5\%sat, 0.2, 5\%). L2 lies at or inside the U.S. Geological Survey's rating of an ``excellent'' continuous record~\cite{wagner2006usgs} for every parameter: over the sites used here, the median L2 tolerance is \tolTwoT~$^\circ$C against \usgsExcT~$^\circ$C for T, \tolTwoDO{} against \usgsExcDO~\%sat for DO (0.3~mg/L or 5\% of the reading), \tolTwoEC{} against \usgsExcEC~$\mu$S/cm for EC (3\% of the reading; USGS rates conductance in percent, as the EC tolerance is defined here) and \tolTwoPh{} against \usgsExcPh{} for pH. An estimate within L2 is thus no further from the truth than the sensor's own rated accuracy. All three levels are small compared with the median daily range at these sites (T \dayRangeT~$^\circ$C, DO \dayRangeDO~\%sat, EC \dayRangeEC~$\mu$S/cm, pH \dayRangePh).
+where $\Delta(\tau)=x(\tau-24\,\mathrm{h})-x(s^\ast-24\,\mathrm{h})$ if both readings have arrived and $\Delta(\tau)=0$ otherwise: the latest reading plus the site's own change over the same hours a day earlier (the \emph{own-diel} estimator). The picture is scored as the share of slots with $|\hat{x}(\tau)-x(\tau)|\le\delta$. At the reference level L2, $\delta$ is 0.2~$^\circ$C (T), 2\%~saturation (DO), 0.1 (pH) and 2\% of the median (EC); L1 halves and L3 widens these. L2 lies at or inside the U.S. Geological Survey's accuracy rating ``excellent''~\cite{wagner2006usgs} for every parameter (Supplement Sec.~\ref{sec:s-design}).
 
-\subsection{River water-quality data}
-\label{sec:data-rivers}
-River signals come from the U.S. Geological Survey's National Water Information System~\cite{usgs2023nwis}: instantaneous values of T, EC, DO and pH, approved values only. DO concentrations are converted to percent saturation with the Benson--Krause equation~\cite{benson1984oxygen} at the measured water temperature. Sec.~\ref{sec:reconstruct} uses 2023 data from \chainCount{} river chains, sets of gauging sites on the same river (\chainSites{} sites). Sec.~\ref{sec:design} uses every downloaded site that has all four parameters in complete cycles for at least half of the year: \designSites{} of \designCandidates{} sites in 2023, the development year, and \confSites{} of the same candidates in 2024, the held-out year.
+\emph{River data.} River signals are approved USGS instantaneous values of T, EC, DO and pH~\cite{usgs2023nwis}, with DO converted to percent saturation~\cite{benson1984oxygen}. Sec.~\ref{sec:reconstruct} uses \chainCount{} river chains (\chainSites{} sites) in 2023; Sec.~\ref{sec:design} uses every candidate site with all four parameters in complete cycles for at least half of the year: \designSites{} of \designCandidates{} in 2023 (development) and \confSites{} in 2024 (held out).
