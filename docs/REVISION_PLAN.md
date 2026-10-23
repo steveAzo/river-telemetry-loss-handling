@@ -58,7 +58,7 @@ Status key: TODO, DOING, DONE, PARTIAL (what is missing is stated), CANNOT (with
 | M11 | Unconditional P(server knows event within 1/6/24 h) over all injected events, both years. | DONE |
 | M13 | Site table: coordinates, distance, drainage area, upstream/downstream order, selected lag and correlation per pair. | DONE; Sec. VI-B |
 | M14 | Tolerance table in physical units at representative sites, against USGS accuracy ratings and natural diel variability; justify EC as % of median. | DONE; text Sec. III-F |
-| M15 | Release package: code, lock file, seeds, data-acquisition scripts, checksums, derived traces (Weija delivery timestamps allowed). User uploads. | DONE |
+| M15 | Release package archived: Zenodo DOI 10.5281/zenodo.23455071 (v1.0.0), cited in the paper | DONE |
 
 ## Presentation (review §3, §8–§12)
 

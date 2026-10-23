@@ -5,6 +5,7 @@
   - every macro used is defined in numbers.tex;
   - the paper is standalone: no citation of, or wording about, the companion study (Paper 1);
   - no bold in running text (bold is allowed only in tables, for the best value, and in algorithm keywords);
+  - no italics in running text, no period-ended paragraph labels, "Section" not "Sec." (supervisor, 2026-10-23);
   - no first-person wording ("we", "our", "us", or "the authors" as a stand-in) and no "thesis";
     the abstract is about 200 words (180-220).
 Usage (from Paper2/): python -I src/paper/check_draft.py draft
@@ -57,6 +58,17 @@ for f, s in tex.items():
         fail.append(f"{f}: a LaTeX command lost its backslash: {sorted(set(broken))}")
     if "\\textbf" in body:
         fail.append(f"{f}: bold in running text")
+    # the supervisor's writing rules (2026-10-23): no italics in prose; lists as itemize/enumerate;
+    # a paragraph label ends with a colon; "Section", not "Sec."
+    for cmd in ("\\emph{", "\\textit{", "\\itshape", "{\\it "):
+        if cmd in body:
+            fail.append(f"{f}: italics in running text ({cmd.strip('{ ')})")
+    labels_period = re.findall(r"(?m)^(?:\\item\s+)?([A-Z][A-Za-z ,()0-9-]{1,40})\.\s+[A-Z]", body)
+    labels_period = [l for l in labels_period if len(l.split()) <= 4 and not re.search(r"\b(is|are|was|were|has|had)\b", l)]
+    if labels_period:
+        fail.append(f"{f}: paragraph labels ending in a period instead of a colon: {labels_period}")
+    if re.search(r"Secs?\.~", s):
+        fail.append(f"{f}: write 'Section'/'Sections', not 'Sec.'/'Secs.'")
     body_text = re.sub(r"\\thanks\{.*?\}\}", "", s, flags=re.S)  # the affiliation note may name the authors
     words = sorted({w.lower() for w in re.findall(r"\b(we|our|ours|us|ourselves|thesis|the authors'?)(?=\W)", body_text, re.I)})
     if words:

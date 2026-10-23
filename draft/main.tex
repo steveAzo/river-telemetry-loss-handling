@@ -21,6 +21,10 @@
 \input{numbers}
 % generated table bodies: TeX's primitive input (expandable), so \bottomrule can follow inside a tabular
 \makeatletter\newcommand{\tabin}[1]{\@@input #1 }\makeatother
+% table titles in sentence case ("Table I", no small caps), as the supervisor asked (2026-10-23)
+\usepackage{etoolbox}
+\makeatletter\patchcmd{\@makecaption}{\scshape #2}{#2}{}{\PackageError{main}{caption patch failed}{}}\makeatother
+\renewcommand{\tablename}{Table}
 
 \begin{document}
 
@@ -43,10 +47,10 @@
 \input{sec_discussion}
 
 \section*{Data and Code Availability}
-The USGS~\cite{usgs2023nwis}, InWaterSense~\cite{ahmedi2021inwatersense}, LoED~\cite{bhatia2020loeddata} and UVA~\cite{nikseresht2025uvadata} data are public. The Weija records were provided by the deployment's operators~\cite{adumanu2020smart}; their raw values are not redistributed, but the delivery trace derived from them (the time of every record of every stream, and whether it counts as a genuine delivery) is. The code, configurations, seeds, environment lock files, data-acquisition scripts, input checksums, the frozen confirmatory plan with the hashes of the frozen code, and the derived traces are archived at [archive DOI].  % to be inserted at submission Every number in this paper and its supplement is generated from the result files by a script that records its source.
+The USGS~\cite{usgs2023nwis}, InWaterSense~\cite{ahmedi2021inwatersense}, LoED~\cite{bhatia2020loeddata}, and UVA~\cite{nikseresht2025uvadata} data are public. The Weija records were provided by the deployment's operators~\cite{adumanu2020smart}; their raw values are not redistributed, but the delivery trace derived from them (the time of every record of every stream, and whether it counts as a genuine delivery) is. The code, configurations, seeds, environment lock files, data-acquisition scripts, input checksums, the frozen confirmatory plan with the hashes of the frozen code, and the derived traces are archived at Zenodo~\cite{azongo2026code} (doi:10.5281/zenodo.23455071). Every number in this paper and its supplement is generated from the result files by a script that records its source.
 
 \section*{Acknowledgment}
-This work received no external funding.
+This study received no external funding.
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}

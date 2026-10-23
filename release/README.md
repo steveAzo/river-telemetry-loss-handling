@@ -1,6 +1,6 @@
 # Reproduction package: Outage-Aware Reporting and Loss Recovery for Energy-Efficient River Water-Quality Telemetry over LPWANs
 
-This package regenerates every number, table and figure in the paper from the input data. Prepared for release at submission (review item M15); the authors upload it to a public archive and cite its DOI in the paper.
+This package regenerates every number, table and figure in the paper from the input data. Archived at Zenodo as version v1.0.0, DOI 10.5281/zenodo.23455071 (all versions: 10.5281/zenodo.23455070), from GitHub steveAzo/river-telemetry-loss-handling, tag v1.0.0; cited in the paper's Data and Code Availability statement.
 
 ## Contents
 

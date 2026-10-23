@@ -1,0 +1,32 @@
+\section{Can Reconstruction Replace Delivery?}
+\label{sec:reconstruct}
+
+If a server could estimate missing readings well enough, it would not need them delivered. This is tested on \chainCount{} river chains, sets of USGS sites along the same river (\chainSites{} sites), each pair of sites serving as target and neighbour in both orders. On a 1-h grid, gaps of \chainGaps~h are simulated at the target in the last 80\% of 2023. \emph{Real-time} estimators use data up to the gap and the neighbour during it: persistence, the own-diel estimator of (\ref{eq:picture}), the neighbour's scaled change (lag and slope fitted on the first 20\% of the year), and own diel plus the part of the neighbour's change that its own diel pattern does not explain. \emph{Bridging} estimators also know the value after the gap, as after a backfill: linear interpolation, and interpolation plus the neighbour's departure from its own line (equations in Supplement Sec.~\ref{sec:s-reconstruct}). The error on a gap is its maximum absolute error; confidence intervals resample whole chains, and pairs within them.
+
+\begin{table*}[t]
+\centering
+\caption{Reconstruction on \chainCount{} river chains: median over ordered site pairs of the median maximum absolute error over a gap (T in $^\circ$C, DO in \%sat, pH in pH units, EC in $\mu$S/cm), and the share of pairs in which the neighbour improves on the target's own data. Real time: best neighbour method vs the better of persistence and own diel. Bridging: interpolation + neighbour vs interpolation.}
+\label{tab:chains}
+\small
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+ & & \multicolumn{4}{c}{Real time} & \multicolumn{3}{c}{Bridging} \\
+\cmidrule(lr){3-6}\cmidrule(l){7-9}
+Param. & Gap (h) & \shortstack{Persis-\\tence} & \shortstack{Own\\diel} & \shortstack{Best\\neighbour} & \shortstack{Neighbour\\wins} & Interpolation & \shortstack{Interp.\ +\\neighbour} & \shortstack{Neighbour\\wins} \\
+\midrule
+\tabin{tables/tab_chains.tex}
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\emph{In real time, a site's own diel pattern is the estimator to beat} (Table~\ref{tab:chains}). For day-long gaps it beats persistence in \chainDielBeatsPersistDo{} of pairs for DO, and a neighbour improves on the better own-data estimator in only \chainRtWinDo{} of pairs for DO, \chainRtWinPh{} for pH and \chainRtWinEc{} for EC; temperature, with its shared weather driver, is the exception (\chainRtWinT). When bridging, the neighbour helps T (\chainBfWinT{} of pairs) and DO (\chainBfWinDo), but not pH or EC.
+
+\emph{A naive baseline overstates the value of neighbours.} Against persistence alone a neighbour wins in \chainNaiveWinDo{} of DO pairs, cutting the median error from \chainPersistDo{} to \chainBestNbDo~\%sat; but the own-diel estimator already reaches \chainDielDo~\%sat. Much of what a naive test credits to spatial correlation is the shared day--night cycle. The fitted relation also does not follow the flow: a downstream neighbour gets a positive lag about as often as an upstream one (\lagPosDown{} vs \lagPosUp{} for DO), so the lag tracks shared timing rather than travel time. Evaluations of spatio-temporal reconstruction on rivers therefore need a per-site diel baseline and spatial structure from the river network~\cite{peterson2010mixed,jing2024casper}.
+
+\emph{No estimator keeps day-long gaps reliably within tolerance.} For 1-h gaps the better own-data estimator keeps \chainTolOneH{} of gaps within the L2 tolerance; for 24-h gaps the best of all six keeps \recDayAll{} (95\% CI \recDayAllLo--\recDayAllHi), from \recDayT{} for T to \recDayPh{} for pH.
+
+\subsection{Contemporary deep imputers}
+\label{sec:rec-deep}
+To test whether this is a limit of reconstruction or of simple estimators, SAITS, a self-attention imputer~\cite{du2023saits}, and StemGNN, a graph neural network~\cite{cao2020stemgnn}, were trained per chain on the first half of 2023, with whole-site gaps of 1--72~h among their training masks, and tested on whole-site gaps in the second half, on the same \deepGaps{} cases as the simple estimators (protocol in Supplement Sec.~\ref{sec:s-reconstruct}). They keep fewer gaps within tolerance: \deepBridgeOneSaits{} (SAITS) and \deepBridgeOneStem{} (StemGNN) of 1-h gaps when bridging, against \deepBridgeOneInterp{} for interpolation, and \deepBridgeDaySaits{} and \deepBridgeDayStem{} of day-long gaps, against \deepBridgeDayInterp. In real time they keep \deepRtDaySaits{} and \deepRtDayStem{} of day-long gaps, against \deepRtDayDiel{} for own diel. They help in one place: bridging a day-long gap, SAITS's median error is \deepDayDoSaits~\%sat for DO and \deepDayPhSaits{} for pH, against \deepDayDoInterp{} and \deepDayPhInterp{} for interpolation. No estimator, simple or deep, keeps more than \deepDayBestAny{} of the day-long gaps of any parameter within tolerance.
+
+In answer to RQ3, the evaluated estimators, simple or deep, cannot replace delivery for the day-long gaps that hold most of the missing data. Reconstruction's role is the interim estimate between deliveries, the role it plays in the design of Sec.~\ref{sec:design}.

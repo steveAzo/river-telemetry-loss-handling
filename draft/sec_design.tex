@@ -1,18 +1,23 @@
 \section{A Reporting Design and its Evaluation}
 \label{sec:design}
 
-Secs.~\ref{sec:outages}--\ref{sec:reconstruct} point to a design: buffer and back off through gaps, batch routine data, and show the site's own diel estimate between deliveries. Batching leaves two weaknesses, alarms and the real-time picture of fast parameters, and the design closes them with two triggers that send a batch early.
+Sections~\ref{sec:outages}--\ref{sec:reconstruct} point to a design: buffer and back off through gaps, batch routine data, and show the site's own diel estimate between deliveries. Batching leaves two weaknesses: alarms and the real-time picture of fast parameters. The design closes them with two triggers that send a batch early.
 
 \subsection{The design}
 \label{sec:des-design}
-\emph{Event-driven batching} buffers every reading and uploads the buffer once an hour in confirmed bulk frames. When the node's event detector raises an alarm, it uploads at once. A failed upload puts the node into outage mode, in which an alarm triggers an immediate probe outside the back-off schedule (\ref{eq:backoff}) (Supplement Fig.~\ref{fig:s-mechanism} illustrates the behaviour).
+Event-driven batching buffers every reading and uploads the buffer once per hour in confirmed bulk frames. When the node's event detector raises an alarm, the buffer is uploaded immediately. A failed upload puts the node into an outage mode, in which an alarm triggers an immediate probe outside the back-off schedule (\ref{eq:backoff}) (Supplementary Fig.~\ref{fig:s-mechanism} illustrates the behaviour).
 
-\emph{Bounded event-driven batching} adds a \emph{bounded-error trigger} (Algorithm~\ref{alg:design}). Because every upload is confirmed, the node knows which readings have reached the server and when, so it can compute the value $\hat{x}_j(t)$ that the server shows for each parameter $j$ by evaluating (\ref{eq:picture}) on those readings. It uploads at once if
+Bounded event-driven batching adds a bounded-error trigger (Algorithm~\ref{alg:design}). Because every upload is confirmed, the node knows which readings have reached the server and when; therefore, it can compute the value $\hat{x}_j(t)$ that the server shows for each parameter $j$ by evaluating (\ref{eq:picture}) on those readings. It uploads immediately if
 \begin{equation}
 \max_{j}\ \frac{|x_j(t)-\hat{x}_j(t)|}{\delta_j}>1,
 \label{eq:trigger}
 \end{equation}
-that is, if any parameter's true reading differs from what the server shows by more than its tolerance $\delta_j$. This is the dual-prediction mechanism~\cite{dias2016survey,santini2006adaptive} used to bound the error between batches rather than to suppress reports. Three details matter. First, the trigger is not consulted in outage mode, where the estimate may drift far and probing would waste energy on a dead link; only alarms probe. Second, the node's copy of the server must model \emph{when} readings arrive: the duty cycle spaces the frames of a long upload, so a reading counts only after its frame's arrival, and the newest valid reading goes in the first frame. Third, the node's knowledge is only as good as its acknowledgements. On NB-IoT the confirmation is the application's reply; on LoRaWAN it comes from the network server, and forwarding to the application server, which UVA shows can fail, is not covered. A variant closes this gap by keeping the bound for both possible server states until an application acknowledgement returns in a later downlink (Sec.~\ref{sec:des-results}).
+that is, if any parameter's true reading differs from what the server shows by more than its tolerance $\delta_j$. This is the dual-prediction mechanism~\cite{dias2016survey,santini2006adaptive}, used to bound the error between batches rather than to suppress reports. Three details matter:
+\begin{enumerate}
+\item The trigger is not consulted in outage mode, where the estimate may drift far and probing would waste energy on a dead link; only alarms probe.
+\item The node's copy of the server must model when readings arrive. The duty cycle spaces the frames of a long upload; therefore, a reading counts only after its frame's arrival, and the newest valid reading goes in the first frame.
+\item The node's knowledge is only as good as its acknowledgements. On NB-IoT, the confirmation is the application's reply; on LoRaWAN, it comes from the network server, and forwarding to the application server, which UVA shows can fail, is not covered. A variant closes this gap by keeping the bound for both possible server states until an application acknowledgement returns in a later downlink (Section~\ref{sec:des-results}).
+\end{enumerate}
 
 \begin{algorithm}[t]
 \caption{Bounded event-driven batching: node, one slot}
@@ -34,38 +39,50 @@ that is, if any parameter's true reading differs from what the server shows by m
 
 \subsection{Evaluation protocol}
 \label{sec:des-protocol}
-\emph{Two phases.} The design was developed on 2023 data and tested on held-out 2024 data. In development, hypotheses H1--H4 and their decision rules were written before their runs; after H4 failed, H5--H10 were written for the bounded-error trigger before it was implemented or run. Five deviations were recorded when made (D1--D5, Supplement Sec.~\ref{sec:s-design}); the last, found during this revision, was a floating-point tie at the tolerance, and all development results are from a rerun with it fixed. For the held-out phase, the final design, the analysis code, its decision rules and the site-eligibility rule were frozen, and the code identified by cryptographic hashes, before any 2024 data were downloaded. The plans are kept with the code; they were not registered with a third party.
+Two phases: The design was developed on 2023 data and tested on held-out 2024 data. In development, hypotheses H1--H4 and their decision rules were written before their runs; after H4 failed, H5--H10 were written for the bounded-error trigger before it was implemented or run. Five deviations were recorded when made (D1--D5, Supplementary Section~\ref{sec:s-design}). The last, found during this revision, was a floating-point tie at the tolerance, and all development results are from a rerun with it fixed. For the held-out phase, the final design, the analysis code, its decision rules, and the site-eligibility rule were frozen, and the code was identified by cryptographic hashes before any 2024 data were downloaded. The plans were kept with the code; they were not registered with a third party.
 
-\emph{Setting.} The evaluation uses \designSites{} sites in 2023 and \confSites{} in 2024 (\sitesBothYears{} in both), sampled every 5--60~min. Links: no outage, and the InWaterSense, Weija and UVA records mapped onto each site's time grid with a random offset per site (UVA as system outages plus independent radio losses). Radios: NB-IoT, LoRaWAN SF7 and SF12. Strategies: unconfirmed, ARQ + buffer, hourly batching, event-driven batching and bounded event-driven batching (L2 unless stated). Events: steps and ramps of 5 and 8 robust standard deviations, lasting 3~h, injected one at a time into the real series (\designEventsConf{} in 2024); \plausibleConf{} of them stay within physically plausible ranges, and real 3-h excursions of their size occur at most sites for T, DO and EC, less often for pH. All strategies use the same causal CUSUM detector, fixed before any evaluation, which detects \detectAll{} of the events with a median of \faMedian{} false alarms per parameter per 30 days (Supplement Sec.~\ref{sec:s-design}).
+Setting: The evaluation used \designSites{} sites in 2023 and \confSites{} in 2024 (\sitesBothYears{} in both), sampled every 5--60~min.
+\begin{itemize}
+\item Links: no outage, and the InWaterSense, Weija, and UVA records, mapped onto each site's time grid with a random offset per site (UVA as system outages plus independent radio losses).
+\item Radios: NB-IoT, LoRaWAN SF7, and LoRaWAN SF12.
+\item Strategies: unconfirmed, ARQ + buffer, hourly batching, event-driven batching, and bounded event-driven batching (L2, unless stated otherwise).
+\item Events: steps and ramps of 5 and 8 robust standard deviations, lasting 3~h, injected one at a time into the real series (\designEventsConf{} in 2024). Of these, \plausibleConf{} stay within physically plausible ranges, and real 3-h excursions of their size occur at most sites for T, DO, and EC, and less often for pH. All strategies use the same causal CUSUM detector, fixed before any evaluation, which detected \detectAll{} of the events with a median of \faMedian{} false alarms per parameter per 30 days (Supplementary Section~\ref{sec:s-design}).
+\end{itemize}
 
-\emph{Metrics.} Alarm latency from event onset to arrival at the server (detected events, link up at onset); transmission energy (\ref{eq:energy}), including alarm and false-alarm uploads; and the picture, the share of slots within tolerance on the series without events. Each is the median over sites per link and radio (12 combinations; 48 with the four parameters), with 95\% confidence intervals from resampling sites. Table~\ref{tab:hyp} lists the hypotheses and verdicts.
+The strategies were compared on three metrics:
+\begin{itemize}
+\item Alarm latency, from event onset to arrival at the server (detected events, link up at onset).
+\item Transmission energy (\ref{eq:energy}), including alarm and false-alarm uploads.
+\item The picture, i.e., the share of slots within tolerance on the series without events.
+\end{itemize}
+Each is the median over sites per link and radio (12 combinations; 48 with the four parameters), with 95\% confidence intervals from resampling sites. Table~\ref{tab:hyp} lists the hypotheses and verdicts.
 
 \begin{table*}[t]
 \centering
-\caption{Hypotheses, decision rules and verdicts. Each rule applies to the median site of every link--radio (12) or link--radio--parameter (48) combination and passes only if it holds in all. Written: P, before the development runs; A, after H4 failed, before the runs concerned. 2023: development rerun with all deviations fixed; 2024: held out, judged by the frozen code. Event: event-driven batching; Bounded: bounded event-driven batching.}
+\caption{Hypotheses, decision rules, and verdicts. Each rule applies to the median site of every link--radio (12) or link--radio--parameter (48) combination and passes only if it holds in all. Written: P, before the development runs; A, after H4 failed, before the runs concerned. 2023: development rerun with all deviations fixed; 2024: held out, judged by the frozen code. Event: event-driven batching; Bounded: bounded event-driven batching.}
 \label{tab:hyp}
 \small
-\begin{tabular}{@{}llp{5.0cm}p{4.6cm}ll@{}}
+\begin{tabular}{@{}llp{5.0cm}p{4.6cm}p{2.5cm}p{2.5cm}@{}}
 \toprule
  & & Claim & Rule & 2023 (development) & 2024 (held out) \\
 \midrule
 H1 & P & Link up: Event raises alarms as fast as per-reading reporting & Event $-$ ARQ+buffer alarm latency $\le$ 1 slot & Pass, \chOneDev & Pass, \chOneConf \\
-H2 & P & Event costs about as much as batching, much less than per-reading ARQ & Event / batch $\le 1.10$ and ARQ+buffer / Event $\ge 1.3$ & Pass, \chTwoDev & Pass, \chTwoConf \\
-H3 & P & Onset in a gap: buffering delivers late, unconfirmed loses & descriptive & As expected & As expected \\
+H2 & P & Event costs approximately as much as batching, much less than per-reading ARQ & Event / batch $\le 1.10$ and ARQ+buffer / Event $\ge 1.3$ & Pass, \chTwoDev & Pass, \chTwoConf \\
+H3 & P & Onset in a gap: buffering delivers late, unconfirmed loses & Descriptive & As expected & As expected \\
 H4 & P & Event's picture is as good as per-reading reporting's & Event $\ge$ ARQ+buffer $-$ 5 pp & Fail, \chFourDev & Fail, \chFourConf \\
 H5 & A & Bounded's picture is as good as per-reading reporting's & Bounded $\ge$ ARQ+buffer $-$ 1 pp & Pass, \chFiveDev & Pass, \chFiveConf \\
 H6 & A & Bounded costs no more than per-reading ARQ & Bounded $\le$ ARQ+buffer energy & Pass, \chSixDev & Pass, \chSixConf \\
 H7 & A & The trigger does not delay alarms & Bounded $-$ Event alarm latency $\le$ 1 slot & Pass, \chSevenDev & Pass, \chSevenConf \\
 H8 & A & Newest-first packing makes the picture exact with the link up & 100\% within tolerance, no outage, every site & Fail as written; pass after D4 & Pass \\
-H9 & A & H5 holds at tolerances L1 and L3 & as H5 & Pass, \chNineLOneDev, \chNineLThreeDev & Pass, \chNineLOneConf, \chNineLThreeConf \\
-H10 & A & H6 holds at tolerances L1 and L3 & as H6 & Pass, \chTenLOneDev, \chTenLThreeDev & Pass, \chTenLOneConf, \chTenLThreeConf \\
+H9 & A & H5 holds at tolerances L1 and L3 & As H5 & Pass, \chNineLOneDev, \chNineLThreeDev & Pass, \chNineLOneConf, \chNineLThreeConf \\
+H10 & A & H6 holds at tolerances L1 and L3 & As H6 & Pass, \chTenLOneDev, \chTenLThreeDev & Pass, \chTenLOneConf, \chTenLThreeConf \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
 \subsection{Results}
 \label{sec:des-results}
-\emph{Alarms (H1, H7).} With the link up, event-driven batching raises alarms as fast as per-reading ARQ in both years (Table~\ref{tab:design}); the median latency of about an hour is the detector's own. Plain hourly batching is slower in every combination, by \batchLagMinConf--\batchLagMaxConf~h in 2024, and the bounded-error trigger does not delay alarms. Counting all injected events, the server knows of \knownOneEventNoneConf{} within an hour with event-driven batching on the no-outage link, as with per-reading reporting, against \knownOneBatchNoneConf{} with hourly batching; the ceiling is detection, not reporting.
+Alarms (H1, H7): With the link up, event-driven batching raised alarms as fast as per-reading ARQ in both years (Table~\ref{tab:design}); the median latency of approximately an hour is the detector's own. Plain hourly batching was slower in every combination, by \batchLagMinConf--\batchLagMaxConf~h in 2024, and the bounded-error trigger did not delay the alarms. Counting all injected events, the server knew \knownOneEventNoneConf{} within an hour with event-driven batching on the no-outage link, as with per-reading reporting, against \knownOneBatchNoneConf{} with hourly batching; the ceiling is detection, not reporting.
 
 \begin{table}[t]
 \centering
@@ -84,19 +101,19 @@ Link & ARQ & Batch & Event & Bounded & ARQ & Batch & Event & Bounded \\
 \end{tabular}
 \end{table}
 
-\emph{Energy (H2, H6).} Alarms are rare (a median of \alarmsPerDay{} per node per day), so event-driven batching costs \eventOverBatchMinConf--\eventOverBatchMaxConf{} as much as plain batching. The bounded-error trigger adds uploads between batches, \boundedOverBatchMinConf--\boundedOverBatchMaxConf{} the energy of plain batching, and per-reading ARQ still uses \arqOverBoundedMinConf--\arqOverBoundedMaxConf{} as much energy as the bounded design (every site-resampled 95\% interval above \arqOverBoundedCiLowConf; 2023: \arqOverBoundedMinDev--\arqOverBoundedMaxDev).
+Energy (H2, H6): Alarms were rare (a median of \alarmsPerDay{} per node per day); therefore, event-driven batching cost \eventOverBatchMinConf--\eventOverBatchMaxConf{} as much as plain batching. The bounded-error trigger added uploads between batches, at \boundedOverBatchMinConf--\boundedOverBatchMaxConf{} the energy of plain batching, and per-reading ARQ still used \arqOverBoundedMinConf--\arqOverBoundedMaxConf{} as much energy as the bounded design (every site-resampled 95\% interval above \arqOverBoundedCiLowConf; 2023: \arqOverBoundedMinDev--\arqOverBoundedMaxDev).
 
-\emph{Picture (H4, H5).} Plain event-driven batching fails H4 in both years, for DO only: an estimate up to an hour old leaves the tolerance between batches, and the share of slots within tolerance differs from that of per-reading reporting by \hFourFailMinConf{} to \hFourFailMaxConf{} points. The failures occur with no outage at all; they are a property of hourly batching. (In the first development run H4 also failed for pH; those failures were the tolerance tie, not batching.) The bounded-error trigger removes the failure: its share differs from that of per-reading reporting by \hFiveDiffMinConf{} to \hFiveDiffMaxConf{} points for every parameter, link and radio (Fig.~\ref{fig:tradeoff}), and with the link up it is within tolerance at every slot (H8, after the packing-order fix D4). The bound costs more at tighter tolerances, yet per-reading ARQ uses \levOneArqOverMinConf--\levOneArqOverMaxConf{} the bounded design's energy at L1 and \levThreeArqOverMinConf--\levThreeArqOverMaxConf{} at L3 (H9, H10).
+Picture (H4, H5): Plain event-driven batching failed H4 in both years, for DO only: an estimate up to an hour old leaves the tolerance between batches, and the share of slots within tolerance differed from that of per-reading reporting by \hFourFailMinConf{} to \hFourFailMaxConf{} points. The failures occurred with no outage at all; they are a property of hourly batching. (In the first development run, H4 also failed for pH; those failures were caused by the tolerance tie, not by batching.) The bounded-error trigger removed the failure: its share differed from that of per-reading reporting by \hFiveDiffMinConf{} to \hFiveDiffMaxConf{} points for every parameter, link, and radio (Fig.~\ref{fig:tradeoff}), and with the link up, it was within tolerance at every slot (H8, after the packing-order fix D4). The bound costs more at tighter tolerances, yet per-reading ARQ used \levOneArqOverMinConf--\levOneArqOverMaxConf{} the bounded design's energy at L1 and \levThreeArqOverMinConf--\levThreeArqOverMaxConf{} at L3 (H9, H10).
 
 \begin{figure*}[t]
 \centering
 \includegraphics[width=\textwidth]{fig_tradeoff}
-\caption{Held-out year (2024): energy against the real-time picture of DO (share of slots within the L2 tolerance), LoRaWAN SF7, median over sites, one panel per link, all panels on the same vertical scale. Batch 1~h and event-driven batching nearly coincide; the bounded design reaches the picture of per-reading reporting at a fraction of its energy.}
+\caption{Held-out year (2024): energy against the real-time picture of DO (share of slots within the L2 tolerance), LoRaWAN SF7, median over sites, one panel per link, and all panels on the same vertical scale. Batch 1~h and event-driven batching nearly coincide, and the bounded design reaches the picture of per-reading reporting at a fraction of its energy.}
 \label{fig:tradeoff}
 \end{figure*}
 
-\emph{Events in a gap (H3).} Every strategy must wait for the link. Unconfirmed reporting learns of at most \onsetUnconfKnownMax{} of the detected events whose onset fell in a gap; the buffering strategies learn of at least \onsetBufKnownMin, after the gap, and the alarm probe makes the event-driven designs faster than ARQ + buffer on the water-quality records.
+Events in a gap (H3): Each strategy must wait for a link. Unconfirmed reporting learned at most \onsetUnconfKnownMax{} of the detected events whose onset fell in a gap; the buffering strategies learned at least \onsetBufKnownMin{} after the gap, and the alarm probe made the event-driven designs faster than ARQ + buffer on the water-quality records.
 
-\emph{Acknowledgement boundary.} If a LoRaWAN node may not trust the network server's acknowledgement and keeps the bound for both possible server states, the design costs \ackCostMin{} to \ackCostMax{} more energy on the development sites; its picture stays within \ackPicWorst{} points of per-reading reporting, and per-reading ARQ still uses \ackArqOverMin--\ackArqOverMax{} as much energy.
+Acknowledgement boundary: If a LoRaWAN node may not trust the network server's acknowledgement and keeps the bound for both possible server states, the design cost \ackCostMin{} to \ackCostMax{} more energy on the development sites. Its picture stayed within \ackPicWorst{} points of per-reading reporting, and per-reading ARQ still used \ackArqOverMin--\ackArqOverMax{} as much energy.
 
-The answer to RQ4 is yes, with the link up and on data not used to design the scheme: bounded event-driven batching delivers every generated reading, raises alarms as fast as per-reading reporting and keeps the picture within tolerance as often, while per-reading ARQ uses \arqOverBoundedMinConf--\arqOverBoundedMaxConf{} as much energy. No scheme fixes the gap itself: data and events during a gap reach the server only when the link returns.
+The answer to RQ4 is yes, with the link up and on data not used for the design of the scheme. Bounded event-driven batching delivers every generated reading, raises alarms as fast as per-reading reporting, and keeps the picture within tolerance as often, while per-reading ARQ used \arqOverBoundedMinConf--\arqOverBoundedMaxConf{} as much energy. No scheme fixes the gap itself: data and events during a gap reach the server only when the link returns.

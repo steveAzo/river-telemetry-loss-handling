@@ -1,0 +1,712 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def)
+)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\xr-hyper.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y))) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty)
+)) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty)))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty)))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoco
+de.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmic
+x.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (numbers.tex)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def)
+No file main.aux.
+-- Lines per column: 58 (exact).
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g)) (sec_abstract.tex
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd))
+(sec_intro.tex
+
+LaTeX Warning: Citation `adumanu2017survey' on page 1 undefined on input line 4
+.
+
+
+LaTeX Warning: Citation `adumanu2020smart' on page 1 undefined on input line 4.
+
+
+
+LaTeX Warning: Citation `ahmedi2022dataset' on page 1 undefined on input line 4
+.
+
+
+LaTeX Warning: Citation `ledinh2007design' on page 1 undefined on input line 4.
+
+
+
+LaTeX Warning: Citation `langendoen2006murphy' on page 1 undefined on input lin
+e 4.
+
+
+LaTeX Warning: Citation `ingelrest2010sensorscope' on page 1 undefined on input
+ line 4.
+
+
+LaTeX Warning: Citation `brzozowski2018lessons' on page 1 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `puluckul2025subarctic' on page 1 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `zennaro2025kyrgyzstan' on page 1 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `sinopoli2004kalman' on page 1 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `huang2019retransmit' on page 1 undefined on input line
+ 6.
+
+
+LaTeX Warning: Citation `huang2020harq' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `kong2014dataloss' on page 1 undefined on input line 6.
+
+
+
+LaTeX Warning: Citation `cini2022grin' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marisca2022spin' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `chang2023deepcs' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Reference `sec:outages' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:handling' on page 1 undefined on input line 19.
+
+
+LaTeX Warning: Reference `sec:reconstruct' on page 1 undefined on input line 19
+.
+
+[1{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Use
+r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+
+LaTeX Warning: Reference `sec:design' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sec:related' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:data' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:outages' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:design' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 2 undefined on input line 25.
+
+
+) (sec_related.tex
+
+LaTeX Warning: Citation `zhao2003understanding' on page 2 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `kong2014dataloss' on page 2 undefined on input line 4.
+
+
+
+LaTeX Warning: Citation `ledinh2007design' on page 2 undefined on input line 4.
+
+
+
+LaTeX Warning: Citation `langendoen2006murphy' on page 2 undefined on input lin
+e 4.
+
+
+LaTeX Warning: Citation `ingelrest2010sensorscope' on page 2 undefined on input
+ line 4.
+
+
+LaTeX Warning: Citation `brzozowski2018lessons' on page 2 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `puluckul2025subarctic' on page 2 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `bhatia2020loed' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `nikseresht2025uva' on page 2 undefined on input line 4
+.
+
+
+LaTeX Warning: Citation `sinopoli2004kalman' on page 2 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `huang2019retransmit' on page 2 undefined on input line
+ 6.
+
+
+LaTeX Warning: Citation `huang2020harq' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `yates2021aoi' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `sun2026overlapping' on page 2 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `marcelis2017dare' on page 2 undefined on input line 6.
+
+
+
+LaTeX Warning: Citation `luo2009cdg' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cheng2013stcdg' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `piao2014lowrank' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cini2022grin' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `marisca2022spin' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cao2020stemgnn' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `jing2024casper' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `du2023saits' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `nie2024imputeformer' on page 2 undefined on input line
+ 8.
+
+
+LaTeX Warning: Citation `chang2023deepcs' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cini2022grin' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `marisca2022spin' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `peterson2010mixed' on page 2 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation `ledinh2007design' on page 2 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation `langendoen2006murphy' on page 2 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation `mcdonald2007sendt' on page 2 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `murphy2021arctic' on page 2 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation `puluckul2025subarctic' on page 2 undefined on input li
+ne 10.
+
+
+LaTeX Warning: Citation `zennaro2025kyrgyzstan' on page 2 undefined on input li
+ne 10.
+
+
+LaTeX Warning: Citation `ingelrest2010sensorscope' on page 2 undefined on input
+ line 10.
+
+
+LaTeX Warning: Citation `murphy2021arctic' on page 2 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation `casals2017lorawan' on page 2 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `michelinakis2021dissecting' on page 2 undefined on inp
+ut line 10.
+
+
+LaTeX Warning: Citation `sorensen2022nbiot' on page 2 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation `azari2019nbiot' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `ugwuanyi2021developing' on page 2 undefined on input l
+ine 10.
+
+
+LaTeX Warning: Citation `dias2016survey' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `santini2006adaptive' on page 2 undefined on input line
+ 10.
+
+
+LaTeX Warning: Citation `arnaiz2024adaptive' on page 2 undefined on input line 
+10.
+
+
+LaTeX Warning: Reference `tab:related' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `kong2014dataloss' on page 2 undefined on input line 25
+.
+
+
+LaTeX Warning: Citation `ledinh2007design' on page 2 undefined on input line 26
+.
+
+
+LaTeX Warning: Citation `ingelrest2010sensorscope' on page 2 undefined on input
+ line 26.
+
+
+LaTeX Warning: Citation `murphy2021arctic' on page 2 undefined on input line 26
+.
+
+
+LaTeX Warning: Citation `puluckul2025subarctic' on page 2 undefined on input li
+ne 26.
+
+
+LaTeX Warning: Citation `huang2019retransmit' on page 2 undefined on input line
+ 27.
+
+
+LaTeX Warning: Citation `huang2020harq' on page 2 undefined on input line 27.
+
+
+LaTeX Warning: Citation `cini2022grin' on page 2 undefined on input line 28.
+
+
+LaTeX Warning: Citation `marisca2022spin' on page 2 undefined on input line 28.
+
+
+
+LaTeX Warning: Citation `arnaiz2024adaptive' on page 2 undefined on input line 
+29.
+
+) (sec_data.tex
+
+LaTeX Warning: Reference `tab:records' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation `ahmedi2022dataset' on page 2 undefined on input line 1
+6.
+
+
+LaTeX Warning: Citation `ahmedi2021inwatersense' on page 2 undefined on input l
+ine 16.
+
+
+LaTeX Warning: Citation `adumanu2020smart' on page 2 undefined on input line 17
+.
+
+
+LaTeX Warning: Citation `nikseresht2025uva' on page 2 undefined on input line 1
+8.
+
+
+LaTeX Warning: Citation `nikseresht2025uvadata' on page 2 undefined on input li
+ne 18.
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 18--19
+[]\T1/ptm/m/n/10 UVA (USA): ten Lo-RaWAN sen-sors re-port-ing ev-
+[2]
+
+LaTeX Warning: Citation `bhatia2020loed' on page 3 undefined on input line 19.
+
+
+LaTeX Warning: Citation `bhatia2020loeddata' on page 3 undefined on input line 
+19.
+
+
+LaTeX Warning: Reference `eq:share' on page 3 undefined on input line 24.
+
+
+LaTeX Warning: Citation `ahmedi2022dataset' on page 3 undefined on input line 4
+0.
+
+
+LaTeX Warning: Reference `sec:handling' on page 3 undefined on input line 40.
+
+
+LaTeX Warning: Citation `efron1979bootstrap' on page 3 undefined on input line 
+49.
+
+
+LaTeX Warning: Citation `libelium2020plugsense' on page 3 undefined on input li
+ne 63.
+
+
+LaTeX Warning: Citation `michelinakis2021dissecting' on page 3 undefined on inp
+ut line 63.
+
+
+LaTeX Warning: Citation `michelinakis2021dissecting' on page 3 undefined on inp
+ut line 63.
+
+
+LaTeX Warning: Citation `sorensen2022nbiot' on page 3 undefined on input line 6
+3.
+
+
+LaTeX Warning: Citation `casals2017lorawan' on page 3 undefined on input line 6
+3.
+
+
+LaTeX Warning: Citation `lora2016spec102' on page 3 undefined on input line 63.
+
+
+
+LaTeX Warning: Citation `lora2020spec104' on page 3 undefined on input line 63.
+
+
+
+LaTeX Warning: Citation `lora2021rp002' on page 3 undefined on input line 63.
+
+
+LaTeX Warning: Citation `ugwuanyi2021developing' on page 3 undefined on input l
+ine 68.
+
+[3]
+
+LaTeX Warning: Citation `wagner2006usgs' on page 4 undefined on input line 102.
+
+
+
+LaTeX Warning: Citation `usgs2023nwis' on page 4 undefined on input line 104.
+
+
+LaTeX Warning: Citation `benson1984oxygen' on page 4 undefined on input line 10
+4.
+
+
+LaTeX Warning: Reference `sec:reconstruct' on page 4 undefined on input line 10
+4.
+
+
+LaTeX Warning: Reference `sec:design' on page 4 undefined on input line 104.
+
+) (sec_outages.tex
+
+LaTeX Warning: Reference `fig:outage-share' on page 4 undefined on input line 4
+.
+
+
+LaTeX Warning: Reference `eq:share' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Reference `eq:geo' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Reference `eq:share' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Reference `eq:geo' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Reference `eq:geo' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Reference `tab:aic' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Reference `eq:mix' on page 4 undefined on input line 13.
+
+(tables/tab_outage_models.tex)
+
+LaTeX Warning: Citation `wilcoxon1945individual' on page 4 undefined on input l
+ine 29.
+
+) (sec_handling.tex [4 <./figs/fig_outage_share.pdf>]
+
+LaTeX Warning: Reference `tab:strategies' on page 5 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:energy' on page 5 undefined on input line 8.
+
+
+LaTeX Warning: Reference `eq:backoff' on page 5 undefined on input line 8.
+
+(tables/tab_strategies.tex)
+
+LaTeX Warning: Citation `winbond2018w25q128jv' on page 5 undefined on input lin
+e 31.
+
+
+LaTeX Warning: Citation `ingelrest2010sensorscope' on page 5 undefined on input
+ line 32.
+
+
+LaTeX Warning: Reference `sec:design' on page 5 undefined on input line 37.
+
+) (sec_reconstruct.tex
+
+LaTeX Warning: Reference `eq:picture' on page 5 undefined on input line 6.
+
+[5] (tables/tab_chains.tex)
+
+LaTeX Warning: Reference `tab:chains' on page 6 undefined on input line 27.
+
+
+LaTeX Warning: Citation `peterson2010mixed' on page 6 undefined on input line 2
+9.
+
+
+LaTeX Warning: Citation `jing2024casper' on page 6 undefined on input line 29.
+
+
+LaTeX Warning: Citation `du2023saits' on page 6 undefined on input line 35.
+
+
+LaTeX Warning: Citation `cao2020stemgnn' on page 6 undefined on input line 35.
+
+
+LaTeX Warning: Reference `sec:design' on page 6 undefined on input line 37.
+
+) (sec_design.tex
+
+LaTeX Warning: Reference `sec:outages' on page 6 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:reconstruct' on page 6 undefined on input line 4.
+
+
+
+LaTeX Warning: Reference `eq:backoff' on page 6 undefined on input line 8.
+
+
+LaTeX Warning: Reference `alg:design' on page 6 undefined on input line 10.
+
+
+LaTeX Warning: Reference `eq:picture' on page 6 undefined on input line 10.
+
+
+LaTeX Warning: Citation `dias2016survey' on page 6 undefined on input line 15.
+
+
+LaTeX Warning: Citation `santini2006adaptive' on page 6 undefined on input line
+ 15.
+
+[6]
+
+LaTeX Warning: Reference `sec:des-results' on page 7 undefined on input line 19
+.
+
+
+LaTeX Warning: Reference `eq:picture' on page 7 undefined on input line 32.
+
+
+LaTeX Warning: Reference `eq:trigger' on page 7 undefined on input line 33.
+
+
+LaTeX Warning: Reference `eq:backoff' on page 7 undefined on input line 35.
+
+
+LaTeX Warning: Reference `eq:energy' on page 7 undefined on input line 55.
+
+
+LaTeX Warning: Reference `tab:hyp' on page 7 undefined on input line 58.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\T1/ptm/m/n/9 2023 (de-vel-op-
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\T1/ptm/m/n/9 Event / batch $\OMS/cmsy/m/n/9 ^^T \OT1/cmr/m/n/9 1\OML/cmm/m/
+it/9 :\OT1/cmr/m/n/9 10$ \T1/ptm/m/n/9 and
+
+Underfull \hbox (badness 2126) in paragraph at lines 74--74
+[]|\T1/ptm/m/n/9 Bounded costs no more than per-
+[7]
+
+LaTeX Warning: Reference `tab:design' on page 8 undefined on input line 85.
+
+(tables/tab_design.tex)
+
+LaTeX Warning: Reference `fig:tradeoff' on page 8 undefined on input line 106.
+
+) (sec_discussion.tex
+
+LaTeX Warning: Citation `brzozowski2018lessons' on page 8 undefined on input li
+ne 13.
+
+
+LaTeX Warning: Citation `ingelrest2010sensorscope' on page 8 undefined on input
+ line 13.
+
+
+LaTeX Warning: Reference `sec:hand-network' on page 8 undefined on input line 2
+1.
+
+[8]) [9 <./figs/fig_tradeoff.pdf>]
+
+LaTeX Warning: Citation `usgs2023nwis' on page 10 undefined on input line 50.
+
+
+LaTeX Warning: Citation `ahmedi2021inwatersense' on page 10 undefined on input 
+line 50.
+
+
+LaTeX Warning: Citation `bhatia2020loeddata' on page 10 undefined on input line
+ 50.
+
+
+LaTeX Warning: Citation `nikseresht2025uvadata' on page 10 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation `adumanu2020smart' on page 10 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `azongo2026code' on page 10 undefined on input line 50.
+
+
+No file main.bbl.
+[10] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)<C:/Users/User/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/U
+ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/
+Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/User/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users
+/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C
+:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
+utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
+tmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
+tmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on main.pdf (10 pages, 330833 bytes).
+Transcript written on main.log.

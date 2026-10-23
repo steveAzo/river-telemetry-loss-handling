@@ -5,7 +5,7 @@
   - Times New Roman 10 pt body, 24 pt title, 9 pt bold abstract and index terms, small-caps section headings,
     italic subsection headings, 8 pt captions, tables and references;
   - display equations centred with their number at the right margin, as LaTeX numbers them;
-  - "TABLE I" above table captions, "Fig. 1." in figure captions, booktabs-style rules on tables;
+  - "Table I" above sentence-case table captions (no caps: the supervisor's rule), "Fig. 1." in figure captions, booktabs-style rules on tables;
   - the draft running header with page numbers.
 Layout markers (@@...@@) come from src/paper/make_word.py; every marker must be consumed.
 Usage: python -I src/paper/fix_word.py in.docx out.docx n_equations [columns: 1 (default) or 2]
@@ -19,7 +19,9 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 src, dst, n_eq = sys.argv[1], sys.argv[2], int(sys.argv[3])
-COLUMNS = int(sys.argv[4]) if len(sys.argv) > 4 else 1
+mode = sys.argv[4] if len(sys.argv) > 4 else ""
+REVIEW = mode == "review"
+COLUMNS = 1 if REVIEW else (int(mode) if mode else 1)
 assert COLUMNS in (1, 2)
 doc = docx.Document(src)
 body = doc.element.body
@@ -103,6 +105,25 @@ def ptext(p):
     return "".join(t.text or "" for t in texts(p))
 
 
+def set_cell_lines(tc, lines):
+    """Replace a cell's content with compact, explicit header lines."""
+    tcpr = tc.find(qn("w:tcPr"))
+    for child_ in list(tc):
+        if child_ is not tcpr:
+            tc.remove(child_)
+    p = el("w:p")
+    pp = el("w:pPr")
+    pp.append(el("w:spacing", before=0, after=0, line=220, lineRule="exact"))
+    p.append(pp)
+    for i, line in enumerate(lines):
+        if i:
+            r = el("w:r")
+            r.append(el("w:br"))
+            p.append(r)
+        p.append(run(line))
+    tc.append(p)
+
+
 def take_marker(p, pattern):
     """Remove a leading @@...@@ marker from paragraph p and return its regex match."""
     ts = texts(p)
@@ -154,6 +175,9 @@ def style(name, size=20, bold=False, italic=False, caps=False, jc=None, before=0
             e = rpr.find(qn(tag))
             if e is not None: rpr.remove(e)
         return
+    if REVIEW and name in {"Normal", "Body Text", "First Paragraph", "Compact"}:
+        size = 24
+        line = 480
     child(rpr, "w:sz", val=size); child(rpr, "w:szCs", val=size)
     pf = st.element.get_or_add_pPr()
     if keep: child(pf, "w:keepNext")
@@ -187,7 +211,7 @@ style("Abstract", size=18, bold=True, jc="both")
 style("Heading 1", caps=True, jc="center", before=240, after=120, keep=True)
 style("Heading 2", italic=True, jc="left", before=120, after=60, keep=True)
 style("Heading 3", italic=True, jc="left", before=60, keep=True)
-style("Table Caption", size=16, caps=True, jc="center", after=60, keep=True)
+style("Table Caption", size=16, jc="center", after=60, keep=True)
 style("Image Caption", size=16, jc="both", before=60, after=200)
 style("Captioned Figure", jc="center", before=120, keep=True)
 style("Figure", jc="center", before=120, keep=True)
@@ -255,10 +279,14 @@ for tbl in list(body.iter(qn("w:tbl"))):
     label = copy.deepcopy(cap)
     for r in list(label):
         if r.tag != qn("w:pPr"): label.remove(r)
-    label.append(run(f"TABLE {num}"))
+    label.append(run(f"Table {num}"))
     child(ppr(label), "w:spacing", before=200, after=0)
     cap.addprevious(label)
     size = 14 if small else 16
+    if REVIEW and num == "V":
+        size = 16
+    if REVIEW and num == "VI":
+        size = 14
     tp = tbl.find(qn("w:tblPr"))
     child(tp, "w:jc", val="center")
     b = child(tp, "w:tblBorders")
@@ -269,6 +297,27 @@ for tbl in list(body.iter(qn("w:tbl"))):
     if tp.find(qn("w:tblLayout")) is None or tp.find(qn("w:tblLayout")).get(qn("w:type")) != "fixed":
         child(tp, "w:tblW", w=0, type="auto")
     rows = tbl.findall(qn("w:tr"))
+    if REVIEW and num == "V":
+        widths = [500, 650, 1000, 950, 1050, 1050, 1000, 1450, 1050]
+        header = rows[1] if len(rows) > 1 else rows[0]
+        header_lines = [
+            ["Param."], ["Gap (h)"], ["Persis-", "tence"], ["Own", "diel"],
+            ["Best", "neighbour"], ["Neighbour", "wins"], ["Interpolation"],
+            ["Interp. +", "neighbour"], ["Neighbour", "wins"],
+        ]
+        for cell, lines in zip(header.findall(qn("w:tc")), header_lines):
+            set_cell_lines(cell, lines)
+        for row in rows:
+            for cell, width in zip(row.findall(qn("w:tc")), widths):
+                tcp = get_tcpr(cell)
+                child(tcp, "w:tcW", w=width, type="dxa")
+                if tcp.find(qn("w:noWrap")) is None:
+                    tcp.append(el("w:noWrap"))
+    elif REVIEW and num == "VI":
+        widths = [420, 2200, 2700, 1500, 1300, 1300]
+        for row in rows:
+            for cell, width in zip(row.findall(qn("w:tc")), widths):
+                child(get_tcpr(cell), "w:tcW", w=width, type="dxa")
     head = [r for r in rows if r.find(qn("w:trPr") + "/" + qn("w:tblHeader")) is not None] or rows[:1]
     for i, r in enumerate(head):
         for tc in r.findall(qn("w:tc")):

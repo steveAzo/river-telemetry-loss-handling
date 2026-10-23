@@ -59,6 +59,13 @@ RENAME = {"kyrgyzstan2025weather": "zennaro2025kyrgyzstan"}
 EXCLUDE = ["adumanu2026code", "adumanu2026prediction"]
 
 MANUAL = r"""
+@misc{azongo2026code,
+  author       = {Azongo, Stephen},
+  title        = {river-telemetry-loss-handling, version v1.0.0: code, configurations and derived data},
+  howpublished = {Zenodo, software},
+  year         = {2026},
+  doi          = {10.5281/zenodo.23455071}}
+
 @inproceedings{cao2020stemgnn,
   author    = {Cao, Defu and Wang, Yujing and Duan, Juanyong and Zhang, Ce and Zhu, Xia and Huang, Congrui and Tong, Yunhai and Xu, Bixiong and Bai, Jing and Tong, Jie and Zhang, Qi},
   title     = {Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting},

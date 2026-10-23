@@ -30,6 +30,11 @@ def num(x, d=0):
     return s
 
 
+def word(n):
+    """Whole number in prose: words below 10 (e.g. nine river chains), digits from 10 on."""
+    return ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"][n] if n < 10 else num(n)
+
+
 def pct(x, d=1):
     """Fraction -> percent string with d decimals, e.g. 0.4595 -> 46.0\\%."""
     return f"{100 * x:.{d}f}\\%"
@@ -101,6 +106,7 @@ def outages_water():
     cond = w[w.probe.str.startswith("Conductivity")].iloc[0]
     wc = ci[(ci.record.str.startswith("Weija")) & (ci.L_h == "24")].iloc[0]
     M("weijaStreams", num(len(w)), "weija_outages.csv rows")
+    M("weijaStreamsWord", word(len(w)), "weija_outages.csv rows (in words, for prose)")
     M("weijaCondLoss", pct(cond.loss), "weija_outages.csv conductivity loss")
     M("weijaCondOutages", num(int(cond.events)), "weija_outages.csv conductivity events")
     M("weijaCondDayLost", pct(cond.lost_share_ge_1d), "weija_outages.csv conductivity")
@@ -282,6 +288,7 @@ def chains():
     sites = set(d.target) | set(d.neighbour)
     assert len(sites) == 27, len(sites)
     M("chainCount", num(d.chain.nunique()), "results/revision/chains/chain_<9 chains>.csv (D5 rerun)")
+    M("chainCountWord", word(d.chain.nunique()), "number of chains, in words for prose")
     M("chainSites", num(len(sites)), "unique sites in the 9 chain files")
     npairs = d[d.H_h == 24].groupby("param").size()
     M("chainPairsMin", num(npairs.min()), "ordered pairs per parameter, min")

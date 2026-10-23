@@ -1,0 +1,15 @@
+473 macros -> draft/numbers.tex
+InWaterSense node 1: 249 days, 0.461 of slots down, 1622 down spans
+Weija conductivity: 131 days, 0.158 of slots down, 62 down spans
+UVA (system outages): 489 days, 0.013 of slots down, 12 down spans
+InWaterSense: observed share >=6h 0.685, >=24h 0.507; geometric >=24h 5.53e-06
+Weija: observed share >=6h 0.889, >=24h 0.829; geometric >=24h 3.69e-01
+UVA: observed share >=6h 0.271, >=24h 0.236; geometric >=24h 1.66e-121
+figures -> draft\figs
+56 entries written: adumanu2017survey, adumanu2020smart, ahmedi2021inwatersense, ahmedi2022dataset, akaike1974aic, arnaiz2024adaptive, azari2019nbiot, azongo2026code, benson1984oxygen, bhatia2020loed, bhatia2020loeddata, brzozowski2018lessons, cao2020stemgnn, casals2017lorawan, chang2023deepcs, cheng2013stcdg, cini2022grin, dias2016survey, du2023saits, efron1979bootstrap, huang2019retransmit, huang2020harq, ingelrest2010sensorscope, jing2024casper, kong2014dataloss, langendoen2006murphy, ledinh2007design, libelium2020plugsense, lora2016spec102, lora2020spec104, lora2021rp002, luo2009cdg, marcelis2017dare, marisca2022spin, mcdonald2007sendt, michelinakis2021dissecting, murphy2021arctic, nie2024imputeformer, nikseresht2025uva, nikseresht2025uvadata, page1954continuous, peterson2010mixed, piao2014lowrank, puluckul2025subarctic, santini2006adaptive, sinopoli2004kalman, sorensen2022nbiot, sun2026overlapping, ugwuanyi2021developing, usgs2023nwis, wagner2006usgs, wilcoxon1945individual, winbond2018w25q128jv, yates2021aoi, zennaro2025kyrgyzstan, zhao2003understanding
+labels 65, references 52, citations 56 of 56 bib entries, equations 19, figures 5, tables 12, algorithms 1
+draft checks passed
+wrote main_review.tex
+flattened 95748 equations 7
+Word layout: 1 column(s), 7 equations numbered, 4 full-width floats, saved Paper2_draft_v0.3.docx
+built draft/Paper2_draft_v0.3.pdf, the supplement, the TGCN review copy and .docx

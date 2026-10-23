@@ -1,0 +1,31 @@
+\section{How the Records Lose Data}
+\label{sec:outages}
+
+\emph{Water-quality deployments: most missing data are in long gaps.} InWaterSense node~1 had \inwsOutages{} delivery gaps (timelines in Supplement Fig.~\ref{fig:s-records}). Of these, \inwsOneSlotEvents{} lasted a single slot but held only \inwsOneSlotLost{} of the missing readings, while \inwsDayEvents{} gaps of a day or more held \inwsDayLost{} (95\% CI \inwsDayLostLo--\inwsDayLostHi) and gaps of 6~h or more \inwsSixLost{} (Fig.~\ref{fig:outage-share}); the longest lasted \inwsMaxOutageDays~days. Weija, on another continent, shows the same structure: \weijaCondDayLost{} of the missing conductivity readings fell in gaps of a day or more (\weijaDayLostMin--\weijaDayLostMax{} across all streams), the longest lasting \weijaMaxOutageDays~days. With only \weijaCondDayN{} day-long gaps, its interval is wide (\weijaCondDayLostLo--\weijaCondDayLostHi), and Weija serves as qualitative support.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig_outage_share}
+\caption{Share of missing readings in gaps at least as long as the horizontal axis, $S(L)$ in (\ref{eq:share}) (solid), and as predicted by the geometric model (\ref{eq:geo}) fitted to each record (dashed). InWaterSense node~1 (611-s slots), Weija conductivity (\weijaCondStepMin-min slots) and UVA (5-min slots; radio and system losses together).}
+\label{fig:outage-share}
+\end{figure}
+
+\emph{The geometric model fails, and no tested model fits.} The geometric model (\ref{eq:geo}) ranks last by AIC on every record (Table~\ref{tab:aic}), by \aicGeomGapInws{} points on InWaterSense, \aicGeomGapWeija{} on Weija and \aicGeomGapUva{} on UVA, and it fails in the quantity that matters: fitted to InWaterSense, it puts \geomSixInws{} of the missing readings in gaps of 6~h or more, against \inwsSixLost{} observed, and \geomDayInws{} in gaps of a day or more. It is also rejected absolutely on every record ($p\le$\,\gofPmin). On the large records every model is rejected, but the geometric model's largest distance between fitted and observed distribution functions is \gofGeomDInws{} on InWaterSense, against \gofBestDInws{} for the best alternative. No single alternative wins everywhere; the mixture (\ref{eq:mix}), many short losses and a few long gaps, is the common thread. On InWaterSense, long gaps also cluster (Spearman $\rho=$\,\inwsRhoNextOut{} between the lengths of consecutive gaps), so all simulations replay the real records rather than a fitted model.
+
+\begin{table}[t]
+\centering
+\caption{AIC of gap-length models (lower is better; best per record in bold). UVA: all missing-frame runs, 5-min slots.}
+\label{tab:aic}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Model & InWaterSense & Weija & UVA \\
+\midrule
+\tabin{tables/tab_outage_models.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+\emph{LoRaWAN networks: short radio losses and rare system outages.} On LoED, well-heard devices lost \loedRadioLoss{} of their frames to the radio, in short bursts: of \loedBursts{} bursts, \loedBurstOne{} were a single frame and \loedBurstFive{} at most five frames, and a loss after a loss had probability \loedCondLoss. UVA adds 16 months of continuous operation. The system was available \uvaAvail{} of the time; of the \uvaMissing{} missing frames, \uvaRadioShare{} were radio losses and \uvaSysShare{} system losses, and \uvaSysDayShare{} of the system down-time fell in outages of a day or more. One gateway was down for \uvaGwCDays{} days without causing a single gateway loss, because every sensor was also heard by a second gateway, and rain had no detectable effect on link loss (\uvaRainDry{} dry, \uvaRainWet{} rainy; Wilcoxon~\cite{wilcoxon1945individual} $p=$\,\uvaRainP).
+
+In answer to RQ1: in the four records, losses separate into short, nearly independent radio losses and rarer long delivery gaps or system outages. In the water-quality deployments, gaps of 6~h or more hold most of the missing data (\inwsSixLost{} on InWaterSense, \weijaCondSixLost{} on Weija). A geometric gap-length model misses this second regime almost entirely.
