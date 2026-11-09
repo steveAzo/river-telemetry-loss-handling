@@ -55,14 +55,36 @@ FIX["marcelis2017dare"] = {"title": "{DaRe}: Data Recovery through Application L
 FIX["huang2020harq"] = {"title": "Real-Time Remote Estimation With Hybrid {ARQ} in Wireless Networked Control"}
 FIX["jing2024casper"] = {"booktitle": "Proc. 33rd ACM Int. Conf. Information and Knowledge Management (CIKM)"}
 
+# revision 3 references (2026-11-05; titles and authors checked against each PDF's first page)
+FIX["abdelfadeel2020free"] = {"title": "{FREE}---Fine-Grained Scheduling for Reliable and Energy-Efficient Data Collection in {LoRaWAN}"}  # registry wraps FREE in $...$
+FIX["jain2024burstmac"] = {"title": "{Burst-MAC}: A {MAC} Protocol for Handling Burst Traffic in {LoRa} Network",
+                           "booktitle": "Proc. IEEE Real-Time Systems Symp. (RTSS)"}
+FIX["capuzzo2018confirmed"] = {"title": "Confirmed Traffic in {LoRaWAN}: Pitfalls and Countermeasures",
+                               "booktitle": "Proc. 17th Annu. Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net)"}
+FIX["hoang2026unified"] = {"title": "Unified Spatial Analytical Framework for Confirmed Uplinks in Multi-Gateway {LoRaWAN} Under Duty-Cycle Constraints"}
+FIX["lee2021dglora"] = {"title": "{DG-LoRa}: Deterministic Group Acknowledgment Transmissions in {LoRa} Networks for Industrial {IoT} Applications",
+                        "note": "Art. no. 1444"}
+FIX["martinezsanchez2025sod"] = {"author": "Mart{\\'\\i}nez-S{\\'a}nchez, Iago R. and Cuellar-Padilla, Joaqu{\\'\\i}n and Olivares, Joaqu{\\'\\i}n and "
+                                           "Palomares, Jose M. and Le{\\'o}n-Garc{\\'\\i}a, Fernando",
+                                 "title": "Context-aware adaptive {Send-on-Delta} for traffic saving in sensor networks",
+                                 "note": "Art. no. 103967"}                                          # accents as LaTeX escapes
+FIX["acostagarcia2026cadd"] = {"title": "{CADD}: Collaborative adaptive duty cycle and data reduction for congestion control in {LoRaWAN}",
+                               "note": "Art. no. 101904"}
+FIX["barlow1963optimum"] = {"publisher": None}                                      # raw "&" in the registry value
+for _k in ("lee2021dglora", "martinezsanchez2025sod", "acostagarcia2026cadd"):
+    FIX[_k]["pages"] = None                                                                          # article numbers, not pages
+
+REGISTRY_SKIP = {"wagner2006usgs"}   # registry record typed @book with a journal field; replaced by a manual @techreport below
 RENAME = {"kyrgyzstan2025weather": "zennaro2025kyrgyzstan"}
-EXCLUDE = ["adumanu2026code", "adumanu2026prediction"]
+EXCLUDE = ["adumanu2026code", "adumanu2026prediction",
+           "libelium2020plugsense"]   # revision 3: replaced by the Waspmote and Smart Water guides (audit issue 1)
 
 MANUAL = r"""
 @misc{azongo2026code,
   author       = {Azongo, Stephen},
   title        = {river-telemetry-loss-handling, version v1.0.0: code, configurations and derived data},
   howpublished = {Zenodo, software},
+  url          = {https://doi.org/10.5281/zenodo.23455071},
   year         = {2026},
   doi          = {10.5281/zenodo.23455071}}
 
@@ -89,6 +111,7 @@ MANUAL = r"""
   note        = {Sec.~4.3.1.3, Retransmission procedure; Sec.~5.3, LinkADRReq (NbTrans)}}
 
 @manual{winbond2018w25q128jv,
+  author       = {{Winbond Electronics}},
   organization = {Winbond Electronics},
   title        = {{W25Q128JV} 3{V} 128{M}-bit Serial Flash Memory, Datasheet, Rev. {F}},
   year         = {2018},
@@ -112,7 +135,7 @@ MANUAL = r"""
 @inproceedings{sun2026overlapping,
   author    = {Sun, Bowen and Pappas, Nikolaos},
   title     = {Resource-Constrained Semantic-Aware Remote Estimation with Overlapping Sensor Coverage},
-  booktitle = {Proc. ACM MobiHoc},
+  booktitle = {Proc. ACM MobiHoc (to appear); arXiv:2609.07563},
   year      = {2026},
   note      = {to appear; arXiv:2609.07563}}
 
@@ -120,6 +143,7 @@ MANUAL = r"""
   author       = {Bhatia, Laksh and Breza, Michael and Marfievici, Ramona and McCann, Julie A.},
   title        = {{LoED}: The {LoRaWAN} at the Edge Dataset},
   howpublished = {Zenodo},
+  url          = {https://doi.org/10.5281/zenodo.4121430},
   year         = {2020},
   doi          = {10.5281/zenodo.4121430}}
 
@@ -127,8 +151,40 @@ MANUAL = r"""
   author       = {Nikseresht, Fateme and Sobral, Victor Ariel Leal and Goodall, Jonathan L. and Campbell, Bradford},
   title        = {Long-term {LoRaWAN} Communication Metadata from an Urban Deployment},
   howpublished = {University of Virginia Dataverse (LibraData)},
+  url          = {https://doi.org/10.18130/V3/RFTICK},
   year         = {2025},
   doi          = {10.18130/V3/RFTICK}}
+
+@manual{libeliumwaspmote,
+  author       = {{Libelium Comunicaciones Distribuidas}},
+  organization = {Libelium Comunicaciones Distribuidas},
+  title        = {Waspmote Technical Guide (product line v15)},
+  year         = {2026},
+  note         = {Online guide, Sec.~1.26 (power modes: on 17~mA, deep sleep 33~$\mu$A); accessed Nov. 2026}}
+
+@manual{libeliumsmartwater,
+  author       = {{Libelium Comunicaciones Distribuidas}},
+  organization = {Libelium Comunicaciones Distribuidas},
+  title        = {Smart Water Sensor Guide (product line v15)},
+  year         = {2026},
+  note         = {Online guide, Sec.~1.18 (tables of consumption); accessed Nov. 2026}}
+
+@inproceedings{silberstein2007baysail,
+  author    = {Silberstein, Adam and Puggioni, Gavino and Gelfand, Alan and Munagala, Kamesh and Yang, Jun},
+  title     = {Suppression and Failures in Sensor Networks: A {Bayesian} Approach},
+  booktitle = {Proc. 33rd Int. Conf. Very Large Data Bases (VLDB)},
+  pages     = {842--853},
+  year      = {2007}}
+
+@techreport{wagner2006usgs,
+  author      = {Wagner, Richard J. and Boulger, Robert W. and Oblinger, Carolyn J. and Smith, Brett A.},
+  title       = {Guidelines and standard procedures for continuous water-quality monitors: Station operation, record computation, and data reporting},
+  institution = {U.S. Geological Survey},
+  type        = {Techniques and Methods},
+  number      = {1-D3},
+  address     = {Reston, VA, USA},
+  year        = {2006},
+  doi         = {10.3133/tm1d3}}
 
 @techreport{lora2021rp002,
   author      = {{LoRa Alliance Technical Committee Regional Parameters Workgroup}},
@@ -178,10 +234,13 @@ def main():
     ents = parse_oneline(open("fetched.bib", encoding="utf-8").read())
     blocks = ["% Built by build_bib.py (DOI registry + listed corrections + manual entries + Paper 1 entries)."]
     for key, (typ, f) in ents.items():
+        if key in REGISTRY_SKIP:
+            continue
         f = {k: clean(v) for k, v in f.items() if k in KEEP}
         if "doi" in f:
             f["doi"] = f["doi"].upper() if f["doi"].lower().startswith("10.") and False else f["doi"]
         f.update(FIX.get(key, {}))
+        f = {k: v for k, v in f.items() if v is not None}                    # FIX value None drops a field
         if typ == "inbook":
             typ = "inproceedings"
         k2 = RENAME.get(key, key)
@@ -192,6 +251,10 @@ def main():
     # Paper 2 is a standalone submission: nothing from Paper 1 itself (its manuscript or code record) is cited
     p1 = open("from_paper1.bib", encoding="utf-8").read().strip()
     p1 = "\n\n".join(e for e in re.split(r"\n\s*\n(?=@)", p1) if not re.match(r"@\w+\{(%s)," % "|".join(EXCLUDE), e.strip()))
+    for _doi in ("10.17632/krzv3g6d5f.1", "10.5066/F7P55KJN"):        # dataset records: print the DOI as a link
+        _a = "doi     = {%s}}" % _doi
+        assert p1.count(_a) == 1, _doi
+        p1 = p1.replace(_a, "doi     = {%s},\n  url     = {https://doi.org/%s}}" % (_doi, _doi))
     blocks.append(p1)
     out = "\n\n".join(blocks) + "\n"
     for bad in ("\u2013", "&amp;", "\u2010", "\u2032"):

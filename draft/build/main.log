@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.26)  23 OCT 2026 08:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.23)  6 NOV 2026 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,9 +294,6 @@ Package: cite 2015/02/27  v 5.5
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\xr-hyper.sty
-Package: xr-hyper 2025-07-12 v7.01o eXternal References (DPC)
-)
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
@@ -425,8 +422,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-Package xr Info: IMPORTING LABELS FROM supplement.aux on input line 18.
-
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
@@ -470,58 +465,27 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-) (main.aux
-
-LaTeX Warning: Label `ahmedi2022dataset' multiply defined.
-
-
-LaTeX Warning: Label `cao2020stemgnn' multiply defined.
-
-
-LaTeX Warning: Label `du2023saits' multiply defined.
-
-
-LaTeX Warning: Label `casals2017lorawan' multiply defined.
-
-
-LaTeX Warning: Label `michelinakis2021dissecting' multiply defined.
-
-
-LaTeX Warning: Label `sorensen2022nbiot' multiply defined.
-
-
-LaTeX Warning: Label `libelium2020plugsense' multiply defined.
-
-
-LaTeX Warning: Label `lora2021rp002' multiply defined.
-
-
-LaTeX Warning: Label `wagner2006usgs' multiply defined.
-
-
-LaTeX Warning: Label `winbond2018w25q128jv' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 -- Lines per column: 58 (exact).
 
@@ -550,7 +514,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 27.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -576,77 +540,127 @@ Underfull \hbox (badness 2293) in paragraph at lines 4--5
 \T1/ptm/m/n/10 sen-sor net-works varies widely be-tween links and over
  []
 
-) (sec_data.tex
-Underfull \hbox (badness 2245) in paragraph at lines 18--19
+) (sec_data.tex [2]
+<figs/fig_system.pdf, id=258, 518.50476pt x 159.13855pt>
+File: figs/fig_system.pdf Graphic file (type pdf)
+<use figs/fig_system.pdf>
+Package pdftex.def Info: figs/fig_system.pdf  used on input line 15.
+(pdftex.def)             Requested size: 474.71906pt x 145.70018pt.
+
+Underfull \hbox (badness 2245) in paragraph at lines 26--27
 []\T1/ptm/m/n/10 UVA (USA): ten Lo-RaWAN sen-sors re-port-ing ev-
  []
 
-[2] [3]) (sec_outages.tex
-<figs/fig_outage_share.pdf, id=293, 252.945pt x 216.81pt>
-File: figs/fig_outage_share.pdf Graphic file (type pdf)
-<use figs/fig_outage_share.pdf>
-Package pdftex.def Info: figs/fig_outage_share.pdf  used on input line 8.
-(pdftex.def)             Requested size: 252.0pt x 216.00555pt.
- (tables/tab_outage_models.tex)) (sec_handling.tex
-[4 <./figs/fig_outage_share.pdf>] (tables/tab_strategies.tex))
-(sec_reconstruct.tex [5] (tables/tab_chains.tex)
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(sec_design.tex [6]
+ [4 <./figs/fig_system.pdf>]
+Underfull \hbox (badness 1540) in paragraph at lines 107--107
+[]|\T1/ptm/m/n/7 LoRaWAN: net-work server; NB-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+[]|\T1/ptm/m/n/7 application ACK
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 113--114
+[]|\T1/ptm/m/n/7 RAM 2--64 KB,
+ []
+
+) (sec_outages.tex
+<figs/fig_records.pdf, id=344, 517.45322pt x 108.405pt>
+File: figs/fig_records.pdf Graphic file (type pdf)
+<use figs/fig_records.pdf>
+Package pdftex.def Info: figs/fig_records.pdf  used on input line 8.
+(pdftex.def)             Requested size: 516.0pt x 108.102pt.
+<figs/fig_outage_share.pdf, id=345, 252.945pt x 216.81pt>
+File: figs/fig_outage_share.pdf Graphic file (type pdf)
+<use figs/fig_outage_share.pdf>
+Package pdftex.def Info: figs/fig_outage_share.pdf  used on input line 15.
+(pdftex.def)             Requested size: 252.0pt x 216.00555pt.
+ [5] (tables/tab_outage_models.tex)) (sec_handling.tex
+(tables/tab_strategies.tex)
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [6 <./figs/fig_records.pdf> <./figs/fig_outage_share.pdf>] [7] (tables/tab_net
+sim.tex))
+(sec_reconstruct.tex
+Overfull \hbox (32.67937pt too wide) detected at line 10
+[]
+ []
+
+(tables/tab_chains.tex) [8]) (sec_design.tex
+<figs/fig_mechanism.pdf, id=448, 517.45322pt x 158.99399pt>
+File: figs/fig_mechanism.pdf Graphic file (type pdf)
+<use figs/fig_mechanism.pdf>
+Package pdftex.def Info: figs/fig_mechanism.pdf  used on input line 12.
+(pdftex.def)             Requested size: 516.0pt x 158.54962pt.
+ [9]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 23.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+put line 30.
+ [10 <./figs/fig_mechanism.pdf>]
+Overfull \hbox (19.18938pt too wide) detected at line 80
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\T1/ptm/m/n/9 2023 (de-vel-op-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\T1/ptm/m/n/9 Event / batch $\OMS/cmsy/m/n/9 ^^T \OT1/cmr/m/n/9 1\OML/cmm/m/
 it/9 :\OT1/cmr/m/n/9 10$ \T1/ptm/m/n/9 and
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 74--74
+Underfull \hbox (badness 2126) in paragraph at lines 105--105
 []|\T1/ptm/m/n/9 Bounded costs no more than per-
  []
 
-(tables/tab_design.tex)
-<figs/fig_tradeoff.pdf, id=392, 517.45322pt x 158.99399pt>
+(tables/tab_design.tex) [11] (tables/tab_picture.tex)
+<figs/fig_tradeoff.pdf, id=507, 517.45322pt x 158.99399pt>
 File: figs/fig_tradeoff.pdf Graphic file (type pdf)
 <use figs/fig_tradeoff.pdf>
-Package pdftex.def Info: figs/fig_tradeoff.pdf  used on input line 110.
+Package pdftex.def Info: figs/fig_tradeoff.pdf  used on input line 158.
 (pdftex.def)             Requested size: 516.0pt x 158.54962pt.
-) (sec_discussion.tex [8])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ (tables/tab_onset.tex)
+<figs/fig_outage_onset.pdf, id=510, 517.45322pt x 151.767pt>
+File: figs/fig_outage_onset.pdf Graphic file (type pdf)
+<use figs/fig_outage_onset.pdf>
+Package pdftex.def Info: figs/fig_outage_onset.pdf  used on input line 184.
+(pdftex.def)             Requested size: 516.0pt x 151.34282pt.
 
- [9 <./figs/fig_tradeoff.pdf>] (main.bbl
+[12]
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+)
+(sec_discussion.tex [13 <./figs/fig_tradeoff.pdf> <./figs/fig_outage_onset.pdf>
+]) [14] (main.bbl
 Underfull \hbox (badness 5022) in paragraph at lines 71--75
 []\T1/ptm/m/n/8 M. Zen-naro, E. Piet-rosemoli, A. Solto-baev, T. Sul-tanov, and
 
  []
 
-[10]) [11] (main.aux)
+[15]) [16] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2187A395FB56EB8D464EBF90319018DB;4503.
+(rerunfilecheck)             Checksum: 544EB3B03D26F572EC8ED360BD4967AD;4691.
  ) 
 Here is how much of TeX's memory you used:
- 13160 strings out of 467871
- 204858 string characters out of 5418860
- 642182 words of memory out of 5000000
- 41686 multiletter control sequences out of 15000+600000
+ 13233 strings out of 467871
+ 206425 string characters out of 5418859
+ 652595 words of memory out of 5000000
+ 41710 multiletter control sequences out of 15000+600000
  743062 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1528b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1994b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -656,23 +670,24 @@ nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/User/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Use
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Use
-rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Use
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Use
+rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/User/AppData/Local/Programs/
-MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/M
-iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 391439 bytes).
+m/cmr9.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/User/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (16 pages, 567693 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

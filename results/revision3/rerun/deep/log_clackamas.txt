@@ -1,0 +1,20 @@
+C:\Users\User\Desktop\WSN_M\Paper2\results\revision3\mirror\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-11-05 14:21:09 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-11-05 14:21:09 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+[34m
+████████ ██ ███    ███ ███████       ███████ ███████ ██████  ██ ███████ ███████     █████  ██
+   ██    ██ ████  ████ ██            ██      ██      ██   ██ ██ ██      ██         ██   ██ ██
+   ██    ██ ██ ████ ██ █████   █████ ███████ █████   ██████  ██ █████   ███████    ███████ ██
+   ██    ██ ██  ██  ██ ██                 ██ ██      ██   ██ ██ ██           ██    ██   ██ ██
+   ██    ██ ██      ██ ███████       ███████ ███████ ██   ██ ██ ███████ ███████ ██ ██   ██ ██   
+ai4ts v0.0.3 - building AI for unified time-series analysis, https://time-series.ai [0m
+
+  clackamas: SAITS trained (255 s)
+  clackamas: StemGNN trained (513 s)
+  clackamas: target 14209710 evaluated
+  clackamas: target 14210000 evaluated
+  clackamas: target 14211010 evaluated
+clackamas done in 541 s

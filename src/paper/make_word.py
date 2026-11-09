@@ -13,6 +13,7 @@ import re
 import sys
 
 d, out = sys.argv[1], sys.argv[2]
+SPRINGER = len(sys.argv) > 3 and sys.argv[3] == "springer"   # decimal section numbers, Arabic table numbers
 s = open(f"{d}/main.tex", encoding="utf-8").read()
 s = s.replace(r"\makeatletter\newcommand{\tabin}[1]{\@@input #1 }\makeatother", "")
 s = s.replace(r"\input{numbers}", open(f"{d}/numbers.tex", encoding="utf-8").read())
@@ -29,9 +30,29 @@ s = re.sub(r"\\includegraphics(\[[^\]]*\])?\{(fig_[a-z_]+)\}", lambda m: r"\incl
 
 # numbers as LaTeX printed them
 aux = {}
-for auxf in ("supplement.aux", "main.aux"):         # the supplement's labels (S1, Table S1, ...) are cited by the paper
+for auxf in ("main.aux",):
     aux.update({k: re.sub(r"\\mbox\s*\{([^}]*)\}", r"\1", v) for k, v in
                 re.findall(r"\\newlabel\{([^}]+)\}\{\{((?:[^{}]|\{[^{}]*\})*)\}", open(f"{d}/{auxf}", encoding="utf-8").read())})
+ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50}
+
+
+def roman(r):
+    n = 0
+    for i, c in enumerate(r):
+        v = ROMAN[c]
+        n += -v if i + 1 < len(r) and ROMAN[r[i + 1]] > v else v
+    return n
+
+
+def decimal(v):
+    if re.fullmatch(r"[IVXL]+", v):
+        return str(roman(v))
+    m = re.fullmatch(r"([IVXL]+)-([A-Z])", v)
+    return f"{roman(m.group(1))}.{ord(m.group(2)) - 64}" if m else v
+
+
+if SPRINGER:
+    aux = {k: decimal(v) for k, v in aux.items()}
 s = s.replace(r"\IEEEPARstart{R}{iver}", "River")
 # pandoc does not know \newcolumntype: drop the definition and use plain p{} columns for the Word copy
 s = re.sub(r"\\newcolumntype\{L\}\[1\]\{[^\n]*\n", "", s)
@@ -52,9 +73,9 @@ def number_headings(s):
         if kind == "section":
             sec, sub = sec + 1, 0
             num = aux[re.search(r"\\label\{([^}]+)\}", s[m.end():m.end() + 80]).group(1)]
-            return rf"\section*{{{num}. {title}}}"
+            return rf"\section*{{{num} {title}}}" if SPRINGER else rf"\section*{{{num}. {title}}}"
         sub += 1
-        return rf"\subsection*{{{chr(64 + sub)}. {title}}}"
+        return rf"\subsection*{{{sec}.{sub} {title}}}" if SPRINGER else rf"\subsection*{{{chr(64 + sub)}. {title}}}"
     return re.sub(r"\\(section|subsection)\{([^{}]*)\}", h, s)
 
 

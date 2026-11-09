@@ -4,6 +4,11 @@ Writes draft/numbers.tex (one \\newcommand per number, each with a % source comm
 bodies draft/tables/*.tex. Ranges, comparisons and orderings used in the text are computed and
 ASSERTED here, so a claim like "A is larger than B" cannot drift from the data.
 Usage (from Paper2/): python -I src/paper/paper_numbers.py
+
+REVISION 3: the paper's numbers now come from the corrected post hoc runs. Regenerate them with
+    python -I src/revision3/corrected_numbers.py --adopt
+which runs this module unchanged on corrected inputs. Running this file directly overwrites draft/numbers.tex
+with the frozen-model numbers.
 """
 import glob
 import re
@@ -639,7 +644,8 @@ def chains_extra():
         M(f"chainBestNb{key}", num(g.best_nb.median(), dd), f"chains {p_} 24 h: median over pairs of best neighbour error")
         assert g.med_diel.median() < g.best_nb.median() < g.med_persist.median()
         assert (g.best_nb < g.med_persist).mean() > (g.best_nb < g.best_own).mean()
-    M("chainGaps", ", ".join(str(h) for h in sorted(d.H_h.unique())), "chain files H_h values (h)")
+    _hs = [str(h) for h in sorted(d.H_h.unique())]
+    M("chainGaps", ", ".join(_hs[:-1]) + ", and " + _hs[-1], "chain files H_h values (h), as a list with a serial comma")
 
 
 def design_checks():

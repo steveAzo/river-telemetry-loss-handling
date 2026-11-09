@@ -50,3 +50,46 @@
 55_2019_NBIoT_Latency_Energy_Performance_TGCN.pdf	https://vbn.aau.dk/ws/files/338223299/nb_iot_ITGCN.pdf
 56_Brzozowski2018_RealWorld_Deployments_Practical_Lessons_WWIC.pdf	https://inria.hal.science/hal-02269742/document
 57_McDonald2007_SeNDT_Sensor_Network_Delay_Tolerance_ICCCN.pdf	https://www.tara.tcd.ie/bitstream/2262/49131/1/Leaky%20or%20Guessable%20Session%20Identifiers.pdf
+60_Jain2024_BurstMAC_Burst_Traffic_LoRa_RTSS.pdf	https://saifullah.eng.wayne.edu/rtss2024.pdf
+61_Marcelis2017_DaRe_Application_Layer_Coding_LoRaWAN_IoTDI.pdf	https://teaching.csse.uwa.edu.au/units/CITS4419/readings/Marcelis2017.pdf
+62_Khan2019_Model_Reliable_Uplink_Transmissions_LoRaWAN_DCOSS.pdf	https://arxiv.org/pdf/2009.09397
+65_Bronson2021_Metastable_Failures_Distributed_Systems_HotOS.pdf	https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf
+66_Huang2022_Metastable_Failures_in_the_Wild_OSDI.pdf	https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf
+67_Polonelli2019_Slotted_ALOHA_on_LoRaWAN.pdf	https://arxiv.org/pdf/1902.09468
+68_Hoang2026_Unified_Analytical_Confirmed_Uplinks_MultiGW_LoRaWAN_OJCOMS.pdf	manual (user), doi:10.1109/OJCOMS.2026.3667708
+69_Capuzzo2018_Confirmed_Traffic_LoRaWAN_Pitfalls_MedHocNet.pdf	manual (user), IEEE Xplore 8407095
+70_Haxhibeqiri2019_Low_Overhead_Scheduling_LoRa_IoTJ.pdf	manual (user), IEEE IoT-J 6(2) 2019
+71_Carleial1975_Bistable_Behavior_ALOHA_TCOM.pdf	manual (user), doi:10.1109/TCOM.1975.1092823 (scanned)
+72_Zorbas2024_Supporting_Critical_Downlink_LoRaWAN_ComCom.pdf	manual (user), doi:10.1016/j.comcom.2024.107981
+73_Asteriou2024_Adaptive_Spatial_Scheduling_Event_Traffic_LoRaWAN_Sensors.pdf	manual (user), Sensors 24(7):2222
+74_Lee2021_DG_LoRa_Group_Acknowledgment_Sensors.pdf	manual (user), doi:10.3390/s21041444
+75_Abdelfadeel2020_FREE_Fine_Grained_Scheduling_LoRaWAN_IoTJ.pdf	https://arxiv.org/pdf/1812.05744
+76_Silberstein2007_BaySail_Suppression_Failures_Bayesian_VLDB.pdf	https://www.vldb.org/conf/2007/papers/research/p842-silberstein.pdf
+83_AcostaGarcia2026_CADD_Adaptive_DutyCycle_DataReduction_LoRaWAN_IoT.pdf	manual (user), 2026-11-03
+84_Bisio2026_Energy_Accuracy_Frontier_CS_LoRa_IoTJ.pdf	manual (user), 2026-11-03
+85_Bankov2026_Energy_NBFi_PacketLoss_DutyCycle_AdHoc.pdf	manual (user), 2026-11-03
+86_Suman2026_DutyCycle_BitMapping_MAC_LoRaWAN_AdHoc.pdf	manual (user), 2026-11-03
+87_Mavros2026_AsyncHop_Multihop_LoRaWAN_TGCN.pdf	manual (user), 2026-11-03
+88_Iloridou2026_Buffered_IoT_Devices_NBIoT_TMC.pdf	manual (user), 2026-11-03
+89_Fan2026_Interference_Aware_Backoff_Load_Control_LPWAN_IoTJ.pdf	manual (user), 2026-11-03
+90_Bouazizi2025_SF_Adaptive_DutyCycled_LoRa_TCOM.pdf	manual (user), 2026-11-03
+91_Alahmadi2025_Survey_LoRaWAN_MAC_Schemes_COMST.pdf	manual (user), 2026-11-03
+92_Maurya2025_Survey_DataDriven_LoRaWAN_ACM_TOIT.pdf	manual (user), 2026-11-03
+93_Essamlali2024_Review_ML_IoT_Water_Quality_Heliyon.pdf	manual (user), 2026-11-03
+94_Ngwenya2025_Review_WQ_ML_IoT_SDG632_JWPE.pdf	manual (user), 2026-11-03
+95_Casalbore2026_Telemetry_to_Network_Diagnostics_LoRaWAN_IoT.pdf	manual (user), 2026-11-03
+96_Zorbas2025_Revisiting_SF_Allocation_LoRaWAN_ComCom.pdf	manual (user), 2026-11-03
+97_AduManu2017_WQM_WSN_Survey_TOSN.pdf	copied from Paper 1 papers (read only)
+98_AduManu2020_Smart_River_Monitoring_WCMC.pdf	copied from Paper 1 papers
+99_Dias2016_Survey_Prediction_Based_Data_Reduction.pdf	copied from Paper 1 papers
+100_Santini2006_Adaptive_Quality_Data_Reduction_INSS.pdf	copied from Paper 1 papers
+101_SunPappas2026_Remote_Estimation_Overlapping_Coverage.pdf	copied from Paper 3 papers
+102_Nie2024_ImputeFormer_KDD.pdf	https://arxiv.org/pdf/2312.01728
+103_Puluckul2025_SubArctic_Sensor_Network_Deployment.pdf	https://arxiv.org/pdf/2405.02986
+104_Cao2020_StemGNN_NeurIPS.pdf	https://arxiv.org/pdf/2103.07719
+105_Jing2024_CASPER_Causality_Aware_Imputation.pdf	https://arxiv.org/pdf/2403.11960
+106_Zennaro2025_Kyrgyzstan_Weather_Stations_FrontiersCN.pdf	https://www.frontiersin.org/journals/communications-and-networks/articles/10.3389/frcmn.2025.1505375/pdf
+107_Arnaiz2024_Energy_Relevance_Aware_Adaptive_Monitoring_Integration.pdf	manual (user) 2026-11-04
+108_Azari2020_Latency_Energy_NBIoT_TGCN.pdf	manual (user)
+109_Sorensen2022_NBIoT_LTEM_Battery_Lifetime_IoTJ.pdf	manual (user)
+110_Huang2020_Remote_Estimation_HARQ_TWC.pdf	manual (user)

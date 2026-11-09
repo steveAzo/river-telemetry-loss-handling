@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.26)  23 OCT 2026 08:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.23)  6 NOV 2026 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,29 +505,29 @@ Underfull \hbox (badness 5008) in paragraph at lines 126--127
 []\T1/ptm/m/n/7 RAM 2--64 KB,
  []
 
-(tables/tab_netsim.tex) [3]
-<figs/fig_mechanism.pdf, id=111, 517.45322pt x 158.99399pt>
+[3] (tables/tab_netsim.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<figs/fig_mechanism.pdf, id=115, 517.45322pt x 158.99399pt>
 File: figs/fig_mechanism.pdf Graphic file (type pdf)
 <use figs/fig_mechanism.pdf>
-Package pdftex.def Info: figs/fig_mechanism.pdf  used on input line 200.
+Package pdftex.def Info: figs/fig_mechanism.pdf  used on input line 202.
 (pdftex.def)             Requested size: 516.0pt x 158.54962pt.
  [4]
-Overfull \hbox (19.18938pt too wide) detected at line 230
+Overfull \hbox (19.18938pt too wide) detected at line 232
 []
  []
 
-(tables/tab_picture.tex) [5 <./figs/fig_mechanism.pdf>] (tables/tab_onset.tex)
-<figs/fig_outage_onset.pdf, id=156, 517.45322pt x 151.767pt>
+[5 <./figs/fig_mechanism.pdf>] (tables/tab_picture.tex) (tables/tab_onset.tex)
+<figs/fig_outage_onset.pdf, id=157, 517.45322pt x 151.767pt>
 File: figs/fig_outage_onset.pdf Graphic file (type pdf)
 <use figs/fig_outage_onset.pdf>
-Package pdftex.def Info: figs/fig_outage_onset.pdf  used on input line 273.
+Package pdftex.def Info: figs/fig_outage_onset.pdf  used on input line 275.
 (pdftex.def)             Requested size: 516.0pt x 151.34282pt.
 
-(tables/tab_sensitivity.tex) (supplement.bbl
-Underfull \vbox (badness 3514) has occurred while \output is active []
+(tables/tab_sensitivity.tex) (supplement.bbl [6]) [7
 
-) [6]
-[7 <./figs/fig_outage_onset.pdf>] (supplement.aux)
+ <./figs/fig_outage_onset.pdf>] (supplement.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -536,13 +536,13 @@ Package rerunfilecheck Info: File `supplement.out' has not changed.
 (rerunfilecheck)             Checksum: 15BB0C791583B27B3FE0BAEEB1A305E0;1279.
  ) 
 Here is how much of TeX's memory you used:
- 12005 strings out of 467871
- 185696 string characters out of 5418860
- 626824 words of memory out of 5000000
- 40681 multiletter control sequences out of 15000+600000
+ 12029 strings out of 467871
+ 186055 string characters out of 5418859
+ 629987 words of memory out of 5000000
+ 40704 multiletter control sequences out of 15000+600000
  731494 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1285b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1285b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -555,9 +555,9 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Use
 r/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on supplement.pdf (7 pages, 270263 bytes).
+Output written on supplement.pdf (7 pages, 271904 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

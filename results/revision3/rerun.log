@@ -1,0 +1,680 @@
+=== loss_handling start 07:33:44
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.0   E_tx=    79.8 J/d life= 1.78 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.096 E_tx=    79.8 J/d life= 1.78 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.0   E_tx=    79.8 J/d life= 1.78 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.096 E_tx=    79.8 J/d life= 1.78 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.0   E_tx=    47.1 J/d life= 2.34 y on-time=0.504 late=0.000 lost=0.496 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.096 E_tx=    47.1 J/d life= 2.34 y on-time=0.457 late=0.000 lost=0.543 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.0   E_tx=    39.3 J/d life= 2.53 y on-time=0.471 late=0.000 lost=0.529 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.096 E_tx=    39.3 J/d life= 2.53 y on-time=0.427 late=0.000 lost=0.573 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.0   E_tx=    81.4 J/d life= 1.76 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.096 E_tx=    85.5 J/d life= 1.70 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.0   E_tx=    85.6 J/d life= 1.70 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.096 E_tx=    89.7 J/d life= 1.65 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=10.5/195.4 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.0   E_tx=    51.7 J/d life= 2.24 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.096 E_tx=    54.7 J/d life= 2.18 y on-time=0.494 late=0.506 lost=0.000 delay p50/p95=12.2/189.9 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.0   E_tx=    43.5 J/d life= 2.43 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.096 E_tx=    45.2 J/d life= 2.38 y on-time=0.454 late=0.546 lost=0.000 delay p50/p95=23.4/212.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.0   E_tx=    84.1 J/d life= 1.72 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.096 E_tx=    84.5 J/d life= 1.72 y on-time=0.489 late=0.461 lost=0.051 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.0   E_tx=    50.3 J/d life= 2.27 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.096 E_tx=    50.6 J/d life= 2.26 y on-time=0.458 late=0.496 lost=0.046 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.0   E_tx=    42.2 J/d life= 2.46 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.096 E_tx=    42.5 J/d life= 2.45 y on-time=0.427 late=0.529 lost=0.044 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.0   E_tx=    11.9 J/d life= 3.56 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.096 E_tx=    12.6 J/d life= 3.52 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/171.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.0   E_tx=     5.3 J/d life= 3.94 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/137.8 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.096 E_tx=     5.6 J/d life= 3.92 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/139.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.0   E_tx=   224.6 J/d life= 0.86 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.096 E_tx=   224.6 J/d life= 0.86 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.0   E_tx=   224.6 J/d life= 0.86 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.096 E_tx=   224.6 J/d life= 0.86 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.0   E_tx=    84.8 J/d life= 1.71 y on-time=0.504 late=0.000 lost=0.496 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.096 E_tx=    84.8 J/d life= 1.71 y on-time=0.457 late=0.000 lost=0.543 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.0   E_tx=    57.7 J/d life= 2.12 y on-time=0.471 late=0.000 lost=0.529 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.096 E_tx=    57.7 J/d life= 2.12 y on-time=0.427 late=0.000 lost=0.573 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.0   E_tx=   226.2 J/d life= 0.85 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.096 E_tx=   230.3 J/d life= 0.84 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.0   E_tx=   230.4 J/d life= 0.84 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.096 E_tx=   234.5 J/d life= 0.83 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=10.5/195.4 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.0   E_tx=    89.4 J/d life= 1.66 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.096 E_tx=    91.5 J/d life= 1.64 y on-time=0.494 late=0.506 lost=0.000 delay p50/p95=12.2/189.9 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.0   E_tx=    62.0 J/d life= 2.04 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.096 E_tx=    61.6 J/d life= 2.05 y on-time=0.454 late=0.546 lost=0.000 delay p50/p95=23.4/212.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.0   E_tx=   228.9 J/d life= 0.85 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.096 E_tx=   229.3 J/d life= 0.84 y on-time=0.489 late=0.461 lost=0.051 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.0   E_tx=    88.0 J/d life= 1.68 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.096 E_tx=    88.3 J/d life= 1.67 y on-time=0.458 late=0.496 lost=0.046 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.0   E_tx=    60.6 J/d life= 2.07 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.096 E_tx=    60.9 J/d life= 2.06 y on-time=0.427 late=0.529 lost=0.044 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.0   E_tx=    23.0 J/d life= 3.05 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.096 E_tx=    23.6 J/d life= 3.03 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/171.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.0   E_tx=    13.0 J/d life= 3.50 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/137.8 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.096 E_tx=    13.2 J/d life= 3.49 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/139.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.0   E_tx=  1152.9 J/d life= 0.20 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.096 E_tx=  1152.9 J/d life= 0.20 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.0   E_tx=  1152.9 J/d life= 0.20 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.096 E_tx=  1152.9 J/d life= 0.20 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.0   E_tx=   326.4 J/d life= 0.63 y on-time=0.504 late=0.000 lost=0.496 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.096 E_tx=   326.4 J/d life= 0.63 y on-time=0.457 late=0.000 lost=0.543 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.0   E_tx=   176.2 J/d life= 1.04 y on-time=0.471 late=0.000 lost=0.529 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.096 E_tx=   176.2 J/d life= 1.04 y on-time=0.427 late=0.000 lost=0.573 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.0   E_tx=  1154.4 J/d life= 0.20 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.096 E_tx=  1158.5 J/d life= 0.20 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.0   E_tx=  1158.6 J/d life= 0.20 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.096 E_tx=  1162.7 J/d life= 0.20 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=10.5/195.4 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.0   E_tx=   331.0 J/d life= 0.62 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.096 E_tx=   327.2 J/d life= 0.63 y on-time=0.494 late=0.506 lost=0.000 delay p50/p95=12.2/189.9 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.0   E_tx=   180.4 J/d life= 1.02 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.096 E_tx=   166.5 J/d life= 1.08 y on-time=0.454 late=0.546 lost=0.000 delay p50/p95=23.4/212.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.0   E_tx=  1157.1 J/d life= 0.20 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.096 E_tx=  1157.5 J/d life= 0.20 y on-time=0.489 late=0.461 lost=0.051 delay p50/p95=10.5/196.0 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.0   E_tx=   329.6 J/d life= 0.62 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.096 E_tx=   330.0 J/d life= 0.62 y on-time=0.458 late=0.496 lost=0.046 delay p50/p95=12.4/191.3 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.0   E_tx=   179.1 J/d life= 1.03 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.096 E_tx=   179.4 J/d life= 1.02 y on-time=0.427 late=0.529 lost=0.044 delay p50/p95=22.4/213.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.0   E_tx=    94.6 J/d life= 1.60 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.096 E_tx=    94.4 J/d life= 1.60 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/171.5 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.0   E_tx=    62.1 J/d life= 2.04 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/137.8 h dup/d=0.0
+InWaterSense NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.096 E_tx=    61.7 J/d life= 2.05 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/139.3 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    unconf        cap=0h p=0.0   E_tx=    59.3 J/d life= 1.89 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    unconf        cap=0h p=0.096 E_tx=    59.3 J/d life= 1.89 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq           cap=0h p=0.0   E_tx=   430.5 J/d life= 0.48 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq           cap=0h p=0.096 E_tx=   436.2 J/d life= 0.48 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq3          cap=0h p=0.0   E_tx=   168.6 J/d life= 1.02 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq3          cap=0h p=0.096 E_tx=   174.3 J/d life= 0.99 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=0h p=0.0   E_tx=   112.1 J/d life= 1.34 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=10.6/196.3 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=0h p=0.096 E_tx=   116.9 J/d life= 1.30 y on-time=0.534 late=0.466 lost=0.000 delay p50/p95=10.2/195.6 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=1h p=0.0   E_tx=    63.0 J/d life= 1.84 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=12.6/191.5 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=1h p=0.096 E_tx=    66.4 J/d life= 1.79 y on-time=0.496 late=0.504 lost=0.000 delay p50/p95=12.4/190.8 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=6h p=0.0   E_tx=    50.5 J/d life= 2.04 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=22.6/213.6 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    arq_buffer    cap=6h p=0.096 E_tx=    52.0 J/d life= 2.01 y on-time=0.456 late=0.544 lost=0.000 delay p50/p95=22.4/213.7 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=0h p=0.0   E_tx=    91.1 J/d life= 1.52 y on-time=0.539 late=0.430 lost=0.031 delay p50/p95=14.0/200.9 h dup/d=4.9
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=0h p=0.096 E_tx=    92.5 J/d life= 1.50 y on-time=0.498 late=0.435 lost=0.066 delay p50/p95=13.4/200.0 h dup/d=4.3
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=1h p=0.0   E_tx=    54.0 J/d life= 1.98 y on-time=0.516 late=0.459 lost=0.025 delay p50/p95=16.6/197.3 h dup/d=4.2
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=1h p=0.096 E_tx=    54.7 J/d life= 1.96 y on-time=0.473 late=0.466 lost=0.061 delay p50/p95=16.1/196.1 h dup/d=3.7
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=6h p=0.0   E_tx=    42.5 J/d life= 2.18 y on-time=0.478 late=0.503 lost=0.019 delay p50/p95=24.6/215.7 h dup/d=3.1
+InWaterSense LoRaWAN SF7                    checkpoint6   cap=6h p=0.096 E_tx=    42.2 J/d life= 2.19 y on-time=0.431 late=0.517 lost=0.051 delay p50/p95=27.5/237.3 h dup/d=2.6
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=0h p=0.0   E_tx=    78.5 J/d life= 1.65 y on-time=0.539 late=0.404 lost=0.056 delay p50/p95=17.2/204.7 h dup/d=10.7
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=0h p=0.096 E_tx=    79.2 J/d life= 1.64 y on-time=0.491 late=0.414 lost=0.095 delay p50/p95=16.3/203.4 h dup/d=9.6
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=1h p=0.0   E_tx=    50.3 J/d life= 2.04 y on-time=0.528 late=0.425 lost=0.048 delay p50/p95=20.9/202.3 h dup/d=10.1
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=1h p=0.096 E_tx=    50.7 J/d life= 2.03 y on-time=0.478 late=0.434 lost=0.088 delay p50/p95=20.3/201.2 h dup/d=9.1
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=6h p=0.0   E_tx=    42.4 J/d life= 2.18 y on-time=0.496 late=0.463 lost=0.041 delay p50/p95=26.2/200.3 h dup/d=8.4
+InWaterSense LoRaWAN SF7                    checkpoint36  cap=6h p=0.096 E_tx=    41.8 J/d life= 2.20 y on-time=0.441 late=0.483 lost=0.076 delay p50/p95=25.7/197.5 h dup/d=7.3
+InWaterSense LoRaWAN SF7                    batch1h       cap=6h p=0.0   E_tx=    18.2 J/d life= 2.80 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.8 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    batch1h       cap=6h p=0.096 E_tx=    19.0 J/d life= 2.77 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/168.8 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    batch6h       cap=6h p=0.0   E_tx=    10.9 J/d life= 3.06 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.8/138.1 h dup/d=0.0
+InWaterSense LoRaWAN SF7                    batch6h       cap=6h p=0.096 E_tx=    11.4 J/d life= 3.04 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=4.9/140.1 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   unconf        cap=0h p=0.0   E_tx=   143.4 J/d life= 1.14 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   unconf        cap=0h p=0.096 E_tx=   143.4 J/d life= 1.14 y on-time=0.490 late=0.000 lost=0.510 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq           cap=0h p=0.0   E_tx=   773.9 J/d life= 0.29 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq           cap=0h p=0.096 E_tx=   784.3 J/d life= 0.28 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq3          cap=0h p=0.0   E_tx=   344.7 J/d life= 0.58 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq3          cap=0h p=0.096 E_tx=   355.0 J/d life= 0.57 y on-time=0.539 late=0.000 lost=0.461 delay p50/p95=0.0/0.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=0h p=0.0   E_tx=   265.8 J/d life= 0.72 y on-time=0.539 late=0.461 lost=0.000 delay p50/p95=15.7/205.3 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=0h p=0.096 E_tx=   277.0 J/d life= 0.70 y on-time=0.535 late=0.465 lost=0.000 delay p50/p95=15.2/204.7 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=1h p=0.0   E_tx=   177.7 J/d life= 0.98 y on-time=0.504 late=0.496 lost=0.000 delay p50/p95=17.4/201.3 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=1h p=0.096 E_tx=   186.4 J/d life= 0.95 y on-time=0.495 late=0.505 lost=0.000 delay p50/p95=16.8/200.1 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=6h p=0.0   E_tx=   154.8 J/d life= 1.08 y on-time=0.471 late=0.529 lost=0.000 delay p50/p95=31.7/221.4 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   arq_buffer    cap=6h p=0.096 E_tx=   163.6 J/d life= 1.04 y on-time=0.457 late=0.543 lost=0.000 delay p50/p95=30.2/387.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=0h p=0.0   E_tx=   216.5 J/d life= 0.85 y on-time=0.539 late=0.430 lost=0.031 delay p50/p95=19.6/209.3 h dup/d=4.9
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=0h p=0.096 E_tx=   221.3 J/d life= 0.83 y on-time=0.497 late=0.435 lost=0.068 delay p50/p95=18.9/208.6 h dup/d=4.4
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=1h p=0.0   E_tx=   149.0 J/d life= 1.11 y on-time=0.516 late=0.459 lost=0.025 delay p50/p95=23.0/206.2 h dup/d=4.2
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=1h p=0.096 E_tx=   153.2 J/d life= 1.09 y on-time=0.473 late=0.466 lost=0.061 delay p50/p95=22.5/205.3 h dup/d=3.7
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=6h p=0.0   E_tx=   128.4 J/d life= 1.23 y on-time=0.478 late=0.503 lost=0.019 delay p50/p95=32.1/225.6 h dup/d=3.1
+InWaterSense LoRaWAN SF12                   checkpoint6   cap=6h p=0.096 E_tx=   132.8 J/d life= 1.20 y on-time=0.436 late=0.511 lost=0.052 delay p50/p95=31.2/224.5 h dup/d=2.8
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=0h p=0.0   E_tx=   195.5 J/d life= 0.91 y on-time=0.539 late=0.404 lost=0.056 delay p50/p95=24.0/214.6 h dup/d=10.7
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=0h p=0.096 E_tx=   199.5 J/d life= 0.90 y on-time=0.490 late=0.412 lost=0.098 delay p50/p95=23.0/212.7 h dup/d=9.7
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=1h p=0.0   E_tx=   143.6 J/d life= 1.14 y on-time=0.528 late=0.425 lost=0.048 delay p50/p95=29.9/211.0 h dup/d=10.1
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=1h p=0.096 E_tx=   147.1 J/d life= 1.12 y on-time=0.478 late=0.433 lost=0.089 delay p50/p95=28.8/211.0 h dup/d=9.1
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=6h p=0.0   E_tx=   128.8 J/d life= 1.22 y on-time=0.496 late=0.463 lost=0.041 delay p50/p95=34.7/209.8 h dup/d=8.4
+InWaterSense LoRaWAN SF12                   checkpoint36  cap=6h p=0.096 E_tx=   132.1 J/d life= 1.20 y on-time=0.448 late=0.474 lost=0.079 delay p50/p95=34.3/208.6 h dup/d=7.4
+InWaterSense LoRaWAN SF12                   batch1h       cap=6h p=0.0   E_tx=    87.4 J/d life= 1.55 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.8/178.7 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   batch1h       cap=6h p=0.096 E_tx=    94.4 J/d life= 1.48 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=1.0/180.7 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   batch6h       cap=6h p=0.0   E_tx=    77.2 J/d life= 1.66 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=5.2/148.0 h dup/d=0.0
+InWaterSense LoRaWAN SF12                   batch6h       cap=6h p=0.096 E_tx=    84.6 J/d life= 1.58 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=5.2/150.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.0   E_tx=    23.5 J/d life= 4.94 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf        cap=0h p=0.096 E_tx=    23.5 J/d life= 4.94 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.0   E_tx=    23.5 J/d life= 4.94 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=0h p=0.096 E_tx=    23.5 J/d life= 4.94 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.0   E_tx=    21.4 J/d life= 5.16 y on-time=0.839 late=0.000 lost=0.161 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=1h p=0.096 E_tx=    21.4 J/d life= 5.16 y on-time=0.761 late=0.000 lost=0.239 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.0   E_tx=    19.6 J/d life= 5.37 y on-time=0.829 late=0.000 lost=0.171 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) unconf_backoff cap=6h p=0.096 E_tx=    19.6 J/d life= 5.37 y on-time=0.751 late=0.000 lost=0.249 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.0   E_tx=    24.2 J/d life= 4.87 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq           cap=0h p=0.096 E_tx=    26.2 J/d life= 4.67 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.0   E_tx=    24.5 J/d life= 4.83 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=0h p=0.096 E_tx=    26.6 J/d life= 4.64 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=53.7/166.3 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.0   E_tx=    22.5 J/d life= 5.04 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=1h p=0.096 E_tx=    24.5 J/d life= 4.84 y on-time=0.837 late=0.163 lost=0.000 delay p50/p95=51.8/166.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.0   E_tx=    20.6 J/d life= 5.25 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) arq_buffer    cap=6h p=0.096 E_tx=    22.6 J/d life= 5.03 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.5/167.5 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.0   E_tx=    23.8 J/d life= 4.91 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=0h p=0.096 E_tx=    23.8 J/d life= 4.90 y on-time=0.763 late=0.158 lost=0.079 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.0   E_tx=    21.7 J/d life= 5.12 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=1h p=0.096 E_tx=    21.7 J/d life= 5.12 y on-time=0.760 late=0.161 lost=0.080 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.0   E_tx=    19.9 J/d life= 5.33 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) modem_buffer  cap=6h p=0.096 E_tx=    19.9 J/d life= 5.33 y on-time=0.750 late=0.171 lost=0.079 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.0   E_tx=    10.9 J/d life= 6.66 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch1h       cap=6h p=0.096 E_tx=    11.8 J/d life= 6.50 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/112.1 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.0   E_tx=     2.6 J/d life= 8.63 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 2.2 s) batch6h       cap=6h p=0.096 E_tx=     2.8 J/d life= 8.56 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/107.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.0   E_tx=    39.0 J/d life= 3.75 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf        cap=0h p=0.096 E_tx=    39.0 J/d life= 3.75 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.0   E_tx=    39.0 J/d life= 3.75 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=0h p=0.096 E_tx=    39.0 J/d life= 3.75 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.0   E_tx=    29.8 J/d life= 4.37 y on-time=0.839 late=0.000 lost=0.161 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=1h p=0.096 E_tx=    29.8 J/d life= 4.37 y on-time=0.761 late=0.000 lost=0.239 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.0   E_tx=    22.4 J/d life= 5.05 y on-time=0.829 late=0.000 lost=0.171 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  unconf_backoff cap=6h p=0.096 E_tx=    22.4 J/d life= 5.05 y on-time=0.751 late=0.000 lost=0.249 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.0   E_tx=    39.7 J/d life= 3.70 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq           cap=0h p=0.096 E_tx=    41.8 J/d life= 3.59 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.0   E_tx=    40.1 J/d life= 3.69 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=0h p=0.096 E_tx=    42.2 J/d life= 3.57 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=53.7/166.3 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.0   E_tx=    30.9 J/d life= 4.29 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=1h p=0.096 E_tx=    33.0 J/d life= 4.14 y on-time=0.837 late=0.163 lost=0.000 delay p50/p95=51.8/166.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.0   E_tx=    23.5 J/d life= 4.94 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  arq_buffer    cap=6h p=0.096 E_tx=    25.4 J/d life= 4.76 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.5/167.5 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.0   E_tx=    39.3 J/d life= 3.73 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=0h p=0.096 E_tx=    39.4 J/d life= 3.73 y on-time=0.763 late=0.158 lost=0.079 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.0   E_tx=    30.1 J/d life= 4.34 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=1h p=0.096 E_tx=    30.2 J/d life= 4.34 y on-time=0.760 late=0.161 lost=0.080 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.0   E_tx=    22.7 J/d life= 5.02 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  modem_buffer  cap=6h p=0.096 E_tx=    22.7 J/d life= 5.02 y on-time=0.750 late=0.171 lost=0.079 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.0   E_tx=    13.3 J/d life= 6.24 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch1h       cap=6h p=0.096 E_tx=    14.2 J/d life= 6.11 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/112.1 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.0   E_tx=     4.3 J/d life= 8.15 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 10 s)  batch6h       cap=6h p=0.096 E_tx=     4.5 J/d life= 8.09 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/107.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.0   E_tx=   138.6 J/d life= 1.47 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf        cap=0h p=0.096 E_tx=   138.6 J/d life= 1.47 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.0   E_tx=   138.6 J/d life= 1.47 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=0h p=0.096 E_tx=   138.6 J/d life= 1.47 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.0   E_tx=    83.8 J/d life= 2.21 y on-time=0.839 late=0.000 lost=0.161 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=1h p=0.096 E_tx=    83.8 J/d life= 2.21 y on-time=0.761 late=0.000 lost=0.239 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.0   E_tx=    40.6 J/d life= 3.66 y on-time=0.829 late=0.000 lost=0.171 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  unconf_backoff cap=6h p=0.096 E_tx=    40.6 J/d life= 3.66 y on-time=0.751 late=0.000 lost=0.249 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.0   E_tx=   139.3 J/d life= 1.46 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq           cap=0h p=0.096 E_tx=   141.4 J/d life= 1.45 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.0   E_tx=   139.7 J/d life= 1.46 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=0h p=0.096 E_tx=   141.8 J/d life= 1.44 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=53.7/166.3 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.0   E_tx=    84.9 J/d life= 2.19 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=1h p=0.096 E_tx=    87.0 J/d life= 2.15 y on-time=0.837 late=0.163 lost=0.000 delay p50/p95=51.8/166.8 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.0   E_tx=    41.6 J/d life= 3.60 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  arq_buffer    cap=6h p=0.096 E_tx=    43.2 J/d life= 3.52 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.5/167.5 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.0   E_tx=   138.9 J/d life= 1.47 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=0h p=0.096 E_tx=   139.0 J/d life= 1.47 y on-time=0.763 late=0.158 lost=0.079 delay p50/p95=54.7/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.0   E_tx=    84.2 J/d life= 2.20 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=1h p=0.096 E_tx=    84.2 J/d life= 2.20 y on-time=0.760 late=0.161 lost=0.080 delay p50/p95=52.6/166.4 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.0   E_tx=    40.9 J/d life= 3.64 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  modem_buffer  cap=6h p=0.096 E_tx=    40.9 J/d life= 3.64 y on-time=0.750 late=0.171 lost=0.079 delay p50/p95=47.7/167.7 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.0   E_tx=    28.6 J/d life= 4.47 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch1h       cap=6h p=0.096 E_tx=    29.4 J/d life= 4.41 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/112.1 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.0   E_tx=    14.8 J/d life= 6.01 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.0 h dup/d=0.0
+Weija        NB-IoT N211 RAI (search 60 s)  batch6h       cap=6h p=0.096 E_tx=    15.0 J/d life= 5.97 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/107.8 h dup/d=0.0
+Weija        LoRaWAN SF7                    unconf        cap=0h p=0.0   E_tx=    18.6 J/d life= 4.31 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    unconf        cap=0h p=0.096 E_tx=    18.6 J/d life= 4.31 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq           cap=0h p=0.0   E_tx=    56.1 J/d life= 2.58 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq           cap=0h p=0.096 E_tx=    58.9 J/d life= 2.50 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq3          cap=0h p=0.0   E_tx=    28.0 J/d life= 3.69 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq3          cap=0h p=0.096 E_tx=    30.8 J/d life= 3.54 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=0h p=0.0   E_tx=    20.6 J/d life= 4.16 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=54.9/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=0h p=0.096 E_tx=    23.4 J/d life= 3.97 y on-time=0.841 late=0.159 lost=0.000 delay p50/p95=54.1/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=1h p=0.0   E_tx=    18.2 J/d life= 4.34 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=52.7/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=1h p=0.096 E_tx=    21.1 J/d life= 4.13 y on-time=0.838 late=0.162 lost=0.000 delay p50/p95=52.1/166.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=6h p=0.0   E_tx=    16.0 J/d life= 4.52 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=47.8/167.7 h dup/d=0.0
+Weija        LoRaWAN SF7                    arq_buffer    cap=6h p=0.096 E_tx=    18.6 J/d life= 4.31 y on-time=0.824 late=0.176 lost=0.000 delay p50/p95=45.3/167.4 h dup/d=0.0
+Weija        LoRaWAN SF7                    checkpoint6   cap=0h p=0.0   E_tx=    21.2 J/d life= 4.12 y on-time=0.842 late=0.151 lost=0.007 delay p50/p95=60.3/166.9 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=0h p=0.096 E_tx=    21.7 J/d life= 4.08 y on-time=0.776 late=0.151 lost=0.073 delay p50/p95=60.3/167.0 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=1h p=0.0   E_tx=    18.9 J/d life= 4.29 y on-time=0.840 late=0.153 lost=0.007 delay p50/p95=59.2/167.3 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=1h p=0.096 E_tx=    19.3 J/d life= 4.25 y on-time=0.774 late=0.154 lost=0.072 delay p50/p95=58.4/167.5 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=6h p=0.0   E_tx=    17.0 J/d life= 4.44 y on-time=0.835 late=0.159 lost=0.006 delay p50/p95=55.1/167.5 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint6   cap=6h p=0.096 E_tx=    17.3 J/d life= 4.41 y on-time=0.765 late=0.164 lost=0.071 delay p50/p95=54.6/170.2 h dup/d=0.5
+Weija        LoRaWAN SF7                    checkpoint36  cap=0h p=0.0   E_tx=    20.6 J/d life= 4.16 y on-time=0.842 late=0.139 lost=0.019 delay p50/p95=69.5/167.8 h dup/d=1.1
+Weija        LoRaWAN SF7                    checkpoint36  cap=0h p=0.096 E_tx=    20.8 J/d life= 4.15 y on-time=0.766 late=0.141 lost=0.093 delay p50/p95=68.9/168.6 h dup/d=1.0
+Weija        LoRaWAN SF7                    checkpoint36  cap=1h p=0.0   E_tx=    18.7 J/d life= 4.30 y on-time=0.841 late=0.140 lost=0.019 delay p50/p95=69.2/168.2 h dup/d=1.1
+Weija        LoRaWAN SF7                    checkpoint36  cap=1h p=0.096 E_tx=    18.9 J/d life= 4.29 y on-time=0.765 late=0.143 lost=0.093 delay p50/p95=67.9/168.9 h dup/d=1.0
+Weija        LoRaWAN SF7                    checkpoint36  cap=6h p=0.0   E_tx=    17.2 J/d life= 4.42 y on-time=0.838 late=0.143 lost=0.019 delay p50/p95=68.4/169.9 h dup/d=1.1
+Weija        LoRaWAN SF7                    checkpoint36  cap=6h p=0.096 E_tx=    17.3 J/d life= 4.41 y on-time=0.762 late=0.145 lost=0.093 delay p50/p95=67.3/170.1 h dup/d=1.0
+Weija        LoRaWAN SF7                    batch1h       cap=6h p=0.0   E_tx=     9.0 J/d life= 5.20 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.1 h dup/d=0.0
+Weija        LoRaWAN SF7                    batch1h       cap=6h p=0.096 E_tx=    10.3 J/d life= 5.06 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/103.1 h dup/d=0.0
+Weija        LoRaWAN SF7                    batch6h       cap=6h p=0.0   E_tx=     2.6 J/d life= 6.03 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.1 h dup/d=0.0
+Weija        LoRaWAN SF7                    batch6h       cap=6h p=0.096 E_tx=     2.9 J/d life= 5.98 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/105.1 h dup/d=0.0
+Weija        LoRaWAN SF12                   unconf        cap=0h p=0.0   E_tx=    44.9 J/d life= 2.93 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   unconf        cap=0h p=0.096 E_tx=    44.9 J/d life= 2.93 y on-time=0.763 late=0.000 lost=0.237 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq           cap=0h p=0.0   E_tx=   116.3 J/d life= 1.57 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq           cap=0h p=0.096 E_tx=   121.4 J/d life= 1.52 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq3          cap=0h p=0.0   E_tx=    70.3 J/d life= 2.24 y on-time=0.842 late=0.000 lost=0.158 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq3          cap=0h p=0.096 E_tx=    75.3 J/d life= 2.14 y on-time=0.841 late=0.000 lost=0.159 delay p50/p95=0.0/0.0 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=0h p=0.0   E_tx=    59.6 J/d life= 2.48 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=59.9/166.8 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=0h p=0.096 E_tx=    65.2 J/d life= 2.35 y on-time=0.842 late=0.158 lost=0.000 delay p50/p95=59.7/166.8 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=1h p=0.0   E_tx=    55.2 J/d life= 2.60 y on-time=0.839 late=0.161 lost=0.000 delay p50/p95=58.0/166.9 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=1h p=0.096 E_tx=    60.6 J/d life= 2.46 y on-time=0.838 late=0.162 lost=0.000 delay p50/p95=57.3/166.8 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=6h p=0.0   E_tx=    51.3 J/d life= 2.72 y on-time=0.829 late=0.171 lost=0.000 delay p50/p95=52.2/168.2 h dup/d=0.0
+Weija        LoRaWAN SF12                   arq_buffer    cap=6h p=0.096 E_tx=    56.5 J/d life= 2.57 y on-time=0.828 late=0.172 lost=0.000 delay p50/p95=51.8/168.1 h dup/d=0.0
+Weija        LoRaWAN SF12                   checkpoint6   cap=0h p=0.0   E_tx=    52.6 J/d life= 2.68 y on-time=0.842 late=0.151 lost=0.007 delay p50/p95=65.2/167.4 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=0h p=0.096 E_tx=    53.8 J/d life= 2.64 y on-time=0.776 late=0.152 lost=0.073 delay p50/p95=64.9/167.6 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=1h p=0.0   E_tx=    48.4 J/d life= 2.81 y on-time=0.840 late=0.153 lost=0.007 delay p50/p95=64.2/167.8 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=1h p=0.096 E_tx=    49.7 J/d life= 2.77 y on-time=0.775 late=0.154 lost=0.071 delay p50/p95=63.2/167.6 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=6h p=0.0   E_tx=    45.0 J/d life= 2.93 y on-time=0.835 late=0.159 lost=0.006 delay p50/p95=60.3/168.1 h dup/d=0.5
+Weija        LoRaWAN SF12                   checkpoint6   cap=6h p=0.096 E_tx=    46.3 J/d life= 2.88 y on-time=0.769 late=0.162 lost=0.069 delay p50/p95=58.2/167.9 h dup/d=0.4
+Weija        LoRaWAN SF12                   checkpoint36  cap=0h p=0.0   E_tx=    50.5 J/d life= 2.74 y on-time=0.842 late=0.139 lost=0.019 delay p50/p95=74.1/168.4 h dup/d=1.1
+Weija        LoRaWAN SF12                   checkpoint36  cap=0h p=0.096 E_tx=    51.1 J/d life= 2.72 y on-time=0.766 late=0.142 lost=0.093 delay p50/p95=72.6/168.5 h dup/d=1.0
+Weija        LoRaWAN SF12                   checkpoint36  cap=1h p=0.0   E_tx=    47.1 J/d life= 2.85 y on-time=0.841 late=0.140 lost=0.019 delay p50/p95=73.9/168.8 h dup/d=1.1
+Weija        LoRaWAN SF12                   checkpoint36  cap=1h p=0.096 E_tx=    47.7 J/d life= 2.83 y on-time=0.765 late=0.142 lost=0.093 delay p50/p95=72.5/168.9 h dup/d=1.0
+Weija        LoRaWAN SF12                   checkpoint36  cap=6h p=0.0   E_tx=    44.3 J/d life= 2.95 y on-time=0.838 late=0.143 lost=0.019 delay p50/p95=73.3/170.5 h dup/d=1.1
+Weija        LoRaWAN SF12                   checkpoint36  cap=6h p=0.096 E_tx=    44.8 J/d life= 2.93 y on-time=0.757 late=0.150 lost=0.093 delay p50/p95=74.8/176.5 h dup/d=1.0
+Weija        LoRaWAN SF12                   batch1h       cap=6h p=0.0   E_tx=    31.0 J/d life= 3.52 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/106.3 h dup/d=0.0
+Weija        LoRaWAN SF12                   batch1h       cap=6h p=0.096 E_tx=    33.8 J/d life= 3.39 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=0.5/106.3 h dup/d=0.0
+Weija        LoRaWAN SF12                   batch6h       cap=6h p=0.0   E_tx=    23.2 J/d life= 3.98 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/108.2 h dup/d=0.0
+Weija        LoRaWAN SF12                   batch6h       cap=6h p=0.096 E_tx=    25.7 J/d life= 3.83 y on-time=0.000 late=1.000 lost=0.000 delay p50/p95=3.3/108.2 h dup/d=0.0
+=== loss_handling done in 42 s
+=== tolerance start 07:34:26
+01388000 done
+01427510 done
+01438500 done
+01458500 done
+01463500 done
+01465798 done
+014670261 done
+01467087 done
+01467200 done
+01473500 done
+01475530 done
+01477050 done
+03072655 done
+05420400 done
+05537980 done
+05543010 done
+05553700 done
+05559900 done
+05586300 done
+11509370 done
+11509500 done
+11510700 done
+14163900 done
+14203500 done
+14206241 done
+14206694 done
+14207200 done
+14209710 done
+14211010 done
+420853121505500 done
+param                          DO      EC       T     pH
+tol_L1_med                  1.000   2.095   0.100  0.050
+tol_L2_med                  2.000   4.190   0.200  0.100
+tol_L3_med                  5.000  10.475   0.500  0.200
+usgs_exc_med                4.786   6.285   0.200  0.200
+daily_range_med            10.110  12.000   1.100  0.250
+daily_range_p10             3.214   1.000   0.600  0.100
+daily_range_p90            19.083  36.400   2.210  0.600
+amp5_med                    7.563   7.413   0.741  0.500
+amp8_med                   12.100  11.861   1.186  0.800
+sites_with_real_ge5         1.000   0.933   1.000  0.600
+sites_with_real_ge8         0.967   0.933   0.833  0.367
+real_p999_over_sigma_med    9.801  18.316   8.487  4.023
+real_max_over_sigma_med   409.879  31.364  12.478  6.000
+=== tolerance done in 24 s
+=== loss_revision start 07:34:50
+A InWaterSense done
+A Weija (v0.1 EC record) done
+A Weija (node record) done
+B InWaterSense done
+B Weija (v0.1 EC record) done
+B Weija (node record) done
+C InWaterSense done
+C Weija (v0.1 EC record) done
+C Weija (node record) done
+=== loss_revision done in 840 s
+=== sweep_k_batch start 07:48:51
+InWaterSense NB-IoT done
+InWaterSense LoRaWAN SF7 done
+InWaterSense LoRaWAN SF12 done
+Weija (node record) NB-IoT done
+Weija (node record) LoRaWAN SF7 done
+Weija (node record) LoRaWAN SF12 done
+              trace        radio   strategy  K_h  batch_h  batch_slots  energy_j_per_day  delivered  within_1h  recovery_h_median  recovery_h_p90
+       InWaterSense       NB-IoT arq_buffer    0      NaN          NaN           230.410        1.0      0.646              0.000           0.000
+       InWaterSense       NB-IoT arq_buffer    1      NaN          NaN            89.378        1.0      0.578              0.170           5.940
+       InWaterSense       NB-IoT arq_buffer    2      NaN          NaN            73.671        1.0      0.556              0.170          12.559
+       InWaterSense       NB-IoT arq_buffer    3      NaN          NaN            67.855        1.0      0.544              0.339          15.088
+       InWaterSense       NB-IoT arq_buffer    6      NaN          NaN            61.968        1.0      0.528              0.509          19.501
+       InWaterSense       NB-IoT arq_buffer   12      NaN          NaN            57.875        1.0      0.513              0.849          30.041
+       InWaterSense       NB-IoT arq_buffer   24      NaN          NaN            53.835        1.0      0.490              1.528          60.404
+       InWaterSense       NB-IoT      batch    0     1.00          6.0           168.072        1.0      0.624              0.000           0.679
+       InWaterSense       NB-IoT      batch    1     1.00          6.0            45.685        1.0      0.576              0.339           3.564
+       InWaterSense       NB-IoT      batch    2     1.00          6.0            33.336        1.0      0.565              0.509           5.431
+       InWaterSense       NB-IoT      batch    3     1.00          6.0            28.593        1.0      0.548              0.509           9.657
+       InWaterSense       NB-IoT      batch    6     1.00          6.0            23.012        1.0      0.521              0.679          19.858
+       InWaterSense       NB-IoT      batch   12     1.00          6.0            19.293        1.0      0.490              1.782          44.298
+       InWaterSense       NB-IoT      batch   24     1.00          6.0            17.570        1.0      0.474              3.055         120.435
+       InWaterSense       NB-IoT      batch    6     0.25          1.0            61.996        1.0      0.528              0.509          19.501
+       InWaterSense       NB-IoT      batch    6     0.50          3.0            32.414        1.0      0.529              0.339          17.974
+       InWaterSense       NB-IoT      batch    6     2.00         12.0            17.662        1.0      0.280              1.358          16.972
+       InWaterSense       NB-IoT      batch    6     3.00         18.0            15.453        1.0      0.195              1.867          18.652
+       InWaterSense       NB-IoT      batch    6     6.00         35.0            12.979        1.0      0.113              3.394          16.972
+       InWaterSense       NB-IoT      batch    6    12.00         71.0            10.122        1.0      0.061              6.449          21.538
+       InWaterSense  LoRaWAN SF7 arq_buffer    0      NaN          NaN           112.137        1.0      0.645              0.000           0.000
+       InWaterSense  LoRaWAN SF7 arq_buffer    1      NaN          NaN            62.983        1.0      0.578              0.170           5.940
+       InWaterSense  LoRaWAN SF7 arq_buffer    2      NaN          NaN            56.131        1.0      0.556              0.170          12.670
+       InWaterSense  LoRaWAN SF7 arq_buffer    3      NaN          NaN            53.264        1.0      0.544              0.339          15.092
+       InWaterSense  LoRaWAN SF7 arq_buffer    6      NaN          NaN            50.490        1.0      0.528              0.509          19.651
+       InWaterSense  LoRaWAN SF7 arq_buffer   12      NaN          NaN            47.499        1.0      0.512              0.849          30.204
+       InWaterSense  LoRaWAN SF7 arq_buffer   24      NaN          NaN            44.414        1.0      0.489              1.702          60.738
+       InWaterSense  LoRaWAN SF7      batch    0     1.00          6.0            63.013        1.0      0.623              0.010           0.679
+       InWaterSense  LoRaWAN SF7      batch    1     1.00          6.0            27.433        1.0      0.576              0.339           3.574
+       InWaterSense  LoRaWAN SF7      batch    2     1.00          6.0            23.471        1.0      0.564              0.509           5.499
+       InWaterSense  LoRaWAN SF7      batch    3     1.00          6.0            21.599        1.0      0.547              0.509           9.693
+       InWaterSense  LoRaWAN SF7      batch    6     1.00          6.0            18.178        1.0      0.520              0.679          19.868
+       InWaterSense  LoRaWAN SF7      batch   12     1.00          6.0            15.793        1.0      0.489              1.871          44.407
+       InWaterSense  LoRaWAN SF7      batch   24     1.00          6.0            15.161        1.0      0.473              3.206         120.940
+       InWaterSense  LoRaWAN SF7      batch    6     0.25          1.0            50.228        1.0      0.528              0.509          19.651
+       InWaterSense  LoRaWAN SF7      batch    6     0.50          3.0            26.101        1.0      0.528              0.339          17.984
+       InWaterSense  LoRaWAN SF7      batch    6     2.00         12.0            14.085        1.0      0.279              1.358          17.009
+       InWaterSense  LoRaWAN SF7      batch    6     3.00         18.0            12.892        1.0      0.195              1.867          18.703
+       InWaterSense  LoRaWAN SF7      batch    6     6.00         35.0            10.906        1.0      0.112              3.394          17.125
+       InWaterSense  LoRaWAN SF7      batch    6    12.00         71.0             8.332        1.0      0.060              6.460          21.562
+       InWaterSense LoRaWAN SF12 arq_buffer    0      NaN          NaN           265.765        1.0      0.635              0.000           0.205
+       InWaterSense LoRaWAN SF12 arq_buffer    1      NaN          NaN           177.680        1.0      0.564              0.170           8.102
+       InWaterSense LoRaWAN SF12 arq_buffer    2      NaN          NaN           164.947        1.0      0.541              0.548          18.772
+       InWaterSense LoRaWAN SF12 arq_buffer    3      NaN          NaN           160.104        1.0      0.530              0.613          19.936
+       InWaterSense LoRaWAN SF12 arq_buffer    6      NaN          NaN           154.827        1.0      0.516              0.849          24.172
+       InWaterSense LoRaWAN SF12 arq_buffer   12      NaN          NaN           149.432        1.0      0.501              1.383          36.381
+       InWaterSense LoRaWAN SF12 arq_buffer   24      NaN          NaN           143.759        1.0      0.479              2.869          71.898
+       InWaterSense LoRaWAN SF12      batch    0     1.00          6.0           169.423        1.0      0.610              0.238           0.849
+       InWaterSense LoRaWAN SF12      batch    1     1.00          6.0           104.389        1.0      0.560              0.509           5.536
+       InWaterSense LoRaWAN SF12      batch    2     1.00          6.0            96.842        1.0      0.548              0.509           7.610
+       InWaterSense LoRaWAN SF12      batch    3     1.00          6.0            93.658        1.0      0.532              0.512          12.533
+       InWaterSense LoRaWAN SF12      batch    6     1.00          6.0            87.364        1.0      0.506              0.849          24.141
+       InWaterSense LoRaWAN SF12      batch   12     1.00          6.0            83.086        1.0      0.478              3.981          48.531
+       InWaterSense LoRaWAN SF12      batch   24     1.00          6.0            82.014        1.0      0.464              6.122         146.967
+       InWaterSense LoRaWAN SF12      batch    6     0.25          1.0           151.201        1.0      0.514              0.849          24.172
+       InWaterSense LoRaWAN SF12      batch    6     0.50          3.0            96.675        1.0      0.514              0.578          21.957
+       InWaterSense LoRaWAN SF12      batch    6     2.00         12.0            81.780        1.0      0.265              1.528          20.809
+       InWaterSense LoRaWAN SF12      batch    6     3.00         18.0            79.683        1.0      0.153              2.275          24.574
+       InWaterSense LoRaWAN SF12      batch    6     6.00         35.0            77.234        1.0      0.040              4.109          20.576
+       InWaterSense LoRaWAN SF12      batch    6    12.00         71.0            72.574        1.0      0.003              7.712          25.649
+Weija (node record)       NB-IoT arq_buffer    0      NaN          NaN            38.050        1.0      0.866              0.000           0.000
+Weija (node record)       NB-IoT arq_buffer    1      NaN          NaN            29.590        1.0      0.862              0.000           4.878
+Weija (node record)       NB-IoT arq_buffer    2      NaN          NaN            25.380        1.0      0.858              1.084          20.052
+Weija (node record)       NB-IoT arq_buffer    3      NaN          NaN            24.034        1.0      0.857              1.626          15.174
+Weija (node record)       NB-IoT arq_buffer    6      NaN          NaN            22.658        1.0      0.851              4.878          33.601
+Weija (node record)       NB-IoT arq_buffer   12      NaN          NaN            21.914        1.0      0.848              3.794          36.310
+Weija (node record)       NB-IoT arq_buffer   24      NaN          NaN            21.485        1.0      0.843              3.794          41.730
+Weija (node record)       NB-IoT      batch    0     1.00          2.0            27.748        1.0      0.864              0.000           0.000
+Weija (node record)       NB-IoT      batch    1     1.00          2.0            19.510        1.0      0.861              0.000           4.878
+Weija (node record)       NB-IoT      batch    2     1.00          2.0            15.386        1.0      0.859              0.542          20.052
+Weija (node record)       NB-IoT      batch    3     1.00          2.0            14.066        1.0      0.857              0.542          15.174
+Weija (node record)       NB-IoT      batch    6     1.00          2.0            12.748        1.0      0.854              0.542          33.601
+Weija (node record)       NB-IoT      batch   12     1.00          2.0            12.048        1.0      0.852              1.084          36.310
+Weija (node record)       NB-IoT      batch   24     1.00          2.0            11.680        1.0      0.847              1.084          41.730
+Weija (node record)       NB-IoT      batch    6     0.25          1.0            22.658        1.0      0.851              4.878          33.601
+Weija (node record)       NB-IoT      batch    6     0.50          1.0            22.658        1.0      0.851              4.878          33.601
+Weija (node record)       NB-IoT      batch    6     2.00          4.0             7.667        1.0      0.432              0.542          18.426
+Weija (node record)       NB-IoT      batch    6     3.00          6.0             5.888        1.0      0.290              1.084          14.632
+Weija (node record)       NB-IoT      batch    6     6.00         11.0             4.040        1.0      0.158              2.710          20.052
+Weija (node record)       NB-IoT      batch    6    12.00         22.0             2.884        1.0      0.080              2.710          30.349
+Weija (node record)  LoRaWAN SF7 arq_buffer    0      NaN          NaN            18.909        1.0      0.866              0.000           0.000
+Weija (node record)  LoRaWAN SF7 arq_buffer    1      NaN          NaN            16.442        1.0      0.862              0.184           4.878
+Weija (node record)  LoRaWAN SF7 arq_buffer    2      NaN          NaN            15.171        1.0      0.858              1.268          20.062
+Weija (node record)  LoRaWAN SF7 arq_buffer    3      NaN          NaN            14.821        1.0      0.857              1.626          15.185
+Weija (node record)  LoRaWAN SF7 arq_buffer    6      NaN          NaN            14.342        1.0      0.851              5.062          33.611
+Weija (node record)  LoRaWAN SF7 arq_buffer   12      NaN          NaN            14.127        1.0      0.848              3.794          36.321
+Weija (node record)  LoRaWAN SF7 arq_buffer   24      NaN          NaN            13.978        1.0      0.843              3.794          41.740
+Weija (node record)  LoRaWAN SF7      batch    0     1.00          2.0            12.479        1.0      0.864              0.000           0.000
+Weija (node record)  LoRaWAN SF7      batch    1     1.00          2.0            10.164        1.0      0.861              0.000           4.878
+Weija (node record)  LoRaWAN SF7      batch    2     1.00          2.0             8.977        1.0      0.859              0.542          20.062
+Weija (node record)  LoRaWAN SF7      batch    3     1.00          2.0             8.641        1.0      0.857              0.552          15.185
+Weija (node record)  LoRaWAN SF7      batch    6     1.00          2.0             8.203        1.0      0.854              0.726          33.611
+Weija (node record)  LoRaWAN SF7      batch   12     1.00          2.0             8.016        1.0      0.852              1.084          36.321
+Weija (node record)  LoRaWAN SF7      batch   24     1.00          2.0             7.909        1.0      0.847              1.084          41.740
+Weija (node record)  LoRaWAN SF7      batch    6     0.25          1.0            14.271        1.0      0.851              5.062          33.611
+Weija (node record)  LoRaWAN SF7      batch    6     0.50          1.0            14.271        1.0      0.851              5.062          33.611
+Weija (node record)  LoRaWAN SF7      batch    6     2.00          4.0             4.901        1.0      0.432              0.542          18.436
+Weija (node record)  LoRaWAN SF7      batch    6     3.00          6.0             3.780        1.0      0.290              1.084          14.653
+Weija (node record)  LoRaWAN SF7      batch    6     6.00         11.0             2.396        1.0      0.158              2.894          20.062
+Weija (node record)  LoRaWAN SF7      batch    6    12.00         22.0             2.260        1.0      0.080              2.904          30.359
+Weija (node record) LoRaWAN SF12 arq_buffer    0      NaN          NaN            56.762        1.0      0.866              0.068           0.342
+Weija (node record) LoRaWAN SF12 arq_buffer    1      NaN          NaN            52.297        1.0      0.862              0.548           7.397
+Weija (node record) LoRaWAN SF12 arq_buffer    2      NaN          NaN            50.003        1.0      0.857              1.694          20.668
+Weija (node record) LoRaWAN SF12 arq_buffer    3      NaN          NaN            49.373        1.0      0.856              1.968          15.585
+Weija (node record) LoRaWAN SF12 arq_buffer    6      NaN          NaN            48.472        1.0      0.850              5.967          34.217
+Weija (node record) LoRaWAN SF12 arq_buffer   12      NaN          NaN            48.071        1.0      0.848              6.030          36.927
+Weija (node record) LoRaWAN SF12 arq_buffer   24      NaN          NaN            47.773        1.0      0.842              6.030          42.346
+Weija (node record) LoRaWAN SF12      batch    0     1.00          2.0            37.245        1.0      0.864              0.068           0.342
+Weija (node record) LoRaWAN SF12      batch    1     1.00          2.0            33.031        1.0      0.860              0.342           7.603
+Weija (node record) LoRaWAN SF12      batch    2     1.00          2.0            30.883        1.0      0.858              0.816          20.737
+Weija (node record) LoRaWAN SF12      batch    3     1.00          2.0            30.257        1.0      0.856              1.096          15.654
+Weija (node record) LoRaWAN SF12      batch    6     1.00          2.0            29.482        1.0      0.853              1.152          34.285
+Weija (node record) LoRaWAN SF12      batch   12     1.00          2.0            29.160        1.0      0.851              1.152          36.995
+Weija (node record) LoRaWAN SF12      batch   24     1.00          2.0            28.986        1.0      0.846              1.152          42.415
+Weija (node record) LoRaWAN SF12      batch    6     0.25          1.0            46.411        1.0      0.849              5.967          34.217
+Weija (node record) LoRaWAN SF12      batch    6     0.50          1.0            46.411        1.0      0.849              5.967          34.217
+Weija (node record) LoRaWAN SF12      batch    6     2.00          4.0            28.689        1.0      0.431              0.610          19.180
+Weija (node record) LoRaWAN SF12      batch    6     3.00          6.0            22.583        1.0      0.289              1.626          15.454
+Weija (node record) LoRaWAN SF12      batch    6     6.00         11.0            22.871        1.0      0.157              3.320          20.805
+Weija (node record) LoRaWAN SF12      batch    6    12.00         22.0            22.453        1.0      0.078              4.068          31.102
+=== sweep_k_batch done in 18 s
+=== energy_mc start 07:49:08
+draw 0
+draw 10
+draw 20
+draw 30
+draw 40
+draw 50
+draw 60
+draw 70
+draw 80
+draw 90
+                                 arq_over_unconf             buffer_over_fair             batch_over_fair             unconf_over_fair            
+                                            2.5%   50% 97.5%             2.5%   50% 97.5%            2.5%   50% 97.5%             2.5%   50% 97.5%
+trace               radio                                                                                                                         
+InWaterSense        LoRaWAN SF12            4.65  5.57  6.72             0.68  1.10  1.92            0.37  0.62  1.10             1.00  1.00  1.00
+                    LoRaWAN SF7             6.11  7.37  9.64             0.63  0.89  1.24            0.24  0.32  0.42             1.00  1.00  1.00
+                    NB-IoT                  0.86  1.01  1.23             0.75  1.06  1.67            0.24  0.42  0.56             2.03  3.62  6.14
+Weija (node record) LoRaWAN SF12            1.83  2.50  3.68             0.58  1.10  2.12            0.36  0.67  1.27             1.00  1.00  1.00
+                    LoRaWAN SF7             2.21  2.85  3.75             0.49  0.81  1.25            0.29  0.46  0.70             1.00  1.00  1.00
+                    NB-IoT                  0.71  1.02  1.52             0.62  1.04  1.82            0.36  0.63  0.99             1.18  1.61  3.14
+
+share of draws: ARQ dearer than unconfirmed; batch cheaper than the fair baseline
+                                  arq_dearer  batch_cheaper  buffer_within_30pct
+trace               radio                                                       
+InWaterSense        LoRaWAN SF12        1.00           0.91                 0.62
+                    LoRaWAN SF7         1.00           1.00                 0.85
+                    NB-IoT              0.54           1.00                 0.76
+Weija (node record) LoRaWAN SF12        1.00           0.85                 0.49
+                    LoRaWAN SF7         1.00           1.00                 0.66
+                    NB-IoT              0.54           0.98                 0.56
+=== energy_mc done in 465 s
+=== netsim start 07:56:53
+SF7 outage 6 h, N=1 done
+SF7 outage 6 h, N=10 done
+SF7 outage 6 h, N=50 done
+SF7 outage 6 h, N=100 done
+SF7 outage 6 h, N=250 done
+SF7 outage 6 h, N=500 done
+SF7 outage 24 h, N=1 done
+SF7 outage 24 h, N=10 done
+SF7 outage 24 h, N=50 done
+SF7 outage 24 h, N=100 done
+SF7 outage 24 h, N=250 done
+SF7 outage 24 h, N=500 done
+SF7 outage 72 h, N=1 done
+SF7 outage 72 h, N=10 done
+SF7 outage 72 h, N=50 done
+SF7 outage 72 h, N=100 done
+SF7 outage 72 h, N=250 done
+SF7 outage 72 h, N=500 done
+SF12 outage 6 h, N=1 done
+SF12 outage 6 h, N=10 done
+SF12 outage 6 h, N=50 done
+SF12 outage 6 h, N=100 done
+SF12 outage 6 h, N=250 done
+SF12 outage 6 h, N=500 done
+SF12 outage 24 h, N=1 done
+SF12 outage 24 h, N=10 done
+SF12 outage 24 h, N=50 done
+SF12 outage 24 h, N=100 done
+SF12 outage 24 h, N=250 done
+SF12 outage 24 h, N=500 done
+SF12 outage 72 h, N=1 done
+SF12 outage 72 h, N=10 done
+SF12 outage 72 h, N=50 done
+SF12 outage 72 h, N=100 done
+SF12 outage 72 h, N=250 done
+SF12 outage 72 h, N=500 done
+                              cleared_share  clear_all_h  clear_median_h    pdr  collided_share  halfduplex_share  noack_share  rx1_duty  rx2_duty  energy_vs_alone
+sf outage_h n_nodes jitter_s                                                                                                                                       
+7  6        1       0.0               1.000        1.516           1.516  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+                    900.0             1.000        2.009           2.009  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+                    3600.0            1.000        3.494           3.494  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+            10      0.0               1.000       45.659          31.598  0.769           0.203             0.000        0.010     0.000     0.000           12.696
+                    900.0             1.000        2.263           2.026  0.969           0.000             0.000        0.031     0.000     0.000            1.098
+                    3600.0            1.000        4.504           3.545  0.985           0.000             0.000        0.015     0.000     0.000            1.276
+            50      0.0               0.000          inf             inf  0.000           0.160             0.000        0.000     0.000     0.000            7.344
+                    900.0             1.000       10.270           2.038  0.966           0.004             0.004        0.026     0.001     0.001            3.527
+                    3600.0            1.000        6.104           3.493  0.981           0.003             0.007        0.008     0.001     0.001            1.720
+            100     0.0               0.003          inf             inf  0.019           0.078             0.000        0.000     0.000     0.000            7.393
+                    900.0             1.000       16.303           2.067  0.937           0.006             0.016        0.041     0.001     0.003            5.618
+                    3600.0            1.000       12.943           3.541  0.962           0.008             0.010        0.020     0.001     0.002            3.676
+            250     0.0               0.000          inf             inf  0.000           0.032             0.000        0.000     0.000     0.000            7.344
+                    900.0             1.000       26.626           2.277  0.847           0.016             0.034        0.104     0.002     0.012           10.074
+                    3600.0            1.000       20.923           3.610  0.936           0.006             0.016        0.041     0.002     0.011            6.131
+            500     0.0               0.000          inf             inf  0.000           0.016             0.000        0.000     0.000     0.000            7.344
+                    900.0             1.000       57.514           8.376  0.785           0.027             0.043        0.145     0.004     0.031           24.572
+                    3600.0            1.000       38.636           4.037  0.873           0.013             0.030        0.084     0.004     0.033           12.527
+   24       1       0.0               1.000        1.559           1.559  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+                    900.0             1.000        2.465           2.465  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+                    3600.0            1.000        5.194           5.194  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+            10      0.0               1.000       41.698          24.637  0.802           0.175             0.000        0.011     0.000     0.000            5.670
+                    900.0             1.000        2.780           2.450  0.977           0.000             0.000        0.023     0.000     0.001            1.046
+                    3600.0            1.000        6.033           5.005  0.993           0.000             0.000        0.007     0.000     0.000            1.069
+            50      0.0               0.000          inf             inf  0.000           0.160             0.000        0.000     0.000     0.000            2.953
+                    900.0             1.000       10.658           2.517  0.889           0.008             0.041        0.062     0.001     0.002            2.371
+                    3600.0            1.000       10.034           5.099  0.974           0.009             0.010        0.007     0.001     0.002            1.509
+            100     0.0               0.003          inf             inf  0.020           0.078             0.000        0.000     0.000     0.000            2.975
+                    900.0             1.000       18.984           2.686  0.861           0.017             0.034        0.088     0.001     0.005            3.688
+                    3600.0            1.000       12.731           5.205  0.927           0.009             0.029        0.035     0.001     0.004            1.924
+            250     0.0               0.000          inf             inf  0.000           0.032             0.000        0.000     0.000     0.000            2.953
+                    900.0             1.000       31.278           8.501  0.771           0.031             0.056        0.142     0.002     0.013            6.375
+                    3600.0            1.000       21.465           5.650  0.848           0.015             0.047        0.090     0.002     0.014            3.348
+            500     0.0               0.000          inf             inf  0.000           0.016             0.000        0.000     0.000     0.000            2.953
+                    900.0             1.000       57.915           9.943  0.715           0.036             0.063        0.186     0.004     0.032           12.349
+                    3600.0            1.000       42.312           7.556  0.767           0.024             0.058        0.151     0.004     0.035            7.151
+   72       1       0.0               1.000        1.679           1.679  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+                    900.0             1.000        3.507           3.507  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+                    3600.0            1.000        2.308           2.308  1.000           0.000             0.000        0.000     0.000     0.000            1.000
+            10      0.0               1.000       53.967          35.793  0.780           0.207             0.000        0.005     0.000     0.000            3.635
+                    900.0             1.000        7.852           3.654  0.987           0.000             0.003        0.010     0.000     0.001            1.185
+                    3600.0            1.000        5.729           3.227  0.994           0.000             0.003        0.003     0.000     0.000            1.119
+            50      0.0               0.000          inf             inf  0.000           0.160             0.000        0.000     0.000     0.000            1.122
+                    900.0             1.000       14.171           4.123  0.839           0.019             0.052        0.090     0.001     0.005            1.951
+                    3600.0            1.000       10.386           3.019  0.934           0.007             0.039        0.020     0.001     0.005            1.510
+            100     0.0               0.003          inf             inf  0.023           0.078             0.000        0.000     0.000     0.000            1.133
+                    900.0             1.000       20.027           4.710  0.772           0.032             0.061        0.134     0.001     0.009            2.619
+                    3600.0            1.000       15.816           3.171  0.891           0.014             0.041        0.054     0.002     0.009            1.939
+            250     0.0               0.000          inf             inf  0.000           0.032             0.000        0.000     0.000     0.000            1.122
+                    900.0             1.000       38.493          10.184  0.715           0.035             0.069        0.182     0.003     0.018            4.288
+                    3600.0            1.000       22.720           5.082  0.758           0.026             0.068        0.148     0.003     0.026            2.957
+            500     0.0               0.000          inf             inf  0.000           0.016             0.000        0.000     0.000     0.000            1.122
+                    900.0             1.000       62.158          14.204  0.627           0.046             0.083        0.244     0.004     0.040            7.270
+                    3600.0            1.000       40.466           9.212  0.619           0.043             0.091        0.247     0.005     0.051            5.573
+12 6        1       0.0               1.000        2.241           2.241  1.000           0.000             0.000        0.000     0.001     0.000            1.000
+                    900.0             1.000        2.803           2.803  1.000           0.000             0.000        0.000     0.001     0.000            1.000
+                    3600.0            1.000        4.459           4.459  1.000           0.000             0.000        0.000     0.001     0.000            1.000
+            10      0.0               0.833          inf             inf  0.860           0.107             0.007        0.018     0.003     0.002            8.145
+                    900.0             1.000        7.884           3.174  0.882           0.027             0.045        0.047     0.004     0.005            1.940
+                    3600.0            1.000       11.484           4.911  0.929           0.007             0.039        0.025     0.004     0.003            1.921
+            50      0.0               0.000          inf             inf  0.000           0.160             0.000        0.000     0.000     0.000            0.986
+                    900.0             1.000       24.943           5.022  0.707           0.056             0.101        0.136     0.007     0.023            5.947
+                    3600.0            1.000       24.779           6.223  0.699           0.059             0.102        0.139     0.007     0.022            4.889
+            100     0.0               0.003          inf             inf  0.040           0.077             0.000        0.000     0.000     0.000            1.024
+                    900.0             0.990          inf          10.353  0.478           0.133             0.155        0.234     0.009     0.044           21.076
+                    3600.0            0.993          inf          12.163  0.482           0.127             0.151        0.240     0.009     0.044           18.126
+            250     0.0               0.000          inf             inf  0.000           0.032             0.000        0.000     0.000     0.000            0.986
+                    900.0             0.599          inf          41.031  0.344           0.197             0.180        0.279     0.009     0.060           17.433
+                    3600.0            0.612          inf          38.077  0.354           0.191             0.172        0.283     0.009     0.060           13.964
+            500     0.0               0.000          inf             inf  0.000           0.016             0.000        0.000     0.000     0.000            0.986
+                    900.0             0.277          inf             inf  0.293           0.237             0.179        0.291     0.009     0.067           11.337
+                    3600.0            0.273          inf             inf  0.298           0.236             0.180        0.287     0.009     0.066            9.271
+   24       1       0.0               1.000        4.094           4.094  1.000           0.000             0.000        0.000     0.003     0.000            1.000
+                    900.0             1.000        5.045           5.045  1.000           0.000             0.000        0.000     0.002     0.000            1.000
+                    3600.0            1.000        8.079           8.079  1.000           0.000             0.000        0.000     0.002     0.000            1.000
+            10      0.0               0.933          inf          40.924  0.839           0.115             0.013        0.030     0.004     0.002            4.094
+                    900.0             1.000       11.961           5.495  0.923           0.008             0.025        0.044     0.005     0.007            1.430
+                    3600.0            1.000       13.980           8.365  0.917           0.015             0.048        0.019     0.005     0.006            1.346
+            50      0.0               0.000          inf             inf  0.000           0.160             0.000        0.000     0.000     0.000            0.300
+                    900.0             1.000       38.483          11.820  0.668           0.067             0.108        0.157     0.008     0.029            3.860
+                    3600.0            1.000       42.546          14.838  0.670           0.066             0.107        0.156     0.008     0.028            3.684
+            100     0.0               0.003          inf             inf  0.044           0.076             0.000        0.000     0.000     0.000            0.313
+                    900.0             0.930          inf          21.662  0.464           0.133             0.154        0.249     0.009     0.048            8.271
+                    3600.0            0.927          inf          25.816  0.469           0.131             0.150        0.249     0.009     0.046            7.143
+            250     0.0               0.000          inf             inf  0.000           0.032             0.000        0.000     0.000     0.000            0.300
+                    900.0             0.368          inf             inf  0.362           0.181             0.175        0.283     0.009     0.063            5.603
+                    3600.0            0.359          inf             inf  0.376           0.177             0.168        0.279     0.009     0.062            4.737
+            500     0.0               0.000          inf             inf  0.000           0.016             0.000        0.000     0.000     0.000            0.300
+                    900.0             0.145          inf             inf  0.310           0.223             0.177        0.290     0.009     0.069            3.574
+                    3600.0            0.126          inf             inf  0.315           0.212             0.180        0.293     0.009     0.067            3.080
+   72       1       0.0               1.000        8.899           8.899  1.000           0.000             0.000        0.000     0.003     0.000            1.000
+                    900.0             1.000       10.948          10.948  1.000           0.000             0.000        0.000     0.003     0.000            1.000
+                    3600.0            1.000        9.574           9.574  1.000           0.000             0.000        0.000     0.003     0.000            1.000
+            10      0.0               0.733          inf             inf  0.824           0.125             0.011        0.038     0.004     0.003            1.828
+                    900.0             1.000       19.154          11.760  0.903           0.025             0.027        0.046     0.006     0.012            1.265
+                    3600.0            1.000       20.213          11.685  0.909           0.018             0.034        0.040     0.006     0.011            1.303
+            50      0.0               0.000          inf             inf  0.000           0.160             0.000        0.000     0.000     0.000            0.107
+                    900.0             1.000       65.705          27.536  0.629           0.078             0.109        0.185     0.008     0.036            3.045
+                    3600.0            0.987          inf          26.688  0.652           0.072             0.104        0.172     0.008     0.036            2.973
+            100     0.0               0.003          inf             inf  0.056           0.075             0.000        0.000     0.000     0.000            0.113
+                    900.0             0.623          inf          58.693  0.484           0.123             0.150        0.243     0.009     0.053            3.142
+                    3600.0            0.637          inf          55.526  0.506           0.114             0.135        0.245     0.009     0.055            3.150
+            250     0.0               0.000          inf             inf  0.000           0.032             0.000        0.000     0.000     0.000            0.107
+                    900.0             0.137          inf             inf  0.396           0.165             0.166        0.273     0.009     0.066            1.875
+                    3600.0            0.140          inf             inf  0.411           0.158             0.164        0.267     0.009     0.066            1.861
+            500     0.0               0.000          inf             inf  0.000           0.016             0.000        0.000     0.000     0.000            0.107
+                    900.0             0.037          inf             inf  0.327           0.206             0.174        0.293     0.009     0.071            1.212
+                    3600.0            0.039          inf             inf  0.335           0.196             0.176        0.293     0.010     0.072            1.240
+=== netsim done in 540 s
+=== ack_variant start 08:05:53
+01388000 done in 81 s
+01427510 done in 58 s
+01438500 done in 27 s
+01458500 done in 62 s
+01463500 done in 6 s
+01465798 done in 46 s
+014670261 done in 60 s
+01467087 done in 56 s
+01467200 done in 227 s
+01473500 done in 49 s
+01475530 done in 66 s
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\revision3\run_reruns.py", line 135, in <module>
+    main(sys.argv[1:] or ["all"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\revision3\run_reruns.py", line 129, in main
+    JOBS[n]()
+    ~~~~~~~^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\revision3\run_reruns.py", line 69, in job_ack_variant
+    m.main(f"{R}/ack_variant.csv")
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\revision\run_ack_variant.py", line 31, in main
+    st = load_site(sid)
+  File "C:\Users\User\Desktop\WSN_M\Paper2\src\design\sitedata.py", line 71, in load_site
+    d = pd.read_csv(f"{root}/{site}.csv", parse_dates=["t"])
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 574, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 663, in pandas._libs.parsers.TextReader._get_header
+  File "pandas/_libs/parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory

@@ -1,0 +1,23 @@
+C:\Users\User\Desktop\WSN_M\Paper2\results\revision3\mirror\src\revision\deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-11-05 14:40:29 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-11-05 14:40:29 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+[34m
+████████ ██ ███    ███ ███████       ███████ ███████ ██████  ██ ███████ ███████     █████  ██
+   ██    ██ ████  ████ ██            ██      ██      ██   ██ ██ ██      ██         ██   ██ ██
+   ██    ██ ██ ████ ██ █████   █████ ███████ █████   ██████  ██ █████   ███████    ███████ ██
+   ██    ██ ██  ██  ██ ██                 ██ ██      ██   ██ ██ ██           ██    ██   ██ ██
+   ██    ██ ██      ██ ███████       ███████ ███████ ██   ██ ██ ███████ ███████ ██ ██   ██ ██   
+ai4ts v0.0.3 - building AI for unified time-series analysis, https://time-series.ai [0m
+
+  tualatin: SAITS trained (478 s)
+  tualatin: StemGNN trained (854 s)
+C:\Users\User\Desktop\WSN_M\Paper2\results\revision3\mirror\src\revision\deep_baselines.py:213: RuntimeWarning: All-NaN slice encountered
+  err = float(np.nanmax(np.abs(truth - e)))
+  tualatin: target 14203500 evaluated
+  tualatin: target 14206241 evaluated
+  tualatin: target 14206694 evaluated
+  tualatin: target 14207200 evaluated
+tualatin done in 896 s

@@ -1,0 +1,991 @@
+trace,radio,strategy,energy_j_per_day,delivered,delivered_of_expected,within_1h,max_buffer,storage_j_per_day,model,draw,p_radio
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,full,0,0
+InWaterSense,NB-IoT,unconf,224.645,0.48957,0.48957,0.48957,0,0,full,0,0.096
+InWaterSense,NB-IoT,arq,230.315,0.539038,0.539038,0.539038,0,0,full,0,0.096
+InWaterSense,NB-IoT,arq_buffer,61.5564,1,1,0.505548,1883,0,full,0,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,uniform,0,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,uniform,0,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,uniform,0,0
+InWaterSense,NB-IoT,unconf,224.645,0.48957,0.48957,0.48957,0,0,uniform,0,0.096
+InWaterSense,NB-IoT,arq,230.315,0.539038,0.539038,0.539038,0,0,uniform,0,0.096
+InWaterSense,NB-IoT,arq_buffer,61.5564,1,1,0.505548,1883,0,uniform,0,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,uniform,1,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,uniform,1,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,uniform,1,0
+InWaterSense,NB-IoT,unconf,224.645,0.486562,0.486562,0.486562,0,0,uniform,1,0.096
+InWaterSense,NB-IoT,arq,230.558,0.539095,0.539095,0.539095,0,0,uniform,1,0.096
+InWaterSense,NB-IoT,arq_buffer,63.3038,1,1,0.513069,1883,0,uniform,1,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,uniform,2,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,uniform,2,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,uniform,2,0
+InWaterSense,NB-IoT,unconf,224.645,0.48957,0.48957,0.48957,0,0,uniform,2,0.096
+InWaterSense,NB-IoT,arq,230.277,0.53901,0.53901,0.53901,0,0,uniform,2,0.096
+InWaterSense,NB-IoT,arq_buffer,62.6119,1,1,0.512587,1883,0,uniform,2,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,uniform,3,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,uniform,3,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,uniform,3,0
+InWaterSense,NB-IoT,unconf,224.645,0.487555,0.487555,0.487555,0,0,uniform,3,0.096
+InWaterSense,NB-IoT,arq,230.441,0.538811,0.538811,0.538811,0,0,uniform,3,0.096
+InWaterSense,NB-IoT,arq_buffer,62.3811,1,1,0.507961,1883,0,uniform,3,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,uniform,4,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,uniform,4,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,uniform,4,0
+InWaterSense,NB-IoT,unconf,224.645,0.485256,0.485256,0.485256,0,0,uniform,4,0.096
+InWaterSense,NB-IoT,arq,230.59,0.538868,0.538868,0.538868,0,0,uniform,4,0.096
+InWaterSense,NB-IoT,arq_buffer,62.737,1,1,0.510742,1883,0,uniform,4,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,burst,0,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,burst,0,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,burst,0,0
+InWaterSense,NB-IoT,unconf,224.645,0.48957,0.48957,0.48957,0,0,burst,0,0.096
+InWaterSense,NB-IoT,arq,230.315,0.539038,0.539038,0.539038,0,0,burst,0,0.096
+InWaterSense,NB-IoT,arq_buffer,61.5564,1,1,0.505548,1883,0,burst,0,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,burst,1,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,burst,1,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,burst,1,0
+InWaterSense,NB-IoT,unconf,224.645,0.486562,0.486562,0.486562,0,0,burst,1,0.096
+InWaterSense,NB-IoT,arq,230.558,0.539095,0.539095,0.539095,0,0,burst,1,0.096
+InWaterSense,NB-IoT,arq_buffer,63.3038,1,1,0.513069,1883,0,burst,1,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,burst,2,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,burst,2,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,burst,2,0
+InWaterSense,NB-IoT,unconf,224.645,0.48957,0.48957,0.48957,0,0,burst,2,0.096
+InWaterSense,NB-IoT,arq,230.277,0.53901,0.53901,0.53901,0,0,burst,2,0.096
+InWaterSense,NB-IoT,arq_buffer,62.6119,1,1,0.512587,1883,0,burst,2,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,burst,3,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,burst,3,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,burst,3,0
+InWaterSense,NB-IoT,unconf,224.645,0.487555,0.487555,0.487555,0,0,burst,3,0.096
+InWaterSense,NB-IoT,arq,230.441,0.538811,0.538811,0.538811,0,0,burst,3,0.096
+InWaterSense,NB-IoT,arq_buffer,62.3811,1,1,0.507961,1883,0,burst,3,0.096
+InWaterSense,NB-IoT,unconf,224.645,0.539407,0.539407,0.539407,0,0,burst,4,0
+InWaterSense,NB-IoT,arq,226.17,0.539407,0.539407,0.539407,0,0,burst,4,0
+InWaterSense,NB-IoT,arq_buffer,61.9681,1,1,0.528395,1883,0,burst,4,0
+InWaterSense,NB-IoT,unconf,224.645,0.485256,0.485256,0.485256,0,0,burst,4,0.096
+InWaterSense,NB-IoT,arq,230.59,0.538868,0.538868,0.538868,0,0,burst,4,0.096
+InWaterSense,NB-IoT,arq_buffer,62.737,1,1,0.510742,1883,0,burst,4,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF7,arq8_v102,430.538,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF7,arq3_v102,168.624,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF7,arq8_v104,402.82,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF7,arq3_v104,167.242,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF7,arq_buffer,50.4901,1,1,0.527572,1883,0,full,0,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.48957,0.48957,0.48957,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,436.241,0.539407,0.539407,0.539407,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,174.305,0.539038,0.539038,0.539038,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,408.504,0.539407,0.539407,0.539407,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,172.906,0.539038,0.539038,0.539038,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,51.9927,1,1,0.509039,1883,0,full,0,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF7,arq8_v102,428.004,0.549312,0.549312,0.549312,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF7,arq3_v102,168.488,0.540769,0.540769,0.540769,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF7,arq8_v104,401.36,0.543295,0.543295,0.543295,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF7,arq3_v104,167.107,0.540769,0.540769,0.540769,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF7,arq_buffer,49.4838,1,1,0.527572,1883,0,uniform,0,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.48957,0.48957,0.48957,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,433.758,0.548886,0.548886,0.548886,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,174.172,0.540343,0.540343,0.540343,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,407.066,0.543267,0.543267,0.543267,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,172.774,0.540343,0.540343,0.540343,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,52.9243,1,1,0.51517,1883,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF7,arq8_v102,428.107,0.549539,0.549539,0.549539,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF7,arq3_v102,168.514,0.540457,0.540457,0.540457,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF7,arq8_v104,401.465,0.543181,0.543181,0.543181,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF7,arq3_v104,167.133,0.540457,0.540457,0.540457,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF7,arq_buffer,49.4627,1,1,0.527572,1883,0,uniform,1,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.486562,0.486562,0.486562,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,434.238,0.549283,0.549283,0.549283,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,174.524,0.540116,0.540116,0.540116,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,407.521,0.543125,0.543125,0.543125,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,173.126,0.540116,0.540116,0.540116,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,51.462,1,1,0.506258,1883,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF7,arq8_v102,428.136,0.550192,0.550192,0.550192,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF7,arq3_v102,168.503,0.540542,0.540542,0.540542,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF7,arq8_v104,401.533,0.542784,0.542784,0.542784,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF7,arq3_v104,167.122,0.540542,0.540542,0.540542,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF7,arq_buffer,49.5143,1,1,0.527572,1883,0,uniform,2,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.48957,0.48957,0.48957,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,433.879,0.549539,0.549539,0.549539,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,174.148,0.54006,0.54006,0.54006,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,407.206,0.542784,0.542784,0.542784,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,172.752,0.54006,0.54006,0.54006,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,51.746,1,1,0.512757,1883,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF7,arq8_v102,427.992,0.549908,0.549908,0.549908,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF7,arq3_v102,168.503,0.540542,0.540542,0.540542,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF7,arq8_v104,401.412,0.543295,0.543295,0.543295,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF7,arq3_v104,167.122,0.540542,0.540542,0.540542,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF7,arq_buffer,49.4756,1,1,0.527572,1883,0,uniform,3,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.487555,0.487555,0.487555,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,434.027,0.549567,0.549567,0.549567,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,174.38,0.539918,0.539918,0.539918,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,407.342,0.54321,0.54321,0.54321,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,172.983,0.539918,0.539918,0.539918,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,50.7388,1,1,0.504952,1883,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF7,arq8_v102,427.959,0.549624,0.549624,0.549624,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF7,arq3_v102,168.476,0.540712,0.540712,0.540712,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF7,arq8_v104,401.431,0.543068,0.543068,0.543068,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF7,arq3_v104,167.096,0.540712,0.540712,0.540712,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF7,arq_buffer,49.5439,1,1,0.527572,1883,0,uniform,4,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.485256,0.485256,0.485256,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,434.171,0.54934,0.54934,0.54934,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,174.554,0.540116,0.540116,0.540116,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,407.562,0.543011,0.543011,0.543011,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,173.155,0.540116,0.540116,0.540116,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,52.4604,1,1,0.512757,1883,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,burst,0,0
+InWaterSense,LoRaWAN SF7,arq8_v102,381.902,0.610444,0.610444,0.610444,0,0,burst,0,0
+InWaterSense,LoRaWAN SF7,arq3_v102,159.509,0.605137,0.605137,0.605137,0,0,burst,0,0
+InWaterSense,LoRaWAN SF7,arq8_v104,358.42,0.609593,0.609593,0.609593,0,0,burst,0,0
+InWaterSense,LoRaWAN SF7,arq3_v104,158.28,0.605137,0.605137,0.605137,0,0,burst,0,0
+InWaterSense,LoRaWAN SF7,arq_buffer,39.3761,1,1,0.551667,1883,0,burst,0,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.48957,0.48957,0.48957,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,387.659,0.610444,0.610444,0.610444,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,165.262,0.604541,0.604541,0.604541,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,364.077,0.609564,0.609564,0.609564,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,164.014,0.604541,0.604541,0.604541,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,44.3239,1,1,0.543125,1918,0,burst,0,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,burst,1,0
+InWaterSense,LoRaWAN SF7,arq8_v102,381.922,0.610614,0.610614,0.610614,0,0,burst,1,0
+InWaterSense,LoRaWAN SF7,arq3_v102,159.72,0.604229,0.604229,0.604229,0,0,burst,1,0
+InWaterSense,LoRaWAN SF7,arq8_v104,358.582,0.609451,0.609451,0.609451,0,0,burst,1,0
+InWaterSense,LoRaWAN SF7,arq3_v104,158.486,0.604229,0.604229,0.604229,0,0,burst,1,0
+InWaterSense,LoRaWAN SF7,arq_buffer,39.6744,1,1,0.551667,1883,0,burst,1,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.486562,0.486562,0.486562,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,388.045,0.610501,0.610501,0.610501,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,165.574,0.604626,0.604626,0.604626,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,364.555,0.609422,0.609422,0.609422,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,164.329,0.604626,0.604626,0.604626,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,43.4491,1,1,0.535093,1883,0,burst,1,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,burst,2,0
+InWaterSense,LoRaWAN SF7,arq8_v102,381.998,0.610643,0.610643,0.610643,0,0,burst,2,0
+InWaterSense,LoRaWAN SF7,arq3_v102,159.537,0.605392,0.605392,0.605392,0,0,burst,2,0
+InWaterSense,LoRaWAN SF7,arq8_v104,358.489,0.609564,0.609564,0.609564,0,0,burst,2,0
+InWaterSense,LoRaWAN SF7,arq3_v104,158.306,0.605392,0.605392,0.605392,0,0,burst,2,0
+InWaterSense,LoRaWAN SF7,arq_buffer,39.7159,1,1,0.551611,1883,0,burst,2,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.48957,0.48957,0.48957,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,387.675,0.610529,0.610529,0.610529,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,165.22,0.604058,0.604058,0.604058,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,364.182,0.609564,0.609564,0.609564,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,163.973,0.604058,0.604058,0.604058,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,44.3118,1,1,0.543806,1883,0,burst,2,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,burst,3,0
+InWaterSense,LoRaWAN SF7,arq8_v102,382.141,0.610302,0.610302,0.610302,0,0,burst,3,0
+InWaterSense,LoRaWAN SF7,arq3_v102,159.689,0.604087,0.604087,0.604087,0,0,burst,3,0
+InWaterSense,LoRaWAN SF7,arq8_v104,358.541,0.609394,0.609394,0.609394,0,0,burst,3,0
+InWaterSense,LoRaWAN SF7,arq3_v104,158.456,0.604087,0.604087,0.604087,0,0,burst,3,0
+InWaterSense,LoRaWAN SF7,arq_buffer,39.5802,1,1,0.551667,1883,0,burst,3,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.487555,0.487555,0.487555,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,388.039,0.610245,0.610245,0.610245,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,165.414,0.604115,0.604115,0.604115,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,364.523,0.609422,0.609422,0.609422,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,164.168,0.604115,0.604115,0.604115,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,44.4694,1,1,0.545083,1883,0,burst,3,0.096
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.539407,0.539407,0.539407,0,0,burst,4,0
+InWaterSense,LoRaWAN SF7,arq8_v102,382.084,0.610387,0.610387,0.610387,0,0,burst,4,0
+InWaterSense,LoRaWAN SF7,arq3_v102,159.566,0.60474,0.60474,0.60474,0,0,burst,4,0
+InWaterSense,LoRaWAN SF7,arq8_v104,358.64,0.609451,0.609451,0.609451,0,0,burst,4,0
+InWaterSense,LoRaWAN SF7,arq3_v104,158.336,0.60474,0.60474,0.60474,0,0,burst,4,0
+InWaterSense,LoRaWAN SF7,arq_buffer,39.6475,1,1,0.551667,1883,0,burst,4,0
+InWaterSense,LoRaWAN SF7,unconf,59.3052,0.485256,0.485256,0.485256,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF7,arq8_v102,388.151,0.610302,0.610302,0.610302,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF7,arq3_v102,165.754,0.604456,0.604456,0.604456,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF7,arq8_v104,364.744,0.609422,0.609422,0.609422,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF7,arq3_v104,164.5,0.604456,0.604456,0.604456,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF7,arq_buffer,45.5043,1,1,0.550277,1883,0,burst,4,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF12,arq8_v102,773.922,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF12,arq3_v102,344.71,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF12,arq8_v104,773.922,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF12,arq3_v104,344.71,0.539407,0.539407,0.539407,0,0,full,0,0
+InWaterSense,LoRaWAN SF12,arq_buffer,154.827,1,1,0.515737,1883,0,full,0,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.48957,0.48957,0.48957,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,784.278,0.539407,0.539407,0.539407,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,355.002,0.539038,0.539038,0.539038,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,784.278,0.539407,0.539407,0.539407,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,355.002,0.539038,0.539038,0.539038,0,0,full,0,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,163.572,1,1,0.501916,3108,0,full,0,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF12,arq8_v102,731.974,0.585441,0.585441,0.585441,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF12,arq3_v102,341.58,0.566284,0.566284,0.566284,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF12,arq8_v104,731.974,0.585441,0.585441,0.585441,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF12,arq3_v104,341.58,0.566284,0.566284,0.566284,0,0,uniform,0,0
+InWaterSense,LoRaWAN SF12,arq_buffer,139.357,1,1,0.515737,1883,0,uniform,0,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.48957,0.48957,0.48957,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,743.172,0.585441,0.585441,0.585441,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,352.005,0.564155,0.564155,0.564155,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,743.172,0.585441,0.585441,0.585441,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,352.005,0.564155,0.564155,0.564155,0,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,147.891,1,1,0.497261,3108,0,uniform,0,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF12,arq8_v102,731.832,0.585441,0.585441,0.585441,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF12,arq3_v102,341.524,0.566624,0.566624,0.566624,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF12,arq8_v104,731.832,0.585441,0.585441,0.585441,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF12,arq3_v104,341.524,0.566624,0.566624,0.566624,0,0,uniform,1,0
+InWaterSense,LoRaWAN SF12,arq_buffer,139.494,1,1,0.515737,1883,0,uniform,1,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.486562,0.486562,0.486562,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,743.685,0.585441,0.585441,0.585441,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,352.696,0.564893,0.564893,0.564893,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,743.685,0.585441,0.585441,0.585441,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,352.696,0.564893,0.564893,0.564893,0,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,149.818,1,1,0.500326,1883,0,uniform,1,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF12,arq8_v102,731.874,0.585441,0.585441,0.585441,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF12,arq3_v102,341.418,0.566227,0.566227,0.566227,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF12,arq8_v104,731.874,0.585441,0.585441,0.585441,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF12,arq3_v104,341.418,0.566227,0.566227,0.566227,0,0,uniform,2,0
+InWaterSense,LoRaWAN SF12,arq_buffer,139.536,1,1,0.515737,1883,0,uniform,2,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.48957,0.48957,0.48957,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,742.987,0.585441,0.585441,0.585441,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,351.954,0.564751,0.564751,0.564751,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,742.987,0.585441,0.585441,0.585441,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,351.954,0.564751,0.564751,0.564751,0,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,149.659,1,1,0.502256,1883,0,uniform,2,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF12,arq8_v102,731.789,0.585441,0.585441,0.585441,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF12,arq3_v102,341.515,0.566794,0.566794,0.566794,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF12,arq8_v104,731.789,0.585441,0.585441,0.585441,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF12,arq3_v104,341.515,0.566794,0.566794,0.566794,0,0,uniform,3,0
+InWaterSense,LoRaWAN SF12,arq_buffer,139.198,1,1,0.515737,1883,0,uniform,3,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.487555,0.487555,0.487555,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,743.474,0.585441,0.585441,0.585441,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,352.395,0.564439,0.564439,0.564439,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,743.474,0.585441,0.585441,0.585441,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,352.395,0.564439,0.564439,0.564439,0,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,149.157,1,1,0.498453,1883,0,uniform,3,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF12,arq8_v102,732.017,0.585441,0.585441,0.585441,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF12,arq3_v102,341.576,0.566227,0.566227,0.566227,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF12,arq8_v104,732.017,0.585441,0.585441,0.585441,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF12,arq3_v104,341.576,0.566227,0.566227,0.566227,0,0,uniform,4,0
+InWaterSense,LoRaWAN SF12,arq_buffer,139.573,1,1,0.515737,1883,0,uniform,4,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.485256,0.485256,0.485256,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,744.024,0.585441,0.585441,0.585441,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,352.803,0.564212,0.564212,0.564212,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,744.024,0.585441,0.585441,0.585441,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,352.803,0.564212,0.564212,0.564212,0,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,150.178,1,1,0.499702,1883,0,uniform,4,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,burst,0,0
+InWaterSense,LoRaWAN SF12,arq8_v102,691.209,0.616404,0.616404,0.616404,0,0,burst,0,0
+InWaterSense,LoRaWAN SF12,arq3_v102,332.183,0.610444,0.610444,0.610444,0,0,burst,0,0
+InWaterSense,LoRaWAN SF12,arq8_v104,691.209,0.616404,0.616404,0.616404,0,0,burst,0,0
+InWaterSense,LoRaWAN SF12,arq3_v104,332.183,0.610444,0.610444,0.610444,0,0,burst,0,0
+InWaterSense,LoRaWAN SF12,arq_buffer,137.455,1,1,0.541308,1883,0,burst,0,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.48957,0.48957,0.48957,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,701.672,0.616404,0.616404,0.616404,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,342.9,0.609366,0.609366,0.609366,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,701.672,0.616404,0.616404,0.616404,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,342.9,0.609366,0.609366,0.609366,0,0,burst,0,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,149.384,1,1,0.533135,3108,0,burst,0,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,burst,1,0
+InWaterSense,LoRaWAN SF12,arq8_v102,690.897,0.616404,0.616404,0.616404,0,0,burst,1,0
+InWaterSense,LoRaWAN SF12,arq3_v102,332.448,0.610217,0.610217,0.610217,0,0,burst,1,0
+InWaterSense,LoRaWAN SF12,arq8_v104,690.897,0.616404,0.616404,0.616404,0,0,burst,1,0
+InWaterSense,LoRaWAN SF12,arq3_v104,332.448,0.610217,0.610217,0.610217,0,0,burst,1,0
+InWaterSense,LoRaWAN SF12,arq_buffer,137.566,1,1,0.541308,1883,0,burst,1,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.486562,0.486562,0.486562,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,702.354,0.616404,0.616404,0.616404,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,343.565,0.609394,0.609394,0.609394,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,702.354,0.616404,0.616404,0.616404,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,343.565,0.609394,0.609394,0.609394,0,0,burst,1,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,148.371,1,1,0.525699,1883,0,burst,1,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,burst,2,0
+InWaterSense,LoRaWAN SF12,arq8_v102,691.215,0.616404,0.616404,0.616404,0,0,burst,2,0
+InWaterSense,LoRaWAN SF12,arq3_v102,332.228,0.610558,0.610558,0.610558,0,0,burst,2,0
+InWaterSense,LoRaWAN SF12,arq8_v104,691.215,0.616404,0.616404,0.616404,0,0,burst,2,0
+InWaterSense,LoRaWAN SF12,arq3_v104,332.228,0.610558,0.610558,0.610558,0,0,burst,2,0
+InWaterSense,LoRaWAN SF12,arq_buffer,137.349,1,1,0.541308,1883,0,burst,2,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.48957,0.48957,0.48957,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,701.842,0.616376,0.616376,0.616376,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,342.665,0.609224,0.609224,0.609224,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,701.842,0.616376,0.616376,0.616376,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,342.665,0.609224,0.609224,0.609224,0,0,burst,2,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,149.402,1,1,0.533362,1883,0,burst,2,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,burst,3,0
+InWaterSense,LoRaWAN SF12,arq8_v102,691.321,0.616376,0.616376,0.616376,0,0,burst,3,0
+InWaterSense,LoRaWAN SF12,arq3_v102,332.393,0.609877,0.609877,0.609877,0,0,burst,3,0
+InWaterSense,LoRaWAN SF12,arq8_v104,691.321,0.616376,0.616376,0.616376,0,0,burst,3,0
+InWaterSense,LoRaWAN SF12,arq3_v104,332.393,0.609877,0.609877,0.609877,0,0,burst,3,0
+InWaterSense,LoRaWAN SF12,arq_buffer,137.539,1,1,0.541308,1883,0,burst,3,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.487555,0.487555,0.487555,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,702.243,0.616404,0.616404,0.616404,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,343.437,0.608372,0.608372,0.608372,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,702.243,0.616404,0.616404,0.616404,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,343.437,0.608372,0.608372,0.608372,0,0,burst,3,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,148.977,1,1,0.529388,1883,0,burst,3,0.096
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.539407,0.539407,0.539407,0,0,burst,4,0
+InWaterSense,LoRaWAN SF12,arq8_v102,691.305,0.616404,0.616404,0.616404,0,0,burst,4,0
+InWaterSense,LoRaWAN SF12,arq3_v102,332.171,0.610274,0.610274,0.610274,0,0,burst,4,0
+InWaterSense,LoRaWAN SF12,arq8_v104,691.305,0.616404,0.616404,0.616404,0,0,burst,4,0
+InWaterSense,LoRaWAN SF12,arq3_v104,332.171,0.610274,0.610274,0.610274,0,0,burst,4,0
+InWaterSense,LoRaWAN SF12,arq_buffer,137.725,1,1,0.541308,1883,0,burst,4,0
+InWaterSense,LoRaWAN SF12,unconf,143.385,0.485256,0.485256,0.485256,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF12,arq8_v102,702.846,0.616404,0.616404,0.616404,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF12,arq3_v102,343.683,0.608912,0.608912,0.608912,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF12,arq8_v104,702.846,0.616404,0.616404,0.616404,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF12,arq3_v104,343.683,0.608912,0.608912,0.608912,0,0,burst,4,0.096
+InWaterSense,LoRaWAN SF12,arq_buffer,150.762,1,1,0.534894,1883,0,burst,4,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,full,0,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.763135,0.763135,0.763135,0,0,full,0,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.7759,0.841344,0.841344,0.841344,0,0,full,0,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3629,1,1,0.834625,334,0,full,0,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,uniform,0,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,uniform,0,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,uniform,0,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.763135,0.763135,0.763135,0,0,uniform,0,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.7759,0.841344,0.841344,0.841344,0,0,uniform,0,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3629,1,1,0.834625,334,0,uniform,0,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,uniform,1,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,uniform,1,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,uniform,1,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.756589,0.756589,0.756589,0,0,uniform,1,0.096
+Weija (v0.1 EC record),NB-IoT,arq,42.0029,0.842033,0.842033,0.842033,0,0,uniform,1,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.623,1,1,0.835487,334,0,uniform,1,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,uniform,2,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.762446,0.762446,0.762446,0,0,uniform,2,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.8083,0.84186,0.84186,0.84186,0,0,uniform,2,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.1903,1,1,0.82963,334,0,uniform,2,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,uniform,3,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,uniform,3,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,uniform,3,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.759862,0.759862,0.759862,0,0,uniform,3,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.8489,0.840827,0.840827,0.840827,0,0,uniform,3,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3843,1,1,0.832041,334,0,uniform,3,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,uniform,4,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.75814,0.75814,0.75814,0,0,uniform,4,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.8853,0.840999,0.840999,0.840999,0,0,uniform,4,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3999,1,1,0.832041,334,0,uniform,4,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,burst,0,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,burst,0,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,burst,0,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.763135,0.763135,0.763135,0,0,burst,0,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.7759,0.841344,0.841344,0.841344,0,0,burst,0,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3629,1,1,0.834625,334,0,burst,0,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,burst,1,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,burst,1,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,burst,1,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.756589,0.756589,0.756589,0,0,burst,1,0.096
+Weija (v0.1 EC record),NB-IoT,arq,42.0029,0.842033,0.842033,0.842033,0,0,burst,1,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.623,1,1,0.835487,334,0,burst,1,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,burst,2,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,burst,2,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,burst,2,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.762446,0.762446,0.762446,0,0,burst,2,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.8083,0.84186,0.84186,0.84186,0,0,burst,2,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.1903,1,1,0.82963,334,0,burst,2,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,burst,3,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,burst,3,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,burst,3,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.759862,0.759862,0.759862,0,0,burst,3,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.8489,0.840827,0.840827,0.840827,0,0,burst,3,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3843,1,1,0.832041,334,0,burst,3,0.096
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.842205,0.842205,0.842205,0,0,burst,4,0
+Weija (v0.1 EC record),NB-IoT,arq,39.7332,0.842205,0.842205,0.842205,0,0,burst,4,0
+Weija (v0.1 EC record),NB-IoT,arq_buffer,23.4598,1,1,0.838587,334,0,burst,4,0
+Weija (v0.1 EC record),NB-IoT,unconf,38.9873,0.75814,0.75814,0.75814,0,0,burst,4,0.096
+Weija (v0.1 EC record),NB-IoT,arq,41.8853,0.840999,0.840999,0.840999,0,0,burst,4,0.096
+Weija (v0.1 EC record),NB-IoT,arq_buffer,25.3999,1,1,0.832041,334,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,56.0763,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.9756,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,53.1024,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.8273,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.0354,1,1,0.838587,334,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.763135,0.763135,0.763135,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,58.8945,0.842205,0.842205,0.842205,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.7799,0.841344,0.841344,0.841344,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,55.9114,0.842205,0.842205,0.842205,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.6233,0.841344,0.841344,0.841344,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,18.5679,1,1,0.832903,334,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,55.9774,0.843411,0.843411,0.843411,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.967,0.842377,0.842377,0.842377,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,53.0524,0.84255,0.84255,0.84255,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.8188,0.842377,0.842377,0.842377,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,15.9367,1,1,0.838587,334,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.763135,0.763135,0.763135,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,58.8021,0.843411,0.843411,0.843411,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.7713,0.841516,0.841516,0.841516,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,55.8669,0.84255,0.84255,0.84255,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.6148,0.841516,0.841516,0.841516,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,18.4692,1,1,0.832903,334,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,56.0191,0.842894,0.842894,0.842894,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.9727,0.842377,0.842377,0.842377,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,53.0719,0.842377,0.842377,0.842377,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.8243,0.842377,0.842377,0.842377,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.0146,1,1,0.838587,334,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.756589,0.756589,0.756589,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,59.1229,0.842894,0.842894,0.842894,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,31.0737,0.842205,0.842205,0.842205,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,56.1678,0.842377,0.842377,0.842377,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.9177,0.842205,0.842205,0.842205,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,19.0105,1,1,0.830835,345,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,56.0671,0.84255,0.84255,0.84255,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.9756,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,53.1024,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.8273,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.0211,1,1,0.838587,334,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.762446,0.762446,0.762446,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,58.9152,0.84255,0.84255,0.84255,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.8161,0.84186,0.84186,0.84186,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,55.939,0.842205,0.842205,0.842205,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.6586,0.84186,0.84186,0.84186,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,18.5202,1,1,0.828596,334,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,56.0226,0.84255,0.84255,0.84255,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.967,0.842377,0.842377,0.842377,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,53.0664,0.842377,0.842377,0.842377,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.8188,0.842377,0.842377,0.842377,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,15.9936,1,1,0.838587,334,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.759862,0.759862,0.759862,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,58.9638,0.84255,0.84255,0.84255,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.8785,0.840999,0.840999,0.840999,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,55.9968,0.842377,0.842377,0.842377,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.723,0.840999,0.840999,0.840999,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,18.7648,1,1,0.833592,334,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,56.0684,0.842377,0.842377,0.842377,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.9756,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,53.1024,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.8273,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,16.0354,1,1,0.838587,334,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.75814,0.75814,0.75814,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,59.0519,0.842377,0.842377,0.842377,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.9342,0.840999,0.840999,0.840999,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,56.0714,0.842205,0.842205,0.842205,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.7781,0.840999,0.840999,0.840999,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,18.961,1,1,0.834109,334,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,54.5791,0.84944,0.84944,0.84944,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.6942,0.848407,0.848407,0.848407,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,51.7465,0.848923,0.848923,0.848923,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.5508,0.848407,0.848407,0.848407,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,14.5511,1,1,0.838587,334,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.763135,0.763135,0.763135,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,57.4214,0.84944,0.84944,0.84944,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.5092,0.84789,0.84789,0.84789,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,54.561,0.848923,0.848923,0.848923,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.3575,0.84789,0.84789,0.84789,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,17.1875,1,1,0.834453,334,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,54.5482,0.849268,0.849268,0.849268,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.6912,0.848923,0.848923,0.848923,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,51.716,0.849096,0.849096,0.849096,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.5475,0.848923,0.848923,0.848923,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,14.511,1,1,0.838587,334,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.756589,0.756589,0.756589,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,57.6688,0.849268,0.849268,0.849268,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.7918,0.848751,0.848751,0.848751,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,54.8119,0.849096,0.849096,0.849096,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.6408,0.848751,0.848751,0.848751,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,17.3572,1,1,0.829802,334,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,54.6029,0.848923,0.848923,0.848923,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.6913,0.848579,0.848579,0.848579,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,51.752,0.848923,0.848923,0.848923,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.5478,0.848579,0.848579,0.848579,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,14.5148,1,1,0.838587,334,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.762446,0.762446,0.762446,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,57.4484,0.848923,0.848923,0.848923,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.54,0.848062,0.848062,0.848062,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,54.5886,0.848923,0.848923,0.848923,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.3877,0.848062,0.848062,0.848062,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,17.2515,1,1,0.835142,334,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,54.62,0.848923,0.848923,0.848923,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.7027,0.848579,0.848579,0.848579,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,51.7686,0.848923,0.848923,0.848923,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.5589,0.848579,0.848579,0.848579,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,14.5265,1,1,0.838587,334,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.759862,0.759862,0.759862,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,57.6351,0.848923,0.848923,0.848923,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.6391,0.847028,0.847028,0.847028,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,54.7652,0.848923,0.848923,0.848923,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.488,0.847028,0.847028,0.847028,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,17.4073,1,1,0.836003,334,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.842205,0.842205,0.842205,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,54.6577,0.849096,0.849096,0.849096,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,27.7455,0.848407,0.848407,0.848407,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,51.8183,0.848923,0.848923,0.848923,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,27.6004,0.848407,0.848407,0.848407,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,14.549,1,1,0.838587,334,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF7,unconf,18.5728,0.75814,0.75814,0.75814,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v102,57.6278,0.849096,0.849096,0.849096,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v102,30.6821,0.846856,0.846856,0.846856,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq8_v104,54.7707,0.848923,0.848923,0.848923,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq3_v104,30.5296,0.846856,0.846856,0.846856,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF7,arq_buffer,17.4788,1,1,0.836003,334,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,116.311,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,70.2604,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,116.311,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,70.2604,0.842205,0.842205,0.842205,0,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,51.2627,1,1,0.837382,334,0,full,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.763135,0.763135,0.763135,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,121.428,0.842205,0.842205,0.842205,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.3346,0.841344,0.841344,0.841344,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,121.428,0.842205,0.842205,0.842205,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.3346,0.841344,0.841344,0.841344,0,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,56.52,1,1,0.836176,334,0,full,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,115.03,0.849096,0.849096,0.849096,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,70.1639,0.844272,0.844272,0.844272,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,115.03,0.849096,0.849096,0.849096,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,70.1639,0.844272,0.844272,0.844272,0,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,50.3574,1,1,0.837382,334,0,uniform,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.763135,0.763135,0.763135,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,120.188,0.849096,0.849096,0.849096,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.2394,0.843239,0.843239,0.843239,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,120.188,0.849096,0.849096,0.849096,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.2394,0.843239,0.843239,0.843239,0,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,55.6151,1,1,0.836176,334,0,uniform,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,115.101,0.849096,0.849096,0.849096,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,70.1967,0.843928,0.843928,0.843928,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,115.101,0.849096,0.849096,0.849096,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,70.1967,0.843928,0.843928,0.843928,0,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,50.3884,1,1,0.837382,334,0,uniform,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.756589,0.756589,0.756589,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,120.792,0.849096,0.849096,0.849096,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.8287,0.843755,0.843755,0.843755,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,120.792,0.849096,0.849096,0.849096,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.8287,0.843755,0.843755,0.843755,0,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,56.3115,1,1,0.837037,334,0,uniform,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,115.161,0.849096,0.849096,0.849096,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,70.2182,0.843755,0.843755,0.843755,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,115.161,0.849096,0.849096,0.849096,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,70.2182,0.843755,0.843755,0.843755,0,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,50.2988,1,1,0.837382,334,0,uniform,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.762446,0.762446,0.762446,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,120.381,0.848923,0.848923,0.848923,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.3889,0.843411,0.843411,0.843411,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,120.381,0.848923,0.848923,0.848923,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.3889,0.843411,0.843411,0.843411,0,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,55.6481,1,1,0.83497,334,0,uniform,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,115.152,0.848923,0.848923,0.848923,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,70.2068,0.843928,0.843928,0.843928,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,115.152,0.848923,0.848923,0.848923,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,70.2068,0.843928,0.843928,0.843928,0,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,50.3578,1,1,0.837382,334,0,uniform,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.759862,0.759862,0.759862,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,120.543,0.848751,0.848751,0.848751,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.476,0.84255,0.84255,0.84255,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,120.543,0.848751,0.848751,0.848751,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.476,0.84255,0.84255,0.84255,0,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,55.7468,1,1,0.833075,345,0,uniform,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,115.346,0.848579,0.848579,0.848579,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,70.2322,0.843239,0.843239,0.843239,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,115.346,0.848579,0.848579,0.848579,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,70.2322,0.843239,0.843239,0.843239,0,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,50.458,1,1,0.837382,334,0,uniform,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.75814,0.75814,0.75814,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,120.826,0.848579,0.848579,0.848579,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.5544,0.841516,0.841516,0.841516,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,120.826,0.848579,0.848579,0.848579,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.5544,0.841516,0.841516,0.841516,0,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,56.1504,1,1,0.832558,334,0,uniform,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,113.471,0.851852,0.851852,0.851852,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,69.841,0.849612,0.849612,0.849612,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,113.471,0.851852,0.851852,0.851852,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,69.841,0.849612,0.849612,0.849612,0,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,48.6846,1,1,0.837382,334,0,burst,0,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.763135,0.763135,0.763135,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,118.599,0.851852,0.851852,0.851852,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,74.9554,0.848751,0.848751,0.848751,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,118.599,0.851852,0.851852,0.851852,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,74.9554,0.848751,0.848751,0.848751,0,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,53.8812,1,1,0.835659,334,0,burst,0,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,113.465,0.851335,0.851335,0.851335,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,69.8423,0.84944,0.84944,0.84944,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,113.465,0.851335,0.851335,0.851335,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,69.8423,0.84944,0.84944,0.84944,0,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,48.6544,1,1,0.837382,334,0,burst,1,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.756589,0.756589,0.756589,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,119.156,0.851335,0.851335,0.851335,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.5131,0.84944,0.84944,0.84944,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,119.156,0.851335,0.851335,0.851335,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.5131,0.84944,0.84944,0.84944,0,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,54.5896,1,1,0.836003,334,0,burst,1,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,113.638,0.850991,0.850991,0.850991,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,69.8852,0.849096,0.849096,0.849096,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,113.638,0.850991,0.850991,0.850991,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,69.8852,0.849096,0.849096,0.849096,0,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,48.6745,1,1,0.837382,334,0,burst,2,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.762446,0.762446,0.762446,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,118.857,0.850991,0.850991,0.850991,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.0546,0.848923,0.848923,0.848923,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,118.857,0.850991,0.850991,0.850991,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.0546,0.848923,0.848923,0.848923,0,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,54.0443,1,1,0.835314,334,0,burst,2,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,113.626,0.851335,0.851335,0.851335,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,69.9067,0.848923,0.848923,0.848923,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,113.626,0.851335,0.851335,0.851335,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,69.9067,0.848923,0.848923,0.848923,0,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,48.7248,1,1,0.837382,334,0,burst,3,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.759862,0.759862,0.759862,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,119.035,0.851335,0.851335,0.851335,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.1545,0.847717,0.847717,0.847717,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,119.035,0.851335,0.851335,0.851335,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.1545,0.847717,0.847717,0.847717,0,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,53.7415,1,1,0.825323,345,0,burst,3,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.842205,0.842205,0.842205,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,113.768,0.851163,0.851163,0.851163,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,69.977,0.848923,0.848923,0.848923,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,113.768,0.851163,0.851163,0.851163,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,69.977,0.848923,0.848923,0.848923,0,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,48.7349,1,1,0.837382,334,0,burst,4,0
+Weija (v0.1 EC record),LoRaWAN SF12,unconf,44.9044,0.75814,0.75814,0.75814,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v102,119.157,0.851163,0.851163,0.851163,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v102,75.2878,0.847373,0.847373,0.847373,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq8_v104,119.157,0.851163,0.851163,0.851163,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq3_v104,75.2878,0.847373,0.847373,0.847373,0,0,burst,4,0.096
+Weija (v0.1 EC record),LoRaWAN SF12,arq_buffer,54.1703,1,1,0.831697,345,0,burst,4,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,full,0,0
+Weija (node record),NB-IoT,unconf,37.0779,0.779328,0.779328,0.779328,0,0,full,0,0.096
+Weija (node record),NB-IoT,arq,39.9153,0.859776,0.859776,0.859776,0,0,full,0,0.096
+Weija (node record),NB-IoT,arq_buffer,24.7552,1,1,0.850818,334,0,full,0,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,uniform,0,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,uniform,0,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,uniform,0,0
+Weija (node record),NB-IoT,unconf,37.0779,0.779328,0.779328,0.779328,0,0,uniform,0,0.096
+Weija (node record),NB-IoT,arq,39.9153,0.859776,0.859776,0.859776,0,0,uniform,0,0.096
+Weija (node record),NB-IoT,arq_buffer,24.7552,1,1,0.850818,334,0,uniform,0,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,uniform,1,0
+Weija (node record),NB-IoT,unconf,37.0779,0.77261,0.77261,0.77261,0,0,uniform,1,0.096
+Weija (node record),NB-IoT,arq,40.1504,0.860465,0.860465,0.860465,0,0,uniform,1,0.096
+Weija (node record),NB-IoT,arq_buffer,24.9251,1,1,0.84944,334,0,uniform,1,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,uniform,2,0
+Weija (node record),NB-IoT,unconf,37.0779,0.779673,0.779673,0.779673,0,0,uniform,2,0.096
+Weija (node record),NB-IoT,arq,39.9559,0.860293,0.860293,0.860293,0,0,uniform,2,0.096
+Weija (node record),NB-IoT,arq_buffer,24.7242,1,1,0.848579,345,0,uniform,2,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,uniform,3,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,uniform,3,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,uniform,3,0
+Weija (node record),NB-IoT,unconf,37.0779,0.777433,0.777433,0.777433,0,0,uniform,3,0.096
+Weija (node record),NB-IoT,arq,40.0045,0.859259,0.859259,0.859259,0,0,uniform,3,0.096
+Weija (node record),NB-IoT,arq_buffer,24.8453,1,1,0.850474,334,0,uniform,3,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,uniform,4,0
+Weija (node record),NB-IoT,unconf,37.0779,0.774849,0.774849,0.774849,0,0,uniform,4,0.096
+Weija (node record),NB-IoT,arq,40.0369,0.859432,0.859432,0.859432,0,0,uniform,4,0.096
+Weija (node record),NB-IoT,arq_buffer,24.6701,1,1,0.845823,334,0,uniform,4,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,burst,0,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,burst,0,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,burst,0,0
+Weija (node record),NB-IoT,unconf,37.0779,0.779328,0.779328,0.779328,0,0,burst,0,0.096
+Weija (node record),NB-IoT,arq,39.9153,0.859776,0.859776,0.859776,0,0,burst,0,0.096
+Weija (node record),NB-IoT,arq_buffer,24.7552,1,1,0.850818,334,0,burst,0,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,burst,1,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,burst,1,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,burst,1,0
+Weija (node record),NB-IoT,unconf,37.0779,0.77261,0.77261,0.77261,0,0,burst,1,0.096
+Weija (node record),NB-IoT,arq,40.1504,0.860465,0.860465,0.860465,0,0,burst,1,0.096
+Weija (node record),NB-IoT,arq_buffer,24.9251,1,1,0.84944,334,0,burst,1,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,burst,2,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,burst,2,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,burst,2,0
+Weija (node record),NB-IoT,unconf,37.0779,0.779673,0.779673,0.779673,0,0,burst,2,0.096
+Weija (node record),NB-IoT,arq,39.9559,0.860293,0.860293,0.860293,0,0,burst,2,0.096
+Weija (node record),NB-IoT,arq_buffer,24.7242,1,1,0.848579,345,0,burst,2,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,burst,3,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,burst,3,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,burst,3,0
+Weija (node record),NB-IoT,unconf,37.0779,0.777433,0.777433,0.777433,0,0,burst,3,0.096
+Weija (node record),NB-IoT,arq,40.0045,0.859259,0.859259,0.859259,0,0,burst,3,0.096
+Weija (node record),NB-IoT,arq_buffer,24.8453,1,1,0.850474,334,0,burst,3,0.096
+Weija (node record),NB-IoT,unconf,37.0779,0.860637,0.860637,0.860637,0,0,burst,4,0
+Weija (node record),NB-IoT,arq,37.8402,0.860637,0.860637,0.860637,0,0,burst,4,0
+Weija (node record),NB-IoT,arq_buffer,22.6577,1,1,0.850818,334,0,burst,4,0
+Weija (node record),NB-IoT,unconf,37.0779,0.774849,0.774849,0.774849,0,0,burst,4,0.096
+Weija (node record),NB-IoT,arq,40.0369,0.859432,0.859432,0.859432,0,0,burst,4,0.096
+Weija (node record),NB-IoT,arq_buffer,24.6701,1,1,0.845823,334,0,burst,4,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.2821,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4639,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.6556,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3329,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.3417,1,1,0.850818,334,0,full,0,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.779328,0.779328,0.779328,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.1444,0.860637,0.860637,0.860637,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.3124,0.859776,0.859776,0.859776,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.5087,0.860637,0.860637,0.860637,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.1731,0.859776,0.859776,0.859776,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.0024,1,1,0.844444,334,0,full,0,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.1859,0.861499,0.861499,0.861499,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4553,0.86081,0.86081,0.86081,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.6056,0.860982,0.860982,0.860982,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3245,0.86081,0.86081,0.86081,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.3313,1,1,0.850818,334,0,uniform,0,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.779328,0.779328,0.779328,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.0553,0.861499,0.861499,0.861499,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.3038,0.859948,0.859948,0.859948,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.4587,0.860982,0.860982,0.860982,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.1646,0.859948,0.859948,0.859948,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,16.992,1,1,0.844444,334,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.2677,0.86081,0.86081,0.86081,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4639,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.6556,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3329,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.3417,1,1,0.850818,334,0,uniform,1,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.77261,0.77261,0.77261,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.4332,0.86081,0.86081,0.86081,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.6201,0.860465,0.860465,0.860465,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.8067,0.860637,0.860637,0.860637,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.4815,0.860465,0.860465,0.860465,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.4491,1,1,0.850818,334,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.2808,0.86081,0.86081,0.86081,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4639,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.6556,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3329,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.3417,1,1,0.850818,334,0,uniform,2,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.779673,0.779673,0.779673,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.1854,0.860637,0.860637,0.860637,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.3596,0.860293,0.860293,0.860293,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.5529,0.860637,0.860637,0.860637,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.2195,0.860293,0.860293,0.860293,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.218,1,1,0.848923,334,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.2284,0.860982,0.860982,0.860982,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4553,0.86081,0.86081,0.86081,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.6196,0.86081,0.86081,0.86081,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3245,0.86081,0.86081,0.86081,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.3417,1,1,0.850818,334,0,uniform,3,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.777433,0.777433,0.777433,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.2361,0.860982,0.860982,0.860982,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.433,0.859432,0.859432,0.859432,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.6162,0.86081,0.86081,0.86081,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.2948,0.859432,0.859432,0.859432,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.2921,1,1,0.847545,334,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.2821,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4639,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.6556,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3329,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.3417,1,1,0.850818,334,0,uniform,4,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.774849,0.774849,0.774849,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.3267,0.860637,0.860637,0.860637,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.4836,0.859432,0.859432,0.859432,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.6909,0.860637,0.860637,0.860637,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.3445,0.859432,0.859432,0.859432,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.372,1,1,0.850129,334,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,burst,0,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.003,0.862188,0.862188,0.862188,0,0,burst,0,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.418,0.861671,0.861671,0.861671,0,0,burst,0,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.4365,0.861843,0.861843,0.861843,0,0,burst,0,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.2878,0.861671,0.861671,0.861671,0,0,burst,0,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.2161,1,1,0.850818,334,0,burst,0,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.779328,0.779328,0.779328,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,53.8792,0.862188,0.862188,0.862188,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.2607,0.86081,0.86081,0.86081,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.2841,0.861843,0.861843,0.861843,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.1224,0.86081,0.86081,0.86081,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,16.8768,1,1,0.844444,334,0,burst,0,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,burst,1,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.0884,0.861671,0.861671,0.861671,0,0,burst,1,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4266,0.861499,0.861499,0.861499,0,0,burst,1,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.4809,0.861499,0.861499,0.861499,0,0,burst,1,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.2962,0.861499,0.861499,0.861499,0,0,burst,1,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.2219,1,1,0.850818,334,0,burst,1,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.77261,0.77261,0.77261,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.2602,0.861671,0.861671,0.861671,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.6081,0.861154,0.861154,0.861154,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.6541,0.861499,0.861499,0.861499,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.4697,0.861154,0.861154,0.861154,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.2693,1,1,0.843066,345,0,burst,1,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,burst,2,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.0843,0.861671,0.861671,0.861671,0,0,burst,2,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4209,0.861499,0.861499,0.861499,0,0,burst,2,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.4754,0.861499,0.861499,0.861499,0,0,burst,2,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.2907,0.861499,0.861499,0.861499,0,0,burst,2,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.2161,1,1,0.850818,334,0,burst,2,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.779673,0.779673,0.779673,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,53.999,0.861671,0.861671,0.861671,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.3222,0.861154,0.861154,0.861154,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.3837,0.861499,0.861499,0.861499,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.1828,0.861154,0.861154,0.861154,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.0593,1,1,0.846856,334,0,burst,2,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,burst,3,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.032,0.861843,0.861843,0.861843,0,0,burst,3,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4123,0.861671,0.861671,0.861671,0,0,burst,3,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.4394,0.861671,0.861671,0.861671,0,0,burst,3,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.2822,0.861671,0.861671,0.861671,0,0,burst,3,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.2161,1,1,0.850818,334,0,burst,3,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.777433,0.777433,0.777433,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.0394,0.861843,0.861843,0.861843,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.4014,0.860293,0.860293,0.860293,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.436,0.861671,0.861671,0.861671,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.2636,0.860293,0.860293,0.860293,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.1665,1,1,0.847545,334,0,burst,3,0.096
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.860637,0.860637,0.860637,0,0,burst,4,0
+Weija (node record),LoRaWAN SF7,arq8_v102,51.0971,0.861499,0.861499,0.861499,0,0,burst,4,0
+Weija (node record),LoRaWAN SF7,arq3_v102,26.4323,0.861499,0.861499,0.861499,0,0,burst,4,0
+Weija (node record),LoRaWAN SF7,arq8_v104,48.4865,0.861499,0.861499,0.861499,0,0,burst,4,0
+Weija (node record),LoRaWAN SF7,arq3_v104,26.3017,0.861499,0.861499,0.861499,0,0,burst,4,0
+Weija (node record),LoRaWAN SF7,arq_buffer,14.2161,1,1,0.850818,334,0,burst,4,0
+Weija (node record),LoRaWAN SF7,unconf,18.5728,0.774849,0.774849,0.774849,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF7,arq8_v102,54.1304,0.861499,0.861499,0.861499,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF7,arq3_v102,29.4632,0.860293,0.860293,0.860293,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF7,arq8_v104,51.5107,0.861499,0.861499,0.861499,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF7,arq3_v104,29.3243,0.860293,0.860293,0.860293,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF7,arq_buffer,17.2464,1,1,0.850129,334,0,burst,4,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF12,arq8_v102,108.637,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9658,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF12,arq8_v104,108.637,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9658,0.860637,0.860637,0.860637,0,0,full,0,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.4717,1,1,0.849957,334,0,full,0,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.779328,0.779328,0.779328,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.835,0.860637,0.860637,0.860637,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.1205,0.859776,0.859776,0.859776,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.835,0.860637,0.860637,0.860637,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.1205,0.859776,0.859776,0.859776,0,0,full,0,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.8635,1,1,0.845478,345,0,full,0,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF12,arq8_v102,108.081,0.863566,0.863566,0.863566,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9062,0.861843,0.861843,0.861843,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF12,arq8_v104,108.081,0.863566,0.863566,0.863566,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9062,0.861843,0.861843,0.861843,0,0,uniform,0,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.3724,1,1,0.849957,334,0,uniform,0,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.779328,0.779328,0.779328,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.289,0.863566,0.863566,0.863566,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.0521,0.86081,0.86081,0.86081,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.289,0.863566,0.863566,0.863566,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.0521,0.86081,0.86081,0.86081,0,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.7651,1,1,0.845478,345,0,uniform,0,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF12,arq8_v102,108.015,0.864255,0.864255,0.864255,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9504,0.861326,0.861326,0.861326,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF12,arq8_v104,108.015,0.864255,0.864255,0.864255,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9504,0.861326,0.861326,0.861326,0,0,uniform,1,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.3724,1,1,0.849957,334,0,uniform,1,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.77261,0.77261,0.77261,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.797,0.864255,0.864255,0.864255,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.6929,0.861154,0.861154,0.861154,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.797,0.864255,0.864255,0.864255,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.6929,0.861154,0.861154,0.861154,0,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,54.3659,1,1,0.84789,334,0,uniform,1,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF12,arq8_v102,107.965,0.864255,0.864255,0.864255,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.939,0.861499,0.861499,0.861499,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF12,arq8_v104,107.965,0.864255,0.864255,0.864255,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.939,0.861499,0.861499,0.861499,0,0,uniform,2,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.372,1,1,0.849957,334,0,uniform,2,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.779673,0.779673,0.779673,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.264,0.864255,0.864255,0.864255,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.2003,0.861154,0.861154,0.861154,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.264,0.864255,0.864255,0.864255,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.2003,0.861154,0.861154,0.861154,0,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.8021,1,1,0.847373,334,0,uniform,2,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF12,arq8_v102,108.004,0.864427,0.864427,0.864427,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9276,0.861671,0.861671,0.861671,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF12,arq8_v104,108.004,0.864427,0.864427,0.864427,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9276,0.861671,0.861671,0.861671,0,0,uniform,3,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.4017,1,1,0.849957,334,0,uniform,3,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.777433,0.777433,0.777433,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.464,0.864427,0.864427,0.864427,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.3175,0.860293,0.860293,0.860293,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.464,0.864427,0.864427,0.864427,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.3175,0.860293,0.860293,0.860293,0,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.9833,1,1,0.845995,345,0,uniform,3,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF12,arq8_v102,108.19,0.863738,0.863738,0.863738,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9504,0.861326,0.861326,0.861326,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF12,arq8_v104,108.19,0.863738,0.863738,0.863738,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9504,0.861326,0.861326,0.861326,0,0,uniform,4,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.4717,1,1,0.849957,334,0,uniform,4,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.774849,0.774849,0.774849,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.731,0.863738,0.863738,0.863738,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.4194,0.860121,0.860121,0.860121,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.731,0.863738,0.863738,0.863738,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.4194,0.860121,0.860121,0.860121,0,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,54.3602,1,1,0.849957,334,0,uniform,4,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,burst,0,0
+Weija (node record),LoRaWAN SF12,arq8_v102,107.909,0.863738,0.863738,0.863738,0,0,burst,0,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.872,0.86236,0.86236,0.86236,0,0,burst,0,0
+Weija (node record),LoRaWAN SF12,arq8_v104,107.909,0.863738,0.863738,0.863738,0,0,burst,0,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.872,0.86236,0.86236,0.86236,0,0,burst,0,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.2618,1,1,0.849957,334,0,burst,0,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.779328,0.779328,0.779328,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.108,0.863566,0.863566,0.863566,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.0267,0.861499,0.861499,0.861499,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.108,0.863566,0.863566,0.863566,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.0267,0.861499,0.861499,0.861499,0,0,burst,0,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.6545,1,1,0.845478,345,0,burst,0,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,burst,1,0
+Weija (node record),LoRaWAN SF12,arq8_v102,107.855,0.864255,0.864255,0.864255,0,0,burst,1,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9263,0.861843,0.861843,0.861843,0,0,burst,1,0
+Weija (node record),LoRaWAN SF12,arq8_v104,107.855,0.864255,0.864255,0.864255,0,0,burst,1,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9263,0.861843,0.861843,0.861843,0,0,burst,1,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.2819,1,1,0.849957,334,0,burst,1,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.77261,0.77261,0.77261,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.626,0.864255,0.864255,0.864255,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.6776,0.861843,0.861843,0.861843,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.626,0.864255,0.864255,0.864255,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.6776,0.861843,0.861843,0.861843,0,0,burst,1,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,54.2553,1,1,0.84789,334,0,burst,1,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,burst,2,0
+Weija (node record),LoRaWAN SF12,arq8_v102,107.773,0.864427,0.864427,0.864427,0,0,burst,2,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.8821,0.86236,0.86236,0.86236,0,0,burst,2,0
+Weija (node record),LoRaWAN SF12,arq8_v104,107.773,0.864427,0.864427,0.864427,0,0,burst,2,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.8821,0.86236,0.86236,0.86236,0,0,burst,2,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.2719,1,1,0.849957,334,0,burst,2,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.779673,0.779673,0.779673,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.062,0.864427,0.864427,0.864427,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.1534,0.862016,0.862016,0.862016,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.062,0.864427,0.864427,0.864427,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.1534,0.862016,0.862016,0.862016,0,0,burst,2,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.6919,1,1,0.847373,334,0,burst,2,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,burst,3,0
+Weija (node record),LoRaWAN SF12,arq8_v102,107.757,0.865116,0.865116,0.865116,0,0,burst,3,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.8935,0.862188,0.862188,0.862188,0,0,burst,3,0
+Weija (node record),LoRaWAN SF12,arq8_v104,107.757,0.865116,0.865116,0.865116,0,0,burst,3,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.8935,0.862188,0.862188,0.862188,0,0,burst,3,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.2618,1,1,0.849957,334,0,burst,3,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.777433,0.777433,0.777433,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.237,0.865116,0.865116,0.865116,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.272,0.860982,0.860982,0.860982,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.237,0.865116,0.865116,0.865116,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.272,0.860982,0.860982,0.860982,0,0,burst,3,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,53.9301,1,1,0.848062,334,0,burst,3,0.096
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.860637,0.860637,0.860637,0,0,burst,4,0
+Weija (node record),LoRaWAN SF12,arq8_v102,107.924,0.864427,0.864427,0.864427,0,0,burst,4,0
+Weija (node record),LoRaWAN SF12,arq3_v102,67.9035,0.862188,0.862188,0.862188,0,0,burst,4,0
+Weija (node record),LoRaWAN SF12,arq8_v104,107.924,0.864427,0.864427,0.864427,0,0,burst,4,0
+Weija (node record),LoRaWAN SF12,arq3_v104,67.9035,0.862188,0.862188,0.862188,0,0,burst,4,0
+Weija (node record),LoRaWAN SF12,arq_buffer,48.302,1,1,0.849957,334,0,burst,4,0
+Weija (node record),LoRaWAN SF12,unconf,44.9044,0.774849,0.774849,0.774849,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF12,arq8_v102,113.494,0.864427,0.864427,0.864427,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF12,arq3_v102,73.3739,0.86081,0.86081,0.86081,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF12,arq8_v104,113.494,0.864427,0.864427,0.864427,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF12,arq3_v104,73.3739,0.86081,0.86081,0.86081,0,0,burst,4,0.096
+Weija (node record),LoRaWAN SF12,arq_buffer,54.1507,1,1,0.849957,334,0,burst,4,0.096

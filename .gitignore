@@ -25,8 +25,13 @@ papers/standards/*.txt
 papers/datasheets/
 
 # ---------------------------------------------------------------- Confidential
-# Pre-submission review report (not for a public repository)
+# Pre-submission review report (deleted 2026-10-31, superseded) and the submitted manuscript with its
+# post-rejection analysis (not for a public repository)
 Q1_Journal_Review_Report.docx
+submissions/
+
+# Example papers the editor sent with the Ad Hoc Networks decision (third-party copyright)
+papers/editor_examples/
 
 # ---------------------------------------------------------------- LaTeX build intermediates (draft/build.sh)
 *.aux

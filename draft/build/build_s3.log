@@ -95,13 +95,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
 Underfull \hbox (badness 5008) in paragraph at lines 126--127
 []\T1/ptm/m/n/7 RAM 2--64 KB,
-(tables/tab_netsim.tex) [3] [4]
-Overfull \hbox (19.18938pt too wide) detected at line 230
+[3] (tables/tab_netsim.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [4]
+Overfull \hbox (19.18938pt too wide) detected at line 232
 []
-(tables/tab_picture.tex) [5 <./figs/fig_mechanism.pdf>] (tables/tab_onset.tex)
-(tables/tab_sensitivity.tex) (supplement.bbl
-Underfull \vbox (badness 3514) has occurred while \output is active) [6]
-[7 <./figs/fig_outage_onset.pdf>] (supplement.aux) )
+[5 <./figs/fig_mechanism.pdf>] (tables/tab_picture.tex) (tables/tab_onset.tex)
+(tables/tab_sensitivity.tex) (supplement.bbl [6]) [7 <./figs/fig_outage_onset.p
+df>] (supplement.aux) )
 (see the transcript file for additional information)<C:/Users/User/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/U
@@ -115,5 +115,5 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmri8a.pfb>
-Output written on supplement.pdf (7 pages, 270263 bytes).
+Output written on supplement.pdf (7 pages, 271904 bytes).
 Transcript written on supplement.log.

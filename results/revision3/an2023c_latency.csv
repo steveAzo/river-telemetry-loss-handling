@@ -1,0 +1,25 @@
+set,trace,radio,lat_arq_h,lat_batch_h,lat_event_h,lat_bounded_h,event_minus_arq_slots,event_minus_arq_slots_ci,bounded_minus_event_slots,bounded_minus_event_slots_ci,fifo_bounded_minus_event_slots,batch_minus_event_h,CH1,CH7
+all,InWaterSense,LoRaWAN SF12,1.26199,1.58048,1.06849,1.0,-0.18494999999999973,"(np.float64(-0.7945300000000004), np.float64(0.0))",-0.2054699999999996,"(np.float64(-0.27395999999999976), np.float64(0.0))",0.0,0.5,True,True
+all,InWaterSense,LoRaWAN SF7,1.145495,1.5,1.0,1.0,0.0,"(np.float64(-0.7397499999999999), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,InWaterSense,NB-IoT N211 RAI (search 10 s),1.125,1.5,1.0,1.0,0.0,"(np.float64(-0.75), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,UVA,LoRaWAN SF12,1.0,1.4375,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,UVA,LoRaWAN SF7,1.0,1.3125,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,UVA,NB-IoT N211 RAI (search 10 s),1.0,1.3125,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,Weija,LoRaWAN SF12,1.0,1.5,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(-0.20547399999999993), np.float64(0.0))",0.0,0.5,True,True
+all,Weija,LoRaWAN SF7,1.0,1.5,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,Weija,NB-IoT N211 RAI (search 10 s),1.0,1.5,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,none,LoRaWAN SF12,1.0,1.31849,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,none,LoRaWAN SF7,1.0,1.25,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+all,none,NB-IoT N211 RAI (search 10 s),1.0,1.25,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,InWaterSense,LoRaWAN SF12,1.2962375,1.58048,1.06849,1.0,-0.2979599999999998,"(np.float64(-0.7945300000000004), np.float64(0.0))",-0.2054699999999996,"(np.float64(-0.27395999999999976), np.float64(0.0))",0.0,0.5,True,True
+plausible,InWaterSense,LoRaWAN SF7,1.145495,1.5,1.0,1.0,0.0,"(np.float64(-0.7397499999999999), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,InWaterSense,NB-IoT N211 RAI (search 10 s),1.125,1.5,1.0,1.0,0.0,"(np.float64(-0.75), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,UVA,LoRaWAN SF12,1.0,1.4375,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,UVA,LoRaWAN SF7,1.0,1.3125,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,UVA,NB-IoT N211 RAI (search 10 s),1.0,1.3125,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,Weija,LoRaWAN SF12,1.0,1.5,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(-0.20547399999999993), np.float64(0.0))",0.0,0.5,True,True
+plausible,Weija,LoRaWAN SF7,1.0,1.5,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,Weija,NB-IoT N211 RAI (search 10 s),1.0,1.5,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,none,LoRaWAN SF12,1.0,1.31849,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,none,LoRaWAN SF7,1.0,1.25,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True
+plausible,none,NB-IoT N211 RAI (search 10 s),1.0,1.25,1.0,1.0,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,"(np.float64(0.0), np.float64(0.0))",0.0,0.5,True,True

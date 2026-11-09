@@ -7,7 +7,7 @@
   - no bold in running text (bold is allowed only in tables, for the best value, and in algorithm keywords);
   - no italics in running text, no period-ended paragraph labels, "Section" not "Sec." (supervisor, 2026-10-23);
   - no first-person wording ("we", "our", "us", or "the authors" as a stand-in) and no "thesis";
-    the abstract is about 200 words (180-220).
+    the abstract has 150-250 words (revision 3; set from the venue's guide).
 Usage (from Paper2/): python -I src/paper/check_draft.py draft
 """
 import glob
@@ -76,8 +76,10 @@ for f, s in tex.items():
 
 abstract = re.search(r"\\begin\{abstract\}(.*?)\\end\{abstract\}", alltex, re.S).group(1)
 n_abstract = len(re.sub(r"\\[A-Za-z]+(\{\})?", "X", abstract).split())  # a number macro counts as one word
-if not 180 <= n_abstract <= 220:
-    fail.append(f"abstract has {n_abstract} words (target about 200)")
+# revision 3: the venue is not chosen yet; most shortlisted journals allow 150-250 words (an MDPI journal would need
+# <= 200). Set this from the chosen journal's guide in Step 9.
+if not 150 <= n_abstract <= 250:
+    fail.append(f"abstract has {n_abstract} words (limit 250)")
 
 print(f"labels {len(set(labels))}, references {len(refs)}, citations {len(cites)} of {len(bib)} bib entries, "
       f"equations {len([l for l in labels if l.startswith('eq:')])}, figures {len([l for l in labels if l.startswith('fig:')])}, "

@@ -1,0 +1,15 @@
+2026-11-05 11:30:25 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-11-05 11:30:25 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+[34m
+████████ ██ ███    ███ ███████       ███████ ███████ ██████  ██ ███████ ███████     █████  ██
+   ██    ██ ████  ████ ██            ██      ██      ██   ██ ██ ██      ██         ██   ██ ██
+   ██    ██ ██ ████ ██ █████   █████ ███████ █████   ██████  ██ █████   ███████    ███████ ██
+   ██    ██ ██  ██  ██ ██                 ██ ██      ██   ██ ██ ██           ██    ██   ██ ██
+   ██    ██ ██      ██ ███████       ███████ ███████ ██   ██ ██ ███████ ███████ ██ ██   ██ ██   
+ai4ts v0.0.3 - building AI for unified time-series analysis, https://time-series.ai [0m
+
+  mckenzie: SAITS trained (420 s)
+  mckenzie: StemGNN trained (511 s)
+  mckenzie: target 14162500 evaluated
+  mckenzie: target 14163900 evaluated
+mckenzie done in 538 s

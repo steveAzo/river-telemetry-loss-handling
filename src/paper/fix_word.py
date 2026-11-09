@@ -20,7 +20,8 @@ from docx.oxml.ns import qn
 
 src, dst, n_eq = sys.argv[1], sys.argv[2], int(sys.argv[3])
 mode = sys.argv[4] if len(sys.argv) > 4 else ""
-REVIEW = mode == "review"
+SPRINGER = mode == "springer"          # Wireless Networks submission copy: decimal numbering, Springer labels
+REVIEW = mode in ("review", "springer")
 COLUMNS = 1 if REVIEW else (int(mode) if mode else 1)
 assert COLUMNS in (1, 2)
 doc = docx.Document(src)
@@ -176,7 +177,7 @@ def style(name, size=20, bold=False, italic=False, caps=False, jc=None, before=0
             if e is not None: rpr.remove(e)
         return
     if REVIEW and name in {"Normal", "Body Text", "First Paragraph", "Compact"}:
-        size = 24
+        size = 20   # 10 pt, as Wireless Networks asks for manuscripts (double spaced, 10 pt)
         line = 480
     child(rpr, "w:sz", val=size); child(rpr, "w:szCs", val=size)
     pf = st.element.get_or_add_pPr()
@@ -211,6 +212,10 @@ style("Abstract", size=18, bold=True, jc="both")
 style("Heading 1", caps=True, jc="center", before=240, after=120, keep=True)
 style("Heading 2", italic=True, jc="left", before=120, after=60, keep=True)
 style("Heading 3", italic=True, jc="left", before=60, keep=True)
+if SPRINGER:                                    # Springer: decimal headings in plain bold, abstract as body text
+    style("Heading 1", size=24, bold=True, jc="left", before=240, after=120, keep=True)
+    style("Heading 2", size=22, bold=True, jc="left", before=200, after=100, keep=True)
+    style("Abstract", size=20, jc="both", line=480)
 style("Table Caption", size=16, jc="center", after=60, keep=True)
 style("Image Caption", size=16, jc="both", before=60, after=200)
 style("Captioned Figure", jc="center", before=120, keep=True)
@@ -228,7 +233,7 @@ for p in paras:
 abstract = [p for p in body.iter(qn("w:p")) if (p.find(qn("w:pPr") + "/" + qn("w:pStyle")) is not None
             and p.find(qn("w:pPr") + "/" + qn("w:pStyle")).get(qn("w:val")) == "Abstract")]
 assert len(abstract) == 1
-insert_first_run(abstract[0], run("Abstract—", bold=True, italic=True))
+insert_first_run(abstract[0], run("Abstract: ", bold=True) if SPRINGER else run("Abstract—", bold=True, italic=True))
 
 for p in list(body.iter(qn("w:p"))):
     t = ptext(p)
@@ -236,7 +241,7 @@ for p in list(body.iter(qn("w:p"))):
         take_marker(p, r"@@KW@@")
         child(ppr(p), "w:pStyle", val="Abstract")
         child(ppr(p), "w:spacing", before=120, after=120)
-        insert_first_run(p, run("Index Terms—", bold=True, italic=True))
+        insert_first_run(p, run("Keywords: ", bold=True) if SPRINGER else run("Index Terms—", bold=True, italic=True))
     elif t.startswith("@@RQ:"):
         m = take_marker(p, r"@@RQ:(RQ\d)@@")
         child(ppr(p), "w:ind", left=560, hanging=560)
@@ -272,9 +277,9 @@ for p in list(body.iter(qn("w:p"))):
 wide_blocks = []                                # (first element, last element) of each full-width float
 for tbl in list(body.iter(qn("w:tbl"))):
     cap = tbl.getprevious()
-    m = re.match(r"@@TAB:([IVXL]+):([WN]):([SM])@@", ptext(cap) if cap is not None else "")
+    m = re.match(r"@@TAB:([IVXL0-9]+):([WN]):([SM])@@", ptext(cap) if cap is not None else "")
     assert m, "table without a numbered caption"
-    take_marker(cap, r"@@TAB:[IVXL]+:[WN]:[SM]@@")
+    take_marker(cap, r"@@TAB:[IVXL0-9]+:[WN]:[SM]@@")
     num, wide, small = m.group(1), m.group(2) == "W", m.group(3) == "S"
     label = copy.deepcopy(cap)
     for r in list(label):
@@ -283,9 +288,9 @@ for tbl in list(body.iter(qn("w:tbl"))):
     child(ppr(label), "w:spacing", before=200, after=0)
     cap.addprevious(label)
     size = 14 if small else 16
-    if REVIEW and num == "V":
+    if REVIEW and num in ("VII", "7"):
         size = 16
-    if REVIEW and num == "VI":
+    if REVIEW and num in ("VIII", "8"):
         size = 14
     tp = tbl.find(qn("w:tblPr"))
     child(tp, "w:jc", val="center")
@@ -297,8 +302,8 @@ for tbl in list(body.iter(qn("w:tbl"))):
     if tp.find(qn("w:tblLayout")) is None or tp.find(qn("w:tblLayout")).get(qn("w:type")) != "fixed":
         child(tp, "w:tblW", w=0, type="auto")
     rows = tbl.findall(qn("w:tr"))
-    if REVIEW and num == "V":
-        widths = [500, 650, 1000, 950, 1050, 1050, 1000, 1450, 1050]
+    if REVIEW and num in ("VII", "7"):
+        widths =[500, 650, 1000, 950, 1050, 1050, 1000, 1450, 1050]
         header = rows[1] if len(rows) > 1 else rows[0]
         header_lines = [
             ["Param."], ["Gap (h)"], ["Persis-", "tence"], ["Own", "diel"],
@@ -307,13 +312,17 @@ for tbl in list(body.iter(qn("w:tbl"))):
         ]
         for cell, lines in zip(header.findall(qn("w:tc")), header_lines):
             set_cell_lines(cell, lines)
+        for extra in rows[2:]:                  # pandoc turns each \shortstack line into a stray row: drop rows without digits
+            if not any(ch.isdigit() for ch in "".join(ptext(c) for c in extra.findall(qn("w:tc")))):
+                tbl.remove(extra)
+        rows = tbl.findall(qn("w:tr"))
         for row in rows:
             for cell, width in zip(row.findall(qn("w:tc")), widths):
                 tcp = get_tcpr(cell)
                 child(tcp, "w:tcW", w=width, type="dxa")
                 if tcp.find(qn("w:noWrap")) is None:
                     tcp.append(el("w:noWrap"))
-    elif REVIEW and num == "VI":
+    elif REVIEW and num in ("VIII", "8"):
         widths = [420, 2200, 2700, 1500, 1300, 1300]
         for row in rows:
             for cell, width in zip(row.findall(qn("w:tc")), widths):
@@ -475,7 +484,7 @@ body.append(sect(COLUMNS, continuous=False))
 hdr = doc.sections[0].header
 hdr.is_linked_to_previous = False
 hp = hdr.paragraphs[0]
-hp._p.append(run("DRAFT V0.1 — NOT FOR DISTRIBUTION\t", size=16))
+hp._p.append(run("\t" if SPRINGER else "DRAFT V0.1 — NOT FOR DISTRIBUTION\t", size=16))
 fld = el("w:fldSimple", instr="PAGE"); fld.append(run("1", size=16)); hp._p.append(fld)
 pp = hp._p.get_or_add_pPr()
 child(pp, "w:tabs").append(el("w:tab", val="right", pos=TEXT_W))

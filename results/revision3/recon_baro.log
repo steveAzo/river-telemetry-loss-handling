@@ -1,0 +1,26 @@
+chain delaware done
+chain illinois done
+chain tualatin done
+chain clackamas done
+chain mckenzie done
+chain monongahela done
+chain youghiogheny done
+chain schuylkill done
+chain klamath done
+src/revision/deep_baselines.py:103: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(X, axis=1, keepdims=True); s = np.nanstd(X, axis=1, keepdims=True)
+C:\Users\User\Desktop\WSN_M\Paper2\.venv_deep\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-11-05 10:50:02 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+2026-11-05 10:50:03 [WARNING]: \u203c\ufe0f saving_path not given. Model files and tensorboard file will not be saved.
+[34m
+████████ ██ ███    ███ ███████       ███████ ███████ ██████  ██ ███████ ███████     █████  ██
+   ██    ██ ████  ████ ██            ██      ██      ██   ██ ██ ██      ██         ██   ██ ██
+   ██    ██ ██ ████ ██ █████   █████ ███████ █████   ██████  ██ █████   ███████    ███████ ██
+   ██    ██ ██  ██  ██ ██                 ██ ██      ██   ██ ██ ██           ██    ██   ██ ██
+   ██    ██ ██      ██ ███████       ███████ ███████ ██   ██ ██ ███████ ███████ ██ ██   ██ ██   
+ai4ts v0.0.3 - building AI for unified time-series analysis, https://time-series.ai [0m
+
+  delaware: SAITS trained (168 s)
+src/revision3/run_reconstruct_baro.sh: line 14:  1561 Segmentation fault      .venv_deep/Scripts/python -I src/revision3/with_baro.py src/revision/deep_baselines.py results/revision3/rerun/deep
+FAILED  

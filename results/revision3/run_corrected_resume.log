@@ -1,0 +1,34 @@
+=== 2024: data/clean/usgs_2024_baro -> results/revision3/corrected_2024 (salt 2024)
+skip 01388000
+skip 01400500
+skip 01402000
+skip 01427510
+skip 01458500
+skip 01463500
+skip 01465798
+skip 014670261
+skip 01467087
+skip 01467200
+skip 01473500
+skip 01473900
+skip 01475530
+skip 01477050
+skip 03072655
+skip 05420400
+skip 05537980
+skip 05543010
+skip 05553700
+skip 05559900
+05586300 done in 275 s (17280 event rows)
+11509370 done in 104 s (17280 event rows)
+11509500 done in 227 s (17280 event rows)
+11510700 done in 250 s (17280 event rows)
+14163900 done in 255 s (17280 event rows)
+14203500 done in 232 s (17280 event rows)
+14206241 done in 96 s (17280 event rows)
+14206694 done in 58 s (12384 event rows)
+14207200 done in 97 s (17280 event rows)
+14209710 done in 96 s (17280 event rows)
+14210000 done in 94 s (17280 event rows)
+14211010 done in 222 s (17280 event rows)
+420853121505500 done in 103 s (17280 event rows)

@@ -113,8 +113,16 @@ LaTeX Warning: Citation `lora2021rp002' on page 2 undefined on input line 86.
 LaTeX Warning: Citation `lora2021rp002' on page 2 undefined on input line 86.
 
 
-LaTeX Warning: Citation `libelium2020plugsense' on page 2 undefined on input li
-ne 88.
+LaTeX Warning: Citation `libeliumwaspmote' on page 2 undefined on input line 88
+.
+
+
+LaTeX Warning: Citation `libeliumsmartwater' on page 2 undefined on input line 
+88.
+
+
+LaTeX Warning: Citation `libeliumsmartwater' on page 2 undefined on input line 
+88.
 
 
 LaTeX Warning: Citation `michelinakis2021dissecting' on page 2 undefined on inp
@@ -125,8 +133,8 @@ LaTeX Warning: Citation `casals2017lorawan' on page 2 undefined on input line 9
 2.
 
 
-LaTeX Warning: Citation `libelium2020plugsense' on page 2 undefined on input li
-ne 92.
+LaTeX Warning: Citation `libeliumwaspmote' on page 2 undefined on input line 92
+.
 
 [2 <./figs/fig_records.pdf>]
 Underfull \hbox (badness 1540) in paragraph at lines 119--119
@@ -143,8 +151,12 @@ LaTeX Warning: Citation `michelinakis2021dissecting' on page 3 undefined on inp
 ut line 122.
 
 
-LaTeX Warning: Citation `libelium2020plugsense' on page 3 undefined on input li
-ne 124.
+LaTeX Warning: Citation `libeliumwaspmote' on page 3 undefined on input line 12
+4.
+
+
+LaTeX Warning: Citation `libeliumsmartwater' on page 3 undefined on input line 
+125.
 
 
 Underfull \hbox (badness 5008) in paragraph at lines 126--127
@@ -153,31 +165,30 @@ Underfull \hbox (badness 5008) in paragraph at lines 126--127
 LaTeX Warning: Citation `winbond2018w25q128jv' on page 3 undefined on input lin
 e 144.
 
-(tables/tab_netsim.tex) [3]
+[3] (tables/tab_netsim.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active
 
-LaTeX Warning: Citation `du2023saits' on page 4 undefined on input line 193.
+LaTeX Warning: Citation `du2023saits' on page 4 undefined on input line 195.
 
 
-LaTeX Warning: Citation `cao2020stemgnn' on page 4 undefined on input line 193.
+LaTeX Warning: Citation `cao2020stemgnn' on page 4 undefined on input line 195.
 
 
 [4]
 
 LaTeX Warning: Citation `page1954continuous' on page 5 undefined on input line 
-226.
+228.
 
 
-Overfull \hbox (19.18938pt too wide) detected at line 230
+Overfull \hbox (19.18938pt too wide) detected at line 232
 []
-(tables/tab_picture.tex) [5 <./figs/fig_mechanism.pdf>] (tables/tab_onset.tex)
+[5 <./figs/fig_mechanism.pdf>] (tables/tab_picture.tex) (tables/tab_onset.tex)
 (tables/tab_sensitivity.tex)
 
-LaTeX Warning: Citation `wagner2006usgs' on page 6 undefined on input line 299.
+LaTeX Warning: Citation `wagner2006usgs' on page 6 undefined on input line 301.
 
 
-(supplement.bbl
-Underfull \vbox (badness 3514) has occurred while \output is active) [6]
-[7 <./figs/fig_outage_onset.pdf>] (supplement.aux)
+(supplement.bbl [6]) [7 <./figs/fig_outage_onset.pdf>] (supplement.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -204,5 +215,5 @@ s/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on supplement.pdf (7 pages, 274709 bytes).
+Output written on supplement.pdf (7 pages, 275777 bytes).
 Transcript written on supplement.log.

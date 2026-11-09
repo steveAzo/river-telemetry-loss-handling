@@ -1,0 +1,35 @@
+=== ack_variant start 10:18:40
+01388000 done in 47 s
+01427510 done in 41 s
+01438500 done in 24 s
+01458500 done in 58 s
+01463500 done in 9 s
+01465798 done in 52 s
+014670261 done in 45 s
+01467087 done in 44 s
+01467200 done in 131 s
+01473500 done in 38 s
+01475530 done in 39 s
+01477050 done in 87 s
+03072655 done in 63 s
+05420400 done in 38 s
+05537980 done in 64 s
+05543010 done in 84 s
+05553700 done in 70 s
+05559900 done in 47 s
+05586300 done in 71 s
+11509370 done in 26 s
+11509500 done in 68 s
+11510700 done in 65 s
+14163900 done in 66 s
+14203500 done in 58 s
+14206241 done in 25 s
+14206694 done in 17 s
+14207200 done in 18 s
+14209710 done in 21 s
+14211010 done in 41 s
+420853121505500 done in 44 s
+=== ack_variant done in 1503 s
+skip design_eval
+skip sensitivity
+ALLDONE  

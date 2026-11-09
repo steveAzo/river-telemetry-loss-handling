@@ -1,0 +1,4 @@
+src/revision3/run_deep_baro.sh: line 8:  1520 Segmentation fault      .venv_deep/Scripts/python -I src/revision3/with_baro.py src/revision/deep_baselines.py $O $c > $O/log_$c.txt 2>&1
+deep mckenzie FAILED
+src/revision3/run_deep_baro.sh: line 8:  1534 Segmentation fault      .venv_deep/Scripts/python -I src/revision3/with_baro.py src/revision/deep_baselines.py $O $c > $O/log_$c.txt 2>&1
+deep monongahela FAILED

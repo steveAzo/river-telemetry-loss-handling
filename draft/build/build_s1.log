@@ -142,8 +142,16 @@ LaTeX Warning: Citation `lora2021rp002' on page 2 undefined on input line 86.
 LaTeX Warning: Citation `lora2021rp002' on page 2 undefined on input line 86.
 
 
-LaTeX Warning: Citation `libelium2020plugsense' on page 2 undefined on input li
-ne 88.
+LaTeX Warning: Citation `libeliumwaspmote' on page 2 undefined on input line 88
+.
+
+
+LaTeX Warning: Citation `libeliumsmartwater' on page 2 undefined on input line 
+88.
+
+
+LaTeX Warning: Citation `libeliumsmartwater' on page 2 undefined on input line 
+88.
 
 
 LaTeX Warning: Reference `eq:s-floor' on page 2 undefined on input line 92.
@@ -157,8 +165,8 @@ LaTeX Warning: Citation `casals2017lorawan' on page 2 undefined on input line 9
 2.
 
 
-LaTeX Warning: Citation `libelium2020plugsense' on page 2 undefined on input li
-ne 92.
+LaTeX Warning: Citation `libeliumwaspmote' on page 2 undefined on input line 92
+.
 
 [2 <./figs/fig_records.pdf>]
 
@@ -180,8 +188,12 @@ LaTeX Warning: Citation `michelinakis2021dissecting' on page 3 undefined on inp
 ut line 122.
 
 
-LaTeX Warning: Citation `libelium2020plugsense' on page 3 undefined on input li
-ne 124.
+LaTeX Warning: Citation `libeliumwaspmote' on page 3 undefined on input line 12
+4.
+
+
+LaTeX Warning: Citation `libeliumsmartwater' on page 3 undefined on input line 
+125.
 
 
 Underfull \hbox (badness 5008) in paragraph at lines 126--127
@@ -193,72 +205,74 @@ e 144.
 
 LaTeX Warning: Reference `tab:s-netsim' on page 3 undefined on input line 155.
 
-(tables/tab_netsim.tex) [3]
+[3] (tables/tab_netsim.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active
 
-LaTeX Warning: Reference `eq:s-pers' on page 4 undefined on input line 184.
-
-
-LaTeX Warning: Reference `eq:s-diel' on page 4 undefined on input line 184.
+LaTeX Warning: Reference `eq:s-pers' on page 4 undefined on input line 186.
 
 
-LaTeX Warning: Reference `eq:s-nb' on page 4 undefined on input line 184.
+LaTeX Warning: Reference `eq:s-diel' on page 4 undefined on input line 186.
 
 
-LaTeX Warning: Reference `eq:s-dn' on page 4 undefined on input line 184.
+LaTeX Warning: Reference `eq:s-nb' on page 4 undefined on input line 186.
 
 
-LaTeX Warning: Reference `eq:s-in' on page 4 undefined on input line 189.
+LaTeX Warning: Reference `eq:s-dn' on page 4 undefined on input line 186.
 
 
-LaTeX Warning: Reference `eq:s-int' on page 4 undefined on input line 189.
+LaTeX Warning: Reference `eq:s-in' on page 4 undefined on input line 191.
 
 
-LaTeX Warning: Citation `du2023saits' on page 4 undefined on input line 193.
+LaTeX Warning: Reference `eq:s-int' on page 4 undefined on input line 191.
 
 
-LaTeX Warning: Citation `cao2020stemgnn' on page 4 undefined on input line 193.
+LaTeX Warning: Citation `du2023saits' on page 4 undefined on input line 195.
+
+
+LaTeX Warning: Citation `cao2020stemgnn' on page 4 undefined on input line 195.
 
 
 
 LaTeX Warning: Reference `fig:s-mechanism' on page 4 undefined on input line 20
-5.
+7.
 
 [4]
 
-LaTeX Warning: Reference `eq:s-scale' on page 5 undefined on input line 224.
+LaTeX Warning: Reference `eq:s-scale' on page 5 undefined on input line 226.
 
 
 LaTeX Warning: Citation `page1954continuous' on page 5 undefined on input line 
-226.
+228.
 
 
-Overfull \hbox (19.18938pt too wide) detected at line 230
+Overfull \hbox (19.18938pt too wide) detected at line 232
 []
 
-LaTeX Warning: Reference `eq:s-cusum' on page 5 undefined on input line 231.
+LaTeX Warning: Reference `eq:s-cusum' on page 5 undefined on input line 233.
 
 
-LaTeX Warning: Reference `eq:s-z' on page 5 undefined on input line 231.
+LaTeX Warning: Reference `eq:s-z' on page 5 undefined on input line 233.
 
+[5 <./figs/fig_mechanism.pdf>]
 
-LaTeX Warning: Reference `tab:s-picture' on page 5 undefined on input line 235.
+LaTeX Warning: Reference `tab:s-picture' on page 6 undefined on input line 237.
 
 
 (tables/tab_picture.tex)
 
-LaTeX Warning: Reference `tab:s-onset' on page 5 undefined on input line 252.
+LaTeX Warning: Reference `tab:s-onset' on page 6 undefined on input line 254.
 
 
-LaTeX Warning: Reference `fig:s-onset' on page 5 undefined on input line 252.
+LaTeX Warning: Reference `fig:s-onset' on page 6 undefined on input line 254.
 
-[5 <./figs/fig_mechanism.pdf>] (tables/tab_onset.tex)
+(tables/tab_onset.tex)
 
 LaTeX Warning: Reference `tab:s-sensitivity' on page 6 undefined on input line 
-280.
+282.
 
 (tables/tab_sensitivity.tex)
 
-LaTeX Warning: Citation `wagner2006usgs' on page 6 undefined on input line 299.
+LaTeX Warning: Citation `wagner2006usgs' on page 6 undefined on input line 301.
 
 
 No file supplement.bbl.
@@ -288,5 +302,5 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmr8a.pfb>
-Output written on supplement.pdf (7 pages, 245297 bytes).
+Output written on supplement.pdf (7 pages, 246472 bytes).
 Transcript written on supplement.log.

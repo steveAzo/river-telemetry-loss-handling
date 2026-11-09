@@ -1,0 +1,6 @@
+{
+ "P_HOST_ON_frozen_W": 0.06882,
+ "P_HOST_ON_W": 0.06290000000000001,
+ "P_SENSE_W": 0.092241,
+ "do_root": "data/clean/usgs_baro"
+}

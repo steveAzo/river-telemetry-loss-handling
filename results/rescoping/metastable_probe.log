@@ -1,0 +1,8 @@
+SF12 N= 25 outage  0.25 h: backlog at 0/24/72/168/240 h = 25/65/55/60/69; modes at end out/drain/norm = 0/2/23; acked/h last day = 53, noack/h = 0 [0 s]
+SF12 N= 25 outage 24.00 h: backlog at 0/24/72/168/240 h = 2400/63/60/63/71; modes at end out/drain/norm = 0/1/24; acked/h last day = 54, noack/h = 0 [1 s]
+SF12 N= 50 outage  0.25 h: backlog at 0/24/72/168/240 h = 50/116/127/122/123; modes at end out/drain/norm = 0/3/47; acked/h last day = 108, noack/h = 7 [1 s]
+SF12 N= 50 outage 24.00 h: backlog at 0/24/72/168/240 h = 4800/629/132/129/131; modes at end out/drain/norm = 0/4/46; acked/h last day = 108, noack/h = 5 [1 s]
+SF12 N=100 outage  0.25 h: backlog at 0/24/72/168/240 h = 100/793/741/872/815; modes at end out/drain/norm = 15/24/61; acked/h last day = 199, noack/h = 97 [3 s]
+SF12 N=100 outage 24.00 h: backlog at 0/24/72/168/240 h = 9600/7429/2930/863/871; modes at end out/drain/norm = 17/19/64; acked/h last day = 202, noack/h = 85 [3 s]
+SF12 N=200 outage  0.25 h: backlog at 0/24/72/168/240 h = 200/6752/15642/28907/37530; modes at end out/drain/norm = 146/45/9; acked/h last day = 258, noack/h = 179 [5 s]
+SF12 N=200 outage 24.00 h: backlog at 0/24/72/168/240 h = 19200/24407/28918/39433/46201; modes at end out/drain/norm = 147/42/11; acked/h last day = 261, noack/h = 176 [5 s]
